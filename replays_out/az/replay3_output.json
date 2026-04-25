@@ -136,18 +136,18 @@
           "uses": 1,
           "clicks": 1,
           "total_credits_gained": 4,
-          "total_cost": 0,
-          "total_net_credits": 4,
+          "total_cost": 1,
+          "total_net_credits": 3,
           "total_cards_drawn": 3,
-          "credits_per_click": 4
+          "credits_per_click": 3
         }
       }
     },
     "runner": {
       "basic_clicks": 17,
-      "economy_clicks": 16,
+      "economy_clicks": 15,
       "run_clicks": 20,
-      "setup_clicks": 9,
+      "setup_clicks": 10,
       "cards": {
         "Transfer of Wealth": {
           "uses": 2,
@@ -189,10 +189,10 @@
           "uses": 2,
           "clicks": 2,
           "total_credits_gained": 14,
-          "total_cost": 8,
-          "total_net_credits": 6,
+          "total_cost": 6,
+          "total_net_credits": 8,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 4
         },
         "Az McCaffrey: Mechanical Prodigy": {
           "uses": 5,
@@ -204,20 +204,21 @@
         },
         "Dr. Nuka Vrolyck": {
           "uses": 2,
-          "clicks": 2,
+          "clicks": 3,
           "total_credits_gained": 0,
-          "total_cost": 0,
-          "total_net_credits": 0,
+          "total_cost": 1,
+          "total_net_credits": -1,
           "total_cards_drawn": 6,
-          "credits_per_click": 0
+          "credits_per_click": -0.33
         },
         "Open Market": {
           "uses": 3,
-          "clicks": 0,
-          "total_credits_gained": 3,
+          "clicks": 3,
+          "total_credits_gained": 16,
           "total_cost": 8,
-          "total_net_credits": -5,
-          "total_cards_drawn": 0
+          "total_net_credits": 8,
+          "total_cards_drawn": 0,
+          "credits_per_click": 2.67
         },
         "Sell Out": {
           "uses": 1,
@@ -239,20 +240,12 @@
         },
         "Info Bounty": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 2,
           "total_credits_gained": 8,
           "total_cost": 2,
           "total_net_credits": 6,
           "total_cards_drawn": 0,
-          "credits_per_click": 6
-        },
-        "Cezve": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 10,
-          "total_cost": 2,
-          "total_net_credits": 8,
-          "total_cards_drawn": 0
+          "credits_per_click": 3
         },
         "unknown": {
           "uses": 1,
@@ -262,6 +255,15 @@
           "total_net_credits": 0,
           "total_cards_drawn": 1,
           "credits_per_click": 0
+        },
+        "Daily Casts": {
+          "uses": 3,
+          "clicks": 3,
+          "total_credits_gained": 24,
+          "total_cost": 9,
+          "total_net_credits": 15,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
         }
       },
       "setup_cards": {
@@ -278,6 +280,10 @@
           "total_cost": 3
         },
         "Revolver": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Cezve": {
           "count": 1,
           "total_cost": 2
         },
@@ -298,10 +304,10 @@
           "total_cost": 0
         }
       },
-      "total_setup_cost": 16,
-      "econ_click_ratio": 0.48,
-      "avg_net_credits_per_econ_click": 1.74,
-      "avg_cards_drawn_per_econ_click": 0.81
+      "total_setup_cost": 18,
+      "econ_click_ratio": 0.47,
+      "avg_net_credits_per_econ_click": 1.92,
+      "avg_cards_drawn_per_econ_click": 0.64
     }
   },
   "turns": [
@@ -1921,7 +1927,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 4,
@@ -2060,9 +2066,6 @@
             "server": "R&D"
           },
           "effects": {
-            "credits_from_resources": {
-              "Cezve": 2
-            },
             "triggered_gains": {
               "Info Bounty": 2
             }
@@ -2202,9 +2205,6 @@
             "server": "R&D"
           },
           "effects": {
-            "credits_from_resources": {
-              "Cezve": 2
-            },
             "triggered_gains": {
               "Info Bounty": 2
             }
@@ -2448,11 +2448,6 @@
             "type": "run",
             "server": "R&D"
           },
-          "effects": {
-            "credits_from_resources": {
-              "Cezve": 2
-            }
-          },
           "bucket": "run"
         },
         {
@@ -2607,9 +2602,6 @@
           },
           "effects": {
             "credits_paid": 3,
-            "credits_from_resources": {
-              "Cezve": 2
-            },
             "credits_gained": 8,
             "triggered_gains": {
               "Info Bounty": 2
@@ -2777,11 +2769,6 @@
           "action": {
             "type": "run",
             "server": "R&D"
-          },
-          "effects": {
-            "credits_from_resources": {
-              "Cezve": 2
-            }
           },
           "bucket": "run"
         },

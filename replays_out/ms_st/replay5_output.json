@@ -133,20 +133,21 @@
         },
         "DreamNet": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 2,
           "total_credits_gained": 6,
           "total_cost": 3,
           "total_net_credits": 3,
           "total_cards_drawn": 6,
-          "credits_per_click": 3
+          "credits_per_click": 1.5
         },
         "Open Market": {
           "uses": 2,
-          "clicks": 0,
-          "total_credits_gained": 2,
+          "clicks": 2,
+          "total_credits_gained": 12,
           "total_cost": 6,
-          "total_net_credits": -4,
-          "total_cards_drawn": 0
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
         },
         "Sure Gamble": {
           "uses": 2,
@@ -174,6 +175,15 @@
           "total_net_credits": -1,
           "total_cards_drawn": 1,
           "credits_per_click": -1
+        },
+        "Daily Casts": {
+          "uses": 1,
+          "clicks": 1,
+          "total_credits_gained": 8,
+          "total_cost": 3,
+          "total_net_credits": 5,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
         }
       },
       "setup_cards": {
@@ -200,8 +210,8 @@
       },
       "total_setup_cost": 11,
       "econ_click_ratio": 0.26,
-      "avg_net_credits_per_econ_click": 0.82,
-      "avg_cards_drawn_per_econ_click": 1
+      "avg_net_credits_per_econ_click": 1.19,
+      "avg_cards_drawn_per_econ_click": 0.88
     }
   },
   "turns": [

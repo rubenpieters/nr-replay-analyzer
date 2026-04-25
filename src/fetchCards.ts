@@ -21,7 +21,29 @@ async function fetchAllCards(): Promise<unknown[]> {
   return all;
 }
 
-const cards = await fetchAllCards();
+interface CardAttributes {
+  stripped_title: string;
+  card_type_id: string;
+  card_subtype_ids: string[];
+  cost: string | null;
+  [key: string]: unknown;
+}
+interface CardData {
+  attributes: CardAttributes;
+  [key: string]: unknown;
+}
+
+const cards = await fetchAllCards() as CardData[];
 mkdirSync(OUT_DIR, { recursive: true });
 writeFileSync(OUT_FILE, JSON.stringify(cards, null, 2), "utf-8");
 console.log(`Wrote ${cards.length} cards to ${OUT_FILE}`);
+
+const slim = cards.map((c) => ({
+  stripped_title: c.attributes.stripped_title,
+  card_type_id: c.attributes.card_type_id,
+  card_subtype_ids: c.attributes.card_subtype_ids,
+  cost: c.attributes.cost,
+}));
+const SLIM_FILE = join(OUT_DIR, "cards-slim.json");
+writeFileSync(SLIM_FILE, JSON.stringify(slim), "utf-8");
+console.log(`Wrote ${slim.length} slim cards to ${SLIM_FILE}`);

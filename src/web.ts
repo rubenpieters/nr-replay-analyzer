@@ -1,5 +1,9 @@
 import { parseReplayFromString } from "./analyzer.js";
 import { generateHtml } from "./htmlOutput.js";
+import { CardDb } from "./cardDb.js";
+import slimCards from "../cards/cards-slim.json" with { type: "json" };
+
+const cardDb = CardDb.fromSlimData(slimCards);
 
 const input = document.getElementById("fileInput") as HTMLInputElement;
 const output = document.getElementById("output") as HTMLDivElement;
@@ -11,7 +15,7 @@ input.addEventListener("change", () => {
   reader.onload = (e) => {
     try {
       const text = e.target!.result as string;
-      const data = parseReplayFromString(text);
+      const data = parseReplayFromString(text, cardDb);
       const html = generateHtml(data);
       const iframe = document.createElement("iframe");
       output.innerHTML = "";

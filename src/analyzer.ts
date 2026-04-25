@@ -93,94 +93,7 @@ function setdefault<T>(obj: Record<string, T>, key: string, def: T): T {
   return obj[key];
 }
 
-// -- Az-eligible hardware/resource cards --
 
-const AZ_ELIGIBLE_CARDS = new Set<string>([
-  "AirbladeX (JSRF Ed.)",
-  "Alarm Clock",
-  "Amanuensis",
-  "Aniccam",
-  "Arruaceiras Crew",
-  "Asmund Pudlat",
-  "Avgustina Ivanovskaya",
-  "Basilar Synthgland 2KVJ",
-  "Beatriz Friere Gonzalez",
-  "Bling",
-  "Boomerang",
-  "Borrowed Goods",
-  "Buffer Drive",
-  "Capybara",
-  "Carnivore",
-  "Cataloguer",
-  "Cybertrooper Talut",
-  "DZMZ Optimizer",
-  'Debbie "Downtown" Moreira',
-  "Demolisher",
-  "Detente",
-  "Devil Charm",
-  "Docklands Pass",
-  "Dr. Nuka Vrolyck",
-  "Eru Ayase-Pessoa",
-  "Flip Switch",
-  "Fransofia Ward",
-  "Friend of a Friend",
-  "GAMEDRAGON™ Pro",
-  "Gachapon",
-  "Ghosttongue",
-  'Hannah "Wheels" Pilintra',
-  "Hermes",
-  "Hippocampic Mechanocytes",
-  "Info Bounty",
-  "Jeitinho",
-  "Juli Moreira Lee",
-  "Keiko",
-  "Lago Paranóa Shelter",
-  "LilyPAD",
-  "Lucky Charm",
-  "Madani",
-  "Maglectric Rapid (748 Mod)",
-  "Manuel Lattes de Moura",
-  "Marrow",
-  "Masterwork (v37)",
-  "Methuselah",
-  "Mu Safecracker",
-  "Nurse Hạnh",
-  "Open Market",
-  "PAN-Weave",
-  "Pantograph",
-  "Pennyshaver",
-  "Poison Vial",
-  "Prognostic Q-Loop",
-  "Red Team",
-  "Rent Rioters",
-  "Rotary",
-  "Side Hustle",
-  "Simulchip",
-  "Smartware Distributor",
-  "Solidarity Badge",
-  "Supercorridor",
-  "Swift",
-  "T400 Memory Diamond",
-  "Telework Contract",
-  "The Artist",
-  "The Back",
-  "The Class Act",
-  "The Nihilist",
-  "The Tungsten Tailor",
-  "The Wizard's Chest",
-  "Time Bomb",
-  "Touchstone",
-  "Underdome Irregulars",
-  "Urban Art Vernissage",
-  "Valentina Ferreira Carvalho",
-  "Virtuoso",
-  "WAKE Implant v2A-JRJ",
-  "Whistleblower",
-  "Zenit Chip JZ-2MJ",
-  '"Baklan" Bochkin',
-  '"Knickknack" O\'Brian',
-  '"Pretty" Mary da Silva',
-]);
 
 // -- Log extraction --
 
@@ -382,6 +295,8 @@ function extractResourceCredits(events: string[], playerName: string | null = nu
   for (const ev of events) {
     const lineOwner = ev.split(/\s/)[0] ?? "";
     if (playerName !== null && lineOwner !== playerName) continue;
+    // Only count credits used to pay a card's install/play/rez cost, not e.g. ICE-breaking costs
+    if (!/\bto (?:install|play|rez)\b/.test(ev)) continue;
     for (const m of ev.matchAll(/(?:pays|and) (\d+) \[Credits?\] from ([^,\n]+?)(?=\s+and\s|\s+to\s)/g)) {
       const amount = parseInt(m[1], 10);
       const card = m[2].trim();
@@ -626,7 +541,8 @@ function classifyRunnerClick(
   action: Action | null,
   events: string[],
   creditsGained: number,
-  cardsDrawn: number
+  cardsDrawn: number,
+  cardDb?: import("./cardDb.js").CardDb
 ): string | null {
   if (!action) return null;
   const atype = action.type;
@@ -641,6 +557,8 @@ function classifyRunnerClick(
   ) {
     return "setup";
   }
+  const cardTitle = action.card as string | undefined;
+  if (cardTitle && cardDb?.isRunEvent(cardTitle)) return "run";
   if (events.some((e) => RUN_TRIGGER_RE.test(e))) return "run";
   if (creditsGained > 0 || cardsDrawn > 0) return "economy";
   return "setup";
@@ -680,7 +598,8 @@ function newCardEconEntry(): CardEconEntry {
 export function computeEconomy(
   turns: Turn[],
   corpName: string | null = null,
-  runnerName: string | null = null
+  runnerName: string | null = null,
+  cardDb?: import("./cardDb.js").CardDb
 ): Economy {
   const result: Economy = { corp: emptyEcon("corp"), runner: emptyEcon("runner") };
   const playerNames: Record<string, string | null> = { corp: corpName, runner: runnerName };
@@ -744,7 +663,7 @@ export function computeEconomy(
 
       let bucket: string | null;
       if (player === "runner") {
-        bucket = classifyRunnerClick(action, events, creditsGained, cardsDrawn);
+        bucket = classifyRunnerClick(action, events, creditsGained, cardsDrawn, cardDb);
       } else {
         bucket = classifyClick(action);
         if (isEcon && bucket === "tempo" && !isTrigger) {
@@ -761,6 +680,7 @@ export function computeEconomy(
           (econ as Record<string, unknown>)[bucket + "_clicks"] =
             ((econ as Record<string, unknown>)[bucket + "_clicks"] as number) + 1;
         }
+        const isNewEntry = !(cardKey in econ.cards);
         if (!(cardKey in econ.cards)) econ.cards[cardKey] = newCardEconEntry();
         const entry = econ.cards[cardKey];
         const resourceCreditsPaid = Object.values(
@@ -769,6 +689,11 @@ export function computeEconomy(
         const effectiveCost = promotedFromUnknown
           ? (cardCosts[player][cardKey] ?? 0)
           : cost + resourceCreditsPaid;
+        if (isNewEntry && !isTrigger && !promotedFromUnknown && action.type !== "play" && action.type !== "install") {
+          const installCost = cardCosts[player][cardKey] ?? cardDb?.getPrintedCost(cardKey) ?? 0;
+          entry.total_cost += installCost;
+          entry.total_net_credits -= installCost;
+        }
         if (!isTrigger) {
           entry.uses += 1;
           entry.clicks += 1;
@@ -811,7 +736,7 @@ export function computeEconomy(
         if (!(resCard in econ.cards)) econ.cards[resCard] = newCardEconEntry();
         const resEntry = econ.cards[resCard];
         if (isNew) {
-          const playCost = cardCosts[player][resCard] ?? 0;
+          const playCost = cardCosts[player][resCard] ?? cardDb?.getPrintedCost(resCard) ?? 0;
           const playCount = cardPlayCounts[player][resCard] ?? 0;
           resEntry.uses = playCount;
           resEntry.total_cost += playCost;
@@ -822,6 +747,30 @@ export function computeEconomy(
         }
         resEntry.total_credits_gained += resAmount;
         resEntry.total_net_credits += resAmount;
+      }
+    }
+  }
+
+  // Process SOT/EOT triggered gains (skipped by main loop which requires click.click > 0)
+  for (const phase of turns) {
+    if (!("player" in phase)) continue;
+    const player = phase.player as string;
+    const econ = result[player as "corp" | "runner"];
+    for (const click of phase.clicks) {
+      if (click.click !== 0 && click.click !== -1) continue;
+      const tg = (click.effects?.triggered_gains as Record<string, number> | undefined) ?? {};
+      for (const [card, amount] of Object.entries(tg)) {
+        const isNew = !(card in econ.cards);
+        if (isNew) econ.cards[card] = newCardEconEntry();
+        const entry = econ.cards[card];
+        if (isNew) {
+          const playCost = cardCosts[player][card] ?? cardDb?.getPrintedCost(card) ?? 0;
+          entry.uses = cardPlayCounts[player][card] ?? 0;
+          entry.total_cost += playCost;
+          entry.total_net_credits -= playCost;
+        }
+        entry.total_credits_gained += amount;
+        entry.total_net_credits += amount;
       }
     }
   }
@@ -860,6 +809,8 @@ export function computeEconomy(
         click.bucket = "economy";
         runnerEcon.setup_clicks! -= 1;
         runnerEcon.economy_clicks! += 1;
+        const entry = runnerEcon.cards[action.card as string];
+        if (entry) entry.clicks += 1;
       }
     }
   }
@@ -979,7 +930,11 @@ export function computeActionSummary(turns: Turn[]): Record<string, unknown> {
 
 // -- Az credit annotation --
 
-function annotateAzCredits(turns: Turn[], runnerIdentity: string): void {
+function annotateAzCredits(
+  turns: Turn[],
+  runnerIdentity: string,
+  cardDb?: import("./cardDb.js").CardDb
+): void {
   if (!runnerIdentity.includes("Az McCaffrey")) return;
   for (const turn of turns) {
     if (turn.player !== "runner") continue;
@@ -988,7 +943,9 @@ function annotateAzCredits(turns: Turn[], runnerIdentity: string): void {
       if (click.click === 0 || azFired) continue;
       const action = click.action;
       if (!action || action.type !== "install") continue;
-      if (action.card && AZ_ELIGIBLE_CARDS.has(action.card as string)) {
+      const card = action.card as string | undefined;
+      const eligible = card && cardDb?.isAzEligible(card);
+      if (eligible) {
         if (!click.effects) click.effects = {};
         if (!click.effects.credits_from_resources) click.effects.credits_from_resources = {};
         const cfr = click.effects.credits_from_resources;
@@ -1001,7 +958,10 @@ function annotateAzCredits(turns: Turn[], runnerIdentity: string): void {
 
 // -- Top-level parse --
 
-export function parseReplayFromString(jsonText: string): ParsedReplay {
+export function parseReplayFromString(
+  jsonText: string,
+  cardDb?: import("./cardDb.js").CardDb
+): ParsedReplay {
   const data = JSON.parse(jsonText) as {
     metadata: Record<string, unknown>;
     history: unknown[];
@@ -1027,9 +987,9 @@ export function parseReplayFromString(jsonText: string): ParsedReplay {
   };
 
   const turns = parseTurns(history, summary.corp_player, summary.runner_player);
-  annotateAzCredits(turns, summary.runner_identity);
+  annotateAzCredits(turns, summary.runner_identity, cardDb);
   const actionSummary = computeActionSummary(turns);
-  const economy = computeEconomy(turns, summary.corp_player, summary.runner_player);
+  const economy = computeEconomy(turns, summary.corp_player, summary.runner_player, cardDb);
 
   return { summary, action_summary: actionSummary, economy, turns };
 }

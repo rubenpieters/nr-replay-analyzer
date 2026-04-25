@@ -118,14 +118,22 @@
           "total_net_credits": 8,
           "total_cards_drawn": 0,
           "credits_per_click": 4
+        },
+        "Charlotte Caçador to remove 1 hosted advancement counter from itself": {
+          "uses": 0,
+          "clicks": 0,
+          "total_credits_gained": 12,
+          "total_cost": 0,
+          "total_net_credits": 12,
+          "total_cards_drawn": 0
         }
       }
     },
     "runner": {
       "basic_clicks": 21,
-      "economy_clicks": 12,
-      "run_clicks": 9,
-      "setup_clicks": 11,
+      "economy_clicks": 7,
+      "run_clicks": 11,
+      "setup_clicks": 14,
       "cards": {
         "Carpe Diem": {
           "uses": 3,
@@ -138,11 +146,12 @@
         },
         "Open Market": {
           "uses": 2,
-          "clicks": 0,
-          "total_credits_gained": 4,
+          "clicks": 2,
+          "total_credits_gained": 7,
           "total_cost": 4,
-          "total_net_credits": 0,
-          "total_cards_drawn": 0
+          "total_net_credits": 3,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1.5
         },
         "click to draw": {
           "uses": 16,
@@ -166,26 +175,10 @@
           "uses": 1,
           "clicks": 1,
           "total_credits_gained": 6,
-          "total_cost": 2,
-          "total_net_credits": 4,
+          "total_cost": 0,
+          "total_net_credits": 6,
           "total_cards_drawn": 0,
-          "credits_per_click": 4
-        },
-        "Mantle": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 5,
-          "total_cost": 1,
-          "total_net_credits": 4,
-          "total_cards_drawn": 0
-        },
-        "Touchstone": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 3,
-          "total_cost": 2,
-          "total_net_credits": 1,
-          "total_cards_drawn": 0
+          "credits_per_click": 6
         },
         "Clean Getaway": {
           "uses": 1,
@@ -200,18 +193,10 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 24,
-          "total_cost": 16,
-          "total_net_credits": 8,
+          "total_cost": 9,
+          "total_net_credits": 15,
           "total_cards_drawn": 0,
-          "credits_per_click": 2.67
-        },
-        "Trickster Taka": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 6,
-          "total_cost": 1,
-          "total_net_credits": 5,
-          "total_cards_drawn": 0
+          "credits_per_click": 5
         },
         "click for credit": {
           "uses": 5,
@@ -221,6 +206,15 @@
           "total_net_credits": 5,
           "total_cards_drawn": 0,
           "credits_per_click": 1
+        },
+        "Daily Casts": {
+          "uses": 2,
+          "clicks": 2,
+          "total_credits_gained": 10,
+          "total_cost": 6,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 2
         },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 6,
@@ -232,9 +226,17 @@
         }
       },
       "setup_cards": {
+        "Touchstone": {
+          "count": 1,
+          "total_cost": 2
+        },
         "Afterimage": {
           "count": 2,
           "total_cost": 8
+        },
+        "Mantle": {
+          "count": 1,
+          "total_cost": 1
         },
         "Penrose": {
           "count": 1,
@@ -252,6 +254,10 @@
           "count": 1,
           "total_cost": 3
         },
+        "Trickster Taka": {
+          "count": 1,
+          "total_cost": 1
+        },
         "Curupira": {
           "count": 1,
           "total_cost": 3
@@ -261,10 +267,10 @@
           "total_cost": 0
         }
       },
-      "total_setup_cost": 27,
-      "econ_click_ratio": 0.36,
-      "avg_net_credits_per_econ_click": 1.52,
-      "avg_cards_drawn_per_econ_click": 0.71
+      "total_setup_cost": 31,
+      "econ_click_ratio": 0.25,
+      "avg_net_credits_per_econ_click": 1.51,
+      "avg_cards_drawn_per_econ_click": 0.63
     }
   },
   "turns": [
@@ -377,7 +383,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 2,
@@ -599,7 +605,7 @@
           "effects": {
             "credits_paid": 1
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": -1,
@@ -759,7 +765,7 @@
             "credits_paid": 1,
             "credits_gained": 4
           },
-          "bucket": "economy"
+          "bucket": "run"
         },
         {
           "click": -1,
@@ -919,10 +925,6 @@
             "cost": 0
           },
           "effects": {
-            "credits_from_resources": {
-              "Mantle": 1,
-              "Touchstone": 1
-            },
             "credits_gained": 6
           },
           "bucket": "run"
@@ -1074,7 +1076,7 @@
             "credits_paid": 1,
             "credits_gained": 4
           },
-          "bucket": "economy"
+          "bucket": "run"
         },
         {
           "click": 4,
@@ -1553,7 +1555,7 @@
           "effects": {
             "credits_paid": 1
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": -1,
@@ -1863,10 +1865,6 @@
           },
           "effects": {
             "credits_paid": 3,
-            "credits_from_resources": {
-              "Mantle": 1,
-              "Trickster Taka": 2
-            },
             "credits_gained": 8
           },
           "bucket": "run"
@@ -2031,10 +2029,6 @@
           },
           "effects": {
             "credits_paid": 3,
-            "credits_from_resources": {
-              "Mantle": 1,
-              "Trickster Taka": 1
-            },
             "credits_gained": 8
           },
           "bucket": "run"
@@ -2216,10 +2210,6 @@
           },
           "effects": {
             "credits_paid": 3,
-            "credits_from_resources": {
-              "Mantle": 1,
-              "Trickster Taka": 1
-            },
             "credits_gained": 8
           },
           "bucket": "run"
@@ -2389,13 +2379,6 @@
             "type": "run",
             "server": "Server 1"
           },
-          "effects": {
-            "credits_from_resources": {
-              "Mantle": 1,
-              "Trickster Taka": 1,
-              "Touchstone": 2
-            }
-          },
           "bucket": "run"
         },
         {
@@ -2564,11 +2547,6 @@
           "action": {
             "type": "run",
             "server": "R&D"
-          },
-          "effects": {
-            "credits_from_resources": {
-              "Trickster Taka": 1
-            }
           },
           "bucket": "run"
         }

@@ -92,10 +92,10 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 12,
-          "total_cost": 0,
-          "total_net_credits": 12,
+          "total_cost": 1,
+          "total_net_credits": 11,
           "total_cards_drawn": 9,
-          "credits_per_click": 4
+          "credits_per_click": 3.67
         },
         "Greasing the Palm": {
           "uses": 1,
@@ -135,18 +135,18 @@
     },
     "runner": {
       "basic_clicks": 11,
-      "economy_clicks": 8,
+      "economy_clicks": 5,
       "run_clicks": 7,
-      "setup_clicks": 6,
+      "setup_clicks": 9,
       "cards": {
         "Clean Getaway": {
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 18,
-          "total_cost": 10,
-          "total_net_credits": 8,
+          "total_cost": 9,
+          "total_net_credits": 9,
           "total_cards_drawn": 0,
-          "credits_per_click": 2.67
+          "credits_per_click": 3
         },
         "click to draw": {
           "uses": 11,
@@ -175,38 +175,32 @@
           "total_cards_drawn": 0,
           "credits_per_click": 4
         },
-        "Trickster Taka": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 4,
-          "total_cost": 1,
-          "total_net_credits": 3,
-          "total_cards_drawn": 0
-        },
-        "Fencer Fueno": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 1,
-          "total_cost": 0,
-          "total_net_credits": 1,
-          "total_cards_drawn": 0
-        },
         "Bravado": {
           "uses": 1,
           "clicks": 1,
           "total_credits_gained": 8,
-          "total_cost": 7,
-          "total_net_credits": 1,
+          "total_cost": 3,
+          "total_net_credits": 5,
           "total_cards_drawn": 1,
-          "credits_per_click": 1
+          "credits_per_click": 5
         },
-        "Touchstone": {
+        "Daily Casts": {
+          "uses": 2,
+          "clicks": 2,
+          "total_credits_gained": 16,
+          "total_cost": 6,
+          "total_net_credits": 10,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
+        },
+        "Open Market": {
           "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 2,
+          "clicks": 1,
+          "total_credits_gained": 4,
           "total_cost": 2,
-          "total_net_credits": 0,
-          "total_cards_drawn": 0
+          "total_net_credits": 2,
+          "total_cards_drawn": 0,
+          "credits_per_click": 2
         },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 3,
@@ -218,13 +212,25 @@
         }
       },
       "setup_cards": {
+        "Touchstone": {
+          "count": 1,
+          "total_cost": 2
+        },
         "Hermes": {
           "count": 1,
           "total_cost": 2
         },
+        "Trickster Taka": {
+          "count": 1,
+          "total_cost": 1
+        },
         "Curupira": {
           "count": 1,
           "total_cost": 3
+        },
+        "Fencer Fueno": {
+          "count": 1,
+          "total_cost": 0
         },
         "The Twinning": {
           "count": 1,
@@ -243,10 +249,10 @@
           "total_cost": 1
         }
       },
-      "total_setup_cost": 12,
-      "econ_click_ratio": 0.42,
-      "avg_net_credits_per_econ_click": 1.18,
-      "avg_cards_drawn_per_econ_click": 0.88
+      "total_setup_cost": 15,
+      "econ_click_ratio": 0.31,
+      "avg_net_credits_per_econ_click": 1.65,
+      "avg_cards_drawn_per_econ_click": 0.75
     }
   },
   "turns": [
@@ -366,7 +372,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 3,
@@ -771,7 +777,7 @@
           "effects": {
             "credits_paid": 1
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 4,
@@ -941,7 +947,7 @@
             "card": "Fencer Fueno",
             "cost": 0
           },
-          "bucket": "economy"
+          "bucket": "setup"
         }
       ]
     },
@@ -1089,12 +1095,6 @@
           "action": {
             "type": "run",
             "server": "R&D"
-          },
-          "effects": {
-            "credits_from_resources": {
-              "Trickster Taka": 1,
-              "Fencer Fueno": 1
-            }
           },
           "bucket": "run"
         },
@@ -1257,10 +1257,6 @@
           },
           "effects": {
             "credits_paid": 3,
-            "credits_from_resources": {
-              "Trickster Taka": 2,
-              "Touchstone": 2
-            },
             "credits_gained": 8,
             "cards_drawn": 1
           },
@@ -1444,9 +1440,6 @@
           },
           "effects": {
             "credits_paid": 3,
-            "credits_from_resources": {
-              "Trickster Taka": 1
-            },
             "credits_gained": 6
           },
           "bucket": "run"

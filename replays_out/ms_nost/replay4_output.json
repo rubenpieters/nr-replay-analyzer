@@ -92,10 +92,10 @@
           "uses": 10,
           "clicks": 10,
           "total_credits_gained": 30,
-          "total_cost": 0,
-          "total_net_credits": 30,
+          "total_cost": 2,
+          "total_net_credits": 28,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 2.8
         },
         "click for credit": {
           "uses": 11,
@@ -128,9 +128,9 @@
     },
     "runner": {
       "basic_clicks": 27,
-      "economy_clicks": 11,
-      "run_clicks": 19,
-      "setup_clicks": 6,
+      "economy_clicks": 5,
+      "run_clicks": 21,
+      "setup_clicks": 10,
       "cards": {
         "Sure Gamble": {
           "uses": 3,
@@ -154,10 +154,10 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 20,
-          "total_cost": 11,
-          "total_net_credits": 9,
+          "total_cost": 9,
+          "total_net_credits": 11,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 3.67
         },
         "click to draw": {
           "uses": 18,
@@ -172,68 +172,37 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 12,
-          "total_cost": 6,
-          "total_net_credits": 6,
+          "total_cost": 3,
+          "total_net_credits": 9,
           "total_cards_drawn": 0,
-          "credits_per_click": 2
-        },
-        "Cezve": {
-          "uses": 2,
-          "clicks": 0,
-          "total_credits_gained": 17,
-          "total_cost": 4,
-          "total_net_credits": 13,
-          "total_cards_drawn": 0
-        },
-        "Touchstone": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 6,
-          "total_cost": 2,
-          "total_net_credits": 4,
-          "total_cards_drawn": 0
+          "credits_per_click": 3
         },
         "Mystic Maemi": {
           "uses": 1,
-          "clicks": 0,
+          "clicks": 1,
           "total_credits_gained": 11,
           "total_cost": 1,
           "total_net_credits": 10,
-          "total_cards_drawn": 0
-        },
-        "Fencer Fueno": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 9,
-          "total_cost": 0,
-          "total_net_credits": 9,
-          "total_cards_drawn": 0
+          "total_cards_drawn": 0,
+          "credits_per_click": 10
         },
         "Clean Getaway": {
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 18,
-          "total_cost": 19,
-          "total_net_credits": -1,
+          "total_cost": 13,
+          "total_net_credits": 5,
           "total_cards_drawn": 0,
-          "credits_per_click": -0.33
-        },
-        "Overclock": {
-          "uses": 3,
-          "clicks": 0,
-          "total_credits_gained": 10,
-          "total_cost": 24,
-          "total_net_credits": -14,
-          "total_cards_drawn": 0
+          "credits_per_click": 1.67
         },
         "Transfer of Wealth": {
           "uses": 1,
           "clicks": 1,
           "total_credits_gained": 6,
-          "total_cost": 1,
-          "total_net_credits": 5,
+          "total_cost": 0,
+          "total_net_credits": 6,
           "total_cards_drawn": 0,
-          "credits_per_click": 5
+          "credits_per_click": 6
         },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 12,
@@ -253,6 +222,10 @@
           "count": 1,
           "total_cost": 3
         },
+        "Cezve": {
+          "count": 2,
+          "total_cost": 4
+        },
         "Mutual Favor": {
           "count": 1,
           "total_cost": 0
@@ -260,6 +233,14 @@
         "Hermes": {
           "count": 1,
           "total_cost": 2
+        },
+        "Touchstone": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Fencer Fueno": {
+          "count": 1,
+          "total_cost": 0
         },
         "The Twinning": {
           "count": 1,
@@ -270,10 +251,10 @@
           "total_cost": 2
         }
       },
-      "total_setup_cost": 12,
-      "econ_click_ratio": 0.29,
-      "avg_net_credits_per_econ_click": 1.5,
-      "avg_cards_drawn_per_econ_click": 0.75
+      "total_setup_cost": 18,
+      "econ_click_ratio": 0.16,
+      "avg_net_credits_per_econ_click": 1.46,
+      "avg_cards_drawn_per_econ_click": 0.73
     }
   },
   "turns": [
@@ -693,7 +674,7 @@
             "credits_paid": 1,
             "credits_gained": 4
           },
-          "bucket": "economy"
+          "bucket": "run"
         },
         {
           "click": 3,
@@ -709,7 +690,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 4,
@@ -729,10 +710,7 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1,
-            "credits_from_resources": {
-              "Cezve": 2
-            }
+            "credits_paid": 1
           },
           "bucket": "run"
         }
@@ -870,7 +848,7 @@
             "credits_paid": 1,
             "credits_gained": 4
           },
-          "bucket": "economy"
+          "bucket": "run"
         },
         {
           "click": 4,
@@ -1155,9 +1133,6 @@
           },
           "effects": {
             "credits_paid": 3,
-            "credits_from_resources": {
-              "Cezve": 2
-            },
             "credits_gained": 8
           },
           "bucket": "run"
@@ -1324,7 +1299,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 4,
@@ -1356,10 +1331,6 @@
           },
           "effects": {
             "credits_paid": 1,
-            "credits_from_resources": {
-              "Cezve": 2,
-              "Touchstone": 1
-            },
             "credits_gained": 4
           },
           "bucket": "run"
@@ -1491,7 +1462,7 @@
             "card": "Fencer Fueno",
             "cost": 0
           },
-          "bucket": "economy"
+          "bucket": "setup"
         }
       ]
     },
@@ -1633,11 +1604,7 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1,
-            "credits_from_resources": {
-              "Touchstone": 1,
-              "Fencer Fueno": 1
-            }
+            "credits_paid": 1
           },
           "bucket": "run"
         },
@@ -1795,8 +1762,7 @@
           "effects": {
             "credits_paid": 3,
             "credits_from_resources": {
-              "Mystic Maemi": 1,
-              "Cezve": 2
+              "Mystic Maemi": 1
             },
             "credits_gained": 6
           },
@@ -2238,7 +2204,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 2,
@@ -2293,11 +2259,7 @@
           "effects": {
             "credits_paid": 1,
             "credits_from_resources": {
-              "Mystic Maemi": 1,
-              "Overclock": 5,
-              "Cezve": 4,
-              "Touchstone": 2,
-              "Fencer Fueno": 3
+              "Mystic Maemi": 1
             }
           },
           "bucket": "run"
@@ -2334,8 +2296,7 @@
           "effects": {
             "credits_paid": 2,
             "credits_from_resources": {
-              "Mystic Maemi": 1,
-              "Fencer Fueno": 3
+              "Mystic Maemi": 1
             }
           },
           "bucket": "run"
@@ -2514,8 +2475,7 @@
           "effects": {
             "credits_paid": 2,
             "credits_from_resources": {
-              "Mystic Maemi": 2,
-              "Cezve": 4
+              "Mystic Maemi": 2
             }
           },
           "bucket": "run"
@@ -2695,9 +2655,6 @@
             "cost": 0
           },
           "effects": {
-            "credits_from_resources": {
-              "Cezve": 1
-            },
             "credits_gained": 6
           },
           "bucket": "run"
@@ -2866,9 +2823,7 @@
           "effects": {
             "credits_paid": 3,
             "credits_from_resources": {
-              "Mystic Maemi": 2,
-              "Touchstone": 2,
-              "Fencer Fueno": 2
+              "Mystic Maemi": 2
             },
             "credits_gained": 6
           },
@@ -2961,10 +2916,7 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1,
-            "credits_from_resources": {
-              "Overclock": 5
-            }
+            "credits_paid": 1
           },
           "bucket": "run"
         }

@@ -112,10 +112,10 @@
           "uses": 5,
           "clicks": 5,
           "total_credits_gained": 15,
-          "total_cost": 0,
-          "total_net_credits": 15,
+          "total_cost": 2,
+          "total_net_credits": 13,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 2.6
         },
         "click for credit": {
           "uses": 7,
@@ -125,6 +125,22 @@
           "total_net_credits": 7,
           "total_cards_drawn": 0,
           "credits_per_click": 1
+        },
+        "Charlotte Caçador to remove 1 hosted advancement counter from itself": {
+          "uses": 0,
+          "clicks": 0,
+          "total_credits_gained": 12,
+          "total_cost": 0,
+          "total_net_credits": 12,
+          "total_cards_drawn": 0
+        },
+        "Charlotte Caçador": {
+          "uses": 0,
+          "clicks": 0,
+          "total_credits_gained": 3,
+          "total_cost": 0,
+          "total_net_credits": 3,
+          "total_cards_drawn": 0
         }
       }
     },
@@ -146,20 +162,20 @@
         "Strike Fund": {
           "uses": 2,
           "clicks": 2,
-          "total_credits_gained": 12,
+          "total_credits_gained": 14,
           "total_cost": 2,
-          "total_net_credits": 10,
+          "total_net_credits": 12,
           "total_cards_drawn": 0,
-          "credits_per_click": 5
+          "credits_per_click": 6
         },
         "The Price": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 3,
           "total_credits_gained": 0,
           "total_cost": 1,
           "total_net_credits": -1,
           "total_cards_drawn": 2,
-          "credits_per_click": -1
+          "credits_per_click": -0.33
         },
         "Transfer of Wealth": {
           "uses": 1,
@@ -174,10 +190,10 @@
           "uses": 5,
           "clicks": 5,
           "total_credits_gained": 25,
-          "total_cost": 0,
-          "total_net_credits": 25,
+          "total_cost": 3,
+          "total_net_credits": 22,
           "total_cards_drawn": 0,
-          "credits_per_click": 5
+          "credits_per_click": 4.4
         },
         "click for credit": {
           "uses": 4,
@@ -216,7 +232,7 @@
         },
         "Gourmand": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 4,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -260,8 +276,8 @@
       },
       "total_setup_cost": 20,
       "econ_click_ratio": 0.43,
-      "avg_net_credits_per_econ_click": 1.45,
-      "avg_cards_drawn_per_econ_click": 0.82
+      "avg_net_credits_per_econ_click": 1.26,
+      "avg_cards_drawn_per_econ_click": 0.72
     }
   },
   "turns": [

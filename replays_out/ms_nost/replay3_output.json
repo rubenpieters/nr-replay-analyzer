@@ -114,14 +114,22 @@
           "total_net_credits": 2,
           "total_cards_drawn": 0,
           "credits_per_click": 2
+        },
+        "Anthill Excavation Contract": {
+          "uses": 0,
+          "clicks": 0,
+          "total_credits_gained": 4,
+          "total_cost": 3,
+          "total_net_credits": 1,
+          "total_cards_drawn": 0
         }
       }
     },
     "runner": {
       "basic_clicks": 13,
-      "economy_clicks": 2,
-      "run_clicks": 8,
-      "setup_clicks": 5,
+      "economy_clicks": 0,
+      "run_clicks": 9,
+      "setup_clicks": 6,
       "cards": {
         "click to draw": {
           "uses": 11,
@@ -168,22 +176,6 @@
           "total_cards_drawn": 0,
           "credits_per_click": 4
         },
-        "Overclock": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 5,
-          "total_cost": 9,
-          "total_net_credits": -4,
-          "total_cards_drawn": 0
-        },
-        "Fencer Fueno": {
-          "uses": 1,
-          "clicks": 0,
-          "total_credits_gained": 3,
-          "total_cost": 0,
-          "total_net_credits": 3,
-          "total_cards_drawn": 0
-        },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 3,
           "clicks": 0,
@@ -197,6 +189,10 @@
         "Sang Kancil": {
           "count": 1,
           "total_cost": 3
+        },
+        "Fencer Fueno": {
+          "count": 1,
+          "total_cost": 0
         },
         "Hermes": {
           "count": 1,
@@ -216,8 +212,8 @@
         }
       },
       "total_setup_cost": 10,
-      "econ_click_ratio": 0.13,
-      "avg_net_credits_per_econ_click": 0.94,
+      "econ_click_ratio": 0,
+      "avg_net_credits_per_econ_click": 1,
       "avg_cards_drawn_per_econ_click": 0.78
     }
   },
@@ -338,7 +334,7 @@
             "credits_paid": 1,
             "credits_gained": 4
           },
-          "bucket": "economy"
+          "bucket": "run"
         },
         {
           "click": 3,
@@ -814,7 +810,7 @@
             "card": "Fencer Fueno",
             "cost": 0
           },
-          "bucket": "economy"
+          "bucket": "setup"
         }
       ]
     },
@@ -1258,11 +1254,7 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1,
-            "credits_from_resources": {
-              "Overclock": 5,
-              "Fencer Fueno": 3
-            }
+            "credits_paid": 1
           },
           "bucket": "run"
         },

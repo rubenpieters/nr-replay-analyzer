@@ -3,10 +3,12 @@ import { join, basename } from "path";
 import { parseReplayFromString } from "./analyzer.js";
 import { generateHtml } from "./htmlOutput.js";
 import { anonymizeRawJson, anonymizeParsed } from "./anonymize.js";
+import { CardDb } from "./cardDb.js";
 
 const JOBS = ["replay_examples", "ms_st", "ms_nost", "az"];
 
 const root = new URL("..", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
+const cardDb = new CardDb(JSON.parse(readFileSync(join(root, "cards", "cards.json"), "utf-8")));
 const errors: string[] = [];
 
 for (const dir of JOBS) {
@@ -34,7 +36,7 @@ for (const dir of JOBS) {
 
     try {
       const text = readFileSync(replayPath, "utf-8");
-      const data = parseReplayFromString(text);
+      const data = parseReplayFromString(text, cardDb);
       const anonData = anonymizeParsed(data);
       const anonRaw = anonymizeRawJson(text, data.summary.corp_player, data.summary.runner_player);
       writeFileSync(replayPath, anonRaw, "utf-8");

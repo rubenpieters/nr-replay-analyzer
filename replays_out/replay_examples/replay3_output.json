@@ -137,6 +137,14 @@
           "total_net_credits": 4,
           "total_cards_drawn": 0,
           "credits_per_click": 4
+        },
+        "Charlotte Caçador to remove 1 hosted advancement counter from itself": {
+          "uses": 0,
+          "clicks": 0,
+          "total_credits_gained": 20,
+          "total_cost": 0,
+          "total_net_credits": 20,
+          "total_cards_drawn": 0
         }
       }
     },
@@ -193,21 +201,21 @@
         },
         "The Price": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 4,
           "total_credits_gained": 0,
           "total_cost": 1,
           "total_net_credits": -1,
           "total_cards_drawn": 4,
-          "credits_per_click": -1
+          "credits_per_click": -0.25
         },
         "Friend of a Friend": {
           "uses": 4,
-          "clicks": 4,
+          "clicks": 7,
           "total_credits_gained": 28,
-          "total_cost": 0,
-          "total_net_credits": 28,
+          "total_cost": 9,
+          "total_net_credits": 19,
           "total_cards_drawn": 2,
-          "credits_per_click": 7
+          "credits_per_click": 2.71
         },
         "Mitra Aman": {
           "uses": 1,
@@ -229,12 +237,12 @@
         },
         "Valentina Ferreira Carvalho": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 2,
           "total_credits_gained": 6,
           "total_cost": 2,
           "total_net_credits": 4,
           "total_cards_drawn": 0,
-          "credits_per_click": 4
+          "credits_per_click": 2
         },
         "Ashen Epilogue": {
           "uses": 1,
@@ -247,12 +255,12 @@
         },
         "Amanuensis": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 2,
           "total_credits_gained": 0,
           "total_cost": 2,
           "total_net_credits": -2,
           "total_cards_drawn": 2,
-          "credits_per_click": -2
+          "credits_per_click": -1
         }
       },
       "setup_cards": {
@@ -287,8 +295,8 @@
       },
       "total_setup_cost": 26,
       "econ_click_ratio": 0.53,
-      "avg_net_credits_per_econ_click": 1.6,
-      "avg_cards_drawn_per_econ_click": 0.93
+      "avg_net_credits_per_econ_click": 1.15,
+      "avg_cards_drawn_per_econ_click": 0.77
     }
   },
   "turns": [

@@ -1,6 +1,8 @@
 import { readFileSync, writeFileSync } from "fs";
+import { join } from "path";
 import { parseReplayFromString } from "./analyzer.js";
 import { generateHtml } from "./htmlOutput.js";
+import { CardDb } from "./cardDb.js";
 
 const args = process.argv.slice(2);
 if (args.length < 1 || args.length > 2) {
@@ -8,8 +10,11 @@ if (args.length < 1 || args.length > 2) {
   process.exit(1);
 }
 
+const root = new URL("..", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
+const cardDb = new CardDb(JSON.parse(readFileSync(join(root, "cards", "cards.json"), "utf-8")));
+
 const replayText = readFileSync(args[0], "utf-8");
-const data = parseReplayFromString(replayText);
+const data = parseReplayFromString(replayText, cardDb);
 
 if (args[1]) {
   writeFileSync(args[1], JSON.stringify(data, null, 2), "utf-8");
