@@ -1,8 +1,8 @@
 {
   "summary": {
-    "corp_player": "<anonymized>",
+    "corp_player": "<anonymized-corp>",
     "corp_identity": "Méliès U: Only the Brightest",
-    "runner_player": "<anonymized>",
+    "runner_player": "<anonymized-runner>",
     "runner_identity": "Sebastião Souza Pessoa: Activist Organizer",
     "turns": 17,
     "winner": "runner",
@@ -85,10 +85,10 @@
   "economy": {
     "corp": {
       "basic_clicks": 13,
-      "impactful_clicks": 9,
-      "tempo_clicks": 29,
-      "total_econ_clicks": 22,
-      "basic_econ_ratio": 0.59,
+      "impactful_clicks": 8,
+      "tempo_clicks": 30,
+      "total_econ_clicks": 21,
+      "basic_econ_ratio": 0.62,
       "cards": {
         "click to draw": {
           "uses": 6,
@@ -121,22 +121,14 @@
           "total_net_credits": 7,
           "total_cards_drawn": 0,
           "credits_per_click": 1
-        },
-        "Strike Fund": {
-          "uses": 1,
-          "total_credits_gained": 2,
-          "total_cost": 0,
-          "total_net_credits": 2,
-          "total_cards_drawn": 1,
-          "credits_per_click": 2
         }
       }
     },
     "runner": {
       "basic_clicks": 24,
-      "economy_clicks": 21,
+      "economy_clicks": 18,
       "run_clicks": 15,
-      "setup_clicks": 7,
+      "setup_clicks": 10,
       "cards": {
         "click to draw": {
           "uses": 20,
@@ -163,12 +155,12 @@
           "credits_per_click": -1
         },
         "Transfer of Wealth": {
-          "uses": 2,
+          "uses": 1,
           "total_credits_gained": 6,
           "total_cost": 0,
           "total_net_credits": 6,
-          "total_cards_drawn": 3,
-          "credits_per_click": 3
+          "total_cards_drawn": 1,
+          "credits_per_click": 6
         },
         "Friend of a Friend": {
           "uses": 5,
@@ -177,14 +169,6 @@
           "total_net_credits": 25,
           "total_cards_drawn": 0,
           "credits_per_click": 5
-        },
-        "Devil Charm": {
-          "uses": 1,
-          "total_credits_gained": 4,
-          "total_cost": 1,
-          "total_net_credits": 3,
-          "total_cards_drawn": 0,
-          "credits_per_click": 3
         },
         "click for credit": {
           "uses": 4,
@@ -202,22 +186,6 @@
           "total_cards_drawn": 0,
           "credits_per_click": 4
         },
-        "Empiricist": {
-          "uses": 1,
-          "total_credits_gained": 0,
-          "total_cost": 0,
-          "total_net_credits": 0,
-          "total_cards_drawn": 1,
-          "credits_per_click": 0
-        },
-        "Charlotte Caçador": {
-          "uses": 1,
-          "total_credits_gained": 3,
-          "total_cost": 0,
-          "total_net_credits": 3,
-          "total_cards_drawn": 0,
-          "credits_per_click": 3
-        },
         "Valentina Ferreira Carvalho": {
           "uses": 1,
           "total_credits_gained": 4,
@@ -233,14 +201,6 @@
           "total_net_credits": -5,
           "total_cards_drawn": 5,
           "credits_per_click": -5
-        },
-        "Mitra Aman": {
-          "uses": 1,
-          "total_credits_gained": 3,
-          "total_cost": 0,
-          "total_net_credits": 3,
-          "total_cards_drawn": 0,
-          "credits_per_click": 3
         },
         "Gourmand": {
           "uses": 1,
@@ -260,10 +220,10 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> keeps his hand.",
-            "<anonymized> reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
-            "<anonymized> takes a mulligan.",
-            "<anonymized>"
+            "<anonymized-corp> keeps his hand.",
+            "<anonymized-corp> reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
+            "<anonymized-runner> takes a mulligan.",
+            "gl hf"
           ]
         }
       ]
@@ -275,11 +235,11 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>"
+            "<anonymized-corp> started his turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw.",
+            "glhf",
+            "mulligan to FoaF or die",
+            "top tier gameplay"
           ],
           "effects": {
             "cards_drawn": 1
@@ -288,7 +248,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -302,8 +262,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized-corp> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -319,8 +279,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
-            "<anonymized> is ending his turn 1 with 9 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
+            "<anonymized-corp> is ending his turn 1 with 9 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -332,7 +292,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -344,15 +304,15 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in his Grip."
+            "<anonymized-runner> started his turn 1 with 5 [Credit] and 5 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play The Price.",
-            "<anonymized> uses The Price to trash Amanuensis, Sure Gamble, Arruaceiras Crew, and The Tungsten Tailor from the top of the stack.",
-            "<anonymized> pays 0 [Credits] to use The Price to install Arruaceiras Crew from the Heap (paying 3 [Credits] less)."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to play The Price.",
+            "<anonymized-runner> uses The Price to trash Amanuensis, Sure Gamble, Arruaceiras Crew, and The Tungsten Tailor from the top of the stack.",
+            "<anonymized-runner> pays 0 [Credits] to use The Price to install Arruaceiras Crew from the Heap (paying 3 [Credits] less)."
           ],
           "action": {
             "type": "play",
@@ -367,7 +327,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -381,7 +341,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -395,9 +355,9 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play Strike Fund.",
-            "<anonymized> uses Strike Fund to gain 4 [Credits].",
-            "<anonymized> is ending his turn 1 with 7 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to play Strike Fund.",
+            "<anonymized-runner> uses Strike Fund to gain 4 [Credits].",
+            "<anonymized-runner> is ending his turn 1 with 7 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -413,13 +373,8 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ],
-          "effects": {
-            "triggered_gains": {
-              "Méliès U: Only the Brightest": 1
-            }
-          }
+            "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
         }
       ]
     },
@@ -430,8 +385,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 2 with 10 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 2 with 10 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -440,7 +395,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 1 (new remote)."
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting Server 1 (new remote)."
           ],
           "action": {
             "type": "install_ice",
@@ -452,7 +407,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -467,8 +422,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 1.",
-            "<anonymized> is ending his turn 2 with 9 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 1.",
+            "<anonymized-corp> is ending his turn 2 with 9 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -481,7 +436,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -493,16 +448,16 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 2 with 7 [Credit] and 5 cards in his Grip."
+            "<anonymized-runner> started his turn 2 with 7 [Credit] and 5 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play The Price.",
-            "<anonymized> uses Steelskin Scarring to draw 2 cards.",
-            "<anonymized> uses The Price to trash Gourmand, Friend of a Friend, Steelskin Scarring, and Solidarity Badge from the top of the stack.",
-            "<anonymized> pays 0 [Credits] to use The Price to install Friend of a Friend from the Heap (paying 3 [Credits] less)."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to play The Price.",
+            "<anonymized-runner> uses Steelskin Scarring to draw 2 cards.",
+            "<anonymized-runner> uses The Price to trash Gourmand, Friend of a Friend, Steelskin Scarring, and Solidarity Badge from the top of the stack.",
+            "<anonymized-runner> pays 0 [Credits] to use The Price to install Friend of a Friend from the Heap (paying 3 [Credits] less)."
           ],
           "action": {
             "type": "play",
@@ -518,7 +473,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -532,7 +487,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to install Botulus on ice protecting HQ at position 0.",
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to install Botulus on ice protecting HQ at position 0.",
             "[!] Botulus - [Erratum] Program: Virus - Trojan"
           ],
           "action": {
@@ -549,8 +504,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install Gourmand.",
-            "<anonymized> is ending his turn 2 with 4 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to install Gourmand.",
+            "<anonymized-runner> is ending his turn 2 with 4 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -562,13 +517,8 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ],
-          "effects": {
-            "triggered_gains": {
-              "Méliès U: Only the Brightest": 1
-            }
-          }
+            "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
         }
       ]
     },
@@ -579,8 +529,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 3 with 10 [Credit] and 3 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 3 with 10 [Credit] and 3 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -589,8 +539,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card.",
-            "<anonymized> pays 2 [Credits] to rez Regolith Mining License in Server 1."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card.",
+            "<anonymized-corp> pays 2 [Credits] to rez Regolith Mining License in Server 1."
           ],
           "action": {
             "type": "draw",
@@ -604,7 +554,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits]."
+            "<anonymized-corp> spends [Click] to use Regolith Mining License to gain 3 [Credits]."
           ],
           "action": {
             "type": "ability",
@@ -620,8 +570,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits].",
-            "<anonymized> is ending his turn 3 with 14 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to use Regolith Mining License to gain 3 [Credits].",
+            "<anonymized-corp> is ending his turn 3 with 14 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "ability",
@@ -637,7 +587,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -649,13 +599,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 3 with 4 [Credit] and 5 cards in his Grip."
+            "<anonymized-runner> started his turn 3 with 4 [Credit] and 5 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -669,26 +619,26 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
-            "<anonymized> approaches ice protecting HQ at position 0.",
-            "<anonymized> pays 2 [Credits] to rez Tatu-Bola protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Tatu-Bola protecting HQ at position 0.",
-            "<anonymized> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Hannah \"Wheels\" Pilintra from the Grip (paying 2 [Credits] less).",
-            "<anonymized> takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting HQ at position 0 -2 strength for the remainder of the encounter.",
-            "<anonymized> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> uses Transfer of Wealth to take 1 tag.",
-            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "<anonymized> uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Unleash from HQ.",
-            "<anonymized> trashes Gourmand to use Gourmand to trash Unleash.",
-            "<anonymized> uses Gourmand to draw 1 card."
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized-runner> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized-runner> approaches ice protecting HQ at position 0.",
+            "<anonymized-corp> pays 2 [Credits] to rez Tatu-Bola protecting HQ at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Tatu-Bola protecting HQ at position 0.",
+            "<anonymized-runner> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Hannah \"Wheels\" Pilintra from the Grip (paying 2 [Credits] less).",
+            "<anonymized-runner> takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting HQ at position 0 -2 strength for the remainder of the encounter.",
+            "<anonymized-runner> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting HQ at position 0.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized-runner> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized-corp> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Unleash from HQ.",
+            "<anonymized-runner> trashes Gourmand to use Gourmand to trash Unleash.",
+            "<anonymized-runner> uses Gourmand to draw 1 card."
           ],
           "action": {
             "type": "play",
@@ -704,7 +654,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag."
+            "<anonymized-runner> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag."
           ],
           "action": {
             "type": "ability",
@@ -720,8 +670,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "<anonymized> is ending his turn 3 with 11 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized-runner> is ending his turn 3 with 11 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -742,8 +692,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 4 with 9 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 4 with 9 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -752,7 +702,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ."
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -764,7 +714,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits]."
+            "<anonymized-corp> spends [Click] to use Regolith Mining License to gain 3 [Credits]."
           ],
           "action": {
             "type": "ability",
@@ -780,8 +730,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits].",
-            "<anonymized> is ending his turn 4 with 15 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to use Regolith Mining License to gain 3 [Credits].",
+            "<anonymized-corp> is ending his turn 4 with 15 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "ability",
@@ -797,7 +747,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -809,13 +759,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 4 with 11 [Credit] and 5 cards in his Grip."
+            "<anonymized-runner> started his turn 4 with 11 [Credit] and 5 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -829,14 +779,14 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Privileged Access.",
-            "<anonymized> uses Privileged Access to make a run on Archives.",
-            "<anonymized> approaches Archives.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
-            "<anonymized> uses the replacement effect from Privileged Access.",
-            "<anonymized> uses Privileged Access to take 1 tag.",
-            "<anonymized> pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
-            "<anonymized> pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less)."
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Privileged Access.",
+            "<anonymized-runner> uses Privileged Access to make a run on Archives.",
+            "<anonymized-runner> approaches Archives.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "<anonymized-runner> uses the replacement effect from Privileged Access.",
+            "<anonymized-runner> uses Privileged Access to take 1 tag.",
+            "<anonymized-runner> pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
+            "<anonymized-runner> pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less)."
           ],
           "action": {
             "type": "play",
@@ -848,11 +798,11 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> pays 1 [Credits] to trash Anoetic Void from R&D."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> pays 1 [Credits] to trash Anoetic Void from R&D."
           ],
           "action": {
             "type": "run",
@@ -863,8 +813,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
-            "<anonymized> is ending his turn 4 with 14 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
+            "<anonymized-runner> is ending his turn 4 with 14 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "ability",
@@ -886,8 +836,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 5 with 15 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 5 with 15 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -896,8 +846,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits].",
-            "<anonymized> trashes Regolith Mining License."
+            "<anonymized-corp> spends [Click] to use Regolith Mining License to gain 3 [Credits].",
+            "<anonymized-corp> trashes Regolith Mining License."
           ],
           "action": {
             "type": "ability",
@@ -913,7 +863,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 1."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -926,9 +876,9 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "<anonymized> uses Hedge Fund to gain 9 [Credits].",
-            "<anonymized> is ending his turn 5 with 22 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized-corp> uses Hedge Fund to gain 9 [Credits].",
+            "<anonymized-corp> is ending his turn 5 with 22 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -944,7 +894,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -956,13 +906,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 5 with 14 [Credit] and 4 cards in his Grip."
+            "<anonymized-runner> started his turn 5 with 14 [Credit] and 4 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -976,7 +926,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to install Audrey v2."
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to install Audrey v2."
           ],
           "action": {
             "type": "install",
@@ -991,11 +941,11 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> accesses an unseen card from R&D."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D."
           ],
           "action": {
             "type": "run",
@@ -1006,8 +956,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to install Buffer Drive.",
-            "<anonymized> is ending his turn 5 with 8 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to install Buffer Drive.",
+            "<anonymized-runner> is ending his turn 5 with 8 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1028,8 +978,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 6 with 22 [Credit] and 4 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 6 with 22 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1038,7 +988,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 1."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -1051,7 +1001,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -1067,8 +1017,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "<anonymized> is ending his turn 6 with 20 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized-corp> is ending his turn 6 with 20 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1084,7 +1034,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1096,16 +1046,16 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 6 with 8 [Credit] and 3 cards in his Grip."
+            "<anonymized-runner> started his turn 6 with 8 [Credit] and 3 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "<anonymized> uses Steelskin Scarring to draw 2 cards.",
-            "<anonymized> uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
-            "<anonymized> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized-runner> uses Steelskin Scarring to draw 2 cards.",
+            "<anonymized-runner> uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
+            "<anonymized-runner> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
           ],
           "action": {
             "type": "draw",
@@ -1119,13 +1069,13 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> pays 3 [Credits] to trash Mitra Aman from R&D.",
-            "<anonymized> uses Audrey v2 to place 1 virus counter on itself."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> pays 3 [Credits] to trash Mitra Aman from R&D.",
+            "<anonymized-runner> uses Audrey v2 to place 1 virus counter on itself."
           ],
           "action": {
             "type": "run",
@@ -1136,32 +1086,32 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install Devil Charm.",
-            "<anonymized> spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 1.",
-            "<anonymized> approaches ice protecting Server 1 at position 1.",
-            "<anonymized> pays 2 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Tatu-Bola protecting Server 1 at position 1.",
-            "<anonymized> uses Strike Fund to gain 2 [Credits].",
-            "<anonymized> trashes 1 card (Strike Fund) from the grip to increase the strength of Audrey v2 to 3.",
-            "<anonymized> spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break all 1 subroutines on Tatu-Bola.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Tatu-Bola protecting Server 1 at position 1.",
-            "<anonymized> uses Tatu-Bola to swap Tatu-Bola protecting Server 1 at position 1 with a piece of ice from HQ and gain 4 [Credits].",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches ice protecting Server 1 at position 0.",
-            "<anonymized> pays 6 [Credits] to rez Boto protecting Server 1 at position 0.",
-            "<anonymized> encounters Boto protecting Server 1 at position 0.",
-            "<anonymized> removes Devil Charm from the game to use Devil Charm to give -6 strength to Boto protecting Server 1 at position 0 for the remainder of the run.",
-            "<anonymized> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Boto protecting Server 1 at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> approaches Server 1.",
-            "<anonymized> breaches Server 1.",
-            "<anonymized> accesses Mitra Aman from Server 1.",
-            "<anonymized> pays 3 [Credits] to trash Mitra Aman from Server 1.",
-            "<anonymized> uses Audrey v2 to place 1 virus counter on itself.",
-            "<anonymized> accesses See How They Run from Server 1.",
-            "<anonymized> steals See How They Run and gains 2 agenda points."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to install Devil Charm.",
+            "<anonymized-runner> spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 1.",
+            "<anonymized-runner> approaches ice protecting Server 1 at position 1.",
+            "<anonymized-corp> pays 2 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Tatu-Bola protecting Server 1 at position 1.",
+            "<anonymized-runner> uses Strike Fund to gain 2 [Credits].",
+            "<anonymized-runner> trashes 1 card (Strike Fund) from the grip to increase the strength of Audrey v2 to 3.",
+            "<anonymized-runner> spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break all 1 subroutines on Tatu-Bola.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Tatu-Bola protecting Server 1 at position 1.",
+            "<anonymized-corp> uses Tatu-Bola to swap Tatu-Bola protecting Server 1 at position 1 with a piece of ice from HQ and gain 4 [Credits].",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches ice protecting Server 1 at position 0.",
+            "<anonymized-corp> pays 6 [Credits] to rez Boto protecting Server 1 at position 0.",
+            "<anonymized-runner> encounters Boto protecting Server 1 at position 0.",
+            "<anonymized-runner> removes Devil Charm from the game to use Devil Charm to give -6 strength to Boto protecting Server 1 at position 0 for the remainder of the run.",
+            "<anonymized-runner> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Boto protecting Server 1 at position 0.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> approaches Server 1.",
+            "<anonymized-runner> breaches Server 1.",
+            "<anonymized-runner> accesses Mitra Aman from Server 1.",
+            "<anonymized-runner> pays 3 [Credits] to trash Mitra Aman from Server 1.",
+            "<anonymized-runner> uses Audrey v2 to place 1 virus counter on itself.",
+            "<anonymized-runner> accesses See How They Run from Server 1.",
+            "<anonymized-runner> steals See How They Run and gains 2 agenda points."
           ],
           "action": {
             "type": "install",
@@ -1170,18 +1120,17 @@
           },
           "effects": {
             "credits_paid": 1,
-            "credits_gained": 4,
             "triggered_gains": {
               "Strike Fund": 2
             }
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "<anonymized> is ending his turn 6 with 2 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized-runner> is ending his turn 6 with 2 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1201,8 +1150,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 7 with 16 [Credit] and 4 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 7 with 16 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1211,7 +1160,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -1226,7 +1175,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 1."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -1239,8 +1188,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "<anonymized> is ending his turn 7 with 14 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized-corp> is ending his turn 7 with 14 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1256,7 +1205,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1268,13 +1217,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 7 with 2 [Credit] and 3 cards in his Grip."
+            "<anonymized-runner> started his turn 7 with 2 [Credit] and 3 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1288,7 +1237,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1302,14 +1251,14 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Privileged Access.",
-            "<anonymized> uses Privileged Access to make a run on Archives.",
-            "<anonymized> approaches Archives.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "<anonymized> uses the replacement effect from Privileged Access.",
-            "<anonymized> uses Privileged Access to take 1 tag.",
-            "<anonymized> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Lago Paranoá Shelter from the Grip (paying 2 [Credits] less).",
-            "<anonymized> pays 1 [Credits] to use Privileged Access to install Friend of a Friend from the Heap (paying 2 [Credits] less)."
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Privileged Access.",
+            "<anonymized-runner> uses Privileged Access to make a run on Archives.",
+            "<anonymized-runner> approaches Archives.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized-runner> uses the replacement effect from Privileged Access.",
+            "<anonymized-runner> uses Privileged Access to take 1 tag.",
+            "<anonymized-runner> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Lago Paranoá Shelter from the Grip (paying 2 [Credits] less).",
+            "<anonymized-runner> pays 1 [Credits] to use Privileged Access to install Friend of a Friend from the Heap (paying 2 [Credits] less)."
           ],
           "action": {
             "type": "play",
@@ -1321,8 +1270,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
-            "<anonymized> is ending his turn 7 with 6 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
+            "<anonymized-runner> is ending his turn 7 with 6 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "ability",
@@ -1338,7 +1287,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> pays 0 [Credits] to rez Charlotte Caçador in Server 1."
+            "<anonymized-corp> pays 0 [Credits] to rez Charlotte Caçador in Server 1."
           ]
         }
       ]
@@ -1350,9 +1299,9 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 8 with 14 [Credit] and 3 cards in HQ.",
-            "<anonymized> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 8 with 14 [Credit] and 3 cards in HQ.",
+            "<anonymized-corp> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -1364,7 +1313,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1378,7 +1327,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting R&D."
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting R&D."
           ],
           "action": {
             "type": "install_ice",
@@ -1390,10 +1339,10 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 1.",
-            "<anonymized> uses Lago Paranoá Shelter to trash Devil Charm from the stack and draw 1 card.",
-            "<anonymized> uses Buffer Drive to add Devil Charm to the bottom of the stack.",
-            "<anonymized> is ending his turn 8 with 18 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 1.",
+            "<anonymized-runner> uses Lago Paranoá Shelter to trash Devil Charm from the stack and draw 1 card.",
+            "<anonymized-runner> uses Buffer Drive to add Devil Charm to the bottom of the stack.",
+            "<anonymized-corp> is ending his turn 8 with 18 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1401,15 +1350,12 @@
             "location": "Server 1",
             "cost": 0
           },
-          "effects": {
-            "cards_drawn": 1
-          },
           "bucket": "tempo"
         },
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1421,14 +1367,14 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 8 with 6 [Credit] and 4 cards in his Grip."
+            "<anonymized-runner> started his turn 8 with 6 [Credit] and 4 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized-runner> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized-runner> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1444,7 +1390,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to install Arruaceiras Crew."
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to install Arruaceiras Crew."
           ],
           "action": {
             "type": "install",
@@ -1459,39 +1405,36 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches ice protecting R&D at position 0.",
-            "<anonymized> pays 7 [Credits] to rez Empiricist protecting R&D at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Empiricist protecting R&D at position 0.",
-            "<anonymized> uses Buffer Drive to add Ashen Epilogue to the bottom of the stack.",
-            "<anonymized> trashes 2 cards (Ashen Epilogue and Manuel Lattes de Moura) from the grip to increase the strength of Audrey v2 to 6.",
-            "<anonymized> spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 2 subroutines on Empiricist (\"[subroutine] Do 1 net damage and give the Runner 1 tag\" and \"[subroutine] Do 2 net damage\").",
-            "<anonymized> indicates to fire all unbroken subroutines on Empiricist.",
-            "<anonymized> has no further action.",
-            "<anonymized> uses Empiricist to draw 1 card.",
-            "<anonymized> uses Empiricist to add 1 card in HQ to the top of R&D.",
-            "<anonymized> resolves 1 unbroken subroutine on Empiricist (\"[subroutine] Draw 1 card. You may add 1 card from HQ to the top of R&D.\").",
-            "<anonymized> passes Empiricist protecting R&D at position 0.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> accesses an unseen card from R&D."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches ice protecting R&D at position 0.",
+            "<anonymized-corp> pays 7 [Credits] to rez Empiricist protecting R&D at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Empiricist protecting R&D at position 0.",
+            "<anonymized-runner> uses Buffer Drive to add Ashen Epilogue to the bottom of the stack.",
+            "<anonymized-runner> trashes 2 cards (Ashen Epilogue and Manuel Lattes de Moura) from the grip to increase the strength of Audrey v2 to 6.",
+            "<anonymized-runner> spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 2 subroutines on Empiricist (\"[subroutine] Do 1 net damage and give the Runner 1 tag\" and \"[subroutine] Do 2 net damage\").",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on Empiricist.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> uses Empiricist to draw 1 card.",
+            "<anonymized-corp> uses Empiricist to add 1 card in HQ to the top of R&D.",
+            "<anonymized-corp> resolves 1 unbroken subroutine on Empiricist (\"[subroutine] Draw 1 card. You may add 1 card from HQ to the top of R&D.\").",
+            "<anonymized-runner> passes Empiricist protecting R&D at position 0.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D."
           ],
           "action": {
             "type": "run",
             "server": "R&D"
-          },
-          "effects": {
-            "cards_drawn": 1
           },
           "bucket": "run"
         },
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "<anonymized> is ending his turn 8 with 8 [Credit] and 1 card in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized-runner> is ending his turn 8 with 8 [Credit] and 1 card in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -1505,7 +1448,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> pays 3 [Credits] to rez La Costa Grid in Server 1."
+            "<anonymized-corp> pays 3 [Credits] to rez La Costa Grid in Server 1."
           ]
         }
       ]
@@ -1517,10 +1460,10 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 9 with 8 [Credit] and 4 cards in HQ.",
-            "<anonymized> uses La Costa Grid to place 1 advancement counter on Charlotte Caçador in Server 1.",
-            "<anonymized> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 9 with 8 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> uses La Costa Grid to place 1 advancement counter on Charlotte Caçador in Server 1.",
+            "<anonymized-corp> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -1532,8 +1475,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized-corp> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1549,7 +1492,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting HQ."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -1564,8 +1507,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
-            "<anonymized> is ending his turn 9 with 14 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
+            "<anonymized-corp> is ending his turn 9 with 14 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1581,7 +1524,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1593,13 +1536,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 9 with 8 [Credit] and 1 card in his Grip."
+            "<anonymized-runner> started his turn 9 with 8 [Credit] and 1 card in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1613,7 +1556,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1627,7 +1570,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1641,8 +1584,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "<anonymized> is ending his turn 9 with 8 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized-runner> is ending his turn 9 with 8 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -1656,13 +1599,8 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ],
-          "effects": {
-            "triggered_gains": {
-              "Méliès U: Only the Brightest": 1
-            }
-          }
+            "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
         }
       ]
     },
@@ -1673,11 +1611,11 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 10 with 15 [Credit] and 4 cards in HQ.",
-            "<anonymized> uses La Costa Grid to place 1 advancement counter on Charlotte Caçador in Server 1.",
-            "<anonymized> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
-            "<anonymized> makes his mandatory start of turn draw.",
-            "<anonymized> spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits]."
+            "<anonymized-corp> started his turn 10 with 15 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> uses La Costa Grid to place 1 advancement counter on Charlotte Caçador in Server 1.",
+            "<anonymized-corp> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "<anonymized-corp> makes his mandatory start of turn draw.",
+            "<anonymized-corp> spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1690,9 +1628,9 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 1.",
-            "<anonymized> uses Lago Paranoá Shelter to trash Privileged Access from the stack and draw 1 card.",
-            "<anonymized> uses Buffer Drive to add Privileged Access to the bottom of the stack."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 1.",
+            "<anonymized-runner> uses Lago Paranoá Shelter to trash Privileged Access from the stack and draw 1 card.",
+            "<anonymized-runner> uses Buffer Drive to add Privileged Access to the bottom of the stack."
           ],
           "action": {
             "type": "install",
@@ -1700,15 +1638,12 @@
             "location": "Server 1",
             "cost": 0
           },
-          "effects": {
-            "cards_drawn": 1
-          },
           "bucket": "tempo"
         },
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting R&D."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to install ice protecting R&D."
           ],
           "action": {
             "type": "install_ice",
@@ -1723,8 +1658,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "<anonymized> is ending his turn 10 with 22 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized-corp> is ending his turn 10 with 22 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1738,7 +1673,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1750,13 +1685,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 10 with 8 [Credit] and 6 cards in his Grip."
+            "<anonymized-runner> started his turn 10 with 8 [Credit] and 6 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1770,10 +1705,10 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play The Price.",
-            "<anonymized> uses Buffer Drive to add Transfer of Wealth to the bottom of the stack.",
-            "<anonymized> uses The Price to trash Rising Tide, Solidarity Badge, Transfer of Wealth, and Arruaceiras Crew from the top of the stack.",
-            "<anonymized> pays 0 [Credits] to use The Price to install Arruaceiras Crew from the Heap (paying 3 [Credits] less)."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to play The Price.",
+            "<anonymized-runner> uses Buffer Drive to add Transfer of Wealth to the bottom of the stack.",
+            "<anonymized-runner> uses The Price to trash Rising Tide, Solidarity Badge, Transfer of Wealth, and Arruaceiras Crew from the top of the stack.",
+            "<anonymized-runner> pays 0 [Credits] to use The Price to install Arruaceiras Crew from the Heap (paying 3 [Credits] less)."
           ],
           "action": {
             "type": "play",
@@ -1788,7 +1723,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install Rising Tide."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to install Rising Tide."
           ],
           "action": {
             "type": "install",
@@ -1803,8 +1738,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install Gourmand.",
-            "<anonymized> is ending his turn 10 with 6 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to install Gourmand.",
+            "<anonymized-runner> is ending his turn 10 with 6 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1816,13 +1751,8 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ],
-          "effects": {
-            "triggered_gains": {
-              "Méliès U: Only the Brightest": 1
-            }
-          }
+            "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
         }
       ]
     },
@@ -1833,9 +1763,9 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 11 with 23 [Credit] and 4 cards in HQ.",
-            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 11 with 23 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1844,7 +1774,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -1860,7 +1790,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -1876,10 +1806,10 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "<anonymized> scores Let Them Dream and gains 2 agenda points.",
-            "<anonymized> uses Let Them Dream to reveal Send a Message from HQ and add it to the bottom of R&D.",
-            "<anonymized> is ending his turn 11 with 20 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized-corp> scores Let Them Dream and gains 2 agenda points.",
+            "<anonymized-corp> uses Let Them Dream to reveal Send a Message from HQ and add it to the bottom of R&D.",
+            "<anonymized-corp> is ending his turn 11 with 20 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1895,7 +1825,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1907,13 +1837,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 11 with 6 [Credit] and 4 cards in his Grip."
+            "<anonymized-runner> started his turn 11 with 6 [Credit] and 4 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1927,7 +1857,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1941,7 +1871,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install Solidarity Badge."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to install Solidarity Badge."
           ],
           "action": {
             "type": "install",
@@ -1956,8 +1886,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "<anonymized> is ending his turn 11 with 6 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized-runner> is ending his turn 11 with 6 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1971,13 +1901,8 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ],
-          "effects": {
-            "triggered_gains": {
-              "Méliès U: Only the Brightest": 1
-            }
-          }
+            "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
         }
       ]
     },
@@ -1988,9 +1913,9 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 12 with 21 [Credit] and 4 cards in HQ.",
-            "<anonymized> uses La Costa Grid to place 1 advancement counter on La Costa Grid in Server 1.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 12 with 21 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> uses La Costa Grid to place 1 advancement counter on La Costa Grid in Server 1.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1999,7 +1924,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2013,9 +1938,9 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 1.",
-            "<anonymized> uses Lago Paranoá Shelter to trash Sure Gamble from the stack and draw 1 card.",
-            "<anonymized> uses Buffer Drive to add Sure Gamble to the bottom of the stack."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 1.",
+            "<anonymized-runner> uses Lago Paranoá Shelter to trash Sure Gamble from the stack and draw 1 card.",
+            "<anonymized-runner> uses Buffer Drive to add Sure Gamble to the bottom of the stack."
           ],
           "action": {
             "type": "install",
@@ -2023,16 +1948,13 @@
             "location": "Server 1",
             "cost": 0
           },
-          "effects": {
-            "cards_drawn": 1
-          },
           "bucket": "tempo"
         },
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "<anonymized> is ending his turn 12 with 20 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized-corp> is ending his turn 12 with 20 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -2048,7 +1970,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2060,10 +1982,10 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 12 with 6 [Credit] and 6 cards in his Grip.",
-            "<anonymized> uses Steelskin Scarring to draw 2 cards.",
-            "<anonymized> uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
-            "<anonymized> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
+            "<anonymized-runner> started his turn 12 with 6 [Credit] and 6 cards in his Grip.",
+            "<anonymized-runner> uses Steelskin Scarring to draw 2 cards.",
+            "<anonymized-runner> uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
+            "<anonymized-runner> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
           ],
           "effects": {
             "cards_drawn": 2
@@ -2072,32 +1994,32 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install Devil Charm.",
-            "<anonymized> spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 1.",
-            "<anonymized> has no further action.",
-            "<anonymized> approaches ice protecting Server 1 at position 1.",
-            "<anonymized> pays 2 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Tatu-Bola protecting Server 1 at position 1.",
-            "<anonymized> pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
-            "<anonymized> takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting Server 1 at position 1 -2 strength for the remainder of the encounter.",
-            "<anonymized> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting Server 1 at position 1.",
-            "<anonymized> uses Solidarity Badge to place 1 power counter on itself.",
-            "<anonymized> approaches ice protecting Server 1 at position 0.",
-            "<anonymized> pays 8 [Credits] to rez Mycoweb protecting Server 1 at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Mycoweb protecting Server 1 at position 0.",
-            "<anonymized> removes Devil Charm from the game to use Devil Charm to give -6 strength to Mycoweb protecting Server 1 at position 0 for the remainder of the run.",
-            "<anonymized> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Mycoweb protecting Server 1 at position 0.",
-            "<anonymized> pays 0 [Credits] to rez Charlotte Caçador in Server 1.",
-            "<anonymized> has no further action.",
-            "<anonymized> spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits].",
-            "<anonymized> approaches Server 1.",
-            "<anonymized> breaches Server 1.",
-            "<anonymized> accesses La Costa Grid from Server 1.",
-            "<anonymized> trashes Gourmand to use Gourmand to trash La Costa Grid.",
-            "<anonymized> uses Audrey v2 to place 1 virus counter on itself.",
-            "<anonymized> uses Gourmand to draw 1 card."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to install Devil Charm.",
+            "<anonymized-runner> spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 1.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> approaches ice protecting Server 1 at position 1.",
+            "<anonymized-corp> pays 2 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Tatu-Bola protecting Server 1 at position 1.",
+            "<anonymized-runner> pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
+            "<anonymized-runner> takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting Server 1 at position 1 -2 strength for the remainder of the encounter.",
+            "<anonymized-runner> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting Server 1 at position 1.",
+            "<anonymized-runner> uses Solidarity Badge to place 1 power counter on itself.",
+            "<anonymized-runner> approaches ice protecting Server 1 at position 0.",
+            "<anonymized-corp> pays 8 [Credits] to rez Mycoweb protecting Server 1 at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Mycoweb protecting Server 1 at position 0.",
+            "<anonymized-runner> removes Devil Charm from the game to use Devil Charm to give -6 strength to Mycoweb protecting Server 1 at position 0 for the remainder of the run.",
+            "<anonymized-runner> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Mycoweb protecting Server 1 at position 0.",
+            "<anonymized-corp> pays 0 [Credits] to rez Charlotte Caçador in Server 1.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits].",
+            "<anonymized-runner> approaches Server 1.",
+            "<anonymized-runner> breaches Server 1.",
+            "<anonymized-runner> accesses La Costa Grid from Server 1.",
+            "<anonymized-runner> trashes Gourmand to use Gourmand to trash La Costa Grid.",
+            "<anonymized-runner> uses Audrey v2 to place 1 virus counter on itself.",
+            "<anonymized-runner> uses Gourmand to draw 1 card."
           ],
           "action": {
             "type": "install",
@@ -2106,17 +2028,14 @@
           },
           "effects": {
             "credits_paid": 1,
-            "triggered_gains": {
-              "Charlotte Caçador": 3
-            },
             "cards_drawn": 1
           },
-          "bucket": "economy"
+          "bucket": "setup"
         },
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag."
+            "<anonymized-runner> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag."
           ],
           "action": {
             "type": "ability",
@@ -2132,7 +2051,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2146,9 +2065,9 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "<anonymized> discards Amanuensis from his Grip at end of turn.",
-            "<anonymized> is ending his turn 12 with 7 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized-runner> discards Amanuensis from his Grip at end of turn.",
+            "<anonymized-runner> is ending his turn 12 with 7 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2162,13 +2081,8 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ],
-          "effects": {
-            "triggered_gains": {
-              "Méliès U: Only the Brightest": 1
-            }
-          }
+            "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
         }
       ]
     },
@@ -2179,8 +2093,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 13 with 14 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 13 with 14 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2189,7 +2103,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 2 (new remote)."
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting Server 2 (new remote)."
           ],
           "action": {
             "type": "install_ice",
@@ -2201,10 +2115,10 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 2.",
-            "<anonymized> uses Lago Paranoá Shelter to trash Strike Fund from the stack and draw 1 card.",
-            "<anonymized> uses Strike Fund to gain 2 [Credits].",
-            "<anonymized> uses Buffer Drive to add Strike Fund to the bottom of the stack."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 2.",
+            "<anonymized-runner> uses Lago Paranoá Shelter to trash Strike Fund from the stack and draw 1 card.",
+            "<anonymized-runner> uses Strike Fund to gain 2 [Credits].",
+            "<anonymized-runner> uses Buffer Drive to add Strike Fund to the bottom of the stack."
           ],
           "action": {
             "type": "install",
@@ -2212,19 +2126,13 @@
             "location": "Server 2",
             "cost": 0
           },
-          "effects": {
-            "triggered_gains": {
-              "Strike Fund": 2
-            },
-            "cards_drawn": 1
-          },
-          "bucket": "impactful"
+          "bucket": "tempo"
         },
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "<anonymized> is ending his turn 13 with 15 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized-corp> is ending his turn 13 with 15 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2238,7 +2146,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2250,27 +2158,27 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 13 with 9 [Credit] and 6 cards in his Grip.",
-            "<anonymized> uses Solidarity Badge to draw 1 card.",
-            "<anonymized> spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 2.",
-            "<anonymized> approaches ice protecting Server 2 at position 0.",
-            "<anonymized> pays 6 [Credits] to rez Boto protecting Server 2 at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Boto protecting Server 2 at position 0.",
-            "<anonymized> uses Steelskin Scarring to draw 2 cards.",
-            "<anonymized> uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
-            "<anonymized> trashes 2 cards (Steelskin Scarring and Lago Paranoá Shelter) from the grip to increase the strength of Audrey v2 to 6.",
-            "<anonymized> spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 2 subroutines on Boto (\"[subroutine] Trash 1 card from HQ to end the run\" and \"[subroutine] Trash 1 card from HQ to end the run\").",
-            "<anonymized> indicates to fire all unbroken subroutines on Boto.",
-            "<anonymized> has no further action.",
-            "<anonymized> uses Boto to do 2 net damage.",
-            "<anonymized> trashes Lago Paranoá Shelter and Transfer of Wealth due to net damage.",
-            "<anonymized> resolves 1 unbroken subroutine on Boto (\"[subroutine] Do 2 net damage\").",
-            "<anonymized> passes Boto protecting Server 2 at position 0.",
-            "<anonymized> approaches Server 2.",
-            "<anonymized> breaches Server 2.",
-            "<anonymized> accesses Let Them Dream from Server 2.",
-            "<anonymized> steals Let Them Dream and gains 1 agenda point."
+            "<anonymized-runner> started his turn 13 with 9 [Credit] and 6 cards in his Grip.",
+            "<anonymized-runner> uses Solidarity Badge to draw 1 card.",
+            "<anonymized-runner> spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 2.",
+            "<anonymized-runner> approaches ice protecting Server 2 at position 0.",
+            "<anonymized-corp> pays 6 [Credits] to rez Boto protecting Server 2 at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Boto protecting Server 2 at position 0.",
+            "<anonymized-runner> uses Steelskin Scarring to draw 2 cards.",
+            "<anonymized-runner> uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
+            "<anonymized-runner> trashes 2 cards (Steelskin Scarring and Lago Paranoá Shelter) from the grip to increase the strength of Audrey v2 to 6.",
+            "<anonymized-runner> spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 2 subroutines on Boto (\"[subroutine] Trash 1 card from HQ to end the run\" and \"[subroutine] Trash 1 card from HQ to end the run\").",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on Boto.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> uses Boto to do 2 net damage.",
+            "<anonymized-corp> trashes Lago Paranoá Shelter and Transfer of Wealth due to net damage.",
+            "<anonymized-corp> resolves 1 unbroken subroutine on Boto (\"[subroutine] Do 2 net damage\").",
+            "<anonymized-runner> passes Boto protecting Server 2 at position 0.",
+            "<anonymized-runner> approaches Server 2.",
+            "<anonymized-runner> breaches Server 2.",
+            "<anonymized-runner> accesses Let Them Dream from Server 2.",
+            "<anonymized-runner> steals Let Them Dream and gains 1 agenda point."
           ],
           "effects": {
             "cards_drawn": 3
@@ -2279,7 +2187,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2293,18 +2201,18 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Privileged Access.",
-            "<anonymized> uses Privileged Access to make a run on Archives.",
-            "<anonymized> approaches Archives.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "<anonymized> uses the replacement effect from Privileged Access.",
-            "<anonymized> uses Privileged Access to take 1 tag.",
-            "<anonymized> pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less).",
-            "<anonymized> pays 2 [Credits] to use Privileged Access to install Botulus from the Heap on ice protecting HQ at position 0.",
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Privileged Access.",
+            "<anonymized-runner> uses Privileged Access to make a run on Archives.",
+            "<anonymized-runner> approaches Archives.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized-runner> uses the replacement effect from Privileged Access.",
+            "<anonymized-runner> uses Privileged Access to take 1 tag.",
+            "<anonymized-runner> pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less).",
+            "<anonymized-runner> pays 2 [Credits] to use Privileged Access to install Botulus from the Heap on ice protecting HQ at position 0.",
             "[!] Botulus - [Erratum] Program: Virus - Trojan",
-            "<anonymized> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Valentina Ferreira Carvalho from the Grip (paying 2 [Credits] less).",
-            "<anonymized> uses Valentina Ferreira Carvalho to gain 1 [Credits].",
-            "<anonymized> uses Valentina Ferreira Carvalho to remove 1 tag."
+            "<anonymized-runner> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Valentina Ferreira Carvalho from the Grip (paying 2 [Credits] less).",
+            "<anonymized-runner> uses Valentina Ferreira Carvalho to gain 1 [Credits].",
+            "<anonymized-runner> uses Valentina Ferreira Carvalho to remove 1 tag."
           ],
           "action": {
             "type": "play",
@@ -2321,7 +2229,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2335,8 +2243,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install Devil Charm.",
-            "<anonymized> is ending his turn 13 with 7 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to install Devil Charm.",
+            "<anonymized-runner> is ending his turn 13 with 7 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -2346,7 +2254,7 @@
           "effects": {
             "credits_paid": 1
           },
-          "bucket": "economy"
+          "bucket": "setup"
         }
       ]
     },
@@ -2357,8 +2265,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 14 with 9 [Credit] and 4 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 14 with 9 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2367,9 +2275,9 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 2.",
-            "<anonymized> uses Lago Paranoá Shelter to trash Sure Gamble from the stack and draw 1 card.",
-            "<anonymized> uses Buffer Drive to add Sure Gamble to the bottom of the stack."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 2.",
+            "<anonymized-runner> uses Lago Paranoá Shelter to trash Sure Gamble from the stack and draw 1 card.",
+            "<anonymized-runner> uses Buffer Drive to add Sure Gamble to the bottom of the stack."
           ],
           "action": {
             "type": "install",
@@ -2377,15 +2285,12 @@
             "location": "Server 2",
             "cost": 0
           },
-          "effects": {
-            "cards_drawn": 1
-          },
           "bucket": "tempo"
         },
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2399,8 +2304,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "<anonymized> is ending his turn 14 with 11 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized-corp> is ending his turn 14 with 11 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2414,13 +2319,10 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server.",
-            "<anonymized> uses Steelskin Scarring to draw 2 cards.",
-            "<anonymized> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
-          ],
-          "effects": {
-            "cards_drawn": 2
-          }
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server.",
+            "<anonymized-runner> uses Steelskin Scarring to draw 2 cards.",
+            "<anonymized-runner> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
+          ]
         }
       ]
     },
@@ -2431,12 +2333,12 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 14 with 7 [Credit] and 6 cards in his Grip.",
-            "<anonymized> uses Strike Fund to gain 2 [Credits].",
-            "<anonymized> uses Buffer Drive to add Strike Fund to the bottom of the stack.",
-            "<anonymized> trashes 1 card (Strike Fund) from the grip to use Audrey v2 to increase its strength from 3 to 6.",
-            "<anonymized> uses Steelskin Scarring to draw 2 cards.",
-            "<anonymized> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 6 to 9."
+            "<anonymized-runner> started his turn 14 with 7 [Credit] and 6 cards in his Grip.",
+            "<anonymized-runner> uses Strike Fund to gain 2 [Credits].",
+            "<anonymized-runner> uses Buffer Drive to add Strike Fund to the bottom of the stack.",
+            "<anonymized-runner> trashes 1 card (Strike Fund) from the grip to use Audrey v2 to increase its strength from 3 to 6.",
+            "<anonymized-runner> uses Steelskin Scarring to draw 2 cards.",
+            "<anonymized-runner> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 6 to 9."
           ],
           "effects": {
             "triggered_gains": {
@@ -2448,8 +2350,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized-runner> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized-runner> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2465,8 +2367,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play Strike Fund.",
-            "<anonymized> uses Strike Fund to gain 4 [Credits]."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to play Strike Fund.",
+            "<anonymized-runner> uses Strike Fund to gain 4 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2482,7 +2384,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to install Amanuensis."
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to install Amanuensis."
           ],
           "action": {
             "type": "install",
@@ -2497,11 +2399,11 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Ashen Epilogue.",
-            "<anonymized> uses Ashen Epilogue to shuffle the grip and heap into the stack.",
-            "<anonymized> removes Steelskin Scarring, Rising Tide, Transfer of Wealth, Strike Fund, and Amanuensis from the game and draws 5 cards.",
-            "<anonymized> removes Ashen Epilogue from the game instead of trashing it.",
-            "<anonymized> is ending his turn 14 with 9 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 5 [Credits] to play Ashen Epilogue.",
+            "<anonymized-runner> uses Ashen Epilogue to shuffle the grip and heap into the stack.",
+            "<anonymized-runner> removes Steelskin Scarring, Rising Tide, Transfer of Wealth, Strike Fund, and Amanuensis from the game and draws 5 cards.",
+            "<anonymized-runner> removes Ashen Epilogue from the game instead of trashing it.",
+            "<anonymized-runner> is ending his turn 14 with 9 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -2517,13 +2419,8 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ],
-          "effects": {
-            "triggered_gains": {
-              "Méliès U: Only the Brightest": 1
-            }
-          }
+            "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
         }
       ]
     },
@@ -2534,8 +2431,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 15 with 12 [Credit] and 4 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 15 with 12 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2544,7 +2441,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2558,7 +2455,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2572,9 +2469,9 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Archives.",
-            "<anonymized> discards 1 card from HQ at end of turn.",
-            "<anonymized> is ending his turn 15 with 12 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting Archives.",
+            "<anonymized-corp> discards 1 card from HQ at end of turn.",
+            "<anonymized-corp> is ending his turn 15 with 12 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -2586,8 +2483,8 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server.",
-            "<anonymized>"
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server.",
+            "maybe its worth to split 1 transfer for 1x boomerang 2x pinhole"
           ]
         }
       ]
@@ -2599,14 +2496,14 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 15 with 9 [Credit] and 5 cards in his Grip.",
-            "<anonymized>"
+            "<anonymized-runner> started his turn 15 with 9 [Credit] and 5 cards in his Grip.",
+            "yeah, baa is on 2x boomerang"
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2620,7 +2517,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install Gourmand."
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to install Gourmand."
           ],
           "action": {
             "type": "install",
@@ -2632,30 +2529,30 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
-            "<anonymized> approaches ice protecting HQ at position 1.",
-            "<anonymized> pays 10 [Credits] to rez Cloud Eater protecting HQ at position 1.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Cloud Eater protecting HQ at position 1.",
-            "<anonymized> removes Devil Charm from the game to use Devil Charm to give -6 strength to Cloud Eater protecting HQ at position 1 for the remainder of the run.",
-            "<anonymized> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Arruaceiras Crew from the Grip (paying 2 [Credits] less).",
-            "<anonymized> takes 1 tag to use Arruaceiras Crew to give Cloud Eater protecting HQ at position 1 -2 strength for the remainder of the encounter.",
-            "<anonymized> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Cloud Eater protecting HQ at position 1.",
-            "<anonymized> uses Solidarity Badge to place 1 power counter on itself.",
-            "<anonymized> has no further action.",
-            "<anonymized> approaches ice protecting HQ at position 0.",
-            "<anonymized> pays 2 [Credits] to rez Tatu-Bola protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Tatu-Bola protecting HQ at position 0.",
-            "<anonymized> takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting HQ at position 0 -2 strength for the remainder of the encounter.",
-            "<anonymized> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> pays 0 [Credits] to rez Spin Doctor in Server 2.",
-            "<anonymized> uses Spin Doctor to draw 2 cards.",
-            "<anonymized> jacks out.",
-            "<anonymized> spends [Click] and trashes Hannah \"Wheels\" Pilintra to use Hannah \"Wheels\" Pilintra to gain [Click][Click] and remove 1 tag.",
-            "<anonymized> uses Valentina Ferreira Carvalho to gain 1 [Credits]."
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized-runner> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized-runner> approaches ice protecting HQ at position 1.",
+            "<anonymized-corp> pays 10 [Credits] to rez Cloud Eater protecting HQ at position 1.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Cloud Eater protecting HQ at position 1.",
+            "<anonymized-runner> removes Devil Charm from the game to use Devil Charm to give -6 strength to Cloud Eater protecting HQ at position 1 for the remainder of the run.",
+            "<anonymized-runner> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Arruaceiras Crew from the Grip (paying 2 [Credits] less).",
+            "<anonymized-runner> takes 1 tag to use Arruaceiras Crew to give Cloud Eater protecting HQ at position 1 -2 strength for the remainder of the encounter.",
+            "<anonymized-runner> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Cloud Eater protecting HQ at position 1.",
+            "<anonymized-runner> uses Solidarity Badge to place 1 power counter on itself.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> approaches ice protecting HQ at position 0.",
+            "<anonymized-corp> pays 2 [Credits] to rez Tatu-Bola protecting HQ at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Tatu-Bola protecting HQ at position 0.",
+            "<anonymized-runner> takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting HQ at position 0 -2 strength for the remainder of the encounter.",
+            "<anonymized-runner> pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting HQ at position 0.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> pays 0 [Credits] to rez Spin Doctor in Server 2.",
+            "<anonymized-corp> uses Spin Doctor to draw 2 cards.",
+            "<anonymized-runner> jacks out.",
+            "<anonymized-runner> spends [Click] and trashes Hannah \"Wheels\" Pilintra to use Hannah \"Wheels\" Pilintra to gain [Click][Click] and remove 1 tag.",
+            "<anonymized-runner> uses Valentina Ferreira Carvalho to gain 1 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2665,23 +2562,22 @@
           "effects": {
             "triggered_gains": {
               "Valentina Ferreira Carvalho": 1
-            },
-            "cards_drawn": 2
+            }
           },
           "bucket": "run"
         },
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to make a run on HQ.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "<anonymized> uses Méliès U: Only the Brightest to add Mitra Aman in Archives to HQ.",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Spin Doctor from HQ.",
-            "<anonymized> pays 2 [Credits] to trash Spin Doctor from HQ.",
-            "<anonymized> uses Audrey v2 to place 1 virus counter on itself."
+            "<anonymized-runner> spends [Click] to make a run on HQ.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized-corp> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to add Mitra Aman in Archives to HQ.",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Spin Doctor from HQ.",
+            "<anonymized-runner> pays 2 [Credits] to trash Spin Doctor from HQ.",
+            "<anonymized-runner> uses Audrey v2 to place 1 virus counter on itself."
           ],
           "action": {
             "type": "run",
@@ -2692,12 +2588,12 @@
         {
           "click": 5,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "<anonymized> uses Valentina Ferreira Carvalho to gain 1 [Credits].",
-            "<anonymized> uses Strike Fund to gain 2 [Credits].",
-            "<anonymized> uses Buffer Drive to add Strike Fund to the bottom of the stack.",
-            "<anonymized> trashes 1 card (Strike Fund) from the grip to use Audrey v2 to increase its strength from 0 to 3.",
-            "<anonymized> is ending his turn 15 with 5 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized-runner> uses Valentina Ferreira Carvalho to gain 1 [Credits].",
+            "<anonymized-runner> uses Strike Fund to gain 2 [Credits].",
+            "<anonymized-runner> uses Buffer Drive to add Strike Fund to the bottom of the stack.",
+            "<anonymized-runner> trashes 1 card (Strike Fund) from the grip to use Audrey v2 to increase its strength from 0 to 3.",
+            "<anonymized-runner> is ending his turn 15 with 5 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -2722,8 +2618,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 16 with 0 [Credit] and 7 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw."
+            "<anonymized-corp> started his turn 16 with 0 [Credit] and 7 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2732,7 +2628,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ."
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -2744,9 +2640,9 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of HQ.",
-            "<anonymized> uses Lago Paranoá Shelter to trash Privileged Access from the stack and draw 1 card.",
-            "<anonymized> uses Buffer Drive to add Privileged Access to the bottom of the stack."
+            "<anonymized-corp> spends [Click] to install a card in the root of HQ.",
+            "<anonymized-runner> uses Lago Paranoá Shelter to trash Privileged Access from the stack and draw 1 card.",
+            "<anonymized-runner> uses Buffer Drive to add Privileged Access to the bottom of the stack."
           ],
           "action": {
             "type": "install",
@@ -2754,17 +2650,14 @@
             "location": "HQ",
             "cost": 0
           },
-          "effects": {
-            "cards_drawn": 1
-          },
           "bucket": "tempo"
         },
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "<anonymized> discards 1 card from HQ at end of turn.",
-            "<anonymized> is ending his turn 16 with 1 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized-corp> discards 1 card from HQ at end of turn.",
+            "<anonymized-corp> is ending his turn 16 with 1 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2778,7 +2671,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2790,13 +2683,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 16 with 5 [Credit] and 3 cards in his Grip.",
-            "<anonymized> uses Solidarity Badge to draw 1 card.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized> uses Steelskin Scarring to draw 2 cards.",
-            "<anonymized> uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
-            "<anonymized> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
+            "<anonymized-runner> started his turn 16 with 5 [Credit] and 3 cards in his Grip.",
+            "<anonymized-runner> uses Solidarity Badge to draw 1 card.",
+            "thinking",
+            "so its mitra into another tatubola",
+            "<anonymized-runner> uses Steelskin Scarring to draw 2 cards.",
+            "<anonymized-runner> uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
+            "<anonymized-runner> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
           ],
           "effects": {
             "cards_drawn": 3
@@ -2805,20 +2698,20 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Privileged Access.",
-            "<anonymized> uses Privileged Access to make a run on Archives.",
-            "<anonymized> approaches ice protecting Archives at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes ice protecting Archives at position 0.",
-            "<anonymized> approaches Archives.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "<anonymized> uses Méliès U: Only the Brightest to add Mitra Aman in Archives to HQ.",
-            "<anonymized> uses the replacement effect from Privileged Access.",
-            "<anonymized> uses Privileged Access to take 1 tag.",
-            "<anonymized> pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
-            "<anonymized> pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less).",
-            "<anonymized> pays 2 [Credits] to use Privileged Access to install Botulus from the Heap on Boto protecting Server 2 at position 0.",
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Privileged Access.",
+            "<anonymized-runner> uses Privileged Access to make a run on Archives.",
+            "<anonymized-runner> approaches ice protecting Archives at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> passes ice protecting Archives at position 0.",
+            "<anonymized-runner> approaches Archives.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized-corp> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to add Mitra Aman in Archives to HQ.",
+            "<anonymized-runner> uses the replacement effect from Privileged Access.",
+            "<anonymized-runner> uses Privileged Access to take 1 tag.",
+            "<anonymized-runner> pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
+            "<anonymized-runner> pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less).",
+            "<anonymized-runner> pays 2 [Credits] to use Privileged Access to install Botulus from the Heap on Boto protecting Server 2 at position 0.",
             "[!] Botulus - [Erratum] Program: Virus - Trojan"
           ],
           "action": {
@@ -2831,8 +2724,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
-            "<anonymized> uses Valentina Ferreira Carvalho to gain 1 [Credits]."
+            "<anonymized-runner> spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
+            "<anonymized-runner> uses Valentina Ferreira Carvalho to gain 1 [Credits]."
           ],
           "action": {
             "type": "ability",
@@ -2851,47 +2744,42 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on HQ.",
-            "<anonymized> pays 0 [Credits] to rez Mitra Aman in the root of HQ.",
-            "<anonymized> approaches ice protecting HQ at position 0.",
-            "<anonymized> trashes Mitra Aman to use Mitra Aman to gain 3 [Credits].",
+            "<anonymized-runner> spends [Click] to make a run on HQ.",
+            "<anonymized-corp> pays 0 [Credits] to rez Mitra Aman in the root of HQ.",
+            "<anonymized-runner> approaches ice protecting HQ at position 0.",
+            "<anonymized-corp> trashes Mitra Aman to use Mitra Aman to gain 3 [Credits].",
             "uses  to swap ice protecting HQ at position 0 with Boto in Archives.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Boto protecting HQ at position 0.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Anoetic Void from HQ.",
-            "<anonymized> pays 1 [Credits] to trash Anoetic Void from HQ.",
-            "<anonymized> uses Audrey v2 to place 1 virus counter on itself.",
-            "<anonymized> uses Solidarity Badge to place 1 power counter on itself."
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> passes Boto protecting HQ at position 0.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Anoetic Void from HQ.",
+            "<anonymized-runner> pays 1 [Credits] to trash Anoetic Void from HQ.",
+            "<anonymized-runner> uses Audrey v2 to place 1 virus counter on itself.",
+            "<anonymized-runner> uses Solidarity Badge to place 1 power counter on itself."
           ],
           "action": {
             "type": "run",
             "server": "HQ"
-          },
-          "effects": {
-            "triggered_gains": {
-              "Mitra Aman": 3
-            }
           },
           "bucket": "run"
         },
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to make a run on HQ.",
-            "<anonymized> approaches Boto protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Boto protecting HQ at position 0.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Boto from HQ.",
+            "<anonymized-runner> spends [Click] to make a run on HQ.",
+            "<anonymized-runner> approaches Boto protecting HQ at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> passes Boto protecting HQ at position 0.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Boto from HQ.",
             "AugustusCaesar has left the game.",
             "Baa Ram Wu has left the game.",
-            "<anonymized> trashes Gourmand to use Gourmand to trash Boto.",
-            "<anonymized> uses Audrey v2 to place 1 virus counter on itself.",
-            "<anonymized> uses Gourmand to draw 1 card.",
-            "<anonymized> is ending his turn 16 with 7 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized-runner> trashes Gourmand to use Gourmand to trash Boto.",
+            "<anonymized-runner> uses Audrey v2 to place 1 virus counter on itself.",
+            "<anonymized-runner> uses Gourmand to draw 1 card.",
+            "<anonymized-runner> is ending his turn 16 with 7 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -2911,9 +2799,9 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 17 with 4 [Credit] and 4 cards in HQ.",
-            "<anonymized> makes his mandatory start of turn draw.",
-            "<anonymized> uses Spin Doctor to shuffle 2 unseen cards into R&D."
+            "<anonymized-corp> started his turn 17 with 4 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> makes his mandatory start of turn draw.",
+            "<anonymized-corp> uses Spin Doctor to shuffle 2 unseen cards into R&D."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2922,9 +2810,9 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 2.",
-            "<anonymized> uses Lago Paranoá Shelter to trash Lago Paranoá Shelter from the stack and draw 1 card.",
-            "<anonymized> uses Buffer Drive to add Lago Paranoá Shelter to the bottom of the stack."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 2.",
+            "<anonymized-runner> uses Lago Paranoá Shelter to trash Lago Paranoá Shelter from the stack and draw 1 card.",
+            "<anonymized-runner> uses Buffer Drive to add Lago Paranoá Shelter to the bottom of the stack."
           ],
           "action": {
             "type": "install",
@@ -2932,15 +2820,12 @@
             "location": "Server 2",
             "cost": 0
           },
-          "effects": {
-            "cards_drawn": 1
-          },
           "bucket": "tempo"
         },
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2954,8 +2839,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "<anonymized> is ending his turn 17 with 6 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized-corp> is ending his turn 17 with 6 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2969,7 +2854,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2981,8 +2866,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 17 with 7 [Credit] and 5 cards in his Grip.",
-            "<anonymized> uses Solidarity Badge to draw 1 card."
+            "<anonymized-runner> started his turn 17 with 7 [Credit] and 5 cards in his Grip.",
+            "<anonymized-runner> uses Solidarity Badge to draw 1 card."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2991,8 +2876,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized-runner> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized-runner> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -3008,29 +2893,29 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to make a run on Archives.",
-            "<anonymized> approaches ice protecting Archives at position 0.",
-            "<anonymized> pays 6 [Credits] to rez Hammer protecting Archives at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized> encounters Hammer protecting Archives at position 0.",
-            "<anonymized> uses Buffer Drive to add The Price to the bottom of the stack.",
-            "<anonymized> trashes 2 cards (Solidarity Badge and The Price) from the grip to increase the strength of Audrey v2 to 6.",
-            "<anonymized> spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 1 subroutine on Hammer (\"[subroutine] Choose a resource or piece of hardware to trash\").",
-            "<anonymized> indicates to fire all unbroken subroutines on Hammer.",
-            "<anonymized> has no further action.",
-            "<anonymized> uses Hammer to give the Runner 1 tag.",
-            "<anonymized> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Manuel Lattes de Moura from the Grip (paying 2 [Credits] less).",
-            "<anonymized> uses Hammer to trash Audrey v2.",
-            "<anonymized> resolves 2 unbroken subroutines on Hammer (\"[subroutine] Give the Runner 1 tag\" and \"[subroutine] Choose a program to trash that is not a decoder, fracter or killer\").",
-            "<anonymized> passes Hammer protecting Archives at position 0.",
-            "<anonymized> approaches Archives.",
-            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "<anonymized> breaches Archives.",
-            "<anonymized> accesses Orbital Superiority from Archives.",
-            "<anonymized> steals Orbital Superiority and gains 2 agenda points.",
-            "<anonymized> accesses everything else in Archives."
+            "<anonymized-runner> spends [Click] to make a run on Archives.",
+            "<anonymized-runner> approaches ice protecting Archives at position 0.",
+            "<anonymized-corp> pays 6 [Credits] to rez Hammer protecting Archives at position 0.",
+            "<anonymized-corp> has no further action.",
+            "rough",
+            "hot",
+            "<anonymized-runner> encounters Hammer protecting Archives at position 0.",
+            "<anonymized-runner> uses Buffer Drive to add The Price to the bottom of the stack.",
+            "<anonymized-runner> trashes 2 cards (Solidarity Badge and The Price) from the grip to increase the strength of Audrey v2 to 6.",
+            "<anonymized-runner> spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 1 subroutine on Hammer (\"[subroutine] Choose a resource or piece of hardware to trash\").",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on Hammer.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> uses Hammer to give the Runner 1 tag.",
+            "<anonymized-runner> pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Manuel Lattes de Moura from the Grip (paying 2 [Credits] less).",
+            "<anonymized-corp> uses Hammer to trash Audrey v2.",
+            "<anonymized-corp> resolves 2 unbroken subroutines on Hammer (\"[subroutine] Give the Runner 1 tag\" and \"[subroutine] Choose a program to trash that is not a decoder, fracter or killer\").",
+            "<anonymized-runner> passes Hammer protecting Archives at position 0.",
+            "<anonymized-runner> approaches Archives.",
+            "<anonymized-corp> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized-runner> breaches Archives.",
+            "<anonymized-runner> accesses Orbital Superiority from Archives.",
+            "<anonymized-runner> steals Orbital Superiority and gains 2 agenda points.",
+            "<anonymized-runner> accesses everything else in Archives."
           ],
           "action": {
             "type": "run",
@@ -3041,41 +2926,41 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on HQ.",
-            "<anonymized> approaches Boto protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Boto protecting HQ at position 0.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> breaches HQ.",
-            "<anonymized> uses Manuel Lattes de Moura to access 1 additional card from HQ.",
-            "<anonymized> accesses La Costa Grid from HQ.",
-            "<anonymized> accesses See How They Run from HQ.",
-            "<anonymized> steals See How They Run and gains 2 agenda points.",
-            "<anonymized> wins the game.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized> looks at his deck.",
+            "<anonymized-runner> spends [Click] to make a run on HQ.",
+            "<anonymized-runner> approaches Boto protecting HQ at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> passes Boto protecting HQ at position 0.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> uses Manuel Lattes de Moura to access 1 additional card from HQ.",
+            "<anonymized-runner> accesses La Costa Grid from HQ.",
+            "<anonymized-runner> accesses See How They Run from HQ.",
+            "<anonymized-runner> steals See How They Run and gains 2 agenda points.",
+            "<anonymized-runner> wins the game.",
+            "gg",
+            "gg",
+            "<anonymized-corp> looks at his deck.",
             "Icecreamcollege has left the game.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized> stops looking at his deck.",
-            "<anonymized> pays 0 [Credits] to rez Mitra Aman in Server 2.",
-            "<anonymized> looks at his deck.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized> stops looking at his deck.",
-            "<anonymized>",
-            "<anonymized> has left the game."
+            "1/4?",
+            "yeah the 10cost ice is just too rough to rez into seb",
+            "yep",
+            "s2?",
+            "<anonymized-corp> stops looking at his deck.",
+            "<anonymized-corp> pays 0 [Credits] to rez Mitra Aman in Server 2.",
+            "<anonymized-corp> looks at his deck.",
+            "nice",
+            "I have a better start here",
+            "definitely",
+            "had*",
+            "I had a ton of agendas at one ponit",
+            "you can freely fixing my wrong english",
+            "thank you :)",
+            "yup, blasting a remote at one point was a good idea",
+            "yeah was too much in the money hole to properly defend after",
+            "wanna switch?",
+            "<anonymized-corp> stops looking at his deck.",
+            "sure",
+            "<anonymized-corp> has left the game."
           ],
           "action": {
             "type": "run",

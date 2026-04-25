@@ -1,6 +1,8 @@
 import type { ParsedReplay } from "./analyzer.js";
 
-const ANON = "<anonymized>";
+const ANON_CORP = "<anonymized-corp>";
+const ANON_RUNNER = "<anonymized-runner>";
+const ANON_GENERIC = "<anonymized>";
 
 function anonymizeChatInHistory(history: unknown[]): void {
   for (const item of history) {
@@ -16,7 +18,7 @@ function anonymizeChatInHistory(history: unknown[]): void {
         const user = logEntry["user"];
         if (!user || typeof user !== "object" || Array.isArray(user)) continue;
         // user is an object => chat message
-        logEntry["text"] = ANON;
+        logEntry["text"] = ANON_GENERIC;
       }
     }
   }
@@ -30,7 +32,7 @@ function anonymizeEmailhashes(node: unknown): void {
     const obj = node as Record<string, unknown>;
     for (const key of Object.keys(obj)) {
       if (key === "emailhash") {
-        obj[key] = ANON;
+        obj[key] = ANON_GENERIC;
       } else {
         anonymizeEmailhashes(obj[key]);
       }
@@ -45,10 +47,8 @@ export function anonymizeRawJson(text: string, corpName: string, runnerName: str
     anonymizeChatInHistory(data.history);
   }
   let result = JSON.stringify(data);
-  for (const name of [corpName, runnerName]) {
-    if (!name) continue;
-    result = result.split(name).join(ANON);
-  }
+  if (corpName) result = result.split(corpName).join(ANON_CORP);
+  if (runnerName) result = result.split(runnerName).join(ANON_RUNNER);
   return result;
 }
 
@@ -58,11 +58,11 @@ export function anonymizeParsed(data: ParsedReplay): ParsedReplay {
   const serialized = JSON.stringify(data);
 
   let result = serialized;
-  for (const name of [corpName, runnerName]) {
-    if (!name || name === ANON) continue;
+  for (const [name, placeholder] of [[corpName, ANON_CORP], [runnerName, ANON_RUNNER]] as const) {
+    if (!name || name === ANON_CORP || name === ANON_RUNNER) continue;
     // Use JSON.stringify to get the JSON-escaped form of the name (handles \, ", etc.)
     const jsonEscaped = JSON.stringify(name).slice(1, -1);
-    result = result.split(jsonEscaped).join(ANON);
+    result = result.split(jsonEscaped).join(placeholder);
   }
 
   return JSON.parse(result) as ParsedReplay;

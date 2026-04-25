@@ -1,8 +1,8 @@
 {
   "summary": {
-    "corp_player": "<anonymized>",
+    "corp_player": "<anonymized-corp>",
     "corp_identity": "LEO Construction: Labor Solutions",
-    "runner_player": "<anonymized>",
+    "runner_player": "<anonymized-runner>",
     "runner_identity": "Az McCaffrey: Mechanical Prodigy",
     "turns": 16,
     "winner": "corp",
@@ -149,7 +149,7 @@
           "total_credits_gained": 12,
           "total_cost": 0,
           "total_net_credits": 12,
-          "total_cards_drawn": 1,
+          "total_cards_drawn": 0,
           "credits_per_click": 6
         },
         "Sure Gamble": {
@@ -176,20 +176,12 @@
           "total_cards_drawn": 0,
           "credits_per_click": 3
         },
-        "Spin Doctor": {
-          "uses": 1,
-          "total_credits_gained": 0,
-          "total_cost": 0,
-          "total_net_credits": 0,
-          "total_cards_drawn": 2,
-          "credits_per_click": 0
-        },
         "Bravado": {
           "uses": 2,
           "total_credits_gained": 14,
           "total_cost": 6,
           "total_net_credits": 8,
-          "total_cards_drawn": 1,
+          "total_cards_drawn": 0,
           "credits_per_click": 4
         },
         "Az McCaffrey: Mechanical Prodigy": {
@@ -266,10 +258,10 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> takes a mulligan.",
-            "<anonymized>",
-            "<anonymized> keeps his hand.",
-            "<anonymized>"
+            "<anonymized-corp> takes a mulligan.",
+            "gl hf",
+            "<anonymized-runner> keeps his hand.",
+            "ah yeah no problem"
           ]
         }
       ]
@@ -281,8 +273,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 1 with 5 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -291,7 +283,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -305,8 +297,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized-corp> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -322,8 +314,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 1 (new remote).",
-            "<anonymized> is ending their turn 1 with 9 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 1 (new remote).",
+            "<anonymized-corp> is ending their turn 1 with 9 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -342,20 +334,20 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in his Grip."
+            "<anonymized-runner> started his turn 1 with 5 [Credit] and 5 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> uses Transfer of Wealth to take 1 tag.",
-            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Spin Doctor from HQ.",
-            "<anonymized> pays 2 [Credits] to trash Spin Doctor from HQ."
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized-runner> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized-runner> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Spin Doctor from HQ.",
+            "<anonymized-runner> pays 2 [Credits] to trash Spin Doctor from HQ."
           ],
           "action": {
             "type": "play",
@@ -370,8 +362,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized-runner> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized-runner> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -387,11 +379,11 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on Server 1.",
-            "<anonymized> approaches Server 1.",
-            "<anonymized> breaches Server 1.",
-            "<anonymized> accesses Tranquility Home Grid from Server 1.",
-            "<anonymized> pays 4 [Credits] to trash Tranquility Home Grid from Server 1."
+            "<anonymized-runner> spends [Click] to make a run on Server 1.",
+            "<anonymized-runner> approaches Server 1.",
+            "<anonymized-runner> breaches Server 1.",
+            "<anonymized-runner> accesses Tranquility Home Grid from Server 1.",
+            "<anonymized-runner> pays 4 [Credits] to trash Tranquility Home Grid from Server 1."
           ],
           "action": {
             "type": "run",
@@ -402,8 +394,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "<anonymized> is ending his turn 1 with 7 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized-runner> is ending his turn 1 with 7 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -424,8 +416,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 2 with 6 [Credit] and 4 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 2 with 6 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -434,8 +426,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash.",
-            "<anonymized> uses Petty Cash to gain 5 [credits]."
+            "<anonymized-corp> spends [Click] and pays 3 [Credits] to play Petty Cash.",
+            "<anonymized-corp> uses Petty Cash to gain 5 [credits]."
           ],
           "action": {
             "type": "play",
@@ -450,7 +442,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -464,8 +456,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
-            "<anonymized> is ending their turn 2 with 8 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
+            "<anonymized-corp> is ending their turn 2 with 8 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -483,13 +475,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 2 with 7 [Credit] and 3 cards in his Grip."
+            "<anonymized-runner> started his turn 2 with 7 [Credit] and 3 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -503,7 +495,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -517,12 +509,12 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "<anonymized> uses Clean Getaway to make a run on R&D.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
-            "<anonymized> breaches R&D.",
-            "<anonymized> accesses an unseen card from R&D."
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "<anonymized-runner> uses Clean Getaway to make a run on R&D.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-runner> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D."
           ],
           "action": {
             "type": "play",
@@ -538,8 +530,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to install Daily Casts.",
-            "<anonymized> is ending his turn 2 with 7 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to install Daily Casts.",
+            "<anonymized-runner> is ending his turn 2 with 7 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -560,12 +552,12 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 3 with 8 [Credit] and 4 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw.",
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
-            "<anonymized> uses Petty Cash to gain 5 [credits].",
-            "<anonymized> uses Petty Cash to gain [Click].",
-            "<anonymized> removes Petty Cash from the game instead of trashing it."
+            "<anonymized-corp> started their turn 3 with 8 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw.",
+            "<anonymized-corp> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "<anonymized-corp> uses Petty Cash to gain 5 [credits].",
+            "<anonymized-corp> uses Petty Cash to gain [Click].",
+            "<anonymized-corp> removes Petty Cash from the game instead of trashing it."
           ],
           "effects": {
             "cards_drawn": 1
@@ -574,7 +566,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -588,8 +580,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Caveat Emptor.",
-            "<anonymized> uses Caveat Emptor to Gain 10 [Credits] and give the Runner +1 alotted [Click] next turn."
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Caveat Emptor.",
+            "<anonymized-corp> uses Caveat Emptor to Gain 10 [Credits] and give the Runner +1 alotted [Click] next turn."
           ],
           "action": {
             "type": "play",
@@ -604,8 +596,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 2 (new remote).",
-            "<anonymized> is ending their turn 3 with 15 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 2 (new remote).",
+            "<anonymized-corp> is ending their turn 3 with 15 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -624,8 +616,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 3 with 7 [Credit] and 3 cards in his Grip.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits]."
+            "<anonymized-runner> started his turn 3 with 7 [Credit] and 3 cards in his Grip.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -636,7 +628,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -650,7 +642,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -664,12 +656,12 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "<anonymized> uses Clean Getaway to make a run on R&D.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
-            "<anonymized> breaches R&D.",
-            "<anonymized> accesses an unseen card from R&D."
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "<anonymized-runner> uses Clean Getaway to make a run on R&D.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-runner> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D."
           ],
           "action": {
             "type": "play",
@@ -685,28 +677,25 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to make a run on Server 2.",
-            "<anonymized> pays 0 [Credits] to rez Spin Doctor in Server 2.",
-            "<anonymized> uses Spin Doctor to draw 2 cards.",
-            "<anonymized> uses Spin Doctor to shuffle Spin Doctor and Tranquility Home Grid into R&D."
+            "<anonymized-runner> spends [Click] to make a run on Server 2.",
+            "<anonymized-corp> pays 0 [Credits] to rez Spin Doctor in Server 2.",
+            "<anonymized-corp> uses Spin Doctor to draw 2 cards.",
+            "<anonymized-corp> uses Spin Doctor to shuffle Spin Doctor and Tranquility Home Grid into R&D."
           ],
           "action": {
             "type": "run",
             "server": "Server 2"
-          },
-          "effects": {
-            "cards_drawn": 2
           },
           "bucket": "run"
         },
         {
           "click": 5,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Mutual Favor.",
-            "<anonymized> uses Mutual Favor to add Unity from the stack to the grip and shuffle the stack.",
-            "<anonymized> uses Mutual Favor to  install Unity.",
-            "<anonymized> pays 3 [Credits] to install Unity from the Stack.",
-            "<anonymized> is ending his turn 3 with 9 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Mutual Favor.",
+            "<anonymized-runner> uses Mutual Favor to add Unity from the stack to the grip and shuffle the stack.",
+            "<anonymized-runner> uses Mutual Favor to  install Unity.",
+            "<anonymized-runner> pays 3 [Credits] to install Unity from the Stack.",
+            "<anonymized-runner> is ending his turn 3 with 9 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -724,8 +713,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 4 with 15 [Credit] and 6 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 4 with 15 [Credit] and 6 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -734,7 +723,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting R&D."
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting R&D."
           ],
           "action": {
             "type": "install_ice",
@@ -746,8 +735,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Caveat Emptor.",
-            "<anonymized> uses Caveat Emptor to Gain 10 [Credits] and give the Runner +1 alotted [Click] next turn."
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Caveat Emptor.",
+            "<anonymized-corp> uses Caveat Emptor to Gain 10 [Credits] and give the Runner +1 alotted [Click] next turn."
           ],
           "action": {
             "type": "play",
@@ -762,8 +751,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 3 (new remote).",
-            "<anonymized> is ending their turn 4 with 20 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 3 (new remote).",
+            "<anonymized-corp> is ending their turn 4 with 20 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -782,8 +771,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 4 with 9 [Credit] and 3 cards in his Grip.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits]."
+            "<anonymized-runner> started his turn 4 with 9 [Credit] and 3 cards in his Grip.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -794,16 +783,16 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
-            "<anonymized> approaches ice protecting HQ at position 0.",
-            "<anonymized> pays 4 [Credits] to rez Sleipnir protecting HQ at position 0.",
-            "<anonymized> encounters Sleipnir protecting HQ at position 0.",
-            "<anonymized> indicates to fire all unbroken subroutines on Sleipnir.",
-            "<anonymized> uses Sleipnir to draw 1  card.",
-            "<anonymized> uses Sleipnir to shuffle Caveat Emptor in Archives into R&D.",
-            "<anonymized> uses Sleipnir to end the run.",
-            "<anonymized> resolves 3 unbroken subroutines on Sleipnir (\"[subroutine] You may draw 1 card\" and \"[subroutine] You may shuffle 1 card from HQ or Archives into R&D\" and \"[subroutine] End the run\").",
-            "<anonymized> uses Bravado to gain 6 [Credits]."
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to play Bravado.",
+            "<anonymized-runner> approaches ice protecting HQ at position 0.",
+            "<anonymized-corp> pays 4 [Credits] to rez Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> encounters Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on Sleipnir.",
+            "<anonymized-corp> uses Sleipnir to draw 1  card.",
+            "<anonymized-corp> uses Sleipnir to shuffle Caveat Emptor in Archives into R&D.",
+            "<anonymized-corp> uses Sleipnir to end the run.",
+            "<anonymized-corp> resolves 3 unbroken subroutines on Sleipnir (\"[subroutine] You may draw 1 card\" and \"[subroutine] You may shuffle 1 card from HQ or Archives into R&D\" and \"[subroutine] End the run\").",
+            "<anonymized-runner> uses Bravado to gain 6 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -812,19 +801,18 @@
           },
           "effects": {
             "credits_paid": 3,
-            "credits_gained": 6,
-            "cards_drawn": 1
+            "credits_gained": 6
           },
           "bucket": "run"
         },
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to make a run on Server 3.",
-            "<anonymized> approaches Server 3.",
-            "<anonymized> breaches Server 3.",
-            "<anonymized> accesses Mitra Aman from Server 3.",
-            "<anonymized> pays 3 [Credits] to trash Mitra Aman from Server 3."
+            "<anonymized-runner> spends [Click] to make a run on Server 3.",
+            "<anonymized-runner> approaches Server 3.",
+            "<anonymized-runner> breaches Server 3.",
+            "<anonymized-runner> accesses Mitra Aman from Server 3.",
+            "<anonymized-runner> pays 3 [Credits] to trash Mitra Aman from Server 3."
           ],
           "action": {
             "type": "run",
@@ -835,7 +823,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -849,7 +837,7 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -863,8 +851,8 @@
         {
           "click": 5,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "<anonymized> is ending his turn 4 with 11 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized-runner> is ending his turn 4 with 11 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -884,8 +872,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 5 with 16 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 5 with 16 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -894,8 +882,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash.",
-            "<anonymized> uses Petty Cash to gain 5 [credits]."
+            "<anonymized-corp> spends [Click] and pays 3 [Credits] to play Petty Cash.",
+            "<anonymized-corp> uses Petty Cash to gain 5 [credits]."
           ],
           "action": {
             "type": "play",
@@ -910,7 +898,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -924,8 +912,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 4 (new remote).",
-            "<anonymized> is ending their turn 5 with 18 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 0 [Credits] to install ice protecting Server 4 (new remote).",
+            "<anonymized-corp> is ending their turn 5 with 18 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -937,7 +925,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized>"
+            "I promise I have az targetsin my deck"
           ]
         }
       ]
@@ -949,8 +937,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 5 with 11 [Credit] and 5 cards in his Grip.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits]."
+            "<anonymized-runner> started his turn 5 with 11 [Credit] and 5 cards in his Grip.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -961,7 +949,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -975,7 +963,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -989,8 +977,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized-runner> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized-runner> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1006,8 +994,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install Open Market.",
-            "<anonymized> is ending his turn 5 with 16 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to install Open Market.",
+            "<anonymized-runner> is ending his turn 5 with 16 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1031,12 +1019,12 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 6 with 18 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw.",
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
-            "<anonymized> uses Petty Cash to gain 5 [credits].",
-            "<anonymized> uses Petty Cash to gain [Click].",
-            "<anonymized> removes Petty Cash from the game instead of trashing it."
+            "<anonymized-corp> started their turn 6 with 18 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw.",
+            "<anonymized-corp> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "<anonymized-corp> uses Petty Cash to gain 5 [credits].",
+            "<anonymized-corp> uses Petty Cash to gain [Click].",
+            "<anonymized-corp> removes Petty Cash from the game instead of trashing it."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1045,7 +1033,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1059,7 +1047,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 5 (new remote)."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 5 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -1072,11 +1060,11 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 4.",
-            "<anonymized> pays 0 [Credits] to rez Spin Doctor in Server 5.",
-            "<anonymized> uses Spin Doctor to draw 2 cards.",
-            "<anonymized> discards 2 cards from HQ at end of turn.",
-            "<anonymized> is ending their turn 6 with 20 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 4.",
+            "<anonymized-corp> pays 0 [Credits] to rez Spin Doctor in Server 5.",
+            "<anonymized-corp> uses Spin Doctor to draw 2 cards.",
+            "<anonymized-corp> discards 2 cards from HQ at end of turn.",
+            "<anonymized-corp> is ending their turn 6 with 20 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1098,10 +1086,10 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 6 with 16 [Credit] and 5 cards in his Grip.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits].",
-            "<anonymized> trashes Daily Casts.",
-            "<anonymized> uses Open Market to gain 1 [Credits]."
+            "<anonymized-runner> started his turn 6 with 16 [Credit] and 5 cards in his Grip.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized-runner> trashes Daily Casts.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1113,7 +1101,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1127,7 +1115,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1141,13 +1129,13 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
-            "<anonymized> uses Pinhole Threading to make a run on Archives.",
-            "<anonymized> uses Spin Doctor to shuffle 2 unseen cards into R&D.",
-            "<anonymized> approaches Archives.",
-            "<anonymized> uses the replacement effect from Pinhole Threading.",
-            "<anonymized> accesses Humanoid Resources from Server 4.",
-            "<anonymized> pays 1 [Credits] to trash Humanoid Resources from Server 4."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
+            "<anonymized-runner> uses Pinhole Threading to make a run on Archives.",
+            "<anonymized-corp> uses Spin Doctor to shuffle 2 unseen cards into R&D.",
+            "<anonymized-runner> approaches Archives.",
+            "<anonymized-runner> uses the replacement effect from Pinhole Threading.",
+            "<anonymized-runner> accesses Humanoid Resources from Server 4.",
+            "<anonymized-runner> pays 1 [Credits] to trash Humanoid Resources from Server 4."
           ],
           "action": {
             "type": "play",
@@ -1162,9 +1150,9 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "<anonymized> uses Sure Gamble to gain 9 [Credits].",
-            "<anonymized> is ending his turn 6 with 21 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized-runner> uses Sure Gamble to gain 9 [Credits].",
+            "<anonymized-runner> is ending his turn 6 with 21 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1186,8 +1174,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 7 with 20 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 7 with 20 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1196,7 +1184,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 4."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 4."
           ],
           "action": {
             "type": "install",
@@ -1209,7 +1197,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 4."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 4."
           ],
           "action": {
             "type": "install",
@@ -1222,10 +1210,10 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
-            "<anonymized> pays 2 [Credits] to rez Mercia B4LL4RD in Server 4.",
-            "<anonymized> pays 0 [Credits] to use Mercia B4LL4RD to install ice protecting Server 4.",
-            "<anonymized> is ending their turn 7 with 17 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
+            "<anonymized-corp> pays 2 [Credits] to rez Mercia B4LL4RD in Server 4.",
+            "<anonymized-corp> pays 0 [Credits] to use Mercia B4LL4RD to install ice protecting Server 4.",
+            "<anonymized-corp> is ending their turn 7 with 17 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1247,8 +1235,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 7 with 21 [Credit] and 5 cards in his Grip.",
-            "<anonymized> uses Open Market to gain 1 [Credits]."
+            "<anonymized-runner> started his turn 7 with 21 [Credit] and 5 cards in his Grip.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1259,7 +1247,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to install Curupira."
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to install Curupira."
           ],
           "action": {
             "type": "install",
@@ -1274,7 +1262,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to install Revolver."
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to install Revolver."
           ],
           "action": {
             "type": "install",
@@ -1289,21 +1277,21 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on Server 4.",
-            "<anonymized> approaches ice protecting Server 4 at position 1.",
-            "<anonymized> pays 4 [Credits] to rez Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches ice protecting Server 4 at position 0.",
-            "<anonymized> pays 6 [Credits] to rez M.I.C. protecting Server 4 at position 0.",
-            "<anonymized> encounters M.I.C. protecting Server 4 at position 0.",
-            "<anonymized> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on M.I.C..",
-            "<anonymized> has no further action.",
-            "<anonymized> trashes 1  rezzed Bioroid (Mercia B4LL4RD in Server 4) to use LEO Construction: Labor Solutions to end the run."
+            "<anonymized-runner> spends [Click] to make a run on Server 4.",
+            "<anonymized-runner> approaches ice protecting Server 4 at position 1.",
+            "<anonymized-corp> pays 4 [Credits] to rez Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-runner> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches ice protecting Server 4 at position 0.",
+            "<anonymized-corp> pays 6 [Credits] to rez M.I.C. protecting Server 4 at position 0.",
+            "<anonymized-runner> encounters M.I.C. protecting Server 4 at position 0.",
+            "<anonymized-runner> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on M.I.C..",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> trashes 1  rezzed Bioroid (Mercia B4LL4RD in Server 4) to use LEO Construction: Labor Solutions to end the run."
           ],
           "action": {
             "type": "run",
@@ -1314,72 +1302,72 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to make a run on Server 4.",
-            "<anonymized> approaches Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> encounters Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches M.I.C. protecting Server 4 at position 0.",
-            "<anonymized> encounters M.I.C. protecting Server 4 at position 0.",
-            "<anonymized> pays 1 [Credits] to use Unity to increase its strength from 1 to 4.",
-            "<anonymized> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on M.I.C. (\"[subroutine] End the run\").",
-            "<anonymized> indicates to fire all unbroken subroutines on M.I.C..",
-            "<anonymized> has no further action.",
-            "<anonymized> trashes M.I.C. to use M.I.C. to end the run unless the Runner spends [Click].",
-            "<anonymized> uses M.I.C. to end the run.",
-            "<anonymized> is ending his turn 7 with 3 [Credit] and 3 cards in his Grip.[hr]",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
+            "<anonymized-runner> spends [Click] to make a run on Server 4.",
+            "<anonymized-runner> approaches Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-runner> encounters Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-runner> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches M.I.C. protecting Server 4 at position 0.",
+            "<anonymized-runner> encounters M.I.C. protecting Server 4 at position 0.",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to increase its strength from 1 to 4.",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on M.I.C. (\"[subroutine] End the run\").",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on M.I.C..",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> trashes M.I.C. to use M.I.C. to end the run unless the Runner spends [Click].",
+            "<anonymized-corp> uses M.I.C. to end the run.",
+            "<anonymized-runner> is ending his turn 7 with 3 [Credit] and 3 cards in his Grip.[hr]",
+            "wait I really shouldnt have trahsed there lol",
+            "is it ok with you if i undo that",
+            "lets call a judge then",
+            "im fine if you want to keep going like this it was just a dumb move on my part",
+            "still waiting on someone to respond",
+            "Hi team",
+            "hello",
+            "hi",
+            "Just noticed OF hasn't responded",
+            "Don't stress about time, you'll get your extension",
+            "I did a run and my opponent trashed MIC, wanting to undo",
+            "What seems to be the issue",
+            "yeah",
+            "we are right after the moment MIC ended the run",
+            "I trashed the mic to force end the run",
+            "and then realized I shouldn't do that",
             "aksu has left the game.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
+            "so I would lik to undo it if possible",
+            "There has been no information revealed, we should be able to undo.",
+            "ill just do undo click and redo the run?",
+            "ok thanks",
+            "The easiest method is- yes",
+            "ok thanks",
             "[undo-click]"
           ]
         },
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to make a run on Server 4.",
-            "<anonymized>",
-            "<anonymized> approaches Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> encounters Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Sleipnir protecting Server 4 at position 1.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches M.I.C. protecting Server 4 at position 0.",
-            "<anonymized> encounters M.I.C. protecting Server 4 at position 0.",
-            "<anonymized> pays 1 [Credits] to use Unity to increase its strength from 1 to 4.",
-            "<anonymized> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on M.I.C. (\"[subroutine] End the run\").",
-            "<anonymized> indicates to fire all unbroken subroutines on M.I.C..",
-            "<anonymized> resolves 2 unbroken subroutines on M.I.C. (\"[subroutine] Force the Runner to lose [Click]\" and \"[subroutine] Force the Runner to lose [Click]\").",
-            "<anonymized> passes M.I.C. protecting Server 4 at position 0.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches Server 4.",
-            "<anonymized> breaches Server 4.",
-            "<anonymized> accesses Méliès City Luxury Line from Server 4.",
-            "<anonymized> decides to not pay to steal Méliès City Luxury Line.",
-            "<anonymized> is ending his turn 7 with 3 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to make a run on Server 4.",
+            "sorry",
+            "<anonymized-runner> approaches Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-runner> encounters Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-runner> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Sleipnir protecting Server 4 at position 1.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches M.I.C. protecting Server 4 at position 0.",
+            "<anonymized-runner> encounters M.I.C. protecting Server 4 at position 0.",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to increase its strength from 1 to 4.",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on M.I.C. (\"[subroutine] End the run\").",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on M.I.C..",
+            "<anonymized-corp> resolves 2 unbroken subroutines on M.I.C. (\"[subroutine] Force the Runner to lose [Click]\" and \"[subroutine] Force the Runner to lose [Click]\").",
+            "<anonymized-runner> passes M.I.C. protecting Server 4 at position 0.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches Server 4.",
+            "<anonymized-runner> breaches Server 4.",
+            "<anonymized-runner> accesses Méliès City Luxury Line from Server 4.",
+            "<anonymized-runner> decides to not pay to steal Méliès City Luxury Line.",
+            "<anonymized-runner> is ending his turn 7 with 3 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -1396,8 +1384,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 8 with 7 [Credit] and 3 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 8 with 7 [Credit] and 3 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1406,8 +1394,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play Seamless Launch.",
-            "<anonymized> uses Seamless Launch to place 2 advancement counters on a card in Server 4."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to play Seamless Launch.",
+            "<anonymized-corp> uses Seamless Launch to place 2 advancement counters on a card in Server 4."
           ],
           "action": {
             "type": "play",
@@ -1422,7 +1410,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
           ],
           "action": {
             "type": "advance",
@@ -1438,11 +1426,11 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
-            "<anonymized> scores Méliès City Luxury Line and gains 3 agenda points.",
-            "<anonymized> uses Méliès City Luxury Line to gain [Click].",
-            "<anonymized>",
-            "<anonymized>"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
+            "<anonymized-corp> scores Méliès City Luxury Line and gains 3 agenda points.",
+            "<anonymized-corp> uses Méliès City Luxury Line to gain [Click].",
+            "Alright, adding a 5min extension",
+            "thanks"
           ],
           "action": {
             "type": "advance",
@@ -1458,8 +1446,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 4.",
-            "<anonymized> is ending their turn 8 with 4 [Credit] and 2 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 4.",
+            "<anonymized-corp> is ending their turn 8 with 4 [Credit] and 2 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1478,8 +1466,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 8 with 3 [Credit] and 3 cards in his Grip.",
-            "<anonymized> uses Open Market to gain 1 [Credits]."
+            "<anonymized-runner> started his turn 8 with 3 [Credit] and 3 cards in his Grip.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1490,7 +1478,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1504,7 +1492,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to install Dr. Nuka Vrolyck."
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to install Dr. Nuka Vrolyck."
           ],
           "action": {
             "type": "install",
@@ -1521,7 +1509,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards."
+            "<anonymized-runner> spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards."
           ],
           "action": {
             "type": "ability",
@@ -1537,8 +1525,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to install Daily Casts.",
-            "<anonymized> is ending his turn 8 with 1 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to install Daily Casts.",
+            "<anonymized-runner> is ending his turn 8 with 1 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1559,8 +1547,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 9 with 4 [Credit] and 2 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 9 with 4 [Credit] and 2 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1569,7 +1557,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1583,8 +1571,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Caveat Emptor.",
-            "<anonymized> uses Caveat Emptor to Gain 10 [Credits] and give the Runner +1 alotted [Click] next turn."
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Caveat Emptor.",
+            "<anonymized-corp> uses Caveat Emptor to Gain 10 [Credits] and give the Runner +1 alotted [Click] next turn."
           ],
           "action": {
             "type": "play",
@@ -1599,9 +1587,9 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Caveat Emptor.",
-            "<anonymized> uses Caveat Emptor to Gain 10 [Credits] and give the Runner +1 alotted [Click] next turn.",
-            "<anonymized> is ending their turn 9 with 15 [Credit] and 1 card in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Caveat Emptor.",
+            "<anonymized-corp> uses Caveat Emptor to Gain 10 [Credits] and give the Runner +1 alotted [Click] next turn.",
+            "<anonymized-corp> is ending their turn 9 with 15 [Credit] and 1 card in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1622,9 +1610,9 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 9 with 1 [Credit] and 5 cards in his Grip.",
-            "<anonymized> uses Open Market to gain 1 [Credits].",
-            "<anonymized> uses Daily Casts to gain 2 [Credits]."
+            "<anonymized-runner> started his turn 9 with 1 [Credit] and 5 cards in his Grip.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits].",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1636,7 +1624,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] from Open Market and 2 [Credits] from his credit pool to install The Class Act."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] from Open Market and 2 [Credits] from his credit pool to install The Class Act."
           ],
           "action": {
             "type": "install",
@@ -1655,10 +1643,10 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click], pays 1 [Credits], and trashes 1 installed resource (Open Market) to play Sell Out.",
-            "<anonymized> uses Sell Out to gain 4 [Credits] and draw 2 cards.",
+            "<anonymized-runner> spends [Click], pays 1 [Credits], and trashes 1 installed resource (Open Market) to play Sell Out.",
+            "<anonymized-runner> uses Sell Out to gain 4 [Credits] and draw 2 cards.",
             "OF15-15 has left the game.",
-            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized-runner> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "play",
@@ -1675,8 +1663,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> trashes Dr. Nuka Vrolyck.",
-            "<anonymized> spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards.",
+            "<anonymized-runner> trashes Dr. Nuka Vrolyck.",
+            "<anonymized-runner> spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards.",
             "kror has left the game."
           ],
           "action": {
@@ -1693,7 +1681,7 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1707,7 +1695,7 @@
         {
           "click": 5,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to install Daily Casts."
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to install Daily Casts."
           ],
           "action": {
             "type": "install",
@@ -1722,9 +1710,9 @@
         {
           "click": 6,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to install Info Bounty.",
-            "<anonymized> discards Mutual Favor and Curupira from his Grip at end of turn.",
-            "<anonymized> is ending his turn 9 with 0 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to install Info Bounty.",
+            "<anonymized-runner> discards Mutual Favor and Curupira from his Grip at end of turn.",
+            "<anonymized-runner> is ending his turn 9 with 0 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1739,7 +1727,7 @@
         {
           "click": -1,
           "events": [
-            "<anonymized> uses The Class Act to draw 4 cards."
+            "<anonymized-runner> uses The Class Act to draw 4 cards."
           ],
           "effects": {
             "cards_drawn": 4
@@ -1754,8 +1742,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 10 with 15 [Credit] and 1 card in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 10 with 15 [Credit] and 1 card in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1764,7 +1752,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1778,8 +1766,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card.",
-            "<anonymized> pays 1 [Credits] to rez Tranquility Home Grid in Server 4."
+            "<anonymized-corp> spends [Click] to use Corp Basic Action Card to draw 1 card.",
+            "<anonymized-corp> pays 1 [Credits] to rez Tranquility Home Grid in Server 4."
           ],
           "action": {
             "type": "draw",
@@ -1793,9 +1781,9 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 4.",
-            "<anonymized> uses Tranquility Home Grid to gain 2 [Credits].",
-            "<anonymized> is ending their turn 10 with 16 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 4.",
+            "<anonymized-corp> uses Tranquility Home Grid to gain 2 [Credits].",
+            "<anonymized-corp> is ending their turn 10 with 16 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1819,10 +1807,10 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 10 with 0 [Credit] and 9 cards in his Grip.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits].",
-            "<anonymized> uses Daily Casts to gain 2 [Credits].",
-            "<anonymized> identifies his mark to be R&D."
+            "<anonymized-runner> started his turn 10 with 0 [Credit] and 9 cards in his Grip.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized-runner> identifies his mark to be R&D."
           ],
           "effects": {
             "triggered_gains": {
@@ -1833,7 +1821,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install Open Market."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to install Open Market."
           ],
           "action": {
             "type": "install",
@@ -1851,7 +1839,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] from Open Market to install Open Market."
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] from Open Market to install Open Market."
           ],
           "action": {
             "type": "install",
@@ -1869,7 +1857,7 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to install Cezve.",
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to install Cezve.",
             "[!] Cezve - Recurring credits usage not restricted"
           ],
           "action": {
@@ -1885,9 +1873,9 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "<anonymized> discards The Class Act from his Grip at end of turn.",
-            "<anonymized> is ending his turn 10 with 2 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized-runner> discards The Class Act from his Grip at end of turn.",
+            "<anonymized-runner> is ending his turn 10 with 2 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1907,9 +1895,9 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 11 with 16 [Credit] and 3 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw.",
-            "<anonymized> pays 1 [Credits] to rez Humanoid Resources in Server 4."
+            "<anonymized-corp> started their turn 11 with 16 [Credit] and 3 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw.",
+            "<anonymized-corp> pays 1 [Credits] to rez Humanoid Resources in Server 4."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1918,11 +1906,11 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click][Click][Click] and trashes Humanoid Resources to use Humanoid Resources to gain 4 [Credits] and draw 3 cards.",
-            "<anonymized> pays 2 [Credits] to use Humanoid Resources to install ice protecting Server 4.",
-            "<anonymized> uses Humanoid Resources to install a card in the root of Server 4.",
-            "<anonymized> uses Tranquility Home Grid to gain 2 [Credits].",
-            "<anonymized> is ending their turn 11 with 19 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click][Click][Click] and trashes Humanoid Resources to use Humanoid Resources to gain 4 [Credits] and draw 3 cards.",
+            "<anonymized-corp> pays 2 [Credits] to use Humanoid Resources to install ice protecting Server 4.",
+            "<anonymized-corp> uses Humanoid Resources to install a card in the root of Server 4.",
+            "<anonymized-corp> uses Tranquility Home Grid to gain 2 [Credits].",
+            "<anonymized-corp> is ending their turn 11 with 19 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "ability",
@@ -1948,12 +1936,12 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 11 with 2 [Credit] and 5 cards in his Grip.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits].",
-            "<anonymized> uses Daily Casts to gain 2 [Credits].",
-            "<anonymized> identifies his mark to be R&D.",
-            "<anonymized> uses Open Market to gain 1 [Credits].",
-            "<anonymized> uses Open Market to gain 1 [Credits]."
+            "<anonymized-runner> started his turn 11 with 2 [Credit] and 5 cards in his Grip.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized-runner> identifies his mark to be R&D.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits].",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1965,7 +1953,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install Hermes."
+            "<anonymized-runner> spends [Click] and pays 1 [Credits] to install Hermes."
           ],
           "action": {
             "type": "install",
@@ -1983,7 +1971,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to install The Twinning."
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to install The Twinning."
           ],
           "action": {
             "type": "install",
@@ -1998,21 +1986,21 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches ice protecting R&D at position 0.",
-            "<anonymized> pays 3 [Credits] to rez Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> encounters Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> uses The Twinning to place a power counter on itself.",
-            "<anonymized> pays 2 [Credits] from Cezve and spends 2 hosted power counters from on Revolver to increase the strength of Revolver to 4 and break all 2 subroutines on Bumi 1.0.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> uses The Twinning to access 1 additional card from R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> pays 2 [Credits] to trash Mercia B4LL4RD from R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> uses Info Bounty to gain 2 [Credits]."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches ice protecting R&D at position 0.",
+            "<anonymized-corp> pays 3 [Credits] to rez Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> encounters Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> uses The Twinning to place a power counter on itself.",
+            "<anonymized-runner> pays 2 [Credits] from Cezve and spends 2 hosted power counters from on Revolver to increase the strength of Revolver to 4 and break all 2 subroutines on Bumi 1.0.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> uses The Twinning to access 1 additional card from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> pays 2 [Credits] to trash Mercia B4LL4RD from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> uses Info Bounty to gain 2 [Credits]."
           ],
           "action": {
             "type": "run",
@@ -2031,9 +2019,9 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom.",
-            "<anonymized> is ending his turn 11 with 4 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized-runner> uses The Class Act to add the first card on the top of the stack to the bottom.",
+            "<anonymized-runner> is ending his turn 11 with 4 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -2053,8 +2041,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 12 with 16 [Credit] and 5 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 12 with 16 [Credit] and 5 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2063,7 +2051,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
           ],
           "action": {
             "type": "advance",
@@ -2079,9 +2067,9 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 6 (new remote).",
-            "<anonymized> pays 0 [Credits] to rez Spin Doctor in Server 6.",
-            "<anonymized> uses Spin Doctor to draw 2 cards."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 6 (new remote).",
+            "<anonymized-corp> pays 0 [Credits] to rez Spin Doctor in Server 6.",
+            "<anonymized-corp> uses Spin Doctor to draw 2 cards."
           ],
           "action": {
             "type": "install",
@@ -2097,10 +2085,10 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "<anonymized> uses Hedge Fund to gain 9 [Credits].",
-            "<anonymized> discards 1 card from HQ at end of turn.",
-            "<anonymized> is ending their turn 12 with 19 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized-corp> uses Hedge Fund to gain 9 [Credits].",
+            "<anonymized-corp> discards 1 card from HQ at end of turn.",
+            "<anonymized-corp> is ending their turn 12 with 19 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -2122,13 +2110,13 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 12 with 4 [Credit] and 4 cards in his Grip.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits].",
-            "<anonymized> trashes Daily Casts.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits].",
-            "<anonymized> identifies his mark to be R&D.",
-            "<anonymized> uses Open Market to gain 1 [Credits].",
-            "<anonymized> uses Open Market to gain 1 [Credits].",
+            "<anonymized-runner> started his turn 12 with 4 [Credit] and 4 cards in his Grip.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized-runner> trashes Daily Casts.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized-runner> identifies his mark to be R&D.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits].",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits].",
             "OF15-15 has left the game."
           ],
           "effects": {
@@ -2141,20 +2129,20 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> encounters Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> uses The Twinning to place a power counter on itself.",
-            "<anonymized> pays 2 [Credits] from Cezve and spends 2 hosted power counters from on Revolver to increase the strength of Revolver to 4 and break all 2 subroutines on Bumi 1.0.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> uses The Twinning to access 1 additional card from R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> pays 2 [Credits] to trash Mercia B4LL4RD from R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> uses Info Bounty to gain 2 [Credits]."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> encounters Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> uses The Twinning to place a power counter on itself.",
+            "<anonymized-runner> pays 2 [Credits] from Cezve and spends 2 hosted power counters from on Revolver to increase the strength of Revolver to 4 and break all 2 subroutines on Bumi 1.0.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> uses The Twinning to access 1 additional card from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> pays 2 [Credits] to trash Mercia B4LL4RD from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> uses Info Bounty to gain 2 [Credits]."
           ],
           "action": {
             "type": "run",
@@ -2173,13 +2161,13 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to make a run on Server 4.",
-            "<anonymized> approaches ice protecting Server 4 at position 2.",
-            "<anonymized> pays 6 [Credits] to rez Brân 1.0 protecting Server 4 at position 2.",
-            "<anonymized> encounters Brân 1.0 protecting Server 4 at position 2.",
-            "<anonymized> indicates to fire all unbroken subroutines on Brân 1.0.",
-            "<anonymized> uses Brân 1.0 to end the run.",
-            "<anonymized> resolves 2 unbroken subroutines on Brân 1.0 (\"[subroutine] Install an ice from HQ or Archives\" and \"[subroutine] End the run\")."
+            "<anonymized-runner> spends [Click] to make a run on Server 4.",
+            "<anonymized-runner> approaches ice protecting Server 4 at position 2.",
+            "<anonymized-corp> pays 6 [Credits] to rez Brân 1.0 protecting Server 4 at position 2.",
+            "<anonymized-runner> encounters Brân 1.0 protecting Server 4 at position 2.",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on Brân 1.0.",
+            "<anonymized-corp> uses Brân 1.0 to end the run.",
+            "<anonymized-corp> resolves 2 unbroken subroutines on Brân 1.0 (\"[subroutine] Install an ice from HQ or Archives\" and \"[subroutine] End the run\")."
           ],
           "action": {
             "type": "run",
@@ -2190,24 +2178,24 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
-            "<anonymized> approaches Sleipnir protecting HQ at position 0.",
-            "<anonymized> encounters Sleipnir protecting HQ at position 0.",
-            "<anonymized> pays 1 [Credits] to use Unity to increase its strength from 1 to 4.",
-            "<anonymized> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on Sleipnir (\"[subroutine] You may shuffle 1 card from HQ or Archives into R&D\").",
-            "<anonymized> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on Sleipnir (\"[subroutine] End the run\").",
-            "<anonymized> indicates to fire all unbroken subroutines on Sleipnir.",
-            "<anonymized> uses Sleipnir to draw 1  card.",
-            "<anonymized> resolves 1 unbroken subroutine on Sleipnir (\"[subroutine] You may draw 1 card\").",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Sleipnir protecting HQ at position 0.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> uses Transfer of Wealth to take 1 tag.",
-            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Seamless Launch from HQ."
+            "<anonymized-runner> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized-runner> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized-runner> approaches Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> encounters Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to increase its strength from 1 to 4.",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on Sleipnir (\"[subroutine] You may shuffle 1 card from HQ or Archives into R&D\").",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on Sleipnir (\"[subroutine] End the run\").",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on Sleipnir.",
+            "<anonymized-corp> uses Sleipnir to draw 1  card.",
+            "<anonymized-corp> resolves 1 unbroken subroutine on Sleipnir (\"[subroutine] You may draw 1 card\").",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized-runner> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Seamless Launch from HQ."
           ],
           "action": {
             "type": "play",
@@ -2215,16 +2203,15 @@
             "cost": 0
           },
           "effects": {
-            "credits_gained": 6,
-            "cards_drawn": 1
+            "credits_gained": 6
           },
           "bucket": "run"
         },
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "<anonymized> is ending his turn 12 with 11 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized-runner> is ending his turn 12 with 11 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -2245,8 +2232,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 13 with 10 [Credit] and 6 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 13 with 10 [Credit] and 6 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2255,8 +2242,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play Seamless Launch.",
-            "<anonymized> uses Seamless Launch to place 2 advancement counters on a card in Server 4."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to play Seamless Launch.",
+            "<anonymized-corp> uses Seamless Launch to place 2 advancement counters on a card in Server 4."
           ],
           "action": {
             "type": "play",
@@ -2271,10 +2258,10 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to play Seamless Launch.",
-            "<anonymized> uses Seamless Launch to place 2 advancement counters on a card in Server 4.",
-            "<anonymized> scores Méliès City Luxury Line and gains 3 agenda points.",
-            "<anonymized> uses Méliès City Luxury Line to gain [Click]."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to play Seamless Launch.",
+            "<anonymized-corp> uses Seamless Launch to place 2 advancement counters on a card in Server 4.",
+            "<anonymized-corp> scores Méliès City Luxury Line and gains 3 agenda points.",
+            "<anonymized-corp> uses Méliès City Luxury Line to gain [Click]."
           ],
           "action": {
             "type": "play",
@@ -2289,8 +2276,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 4.",
-            "<anonymized> uses Tranquility Home Grid to gain 2 [Credits]."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 4.",
+            "<anonymized-corp> uses Tranquility Home Grid to gain 2 [Credits]."
           ],
           "action": {
             "type": "install",
@@ -2308,8 +2295,8 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting R&D.",
-            "<anonymized> is ending their turn 13 with 9 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to install ice protecting R&D.",
+            "<anonymized-corp> is ending their turn 13 with 9 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -2330,12 +2317,12 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 13 with 11 [Credit] and 3 cards in his Grip.",
-            "<anonymized> uses Daily Casts to gain 2 [Credits].",
-            "<anonymized> trashes Daily Casts.",
-            "<anonymized> identifies his mark to be Archives.",
-            "<anonymized> uses Open Market to gain 1 [Credits].",
-            "<anonymized> uses Open Market to gain 1 [Credits]."
+            "<anonymized-runner> started his turn 13 with 11 [Credit] and 3 cards in his Grip.",
+            "<anonymized-runner> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized-runner> trashes Daily Casts.",
+            "<anonymized-runner> identifies his mark to be Archives.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits].",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -2347,13 +2334,13 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to make a run on Archives.",
-            "<anonymized> uses Spin Doctor to shuffle Seamless Launch and 1 unseen card into R&D.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches Archives.",
-            "<anonymized> breaches Archives.",
-            "<anonymized> accesses everything else in Archives.",
-            "<anonymized> uses Info Bounty to gain 2 [Credits]."
+            "<anonymized-runner> spends [Click] to make a run on Archives.",
+            "<anonymized-corp> uses Spin Doctor to shuffle Seamless Launch and 1 unseen card into R&D.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches Archives.",
+            "<anonymized-runner> breaches Archives.",
+            "<anonymized-runner> accesses everything else in Archives.",
+            "<anonymized-runner> uses Info Bounty to gain 2 [Credits]."
           ],
           "action": {
             "type": "run",
@@ -2369,7 +2356,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to install Echelon."
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to install Echelon."
           ],
           "action": {
             "type": "install",
@@ -2384,25 +2371,25 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches ice protecting R&D at position 1.",
-            "<anonymized> pays 3 [Credits] to rez Drafter protecting R&D at position 1.",
-            "<anonymized> encounters Drafter protecting R&D at position 1.",
-            "<anonymized> uses The Twinning to place a power counter on itself.",
-            "<anonymized> pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Drafter.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Drafter protecting R&D at position 1.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> encounters Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> pays 2 [Credits] to use Echelon to break all 2 subroutines on Bumi 1.0.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> uses The Twinning to access 1 additional card from R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> accesses an unseen card from R&D."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches ice protecting R&D at position 1.",
+            "<anonymized-corp> pays 3 [Credits] to rez Drafter protecting R&D at position 1.",
+            "<anonymized-runner> encounters Drafter protecting R&D at position 1.",
+            "<anonymized-runner> uses The Twinning to place a power counter on itself.",
+            "<anonymized-runner> pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Drafter.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Drafter protecting R&D at position 1.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> encounters Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> pays 2 [Credits] to use Echelon to break all 2 subroutines on Bumi 1.0.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> uses The Twinning to access 1 additional card from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D."
           ],
           "action": {
             "type": "run",
@@ -2418,14 +2405,14 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to steal Méliès City Luxury Line from R&D.",
-            "<anonymized> steals Méliès City Luxury Line and gains 3 agenda points.",
-            "<anonymized> uses Hermes to add a card in Server 4 to HQ.",
-            "<anonymized> is ending his turn 13 with 12 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to steal Méliès City Luxury Line from R&D.",
+            "<anonymized-runner> steals Méliès City Luxury Line and gains 3 agenda points.",
+            "<anonymized-runner> uses Hermes to add a card in Server 4 to HQ.",
+            "<anonymized-runner> is ending his turn 13 with 12 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "unknown",
-            "raw": "<anonymized> spends [Click] to steal Méliès City Luxury Line from R&D."
+            "raw": "<anonymized-runner> spends [Click] to steal Méliès City Luxury Line from R&D."
           },
           "bucket": "setup"
         }
@@ -2438,8 +2425,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 14 with 6 [Credit] and 4 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 14 with 6 [Credit] and 4 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2448,8 +2435,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash.",
-            "<anonymized> uses Petty Cash to gain 5 [credits]."
+            "<anonymized-corp> spends [Click] and pays 3 [Credits] to play Petty Cash.",
+            "<anonymized-corp> uses Petty Cash to gain 5 [credits]."
           ],
           "action": {
             "type": "play",
@@ -2464,8 +2451,8 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 4.",
-            "<anonymized> uses Tranquility Home Grid to gain 2 [Credits]."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 4.",
+            "<anonymized-corp> uses Tranquility Home Grid to gain 2 [Credits]."
           ],
           "action": {
             "type": "install",
@@ -2483,8 +2470,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
-            "<anonymized> is ending their turn 14 with 9 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
+            "<anonymized-corp> is ending their turn 14 with 9 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -2506,11 +2493,11 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 14 with 12 [Credit] and 2 cards in his Grip.",
-            "<anonymized> identifies his mark to be R&D.",
-            "<anonymized> uses Open Market to gain 1 [Credits].",
-            "<anonymized> trashes Open Market.",
-            "<anonymized> uses Open Market to gain 1 [Credits]."
+            "<anonymized-runner> started his turn 14 with 12 [Credit] and 2 cards in his Grip.",
+            "<anonymized-runner> identifies his mark to be R&D.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits].",
+            "<anonymized-runner> trashes Open Market.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -2521,8 +2508,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized-runner> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2536,29 +2523,29 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
-            "<anonymized> approaches Drafter protecting R&D at position 1.",
-            "<anonymized> encounters Drafter protecting R&D at position 1.",
-            "<anonymized> uses The Twinning to place a power counter on itself.",
-            "<anonymized> pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Drafter.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Drafter protecting R&D at position 1.",
-            "<anonymized> approaches Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> encounters Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> pays 2 [Credits] to use Echelon to break all 2 subroutines on Bumi 1.0.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> uses The Twinning to access 1 additional card from R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> steals Let Them Dream and gains 1 agenda point.",
-            "<anonymized> uses Hermes to add a card in Server 4 to HQ.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> steals Let Them Dream and gains 1 agenda point.",
-            "<anonymized> uses Info Bounty to gain 2 [Credits].",
-            "<anonymized> uses Bravado to gain 8 [Credits].",
-            "<anonymized>"
+            "<anonymized-runner> spends [Click] and pays 3 [Credits] to play Bravado.",
+            "<anonymized-runner> approaches Drafter protecting R&D at position 1.",
+            "<anonymized-runner> encounters Drafter protecting R&D at position 1.",
+            "<anonymized-runner> uses The Twinning to place a power counter on itself.",
+            "<anonymized-runner> pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Drafter.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Drafter protecting R&D at position 1.",
+            "<anonymized-runner> approaches Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> encounters Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> pays 2 [Credits] to use Echelon to break all 2 subroutines on Bumi 1.0.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> uses The Twinning to access 1 additional card from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> steals Let Them Dream and gains 1 agenda point.",
+            "<anonymized-runner> uses Hermes to add a card in Server 4 to HQ.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> steals Let Them Dream and gains 1 agenda point.",
+            "<anonymized-runner> uses Info Bounty to gain 2 [Credits].",
+            "<anonymized-runner> uses Bravado to gain 8 [Credits].",
+            "[!] 20 minutes remaining in the round"
           ],
           "action": {
             "type": "play",
@@ -2580,16 +2567,16 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on HQ.",
-            "<anonymized> approaches Sleipnir protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Sleipnir protecting HQ at position 0.",
-            "<anonymized> pays 4 [Credits] to increase the strength of Unity to 5 and break all 3 subroutines on Sleipnir.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Sleipnir protecting HQ at position 0.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Myōshu from HQ."
+            "<anonymized-runner> spends [Click] to make a run on HQ.",
+            "<anonymized-runner> approaches Sleipnir protecting HQ at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> pays 4 [Credits] to increase the strength of Unity to 5 and break all 3 subroutines on Sleipnir.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Myōshu from HQ."
           ],
           "action": {
             "type": "run",
@@ -2600,18 +2587,18 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to make a run on HQ.",
-            "<anonymized> approaches Sleipnir protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Sleipnir protecting HQ at position 0.",
-            "<anonymized> pays 4 [Credits] to increase the strength of Unity to 5 and break all 3 subroutines on Sleipnir.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Sleipnir protecting HQ at position 0.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Let Them Dream from HQ.",
-            "<anonymized> steals Let Them Dream and gains 1 agenda point.",
-            "<anonymized> is ending his turn 14 with 11 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to make a run on HQ.",
+            "<anonymized-runner> approaches Sleipnir protecting HQ at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> pays 4 [Credits] to increase the strength of Unity to 5 and break all 3 subroutines on Sleipnir.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Let Them Dream from HQ.",
+            "<anonymized-runner> steals Let Them Dream and gains 1 agenda point.",
+            "<anonymized-runner> is ending his turn 14 with 11 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -2628,12 +2615,12 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 15 with 9 [Credit] and 3 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw.",
-            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
-            "<anonymized> uses Petty Cash to gain 5 [credits].",
-            "<anonymized> uses Petty Cash to gain [Click].",
-            "<anonymized> removes Petty Cash from the game instead of trashing it."
+            "<anonymized-corp> started their turn 15 with 9 [Credit] and 3 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw.",
+            "<anonymized-corp> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "<anonymized-corp> uses Petty Cash to gain 5 [credits].",
+            "<anonymized-corp> uses Petty Cash to gain [Click].",
+            "<anonymized-corp> removes Petty Cash from the game instead of trashing it."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2642,8 +2629,8 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to install a card in the root of Server 4.",
-            "<anonymized> uses Tranquility Home Grid to gain 2 [Credits]."
+            "<anonymized-corp> spends [Click] to install a card in the root of Server 4.",
+            "<anonymized-corp> uses Tranquility Home Grid to gain 2 [Credits]."
           ],
           "action": {
             "type": "install",
@@ -2661,7 +2648,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
           ],
           "action": {
             "type": "advance",
@@ -2677,8 +2664,8 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 2 [Credits] to install ice protecting R&D.",
-            "<anonymized> is ending their turn 15 with 10 [Credit] and 2 cards in HQ.[hr]"
+            "<anonymized-corp> spends [Click] and pays 2 [Credits] to install ice protecting R&D.",
+            "<anonymized-corp> is ending their turn 15 with 10 [Credit] and 2 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -2699,9 +2686,9 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started his turn 15 with 11 [Credit] and 2 cards in his Grip.",
-            "<anonymized> identifies his mark to be Archives.",
-            "<anonymized> uses Open Market to gain 1 [Credits]."
+            "<anonymized-runner> started his turn 15 with 11 [Credit] and 2 cards in his Grip.",
+            "<anonymized-runner> identifies his mark to be Archives.",
+            "<anonymized-runner> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -2712,27 +2699,27 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches ice protecting R&D at position 2.",
-            "<anonymized> pays 3 [Credits] to rez Drafter protecting R&D at position 2.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Drafter protecting R&D at position 2.",
-            "<anonymized> uses The Twinning to place a power counter on itself.",
-            "<anonymized> pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Drafter.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Drafter protecting R&D at position 2.",
-            "<anonymized> approaches Drafter protecting R&D at position 1.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Drafter protecting R&D at position 1.",
-            "<anonymized> pays 2 [Credits] to use Echelon to break all 2 subroutines on Drafter.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Drafter protecting R&D at position 1.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> encounters Bumi 1.0 protecting R&D at position 0.",
-            "<anonymized> pays 2 [Credits] to use Echelon to break all 2 subroutines on Bumi 1.0.",
-            "<anonymized> has no further action.",
-            "<anonymized> trashes 1  rezzed Bioroid (Bumi 1.0 protecting R&D at position 0) to use LEO Construction: Labor Solutions to end the run."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches ice protecting R&D at position 2.",
+            "<anonymized-corp> pays 3 [Credits] to rez Drafter protecting R&D at position 2.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Drafter protecting R&D at position 2.",
+            "<anonymized-runner> uses The Twinning to place a power counter on itself.",
+            "<anonymized-runner> pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Drafter.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Drafter protecting R&D at position 2.",
+            "<anonymized-runner> approaches Drafter protecting R&D at position 1.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Drafter protecting R&D at position 1.",
+            "<anonymized-runner> pays 2 [Credits] to use Echelon to break all 2 subroutines on Drafter.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Drafter protecting R&D at position 1.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> encounters Bumi 1.0 protecting R&D at position 0.",
+            "<anonymized-runner> pays 2 [Credits] to use Echelon to break all 2 subroutines on Bumi 1.0.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> trashes 1  rezzed Bioroid (Bumi 1.0 protecting R&D at position 0) to use LEO Construction: Labor Solutions to end the run."
           ],
           "action": {
             "type": "run",
@@ -2748,24 +2735,24 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] to make a run on R&D.",
-            "<anonymized> approaches Drafter protecting R&D at position 1.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Drafter protecting R&D at position 1.",
-            "<anonymized> pays 2 [Credits] to use Echelon to break all 2 subroutines on Drafter.",
-            "<anonymized> has no further action.",
-            "<anonymized> passes Drafter protecting R&D at position 1.",
-            "<anonymized> approaches Drafter protecting R&D at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Drafter protecting R&D at position 0.",
-            "<anonymized> pays 2 [Credits] to use Echelon to break all 2 subroutines on Drafter.",
-            "<anonymized> passes Drafter protecting R&D at position 0.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches R&D.",
-            "<anonymized> breaches R&D.",
-            "<anonymized> uses The Twinning to access 1 additional card from R&D.",
-            "<anonymized> accesses an unseen card from R&D.",
-            "<anonymized> accesses an unseen card from R&D."
+            "<anonymized-runner> spends [Click] to make a run on R&D.",
+            "<anonymized-runner> approaches Drafter protecting R&D at position 1.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Drafter protecting R&D at position 1.",
+            "<anonymized-runner> pays 2 [Credits] to use Echelon to break all 2 subroutines on Drafter.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-runner> passes Drafter protecting R&D at position 1.",
+            "<anonymized-runner> approaches Drafter protecting R&D at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Drafter protecting R&D at position 0.",
+            "<anonymized-runner> pays 2 [Credits] to use Echelon to break all 2 subroutines on Drafter.",
+            "<anonymized-runner> passes Drafter protecting R&D at position 0.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches R&D.",
+            "<anonymized-runner> breaches R&D.",
+            "<anonymized-runner> uses The Twinning to access 1 additional card from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D.",
+            "<anonymized-runner> accesses an unseen card from R&D."
           ],
           "action": {
             "type": "run",
@@ -2776,22 +2763,22 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] to make a run on HQ.",
-            "<anonymized> approaches Sleipnir protecting HQ at position 0.",
-            "<anonymized> has no further action.",
-            "<anonymized> encounters Sleipnir protecting HQ at position 0.",
-            "<anonymized> pays 1 [Credits] to increase the strength of Unity to 5.",
-            "<anonymized> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on Sleipnir (\"[subroutine] You may draw 1 card\").",
-            "<anonymized> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on Sleipnir (\"[subroutine] End the run\").",
-            "<anonymized> indicates to fire all unbroken subroutines on Sleipnir.",
-            "<anonymized> has no further action.",
-            "<anonymized> uses Sleipnir to shuffle Bumi 1.0 in Archives into R&D.",
-            "<anonymized> resolves 1 unbroken subroutine on Sleipnir (\"[subroutine] You may shuffle 1 card from HQ or Archives into R&D\").",
-            "<anonymized> passes Sleipnir protecting HQ at position 0.",
-            "<anonymized> will continue the run.",
-            "<anonymized> approaches HQ.",
-            "<anonymized> breaches HQ.",
-            "<anonymized> accesses Myōshu from HQ."
+            "<anonymized-runner> spends [Click] to make a run on HQ.",
+            "<anonymized-runner> approaches Sleipnir protecting HQ at position 0.",
+            "<anonymized-corp> has no further action.",
+            "<anonymized-runner> encounters Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> pays 1 [Credits] to increase the strength of Unity to 5.",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on Sleipnir (\"[subroutine] You may draw 1 card\").",
+            "<anonymized-runner> pays 1 [Credits] to use Unity to break 1 Code Gate subroutine on Sleipnir (\"[subroutine] End the run\").",
+            "<anonymized-runner> indicates to fire all unbroken subroutines on Sleipnir.",
+            "<anonymized-runner> has no further action.",
+            "<anonymized-corp> uses Sleipnir to shuffle Bumi 1.0 in Archives into R&D.",
+            "<anonymized-corp> resolves 1 unbroken subroutine on Sleipnir (\"[subroutine] You may shuffle 1 card from HQ or Archives into R&D\").",
+            "<anonymized-runner> passes Sleipnir protecting HQ at position 0.",
+            "<anonymized-runner> will continue the run.",
+            "<anonymized-runner> approaches HQ.",
+            "<anonymized-runner> breaches HQ.",
+            "<anonymized-runner> accesses Myōshu from HQ."
           ],
           "action": {
             "type": "run",
@@ -2805,9 +2792,9 @@
         {
           "click": 4,
           "events": [
-            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom.",
-            "<anonymized> is ending his turn 15 with 1 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized-runner> uses The Class Act to add the second card on the top of the stack to the bottom.",
+            "<anonymized-runner> is ending his turn 15 with 1 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -2827,8 +2814,8 @@
         {
           "click": 0,
           "events": [
-            "<anonymized> started their turn 16 with 7 [Credit] and 2 cards in HQ.",
-            "<anonymized> makes their mandatory start of turn draw."
+            "<anonymized-corp> started their turn 16 with 7 [Credit] and 2 cards in HQ.",
+            "<anonymized-corp> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2837,7 +2824,7 @@
         {
           "click": 1,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
           ],
           "action": {
             "type": "advance",
@@ -2853,7 +2840,7 @@
         {
           "click": 2,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4."
           ],
           "action": {
             "type": "advance",
@@ -2869,35 +2856,35 @@
         {
           "click": 3,
           "events": [
-            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
-            "<anonymized> scores Architect Deployment Test and gains 2 agenda points.",
-            "<anonymized> wins the game.",
-            "<anonymized> uses Architect Deployment Test to look at the top 5 cards of R&D.",
-            "<anonymized> looks at his deck.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
+            "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
+            "<anonymized-corp> scores Architect Deployment Test and gains 2 agenda points.",
+            "<anonymized-corp> wins the game.",
+            "<anonymized-corp> uses Architect Deployment Test to look at the top 5 cards of R&D.",
+            "<anonymized-runner> looks at his deck.",
+            "gg",
+            "well played",
+            "gg",
             "thrantar has left the game.",
             "KomodoCommodore has left the game.",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized>",
-            "<anonymized> has left the game."
+            "I thought you had it there",
+            "Thanks for the game",
+            "I shouldve just ran the remote",
+            "I think I couldve gotten in",
+            "really?",
+            "I guess i could only make you break bran once",
+            "8 + 2 + 4",
+            "then you pop bran",
+            "2 + 4",
+            "hmm that's a lot I guess",
+            "20",
+            "nah wouldve been short",
+            "oh after i trashed the bumi maybe",
+            "I probably shouldnt have done that there",
+            "I think Im short clicks",
+            "probably",
+            "good luck with the rest of your games!",
+            "you too",
+            "<anonymized-corp> has left the game."
           ],
           "action": {
             "type": "advance",
