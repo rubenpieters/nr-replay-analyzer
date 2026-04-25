@@ -267,9 +267,9 @@
           "click": 0,
           "events": [
             "<anonymized> takes a mulligan.",
-            "gl hf",
+            "<anonymized>",
             "<anonymized> keeps his hand.",
-            "ah yeah no problem"
+            "<anonymized>"
           ]
         }
       ]
@@ -937,7 +937,7 @@
         {
           "click": -1,
           "events": [
-            "I promise I have az targetsin my deck"
+            "<anonymized>"
           ]
         }
       ]
@@ -1330,29 +1330,29 @@
             "<anonymized> trashes M.I.C. to use M.I.C. to end the run unless the Runner spends [Click].",
             "<anonymized> uses M.I.C. to end the run.",
             "<anonymized> is ending his turn 7 with 3 [Credit] and 3 cards in his Grip.[hr]",
-            "wait I really shouldnt have trahsed there lol",
-            "is it ok with you if i undo that",
-            "lets call a judge then",
-            "im fine if you want to keep going like this it was just a dumb move on my part",
-            "still waiting on someone to respond",
-            "Hi team",
-            "hello",
-            "hi",
-            "Just noticed OF hasn't responded",
-            "Don't stress about time, you'll get your extension",
-            "I did a run and my opponent trashed MIC, wanting to undo",
-            "What seems to be the issue",
-            "yeah",
-            "we are right after the moment MIC ended the run",
-            "I trashed the mic to force end the run",
-            "and then realized I shouldn't do that",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "aksu has left the game.",
-            "so I would lik to undo it if possible",
-            "There has been no information revealed, we should be able to undo.",
-            "ill just do undo click and redo the run?",
-            "ok thanks",
-            "The easiest method is- yes",
-            "ok thanks",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -1360,7 +1360,7 @@
           "click": 4,
           "events": [
             "<anonymized> spends [Click] to make a run on Server 4.",
-            "sorry",
+            "<anonymized>",
             "<anonymized> approaches Sleipnir protecting Server 4 at position 1.",
             "<anonymized> encounters Sleipnir protecting Server 4 at position 1.",
             "<anonymized> pays 4 [Credits] to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
@@ -1441,8 +1441,8 @@
             "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 4.",
             "<anonymized> scores Méliès City Luxury Line and gains 3 agenda points.",
             "<anonymized> uses Méliès City Luxury Line to gain [Click].",
-            "Alright, adding a 5min extension",
-            "thanks"
+            "<anonymized>",
+            "<anonymized>"
           ],
           "action": {
             "type": "advance",
@@ -2558,7 +2558,7 @@
             "<anonymized> steals Let Them Dream and gains 1 agenda point.",
             "<anonymized> uses Info Bounty to gain 2 [Credits].",
             "<anonymized> uses Bravado to gain 8 [Credits].",
-            "[!] 20 minutes remaining in the round"
+            "<anonymized>"
           ],
           "action": {
             "type": "play",
@@ -2874,29 +2874,29 @@
             "<anonymized> wins the game.",
             "<anonymized> uses Architect Deployment Test to look at the top 5 cards of R&D.",
             "<anonymized> looks at his deck.",
-            "gg",
-            "well played",
-            "gg",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "thrantar has left the game.",
             "KomodoCommodore has left the game.",
-            "I thought you had it there",
-            "Thanks for the game",
-            "I shouldve just ran the remote",
-            "I think I couldve gotten in",
-            "really?",
-            "I guess i could only make you break bran once",
-            "8 + 2 + 4",
-            "then you pop bran",
-            "2 + 4",
-            "hmm that's a lot I guess",
-            "20",
-            "nah wouldve been short",
-            "oh after i trashed the bumi maybe",
-            "I probably shouldnt have done that there",
-            "I think Im short clicks",
-            "probably",
-            "good luck with the rest of your games!",
-            "you too",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> has left the game."
           ],
           "action": {

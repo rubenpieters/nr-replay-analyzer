@@ -268,9 +268,9 @@
             "<anonymized> takes a mulligan.",
             "<anonymized> reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
             "<anonymized> keeps his hand.",
-            "[!] The round has begun!",
-            "gl hf",
-            "gl hf"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ]
         }
       ]
@@ -1552,13 +1552,13 @@
             "<anonymized> trashes Clean Getaway due to net damage.",
             "<anonymized> trashes Transfer of Wealth due to net damage.",
             "<anonymized> resolves 3 unbroken subroutines on Attini (\"[subroutine] Do 1 net damage unless the Runner pays 2 [Credits]\" and \"[subroutine] Do 1 net damage unless the Runner pays 2 [Credits]\" and \"[subroutine] Do 1 net damage unless the Runner pays 2 [Credits]\").",
-            "wait",
-            "oh, if you want to break thats fine",
-            "since dmg was deterministic",
-            "I thought id be able to pay",
-            "yea, i always think of attini as threat 4 for some reason",
-            "if you do want to break just bring back the cards and take net manually",
-            "nah Ill just leave it like this",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> accesses an unseen card from R&D.",
             "<anonymized> uses Bravado to gain 7 [Credits]."
           ],
@@ -1578,7 +1578,7 @@
           "events": [
             "<anonymized> trashes Dr. Nuka Vrolyck.",
             "<anonymized> spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards.",
-            "kk",
+            "<anonymized>",
             "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom.",
             "<anonymized> is ending his turn 8 with 11 [Credit] and 3 cards in his Grip.[hr]"
           ],
@@ -2091,11 +2091,11 @@
           "events": [
             "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
             "<anonymized> uses Sure Gamble to gain 9 [Credits].",
-            "wait",
-            "sure",
-            "i should have boosted for twinning",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "[!]<anonymized> uses a command: /counter p 2",
-            "oh yea, go for it",
+            "<anonymized>",
             "<anonymized> sets power counters to 2 on The Twinning.",
             "<anonymized> is ending his turn 11 with 19 [Credit] and 5 cards in his Grip.[hr]"
           ],
@@ -2647,8 +2647,8 @@
             "<anonymized> accesses an unseen card from R&D.",
             "<anonymized> steals Fujii Asset Retrieval and gains 3 agenda points.",
             "<anonymized> wins the game.",
-            "gg",
-            "gg",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> looks at their deck.",
             "Ams has left the game.",
             "KomodoCommodore has left the game.",

@@ -279,7 +279,7 @@
           "events": [
             "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in HQ.",
             "<anonymized> makes his mandatory start of turn draw.",
-            "glhf"
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -515,13 +515,13 @@
           "click": 2,
           "events": [
             "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "this hand is so fucking bad",
-            ":D",
-            "mine too X_X",
-            "surprised you didnt trash the rego",
-            "how tf they're playing this",
-            "haha",
-            "I literally have 0 money cards to play rn"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ],
           "action": {
             "type": "draw",
@@ -550,7 +550,7 @@
           "click": 4,
           "events": [
             "<anonymized> spends [Click] and pays 1 [Credits] to install Devil Charm.",
-            "damn",
+            "<anonymized>",
             "<anonymized> discards Audrey v2 from his Grip at end of turn.",
             "<anonymized> is ending his turn 2 with 2 [Credit] and 5 cards in his Grip.[hr]"
           ],
@@ -586,7 +586,7 @@
           "events": [
             "<anonymized> started his turn 3 with 13 [Credit] and 5 cards in HQ.",
             "<anonymized> makes his mandatory start of turn draw.",
-            "seb is broken they said"
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -697,7 +697,7 @@
             "<anonymized> has no further action.",
             "<anonymized> approaches HQ.",
             "<anonymized> uses Transfer of Wealth to take 1 tag.",
-            "YOU HAVE NO CONNECTIONS",
+            "<anonymized>",
             "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
             "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
             "<anonymized> breaches HQ.",
@@ -734,7 +734,7 @@
         {
           "click": -1,
           "events": [
-            "no friends :("
+            "<anonymized>"
           ]
         }
       ]
@@ -805,7 +805,7 @@
           "click": -1,
           "events": [
             "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server.",
-            "and now all my recursion is fucked up"
+            "<anonymized>"
           ]
         }
       ]
@@ -1635,17 +1635,17 @@
           "click": 0,
           "events": [
             "<anonymized> started his turn 9 with 15 [Credit] and 3 cards in his Grip.",
-            "I feel weird I am here in TAIB actually",
-            ":D",
-            "you'll get used to it :)",
-            "I want it so hard but xiaat always said \"there is no recruitment\""
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ]
         },
         {
           "click": 1,
           "events": [
             "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "yeah we're a bit wary of growing too fast as a group"
+            "<anonymized>"
           ],
           "action": {
             "type": "draw",
@@ -1671,7 +1671,7 @@
             "<anonymized> accesses an unseen card from R&D.",
             "<anonymized> steals Send a Message and gains 3 agenda points.",
             "<anonymized> uses Send a Message to rez Mycoweb protecting HQ at position 0 at no cost.",
-            "LMAO"
+            "<anonymized>"
           ],
           "action": {
             "type": "run",
@@ -1799,8 +1799,8 @@
           "click": -1,
           "events": [
             "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server.",
-            "vlad is drinking",
-            ";D"
+            "<anonymized>",
+            "<anonymized>"
           ]
         }
       ]
@@ -1813,8 +1813,8 @@
           "click": 0,
           "events": [
             "<anonymized> started his turn 10 with 18 [Credit] and 3 cards in his Grip.",
-            "yers",
-            "yes"
+            "<anonymized>",
+            "<anonymized>"
           ]
         },
         {
@@ -1909,8 +1909,8 @@
             "<anonymized> started his turn 11 with 25 [Credit] and 7 cards in HQ.",
             "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
             "<anonymized> makes his mandatory start of turn draw.",
-            "oh you play 2 tide",
-            "interesting"
+            "<anonymized>",
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -1938,7 +1938,7 @@
           "click": 2,
           "events": [
             "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Archives.",
-            "its eden deck I guess"
+            "<anonymized>"
           ],
           "action": {
             "type": "install_ice",
@@ -1967,7 +1967,7 @@
           "click": -1,
           "events": [
             "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server.",
-            "I'm bad at brewing, usually just netdecking and making it worse"
+            "<anonymized>"
           ]
         }
       ]
@@ -2075,7 +2075,7 @@
           "click": 1,
           "events": [
             "<anonymized> spends [Click] and pays 2 [Credits] to install ice protecting Server 1.",
-            "as always when I playing seb feels kinda locked"
+            "<anonymized>"
           ],
           "action": {
             "type": "install_ice",
@@ -2120,9 +2120,9 @@
           "click": -1,
           "events": [
             "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server.",
-            "yes I stole 6 points",
-            "buuuuut",
-            ":D",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> uses Strike Fund to gain 2 [Credits].",
             "<anonymized> uses Buffer Drive to add Strike Fund to the bottom of the stack.",
             "<anonymized> trashes 1 card (Strike Fund) from the grip to use Audrey v2 to increase its strength from 0 to 3."
@@ -2143,14 +2143,14 @@
           "click": 0,
           "events": [
             "<anonymized> started his turn 12 with 18 [Credit] and 4 cards in his Grip.",
-            "yeah, its difficult sometimes"
+            "<anonymized>"
           ]
         },
         {
           "click": 1,
           "events": [
             "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "esp with a rough start"
+            "<anonymized>"
           ],
           "action": {
             "type": "draw",
@@ -2872,7 +2872,7 @@
             "<anonymized> accesses an unseen card from R&D.",
             "<anonymized> pays 1 [Credits] to trash Anoetic Void from R&D.",
             "<anonymized> uses Audrey v2 to place 1 virus counter on itself.",
-            "probably shouldve put something without trash cost there"
+            "<anonymized>"
           ],
           "action": {
             "type": "run",
@@ -2943,7 +2943,7 @@
           "events": [
             "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
             "<anonymized> uses Hedge Fund to gain 9 [Credits].",
-            "I'm running out of gas anyway"
+            "<anonymized>"
           ],
           "action": {
             "type": "play",
@@ -2960,7 +2960,7 @@
           "click": 3,
           "events": [
             "<anonymized> spends [Click] to install a card in the root of Server 1.",
-            "audrey is almost blank",
+            "<anonymized>",
             "<anonymized> uses Lago Paranoá Shelter to trash The Price from the stack and draw 1 card.",
             "<anonymized> uses Buffer Drive to add The Price to the bottom of the stack.",
             "<anonymized> is ending his turn 17 with 20 [Credit] and 3 cards in HQ.[hr]"
@@ -3049,9 +3049,9 @@
             "<anonymized> approaches ice protecting R&D at position 1.",
             "<anonymized> pays 10 [Credits] to rez Týr protecting R&D at position 1.",
             "<anonymized> has no further action.",
-            "yoooo easy",
-            "i'm dead probably",
-            "so lets access two",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> encounters Týr protecting R&D at position 1.",
             "<anonymized> removes Devil Charm from the game to use Devil Charm to give -6 strength to Týr protecting R&D at position 1 for the remainder of the run.",
             "<anonymized> takes 1 tag to use Arruaceiras Crew to give Týr protecting R&D at position 1 -2 strength for the remainder of the encounter.",
@@ -3077,16 +3077,16 @@
             "<anonymized> steals See How They Run and gains 2 agenda points.",
             "<anonymized> wins the game.",
             "<anonymized> looks at his deck.",
-            "gg",
-            "gg",
-            "yeah SAM is like the one agenda I Just never want to see",
-            "its 3 shtr 3 os 2 sam?",
-            "no I have LTD",
-            "3  Let Them Dream ●​●​●​ 1  Orbital Superiority  3  See How They Run  2  Send a Message",
-            "I was extremely lucky and unlucky same time",
-            "I guess",
-            "another one?",
-            "sure",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> has left the game."
           ],
           "action": {

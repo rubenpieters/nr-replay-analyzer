@@ -189,12 +189,12 @@
         {
           "click": 0,
           "events": [
-            "good luck!",
-            "you too",
-            "[!] The round will begin in one minute.",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> keeps their hand.",
             "<anonymized> takes a mulligan.",
-            "[!] The round has begun!"
+            "<anonymized>"
           ]
         }
       ]
@@ -1596,9 +1596,9 @@
             "<anonymized> trashes Curupira and Open Market due to net damage.",
             "<anonymized> is flatlined.",
             "<anonymized> wins the game.",
-            "gg",
+            "<anonymized>",
             "<anonymized> has left the game.",
-            "gg",
+            "<anonymized>",
             "zyqx has left the game."
           ],
           "action": {

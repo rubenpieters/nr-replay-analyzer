@@ -258,7 +258,7 @@
         {
           "click": 0,
           "events": [
-            "gl hf!",
+            "<anonymized>",
             "<anonymized> keeps their hand.",
             "<anonymized> keeps his hand."
           ]
@@ -912,7 +912,7 @@
           "events": [
             "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
             "<anonymized> scores Let Them Dream and gains 2 agenda points.",
-            "oh lol",
+            "<anonymized>",
             "<anonymized> uses Let Them Dream to reveal Slash and Burn Agriculture from Archives and add it to the bottom of R&D.",
             "<anonymized> is ending their turn 5 with 9 [Credit] and 3 cards in HQ.[hr]"
           ],
@@ -930,7 +930,7 @@
         {
           "click": -1,
           "events": [
-            "fucking hell yeah i forgot you can do that lol"
+            "<anonymized>"
           ]
         }
       ]
@@ -954,7 +954,7 @@
           "click": 1,
           "events": [
             "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
-            ":)",
+            "<anonymized>",
             "<anonymized> approaches ice protecting R&D at position 0.",
             "<anonymized> pays 5 [Credits] and gains 1 bad publicity to rez Valentão protecting R&D at position 0.",
             "<anonymized> encounters Valentão protecting R&D at position 0.",
@@ -1880,9 +1880,9 @@
             "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Reprise from the Stack and add it to the grip.",
             "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "so this is what it's come to huh",
-            "it sure is :)",
-            "just slapping twinning counters around until the Ob lottery gives me it"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -2249,9 +2249,9 @@
             "<anonymized> will continue the run.",
             "<anonymized> approaches R&D.",
             "<anonymized> breaches R&D.",
-            "boy",
-            "if i dont hit an agenda im calling the cop",
-            "cops",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> uses The Twinning to access 2 additional cards from R&D.",
             "<anonymized> accesses an unseen card from R&D.",
             "<anonymized> pays 1 [Credits] from Fencer Fueno to trash Anthill Excavation Contract from R&D.",
@@ -2289,7 +2289,7 @@
             "<anonymized> approaches ice protecting HQ at position 0.",
             "<anonymized> pays 5 [Credits] to rez Envelopment protecting HQ at position 0.",
             "<anonymized> encounters Envelopment protecting HQ at position 0.",
-            "thinking",
+            "<anonymized>",
             "<anonymized> spends 3 hosted power counters from on Curupira to use Curupira to bypass Envelopment protecting HQ at position 0.",
             "<anonymized> bypasses Envelopment.",
             "<anonymized> passes Envelopment protecting HQ at position 0.",
@@ -2441,12 +2441,12 @@
             "<anonymized> breaches Server 1.",
             "<anonymized> accesses Let Them Dream from Server 1.",
             "<anonymized> steals Let Them Dream and gains 1 agenda point.",
-            "OH NO",
-            "lol",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> uses Hermes to add a card in Server 1 to HQ.",
             "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "lol"
+            "<anonymized>"
           ],
           "action": {
             "type": "play",
@@ -2465,7 +2465,7 @@
           "click": 2,
           "events": [
             "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Tread Lightly.",
-            "fug",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -2609,7 +2609,7 @@
             "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Direct Access from the Stack and add it to the grip.",
             "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "thinking"
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -2634,7 +2634,7 @@
             "<anonymized> uses Transfer of Wealth to take 1 tag.",
             "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
             "<anonymized> breaches HQ.",
-            "shit sorry",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -2665,7 +2665,7 @@
             "<anonymized> uses Mavirus to purge virus counters.",
             "<anonymized> pays 0 [Credits] to trash Mavirus from HQ.",
             "<anonymized> accesses Stavka from HQ.",
-            "thinking"
+            "<anonymized>"
           ],
           "action": {
             "type": "play",
@@ -2927,8 +2927,8 @@
             "<anonymized> accesses The Basalt Spire from Server 1.",
             "<anonymized> steals The Basalt Spire and gains 3 agenda points.",
             "<anonymized> wins the game.",
-            "gg",
-            "gg",
+            "<anonymized>",
+            "<anonymized>",
             "Gathzen has left the game.",
             "<anonymized> looks at their deck.",
             "<anonymized> looks at his deck.",

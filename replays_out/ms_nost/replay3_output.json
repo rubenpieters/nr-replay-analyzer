@@ -194,11 +194,11 @@
           "click": 0,
           "events": [
             "<anonymized> keeps their hand.",
-            "missT is so funny",
-            "bc i have a hand full of money events and I go \"ew\"",
-            "XD",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> keeps his hand.",
-            "lol"
+            "<anonymized>"
           ]
         }
       ]
@@ -792,7 +792,7 @@
           "events": [
             "<anonymized> started their turn 5 with 7 [Credit] and 4 cards in HQ.",
             "<anonymized> makes their mandatory start of turn draw.",
-            "bazinga"
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -1155,8 +1155,8 @@
             "<anonymized> started his turn 7 with 10 [Credit] and 5 cards in his Grip.",
             "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
             "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "hmmm",
-            "so i basically need to soul read this"
+            "<anonymized>",
+            "<anonymized>"
           ]
         },
         {
@@ -1176,7 +1176,7 @@
           "click": 2,
           "events": [
             "<anonymized> spends [Click] and pays 3 [Credits] to install Curupira.",
-            "action?"
+            "<anonymized>"
           ],
           "action": {
             "type": "install",
@@ -1193,7 +1193,7 @@
           "events": [
             "<anonymized> spends [Click] and pays 1 [Credits] to play Overclock.",
             "<anonymized> uses Overclock to make a run on Server 1.",
-            "nah",
+            "<anonymized>",
             "<anonymized> approaches ice protecting Server 1 at position 1.",
             "<anonymized> has no further action.",
             "<anonymized> passes ice protecting Server 1 at position 1.",
@@ -1235,7 +1235,7 @@
           "click": 4,
           "events": [
             "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "prayge",
+            "<anonymized>",
             "<anonymized> is ending his turn 7 with 6 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
@@ -1288,8 +1288,8 @@
             "<anonymized> trashes  due to meat damage.",
             "<anonymized> is flatlined.",
             "<anonymized> wins the game.",
-            "gg",
-            "lol",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> has left the game."
           ],
           "action": {

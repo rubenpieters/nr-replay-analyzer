@@ -275,10 +275,10 @@
         {
           "click": 0,
           "events": [
-            "gl hf",
+            "<anonymized>",
             "<anonymized> takes a mulligan.",
             "<anonymized> keeps his hand.",
-            "glhf"
+            "<anonymized>"
           ]
         }
       ]
@@ -1013,8 +1013,8 @@
             "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
             "<anonymized> uses Clean Getaway to make a run on Archives.",
             "<anonymized> has no further action.",
-            "ah true I can't boost",
-            "hmm",
+            "<anonymized>",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -1028,7 +1028,7 @@
           "click": 4,
           "events": [
             "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "afterimage is bad in that case",
+            "<anonymized>",
             "<anonymized> uses Clean Getaway to make a run on Archives.",
             "<anonymized> has no further action.",
             "<anonymized> uses The Twinning to place a power counter on itself.",
@@ -1159,7 +1159,7 @@
             "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
             "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Pinhole Threading from the Stack and add it to the grip.",
             "<anonymized> uses Open Market to gain 1 [Credits].",
-            "nooooooooooooooooooo"
+            "<anonymized>"
           ],
           "effects": {
             "triggered_gains": {
@@ -1173,7 +1173,7 @@
           "events": [
             "<anonymized> spends [Click] and pays 2 [Credits] to install Cezve.",
             "[!] Cezve - Recurring credits usage not restricted",
-            ":DD"
+            "<anonymized>"
           ],
           "action": {
             "type": "install",
@@ -2921,11 +2921,11 @@
         {
           "click": -1,
           "events": [
-            "I forgot to rez the red room twice",
-            "this game is cooked now :D",
-            "oh it is holo man",
-            "red room*",
-            "I though it was holo man"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ]
         }
       ]
@@ -2982,7 +2982,7 @@
             "<anonymized> uses Hermes to add ice protecting R&D at position 0 to HQ.",
             "<anonymized> pays 1 [Credits] to rez The Red Room in the root of HQ.",
             "[!]<anonymized> uses a command: /counter power 1",
-            "you can put a counter on it ;D",
+            "<anonymized>",
             "<anonymized> sets power counters to 1 on The Red Room in the root of HQ.",
             "<anonymized> discards 2 cards from HQ at end of turn.",
             "<anonymized> is ending his turn 17 with 7 [Credit] and 5 cards in HQ.[hr]"
@@ -3029,7 +3029,7 @@
             "<anonymized> uses Curupira to place 1 power counter on itself.",
             "<anonymized> pays 1 [Credits] from Touchstone and 3 [Credits] from his credit pool to increase the strength of Curupira to 3 and break all 2 subroutines on Maskirovka.",
             "<anonymized> has no further action.",
-            "i made at least 3 mistakes this game",
+            "<anonymized>",
             "<anonymized> passes Maskirovka protecting HQ at position 0.",
             "<anonymized> approaches HQ.",
             "<anonymized> uses Transfer of Wealth to take 1 tag.",
@@ -3038,37 +3038,37 @@
             "<anonymized> accesses Eminent Domain from HQ.",
             "<anonymized> steals Eminent Domain and gains 1 agenda point.",
             "<anonymized> wins the game.",
-            "gg",
-            "wp",
-            "gg",
-            "the twinning trash was so rough",
-            "and then the breaker trash too",
-            "I shouldve seen it cause you werent using ob",
-            "its two penroses in deck?",
-            "only 1",
-            "oof",
-            "another decoder?",
-            "nope",
-            "fuuuuuuck",
-            ":D",
-            "I was thinking like",
-            "but like decoders are least important",
-            "no way he's playing only 1 decoder",
-            "haha",
-            "afterimage is soooooooo good against this deck",
-            "yeah",
-            "but I was choked by not drawing agendas",
-            "especially EmDom",
-            "or at least damn greenmail",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> looks at his deck.",
             "<anonymized> stops looking at his deck.",
-            "rematch?",
-            "thanks for the games, I'll just write some short summary and then head out probably",
-            "but maybe some other TAIBs want to play",
-            "ok, I'll ask",
-            "thank you for the games",
-            "was fun",
-            "yep, cya!",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> has left the game."
           ],
           "action": {

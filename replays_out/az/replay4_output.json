@@ -255,13 +255,13 @@
           "events": [
             "<anonymized> takes a mulligan.",
             "<anonymized> keeps his hand.",
-            "we good to start?",
-            "we need to wait for the timer",
-            "cool",
-            "[!] The round will begin in one minute.",
-            "[!] The round has begun!",
-            "gl hf",
-            "glhf!"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ]
         }
       ]
@@ -1821,10 +1821,10 @@
             "<anonymized> spends [Click] to steal Méliès City Luxury Line from R&D.",
             "<anonymized> steals Méliès City Luxury Line and gains 3 agenda points.",
             "<anonymized> wins the game.",
-            "gg",
-            "gg",
-            "gl in your other rounds",
-            "thanks, you too",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> has left the game."
           ],
           "action": {

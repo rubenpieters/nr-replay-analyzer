@@ -271,8 +271,8 @@
           "click": 0,
           "events": [
             "[!] Please pause, Runner is acting.",
-            "gl hf!",
-            "glhf",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> keeps their hand.",
             "<anonymized> takes a mulligan."
           ]
@@ -517,11 +517,11 @@
           "click": 2,
           "events": [
             "<anonymized> spends [Click] and pays 0 [Credits] to install Fencer Fueno.",
-            "so if this is a tranq im very sad",
-            "^^",
-            "surely it's 7",
-            "that's what im thinking",
-            "but that makes tread lightly worse"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ],
           "action": {
             "type": "install",
@@ -534,10 +534,10 @@
           "click": 3,
           "events": [
             "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
-            "oic",
-            "how many treads you on?",
-            "2",
-            "valid",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> approaches ice protecting Server 1 at position 0.",
             "<anonymized> pays 4 [Credits] to rez Event Horizon protecting Server 1 at position 0.",
             "<anonymized> encounters Event Horizon protecting Server 1 at position 0.",
@@ -652,14 +652,14 @@
             "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip.",
             "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "now this is interesting",
-            "some dank lines but i dont think i do it",
-            "coward",
-            ":(",
-            "sorry thinking",
-            "tyt",
-            "so that's a mav and youre going to get rego",
-            "and i dont think i should go all in to stop it"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -670,7 +670,7 @@
           "events": [
             "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
             "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom.",
-            "sorry",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -1123,7 +1123,7 @@
             "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Tread Lightly from the Stack and add it to the grip.",
             "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "hmmm"
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -1312,9 +1312,9 @@
             "<anonymized> has no further action.",
             "<anonymized> passes Event Horizon protecting Server 1 at position 0.",
             "<anonymized> will continue the run.",
-            "think",
-            "direct ass btw",
-            "yupyup",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> approaches Server 1.",
             "<anonymized> breaches Server 1.",
             "<anonymized> accesses The Holo Man from Server 1.",
@@ -1507,11 +1507,11 @@
             "<anonymized> has no further action.",
             "<anonymized> encounters Afshar protecting HQ at position 0.",
             "<anonymized> pays 1 [Credits] from Cezve to use Sang Kancil to break 1 Code Gate subroutine on Afshar (\"[subroutine] End the run\").",
-            "that draw was so bad lmao",
-            "am i allowed to take that back or naw",
-            "i didnt draw this ToW",
-            "sure",
-            "kk",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -1530,7 +1530,7 @@
         {
           "click": 3,
           "events": [
-            "feel like this is the only play that gets me back into this game"
+            "<anonymized>"
           ]
         },
         {
@@ -2308,7 +2308,7 @@
             "<anonymized> approaches R&D.",
             "<anonymized> breaches R&D.",
             "[!] Please pause, Runner is acting.",
-            "sorry",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -3040,8 +3040,8 @@
             "<anonymized> accesses Azef Protocol from HQ.",
             "<anonymized> steals Azef Protocol and gains 2 agenda points.",
             "<anonymized> wins the game.",
-            "gg!",
-            "gg wp",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized> looks at their deck.",
             "<anonymized> stops looking at their deck.",
             "Mr F has left the game."
