@@ -86,6 +86,15 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
 .net-zero { color: #9e9e9e; }
 `;
 
+const CORP_FACTIONS = ["Haas-Bioroid", "Weyland Consortium", "Jinteki", "NBN"];
+
+function shortIdentity(name: string): string {
+  const idx = name.indexOf(": ");
+  if (idx === -1) return name;
+  const prefix = name.slice(0, idx);
+  return CORP_FACTIONS.includes(prefix) ? name.slice(idx + 2) : prefix;
+}
+
 function he(text: unknown): string {
   return String(text)
     .replace(/&/g, "&amp;")
@@ -118,12 +127,12 @@ function renderEffects(effects: Effects | undefined): string {
   const paid = effects.credits_paid ?? 0;
   if (paid) parts.push(`<span class="effect effect-cost">&#8722;${paid} cr</span>`);
   for (const [card, amt] of Object.entries(effects.credits_from_resources ?? {})) {
-    parts.push(`<span class="effect effect-resource">${he(card)}: &#8722;${amt} cr</span>`);
+    parts.push(`<span class="effect effect-resource">${he(shortIdentity(card))}: &#8722;${amt} cr</span>`);
   }
   const gained = effects.credits_gained ?? 0;
   if (gained) parts.push(`<span class="effect effect-gain">+${gained} cr</span>`);
   for (const [card, amt] of Object.entries(effects.triggered_gains ?? {})) {
-    parts.push(`<span class="effect effect-trigger">${he(card)}: +${amt} cr</span>`);
+    parts.push(`<span class="effect effect-trigger">${he(shortIdentity(card))}: +${amt} cr</span>`);
   }
   const drawn = effects.cards_drawn ?? 0;
   if (drawn) parts.push(`<span class="effect effect-draw">+${drawn} card(s)</span>`);
@@ -238,7 +247,7 @@ function renderEconomy(economy: PlayerEcon): string {
 
     rows.push(
       `<tr>` +
-        `<td>${he(name)}</td>` +
+        `<td>${he(shortIdentity(name))}</td>` +
         `<td class="num">${c.uses}</td>` +
         `<td class="num">${c.total_cost}</td>` +
         `<td class="num">${c.total_credits_gained}</td>` +
@@ -287,7 +296,7 @@ function renderSection(
   const turnsHtml = turnsList.map(renderTurn).join("");
   return (
     `<section class="player-section ${cssClass}">` +
-    `<h2>${he(playerLabel)} : ${he(identity)}</h2>` +
+    `<h2>${he(playerLabel)} : ${he(shortIdentity(identity))}</h2>` +
     `${econHtml}` +
     `<div class="turns-grid">${turnsHtml}</div>` +
     `</section>`
@@ -332,8 +341,8 @@ export function generateHtml(data: ParsedReplay): string {
     `</head><body>` +
     `<div class="game-summary">` +
     `<h1>Netrunner Replay</h1>` +
-    `<p><strong>Corp:</strong> ${he(summary.corp_player)} : ${he(summary.corp_identity)}</p>` +
-    `<p><strong>Runner:</strong> ${he(summary.runner_player)} : ${he(summary.runner_identity)}</p>` +
+    `<p><strong>Corp:</strong> ${he(summary.corp_player)} : ${he(shortIdentity(summary.corp_identity))}</p>` +
+    `<p><strong>Runner:</strong> ${he(summary.runner_player)} : ${he(shortIdentity(summary.runner_identity))}</p>` +
     `<p><strong>Winner:</strong> ${he(winner)} (${he(winReason)})</p>` +
     `<p><strong>Turns:</strong> ${summary.turns ?? "?"} &nbsp;|&nbsp; ` +
     `Corp ${corpAp}&ndash;${runnerAp} Runner agenda points</p>` +
