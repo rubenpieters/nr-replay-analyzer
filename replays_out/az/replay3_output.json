@@ -98,6 +98,7 @@
       "cards": {
         "click to draw": {
           "uses": 7,
+          "clicks": 7,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -106,6 +107,7 @@
         },
         "Hedge Fund": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 18,
           "total_cost": 10,
           "total_net_credits": 8,
@@ -114,6 +116,7 @@
         },
         "click for credit": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 1,
           "total_cost": 0,
           "total_net_credits": 1,
@@ -122,6 +125,7 @@
         },
         "Tranquility Home Grid": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 10,
           "total_cost": 0,
           "total_net_credits": 10,
@@ -130,6 +134,7 @@
         },
         "Humanoid Resources": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 4,
           "total_cost": 0,
           "total_net_credits": 4,
@@ -146,6 +151,7 @@
       "cards": {
         "Transfer of Wealth": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 12,
           "total_cost": 0,
           "total_net_credits": 12,
@@ -154,6 +160,7 @@
         },
         "Sure Gamble": {
           "uses": 3,
+          "clicks": 3,
           "total_credits_gained": 27,
           "total_cost": 15,
           "total_net_credits": 12,
@@ -162,6 +169,7 @@
         },
         "click to draw": {
           "uses": 16,
+          "clicks": 16,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -170,6 +178,7 @@
         },
         "Clean Getaway": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 12,
           "total_cost": 6,
           "total_net_credits": 6,
@@ -178,6 +187,7 @@
         },
         "Bravado": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 14,
           "total_cost": 6,
           "total_net_credits": 8,
@@ -186,14 +196,15 @@
         },
         "Az McCaffrey: Mechanical Prodigy": {
           "uses": 5,
+          "clicks": 0,
           "total_credits_gained": 5,
           "total_cost": 0,
           "total_net_credits": 5,
-          "total_cards_drawn": 0,
-          "credits_per_click": 1
+          "total_cards_drawn": 0
         },
         "Dr. Nuka Vrolyck": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -202,14 +213,15 @@
         },
         "Open Market": {
           "uses": 3,
+          "clicks": 0,
           "total_credits_gained": 3,
           "total_cost": 4,
           "total_net_credits": -1,
-          "total_cards_drawn": 0,
-          "credits_per_click": -0.33
+          "total_cards_drawn": 0
         },
         "Sell Out": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 4,
           "total_cost": 1,
           "total_net_credits": 3,
@@ -218,6 +230,7 @@
         },
         "click for credit": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 1,
           "total_cost": 0,
           "total_net_credits": 1,
@@ -226,6 +239,7 @@
         },
         "Info Bounty": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 8,
           "total_cost": 2,
           "total_net_credits": 6,
@@ -234,14 +248,15 @@
         },
         "Cezve": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 10,
           "total_cost": 2,
           "total_net_credits": 8,
-          "total_cards_drawn": 0,
-          "credits_per_click": 8
+          "total_cards_drawn": 0
         },
         "unknown": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,

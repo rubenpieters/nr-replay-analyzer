@@ -80,6 +80,7 @@
       "cards": {
         "click for credit": {
           "uses": 18,
+          "clicks": 18,
           "total_credits_gained": 18,
           "total_cost": 0,
           "total_net_credits": 18,
@@ -88,6 +89,7 @@
         },
         "Hedge Fund": {
           "uses": 6,
+          "clicks": 6,
           "total_credits_gained": 54,
           "total_cost": 30,
           "total_net_credits": 24,
@@ -104,6 +106,7 @@
       "cards": {
         "Bravado": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 14,
           "total_cost": 6,
           "total_net_credits": 8,
@@ -112,6 +115,7 @@
         },
         "click to draw": {
           "uses": 20,
+          "clicks": 20,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -120,6 +124,7 @@
         },
         "Clean Getaway": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 6,
           "total_cost": 3,
           "total_net_credits": 3,
@@ -128,6 +133,7 @@
         },
         "DreamNet": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 6,
           "total_cost": 3,
           "total_net_credits": 3,
@@ -136,14 +142,15 @@
         },
         "Open Market": {
           "uses": 2,
+          "clicks": 0,
           "total_credits_gained": 2,
           "total_cost": 4,
           "total_net_credits": -2,
-          "total_cards_drawn": 0,
-          "credits_per_click": -1
+          "total_cards_drawn": 0
         },
         "Sure Gamble": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 18,
           "total_cost": 10,
           "total_net_credits": 8,
@@ -152,6 +159,7 @@
         },
         "Transfer of Wealth": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 6,
           "total_cost": 0,
           "total_net_credits": 6,
@@ -160,6 +168,7 @@
         },
         "Virtual Intelligence, P.I.: \"You Can Call Me Vic\"": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 0,
           "total_cost": 1,
           "total_net_credits": -1,

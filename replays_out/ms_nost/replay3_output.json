@@ -81,6 +81,7 @@
       "cards": {
         "click for credit": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 2,
           "total_cost": 0,
           "total_net_credits": 2,
@@ -89,6 +90,7 @@
         },
         "click to draw": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -97,6 +99,7 @@
         },
         "Regolith Mining License": {
           "uses": 5,
+          "clicks": 5,
           "total_credits_gained": 15,
           "total_cost": 0,
           "total_net_credits": 15,
@@ -105,6 +108,7 @@
         },
         "Tranquility Home Grid": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 2,
           "total_cost": 0,
           "total_net_credits": 2,
@@ -121,6 +125,7 @@
       "cards": {
         "click to draw": {
           "uses": 11,
+          "clicks": 11,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -129,6 +134,7 @@
         },
         "Carpe Diem": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 8,
           "total_cost": 2,
           "total_net_credits": 6,
@@ -137,6 +143,7 @@
         },
         "click for credit": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 2,
           "total_cost": 0,
           "total_net_credits": 2,
@@ -145,6 +152,7 @@
         },
         "Clean Getaway": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 12,
           "total_cost": 6,
           "total_net_credits": 6,
@@ -153,6 +161,7 @@
         },
         "Bravado": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 7,
           "total_cost": 3,
           "total_net_credits": 4,
@@ -161,27 +170,27 @@
         },
         "Overclock": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 5,
           "total_cost": 1,
           "total_net_credits": 4,
-          "total_cards_drawn": 0,
-          "credits_per_click": 4
+          "total_cards_drawn": 0
         },
         "Fencer Fueno": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 3,
           "total_cost": 0,
           "total_net_credits": 3,
-          "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "total_cards_drawn": 0
         },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 3,
+          "clicks": 0,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
-          "total_cards_drawn": 3,
-          "credits_per_click": 0
+          "total_cards_drawn": 3
         }
       },
       "setup_cards": {

@@ -85,6 +85,7 @@
       "cards": {
         "click to draw": {
           "uses": 3,
+          "clicks": 3,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -93,6 +94,7 @@
         },
         "Charlotte Caçador": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 3,
           "total_cost": 0,
           "total_net_credits": 3,
@@ -101,6 +103,7 @@
         },
         "click for credit": {
           "uses": 7,
+          "clicks": 7,
           "total_credits_gained": 7,
           "total_cost": 0,
           "total_net_credits": 7,
@@ -109,6 +112,7 @@
         },
         "Hedge Fund": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 18,
           "total_cost": 10,
           "total_net_credits": 8,
@@ -125,6 +129,7 @@
       "cards": {
         "Carpe Diem": {
           "uses": 3,
+          "clicks": 3,
           "total_credits_gained": 12,
           "total_cost": 3,
           "total_net_credits": 9,
@@ -133,14 +138,15 @@
         },
         "Open Market": {
           "uses": 2,
+          "clicks": 0,
           "total_credits_gained": 4,
           "total_cost": 4,
           "total_net_credits": 0,
-          "total_cards_drawn": 0,
-          "credits_per_click": 0
+          "total_cards_drawn": 0
         },
         "click to draw": {
           "uses": 16,
+          "clicks": 16,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -149,6 +155,7 @@
         },
         "Sure Gamble": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 18,
           "total_cost": 10,
           "total_net_credits": 8,
@@ -157,6 +164,7 @@
         },
         "Transfer of Wealth": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 6,
           "total_cost": 0,
           "total_net_credits": 6,
@@ -165,22 +173,23 @@
         },
         "Mantle": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 5,
           "total_cost": 1,
           "total_net_credits": 4,
-          "total_cards_drawn": 0,
-          "credits_per_click": 4
+          "total_cards_drawn": 0
         },
         "Touchstone": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 3,
           "total_cost": 2,
           "total_net_credits": 1,
-          "total_cards_drawn": 0,
-          "credits_per_click": 1
+          "total_cards_drawn": 0
         },
         "Clean Getaway": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 6,
           "total_cost": 3,
           "total_net_credits": 3,
@@ -189,6 +198,7 @@
         },
         "Bravado": {
           "uses": 3,
+          "clicks": 3,
           "total_credits_gained": 24,
           "total_cost": 9,
           "total_net_credits": 15,
@@ -197,14 +207,15 @@
         },
         "Trickster Taka": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 6,
           "total_cost": 1,
           "total_net_credits": 5,
-          "total_cards_drawn": 0,
-          "credits_per_click": 5
+          "total_cards_drawn": 0
         },
         "click for credit": {
           "uses": 5,
+          "clicks": 5,
           "total_credits_gained": 5,
           "total_cost": 0,
           "total_net_credits": 5,
@@ -213,11 +224,11 @@
         },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 6,
+          "clicks": 0,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
-          "total_cards_drawn": 6,
-          "credits_per_click": 0
+          "total_cards_drawn": 6
         }
       },
       "setup_cards": {

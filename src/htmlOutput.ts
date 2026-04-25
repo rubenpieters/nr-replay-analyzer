@@ -80,6 +80,7 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
 .card-table th { text-align: left; padding: 4px 8px; border-bottom: 2px solid #e0e0e0; color: #757575; font-weight: 600; white-space: nowrap; }
 .card-table td { padding: 3px 8px; border-bottom: 1px solid #f5f5f5; }
 .card-table tr:last-child td { border-bottom: none; }
+.card-table-total td { font-weight: 600; border-top: 2px solid #e0e0e0; }
 .card-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .net-pos { color: #2e7d32; font-weight: 600; }
 .net-neg { color: #c62828; font-weight: 600; }
@@ -243,12 +244,12 @@ function renderEconomy(economy: PlayerEcon): string {
       ? `<td class="num">${drawn}</td>`
       : `<td class="num">&#8212;</td>`;
 
-    const cpc = (c.credits_per_click ?? 0).toFixed(2);
+    const cpc = c.credits_per_click !== undefined ? c.credits_per_click.toFixed(2) : "&#8212;";
 
     rows.push(
       `<tr>` +
         `<td>${he(shortIdentity(name))}</td>` +
-        `<td class="num">${c.uses}</td>` +
+        `<td class="num">${c.clicks}</td>` +
         `<td class="num">${c.total_cost}</td>` +
         `<td class="num">${c.total_credits_gained}</td>` +
         `${netHtml}` +
@@ -258,12 +259,38 @@ function renderEconomy(economy: PlayerEcon): string {
     );
   }
 
+  const totClicks = sortedCards.reduce((s, [, c]) => s + c.clicks, 0);
+  const totCost = sortedCards.reduce((s, [, c]) => s + c.total_cost, 0);
+  const totGained = sortedCards.reduce((s, [, c]) => s + c.total_credits_gained, 0);
+  const totNet = sortedCards.reduce((s, [, c]) => s + c.total_net_credits, 0);
+  const totDrawn = sortedCards.reduce((s, [, c]) => s + c.total_cards_drawn, 0);
+  const totCpc = totClicks > 0 ? parseFloat((totNet / totClicks).toFixed(2)) : 0;
+
+  let totNetHtml: string;
+  if (totNet > 0) totNetHtml = `<td class="num net-pos">+${totNet}</td>`;
+  else if (totNet < 0) totNetHtml = `<td class="num net-neg">${totNet}</td>`;
+  else totNetHtml = `<td class="num net-zero">0</td>`;
+
+  const totDrawnHtml = totDrawn ? `<td class="num">${totDrawn}</td>` : `<td class="num">&#8212;</td>`;
+
+  const totalRow =
+    `<tr class="card-table-total">` +
+    `<td>Total</td>` +
+    `<td class="num">${totClicks}</td>` +
+    `<td class="num">${totCost}</td>` +
+    `<td class="num">${totGained}</td>` +
+    `${totNetHtml}` +
+    `${totDrawnHtml}` +
+    `<td class="num">${totCpc}</td>` +
+    `</tr>`;
+
   const table =
     `<table class="card-table">` +
     `<thead><tr>` +
-    `<th>Card</th><th>Uses</th><th>Cost</th><th>Gained</th><th>Net</th><th>Drawn</th><th>cr/click</th>` +
+    `<th>Card</th><th>Clicks</th><th>Cost</th><th>Gained</th><th>Net</th><th>Drawn</th><th>cr/click</th>` +
     `</tr></thead>` +
     `<tbody>${rows.join("")}</tbody>` +
+    `<tfoot>${totalRow}</tfoot>` +
     `</table>`;
 
   let setupHtml = "";

@@ -36,6 +36,7 @@ export interface SetupCardEntry {
 
 export interface CardEconEntry {
   uses: number;
+  clicks: number;
   total_credits_gained: number;
   total_cost: number;
   total_net_credits: number;
@@ -668,6 +669,7 @@ function emptyEcon(player: "corp" | "runner"): PlayerEcon {
 function newCardEconEntry(): CardEconEntry {
   return {
     uses: 0,
+    clicks: 0,
     total_credits_gained: 0,
     total_cost: 0,
     total_net_credits: 0,
@@ -763,6 +765,7 @@ export function computeEconomy(
           : cost;
         if (!isTrigger) {
           entry.uses += 1;
+          entry.clicks += 1;
           entry.total_cost += effectiveCost;
         }
         entry.total_credits_gained += creditsGained;
@@ -919,9 +922,8 @@ export function computeEconomy(
 
   for (const playerEcon of [result.corp, result.runner] as PlayerEcon[]) {
     for (const entry of Object.values(playerEcon.cards)) {
-      const uses = entry.uses;
       entry.credits_per_click =
-        uses > 0 ? parseFloat((entry.total_net_credits / uses).toFixed(2)) : 0.0;
+        entry.clicks > 0 ? parseFloat((entry.total_net_credits / entry.clicks).toFixed(2)) : undefined;
     }
   }
 

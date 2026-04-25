@@ -97,6 +97,7 @@
       "cards": {
         "click for credit": {
           "uses": 5,
+          "clicks": 5,
           "total_credits_gained": 5,
           "total_cost": 0,
           "total_net_credits": 5,
@@ -105,6 +106,7 @@
         },
         "click to draw": {
           "uses": 4,
+          "clicks": 4,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -113,6 +115,7 @@
         },
         "Regolith Mining License": {
           "uses": 5,
+          "clicks": 5,
           "total_credits_gained": 15,
           "total_cost": 0,
           "total_net_credits": 15,
@@ -121,6 +124,7 @@
         },
         "Hedge Fund": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 9,
           "total_cost": 5,
           "total_net_credits": 4,
@@ -129,6 +133,7 @@
         },
         "Charlotte Caçador": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 3,
           "total_cost": 0,
           "total_net_credits": 3,
@@ -145,14 +150,15 @@
       "cards": {
         "Az McCaffrey: Mechanical Prodigy": {
           "uses": 10,
+          "clicks": 0,
           "total_credits_gained": 10,
           "total_cost": 0,
           "total_net_credits": 10,
-          "total_cards_drawn": 0,
-          "credits_per_click": 1
+          "total_cards_drawn": 0
         },
         "Dr. Nuka Vrolyck": {
           "uses": 6,
+          "clicks": 6,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -161,6 +167,7 @@
         },
         "Clean Getaway": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 12,
           "total_cost": 6,
           "total_net_credits": 6,
@@ -169,6 +176,7 @@
         },
         "click for credit": {
           "uses": 4,
+          "clicks": 4,
           "total_credits_gained": 4,
           "total_cost": 0,
           "total_net_credits": 4,
@@ -177,6 +185,7 @@
         },
         "click to draw": {
           "uses": 8,
+          "clicks": 8,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -185,6 +194,7 @@
         },
         "Sell Out": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 4,
           "total_cost": 1,
           "total_net_credits": 3,
@@ -193,22 +203,23 @@
         },
         "Open Market": {
           "uses": 3,
+          "clicks": 0,
           "total_credits_gained": 6,
           "total_cost": 3,
           "total_net_credits": 3,
-          "total_cards_drawn": 0,
-          "credits_per_click": 1
+          "total_cards_drawn": 0
         },
         "Paladin Poemu": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 5,
           "total_cost": 1,
           "total_net_credits": 4,
-          "total_cards_drawn": 0,
-          "credits_per_click": 4
+          "total_cards_drawn": 0
         },
         "Bravado": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 15,
           "total_cost": 6,
           "total_net_credits": 9,
@@ -217,14 +228,15 @@
         },
         "Cezve": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 8,
           "total_cost": 2,
           "total_net_credits": 6,
-          "total_cards_drawn": 0,
-          "credits_per_click": 6
+          "total_cards_drawn": 0
         },
         "Info Bounty": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 4,
           "total_cost": 1,
           "total_net_credits": 3,
@@ -233,6 +245,7 @@
         },
         "Sure Gamble": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 9,
           "total_cost": 5,
           "total_net_credits": 4,
@@ -241,6 +254,7 @@
         },
         "Transfer of Wealth": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 12,
           "total_cost": 0,
           "total_net_credits": 12,

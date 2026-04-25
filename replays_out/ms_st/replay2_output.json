@@ -82,6 +82,7 @@
       "cards": {
         "click to draw": {
           "uses": 6,
+          "clicks": 6,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -90,6 +91,7 @@
         },
         "Hansei Review": {
           "uses": 4,
+          "clicks": 4,
           "total_credits_gained": 40,
           "total_cost": 20,
           "total_net_credits": 20,
@@ -98,6 +100,7 @@
         },
         "Hedge Fund": {
           "uses": 4,
+          "clicks": 4,
           "total_credits_gained": 36,
           "total_cost": 20,
           "total_net_credits": 16,
@@ -106,6 +109,7 @@
         },
         "click for credit": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 1,
           "total_cost": 0,
           "total_net_credits": 1,
@@ -122,6 +126,7 @@
       "cards": {
         "click to draw": {
           "uses": 19,
+          "clicks": 19,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
@@ -130,6 +135,7 @@
         },
         "Sure Gamble": {
           "uses": 3,
+          "clicks": 3,
           "total_credits_gained": 27,
           "total_cost": 15,
           "total_net_credits": 12,
@@ -138,6 +144,7 @@
         },
         "click for credit": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 2,
           "total_cost": 0,
           "total_net_credits": 2,
@@ -146,6 +153,7 @@
         },
         "Clean Getaway": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 12,
           "total_cost": 6,
           "total_net_credits": 6,
@@ -154,6 +162,7 @@
         },
         "Bravado": {
           "uses": 2,
+          "clicks": 2,
           "total_credits_gained": 15,
           "total_cost": 6,
           "total_net_credits": 9,
@@ -162,6 +171,7 @@
         },
         "Transfer of Wealth": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 6,
           "total_cost": 0,
           "total_net_credits": 6,
@@ -170,30 +180,31 @@
         },
         "Trickster Taka": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 10,
           "total_cost": 1,
           "total_net_credits": 9,
-          "total_cards_drawn": 0,
-          "credits_per_click": 9
+          "total_cards_drawn": 0
         },
         "Touchstone": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 2,
           "total_cost": 2,
           "total_net_credits": 0,
-          "total_cards_drawn": 0,
-          "credits_per_click": 0
+          "total_cards_drawn": 0
         },
         "Overclock": {
           "uses": 1,
+          "clicks": 0,
           "total_credits_gained": 5,
           "total_cost": 1,
           "total_net_credits": 4,
-          "total_cards_drawn": 0,
-          "credits_per_click": 4
+          "total_cards_drawn": 0
         },
         "Carpe Diem": {
           "uses": 1,
+          "clicks": 1,
           "total_credits_gained": 4,
           "total_cost": 1,
           "total_net_credits": 3,
@@ -202,11 +213,11 @@
         },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 7,
+          "clicks": 0,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
-          "total_cards_drawn": 7,
-          "credits_per_click": 0
+          "total_cards_drawn": 7
         }
       },
       "setup_cards": {
