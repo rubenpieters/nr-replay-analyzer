@@ -128,7 +128,7 @@ function renderEffects(effects: Effects | undefined): string {
   const paid = effects.credits_paid ?? 0;
   if (paid) parts.push(`<span class="effect effect-cost">&#8722;${paid} cr</span>`);
   for (const [card, amt] of Object.entries(effects.credits_from_resources ?? {})) {
-    parts.push(`<span class="effect effect-resource">${he(shortIdentity(card))}: &#8722;${amt} cr</span>`);
+    parts.push(`<span class="effect effect-resource">${he(shortIdentity(card))}: +${amt} cr</span>`);
   }
   const gained = effects.credits_gained ?? 0;
   if (gained) parts.push(`<span class="effect effect-gain">+${gained} cr</span>`);

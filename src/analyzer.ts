@@ -908,10 +908,11 @@ export function computeEconomy(
     econBasic > 0 ? parseFloat(((runnerEcon.economy_clicks ?? 0) / econBasic).toFixed(2)) : 0.0;
   const totalNetCredits = Object.values(runnerEcon.cards).reduce((s, e) => s + e.total_net_credits, 0);
   const totalCardsDrawn = Object.values(runnerEcon.cards).reduce((s, e) => s + e.total_cards_drawn, 0);
+  const totalClicksSpent = Object.values(runnerEcon.cards).reduce((s, e) => s + e.clicks, 0);
   runnerEcon.avg_net_credits_per_econ_click =
-    econBasic > 0 ? parseFloat((totalNetCredits / econBasic).toFixed(2)) : 0.0;
+    totalClicksSpent > 0 ? parseFloat((totalNetCredits / totalClicksSpent).toFixed(2)) : 0.0;
   runnerEcon.avg_cards_drawn_per_econ_click =
-    econBasic > 0 ? parseFloat((totalCardsDrawn / econBasic).toFixed(2)) : 0.0;
+    totalClicksSpent > 0 ? parseFloat((totalCardsDrawn / totalClicksSpent).toFixed(2)) : 0.0;
 
   // Compute derived stats for corp
   const corpEcon = result.corp;

@@ -260,8 +260,8 @@
       },
       "total_setup_cost": 20,
       "econ_click_ratio": 0.43,
-      "avg_net_credits_per_econ_click": 1.31,
-      "avg_cards_drawn_per_econ_click": 0.74
+      "avg_net_credits_per_econ_click": 1.45,
+      "avg_cards_drawn_per_econ_click": 0.82
     }
   },
   "turns": [
