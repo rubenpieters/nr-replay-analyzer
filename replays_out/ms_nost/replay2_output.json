@@ -244,7 +244,41 @@
           "total_cards_drawn": 10,
           "credits_per_click": 0
         }
-      }
+      },
+      "setup_cards": {
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Echelon": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Revolver": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Sang Kancil": {
+          "count": 2,
+          "total_cost": 6
+        },
+        "unknown": {
+          "count": 2,
+          "total_cost": 4
+        },
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        }
+      },
+      "total_setup_cost": 23,
+      "econ_click_ratio": 0.19,
+      "avg_net_credits_per_econ_click": 2.84,
+      "avg_cards_drawn_per_econ_click": 0.76
     }
   },
   "turns": [
@@ -255,8 +289,8 @@
           "click": 0,
           "events": [
             "[!] Please pause, Runner is acting.",
-            "gl hf!",
-            "glhf",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-corp> keeps their hand.",
             "<anonymized-runner> takes a mulligan."
           ]
@@ -501,11 +535,11 @@
           "click": 2,
           "events": [
             "<anonymized-runner> spends [Click] and pays 0 [Credits] to install Fencer Fueno.",
-            "so if this is a tranq im very sad",
-            "^^",
-            "surely it's 7",
-            "that's what im thinking",
-            "but that makes tread lightly worse"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ],
           "action": {
             "type": "install",
@@ -518,10 +552,10 @@
           "click": 3,
           "events": [
             "<anonymized-runner> spends [Click] and pays 3 [Credits] to play Bravado.",
-            "oic",
-            "how many treads you on?",
-            "2",
-            "valid",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> approaches ice protecting Server 1 at position 0.",
             "<anonymized-corp> pays 4 [Credits] to rez Event Horizon protecting Server 1 at position 0.",
             "<anonymized-runner> encounters Event Horizon protecting Server 1 at position 0.",
@@ -636,14 +670,14 @@
             "<anonymized-runner> uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip.",
             "<anonymized-runner> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized-runner> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "now this is interesting",
-            "some dank lines but i dont think i do it",
-            "coward",
-            ":(",
-            "sorry thinking",
-            "tyt",
-            "so that's a mav and youre going to get rego",
-            "and i dont think i should go all in to stop it"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -654,7 +688,7 @@
           "events": [
             "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
             "<anonymized-runner> uses The Class Act to add the first card on the top of the stack to the bottom.",
-            "sorry",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -1107,7 +1141,7 @@
             "<anonymized-runner> uses MuslihaT: Multifarious Marketeer to reveal Tread Lightly from the Stack and add it to the grip.",
             "<anonymized-runner> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized-runner> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "hmmm"
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -1291,9 +1325,9 @@
             "<anonymized-runner> has no further action.",
             "<anonymized-runner> passes Event Horizon protecting Server 1 at position 0.",
             "<anonymized-runner> will continue the run.",
-            "think",
-            "direct ass btw",
-            "yupyup",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> approaches Server 1.",
             "<anonymized-runner> breaches Server 1.",
             "<anonymized-runner> accesses The Holo Man from Server 1.",
@@ -1486,11 +1520,11 @@
             "<anonymized-corp> has no further action.",
             "<anonymized-runner> encounters Afshar protecting HQ at position 0.",
             "<anonymized-runner> pays 1 [Credits] from Cezve to use Sang Kancil to break 1 Code Gate subroutine on Afshar (\"[subroutine] End the run\").",
-            "that draw was so bad lmao",
-            "am i allowed to take that back or naw",
-            "i didnt draw this ToW",
-            "sure",
-            "kk",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -1509,7 +1543,7 @@
         {
           "click": 3,
           "events": [
-            "feel like this is the only play that gets me back into this game"
+            "<anonymized>"
           ]
         },
         {
@@ -2287,7 +2321,7 @@
             "<anonymized-runner> approaches R&D.",
             "<anonymized-runner> breaches R&D.",
             "[!] Please pause, Runner is acting.",
-            "sorry",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -3016,8 +3050,8 @@
             "<anonymized-runner> accesses Azef Protocol from HQ.",
             "<anonymized-runner> steals Azef Protocol and gains 2 agenda points.",
             "<anonymized-runner> wins the game.",
-            "gg!",
-            "gg wp",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-corp> looks at their deck.",
             "<anonymized-corp> stops looking at their deck.",
             "Mr F has left the game."

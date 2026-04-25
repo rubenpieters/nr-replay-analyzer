@@ -208,7 +208,41 @@
           "total_cards_drawn": 7,
           "credits_per_click": 0
         }
-      }
+      },
+      "setup_cards": {
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Afterimage": {
+          "count": 1,
+          "total_cost": 4
+        },
+        "Penrose": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "unknown": {
+          "count": 2,
+          "total_cost": 4
+        },
+        "Mutual Favor": {
+          "count": 1,
+          "total_cost": 0
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Mantle": {
+          "count": 1,
+          "total_cost": 1
+        }
+      },
+      "total_setup_cost": 17,
+      "econ_click_ratio": 0.32,
+      "avg_net_credits_per_econ_click": 1.65,
+      "avg_cards_drawn_per_econ_click": 0.84
     }
   },
   "turns": [
@@ -218,16 +252,16 @@
         {
           "click": 0,
           "events": [
-            "hihihi",
-            "hello",
-            "quite a crowd",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-corp> takes a mulligan.",
             "<anonymized-corp> reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
             "<anonymized-runner> takes a mulligan.",
-            "we got like 2mins till start?",
-            "looks like it yeah",
-            "gl hf!",
-            "gl hf!"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ]
         }
       ]
@@ -1515,10 +1549,10 @@
             "<anonymized-runner> pays 1 [Credits] to use Penrose to break 1 Code Gate subroutine on Vampyronassa (\"[subroutine] Draw up to 2 cards\").",
             "<anonymized-runner> has no further action.",
             "<anonymized-runner> passes Vampyronassa protecting Server 1 at position 1.",
-            "sorry",
-            "ah it doesnt matter",
-            "?",
-            "I realize I should be using overclock credits",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> approaches Boto protecting Server 1 at position 0.",
             "<anonymized-runner> encounters Boto protecting Server 1 at position 0.",
             "<anonymized-runner> uses Curupira to place 1 power counter on itself.",
@@ -2347,17 +2381,17 @@
             "<anonymized-runner> steals See How They Run and gains 2 agenda points.",
             "<anonymized-runner> wins the game.",
             "<anonymized-runner> uses Trickster Taka to add 1 [Credits] to itself.",
-            "gg!",
-            "gg",
-            "top card was also an agenda",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "Ams has left the game.",
-            "yeah the charlotte indicated you were looking for stuff",
+            "<anonymized>",
             "KomodoCommodore has left the game.",
-            "mm",
+            "<anonymized>",
             "thrantar has left the game.",
-            "wpwp",
-            "thx for the game, you too",
-            "cya around",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> has left the game."
           ],
           "action": {

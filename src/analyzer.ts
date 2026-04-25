@@ -29,6 +29,11 @@ export interface Turn {
   clicks: ClickGroup[];
 }
 
+export interface SetupCardEntry {
+  count: number;
+  total_cost: number;
+}
+
 export interface CardEconEntry {
   uses: number;
   total_credits_gained: number;
@@ -43,10 +48,15 @@ export interface PlayerEcon {
   economy_clicks?: number;
   run_clicks?: number;
   setup_clicks?: number;
+  econ_click_ratio?: number;
+  avg_net_credits_per_econ_click?: number;
+  avg_cards_drawn_per_econ_click?: number;
   impactful_clicks?: number;
   tempo_clicks?: number;
   total_econ_clicks?: number;
   basic_econ_ratio?: number;
+  setup_cards?: Record<string, SetupCardEntry>;
+  total_setup_cost?: number;
   cards: Record<string, CardEconEntry>;
   [key: string]: unknown;
 }
@@ -845,6 +855,24 @@ export function computeEconomy(
     }
   }
 
+  // Collect setup card breakdown for runner (buckets are final after reclassification)
+  const setupCards: Record<string, SetupCardEntry> = {};
+  for (const phase of turns) {
+    if (phase.player !== "runner") continue;
+    for (const click of phase.clicks) {
+      if (click.bucket !== "setup") continue;
+      const action = click.action;
+      if (!action) continue;
+      const card = ((action.card ?? action.raw ?? "unknown") as string);
+      const cost = (action.cost as number) ?? 0;
+      if (!(card in setupCards)) setupCards[card] = { count: 0, total_cost: 0 };
+      setupCards[card].count += 1;
+      setupCards[card].total_cost += cost;
+    }
+  }
+  runnerEcon.setup_cards = setupCards;
+  runnerEcon.total_setup_cost = Object.values(setupCards).reduce((s, e) => s + e.total_cost, 0);
+
   // MuslihaT identity
   const muslihatLookRe = /uses (MuslihaT[^.]+?) to look at the top card/;
   const muslihatAddRe = /MuslihaT.+add it to the grip/;
@@ -870,6 +898,17 @@ export function computeEconomy(
     entry.uses = muslihatGripAdds;
     entry.total_cards_drawn += muslihatGripAdds;
   }
+
+  // Compute derived stats for runner
+  const econBasic = (runnerEcon.basic_clicks ?? 0) + (runnerEcon.economy_clicks ?? 0);
+  runnerEcon.econ_click_ratio =
+    econBasic > 0 ? parseFloat(((runnerEcon.economy_clicks ?? 0) / econBasic).toFixed(2)) : 0.0;
+  const totalNetCredits = Object.values(runnerEcon.cards).reduce((s, e) => s + e.total_net_credits, 0);
+  const totalCardsDrawn = Object.values(runnerEcon.cards).reduce((s, e) => s + e.total_cards_drawn, 0);
+  runnerEcon.avg_net_credits_per_econ_click =
+    econBasic > 0 ? parseFloat((totalNetCredits / econBasic).toFixed(2)) : 0.0;
+  runnerEcon.avg_cards_drawn_per_econ_click =
+    econBasic > 0 ? parseFloat((totalCardsDrawn / econBasic).toFixed(2)) : 0.0;
 
   // Compute derived stats for corp
   const corpEcon = result.corp;

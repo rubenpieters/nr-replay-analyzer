@@ -211,7 +211,33 @@
           "total_cards_drawn": 8,
           "credits_per_click": 0
         }
-      }
+      },
+      "setup_cards": {
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Mutual Favor": {
+          "count": 1,
+          "total_cost": 0
+        },
+        "Penrose": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        }
+      },
+      "total_setup_cost": 11,
+      "econ_click_ratio": 0.34,
+      "avg_net_credits_per_econ_click": 1.89,
+      "avg_cards_drawn_per_econ_click": 0.68
     }
   },
   "turns": [

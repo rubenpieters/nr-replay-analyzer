@@ -210,7 +210,45 @@
           "total_cards_drawn": 8,
           "credits_per_click": 0
         }
-      }
+      },
+      "setup_cards": {
+        "Revolver": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Sang Kancil": {
+          "count": 2,
+          "total_cost": 6
+        },
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "unknown": {
+          "count": 3,
+          "total_cost": 6
+        },
+        "Fencer Fueno": {
+          "count": 1,
+          "total_cost": 0
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Echelon": {
+          "count": 1,
+          "total_cost": 3
+        }
+      },
+      "total_setup_cost": 25,
+      "econ_click_ratio": 0.18,
+      "avg_net_credits_per_econ_click": 2.05,
+      "avg_cards_drawn_per_econ_click": 0.68
     }
   },
   "turns": [

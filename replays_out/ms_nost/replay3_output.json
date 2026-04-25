@@ -74,11 +74,44 @@
   "economy": {
     "corp": {
       "basic_clicks": 4,
-      "impactful_clicks": 7,
-      "tempo_clicks": 12,
-      "total_econ_clicks": 11,
-      "basic_econ_ratio": 0.36,
-      "cards": {}
+      "impactful_clicks": 8,
+      "tempo_clicks": 11,
+      "total_econ_clicks": 12,
+      "basic_econ_ratio": 0.33,
+      "cards": {
+        "click for credit": {
+          "uses": 2,
+          "total_credits_gained": 2,
+          "total_cost": 0,
+          "total_net_credits": 2,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "click to draw": {
+          "uses": 2,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 2,
+          "credits_per_click": 0
+        },
+        "Regolith Mining License": {
+          "uses": 5,
+          "total_credits_gained": 15,
+          "total_cost": 0,
+          "total_net_credits": 15,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
+        "Tranquility Home Grid": {
+          "uses": 1,
+          "total_credits_gained": 2,
+          "total_cost": 0,
+          "total_net_credits": 2,
+          "total_cards_drawn": 0,
+          "credits_per_click": 2
+        }
+      }
     },
     "runner": {
       "basic_clicks": 13,
@@ -150,7 +183,33 @@
           "total_cards_drawn": 3,
           "credits_per_click": 0
         }
-      }
+      },
+      "setup_cards": {
+        "Sang Kancil": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Touchstone": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Mutual Favor": {
+          "count": 1,
+          "total_cost": 0
+        },
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        }
+      },
+      "total_setup_cost": 10,
+      "econ_click_ratio": 0.13,
+      "avg_net_credits_per_econ_click": 1.67,
+      "avg_cards_drawn_per_econ_click": 0.93
     }
   },
   "turns": [
@@ -161,11 +220,11 @@
           "click": 0,
           "events": [
             "<anonymized-corp> keeps their hand.",
-            "missT is so funny",
-            "bc i have a hand full of money events and I go \"ew\"",
-            "XD",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> keeps his hand.",
-            "lol"
+            "<anonymized>"
           ]
         }
       ]
@@ -179,7 +238,10 @@
           "events": [
             "<anonymized-corp> started their turn 1 with 5 [Credit] and 5 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -325,7 +387,13 @@
             "<anonymized-corp> started their turn 2 with 2 [Credit] and 3 cards in HQ.",
             "<anonymized-corp> uses Anthill Excavation Contract to gain 4 [Credits] and draw a card.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Anthill Excavation Contract": 4
+            },
+            "cards_drawn": 2
+          }
         },
         {
           "click": 1,
@@ -361,6 +429,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -456,7 +527,10 @@
           "events": [
             "<anonymized-corp> started their turn 3 with 7 [Credit] and 3 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -466,6 +540,9 @@
           "action": {
             "type": "draw",
             "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
           },
           "bucket": "basic"
         },
@@ -491,6 +568,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -606,7 +686,10 @@
           "events": [
             "<anonymized-corp> started their turn 4 with 3 [Credit] and 4 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -633,6 +716,9 @@
             "effect": "gain 3 [Credits]",
             "cost": 0
           },
+          "effects": {
+            "credits_gained": 3
+          },
           "bucket": "impactful"
         },
         {
@@ -646,6 +732,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         }
@@ -729,8 +818,11 @@
           "events": [
             "<anonymized-corp> started their turn 5 with 7 [Credit] and 4 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw.",
-            "bazinga"
-          ]
+            "<anonymized>"
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -742,6 +834,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         },
@@ -755,6 +850,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         },
@@ -774,6 +872,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         }
@@ -869,7 +970,10 @@
           "events": [
             "<anonymized-corp> started their turn 6 with 16 [Credit] and 5 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -883,7 +987,12 @@
             "location": "Server 1",
             "cost": 0
           },
-          "bucket": "tempo"
+          "effects": {
+            "triggered_gains": {
+              "Tranquility Home Grid": 2
+            }
+          },
+          "bucket": "impactful"
         },
         {
           "click": 2,
@@ -1005,7 +1114,10 @@
           "events": [
             "<anonymized-corp> started their turn 7 with 17 [Credit] and 3 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1020,6 +1132,9 @@
             "location": "Server 2",
             "cost": 0
           },
+          "effects": {
+            "cards_drawn": 2
+          },
           "bucket": "tempo"
         },
         {
@@ -1030,6 +1145,9 @@
           "action": {
             "type": "draw",
             "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
           },
           "bucket": "basic"
         },
@@ -1063,8 +1181,8 @@
             "<anonymized-runner> started his turn 7 with 10 [Credit] and 5 cards in his Grip.",
             "<anonymized-runner> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
             "<anonymized-runner> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "hmmm",
-            "so i basically need to soul read this"
+            "<anonymized>",
+            "<anonymized>"
           ]
         },
         {
@@ -1084,7 +1202,7 @@
           "click": 2,
           "events": [
             "<anonymized-runner> spends [Click] and pays 3 [Credits] to install Curupira.",
-            "action?"
+            "<anonymized>"
           ],
           "action": {
             "type": "install",
@@ -1101,7 +1219,7 @@
           "events": [
             "<anonymized-runner> spends [Click] and pays 1 [Credits] to play Overclock.",
             "<anonymized-runner> uses Overclock to make a run on Server 1.",
-            "nah",
+            "<anonymized>",
             "<anonymized-runner> approaches ice protecting Server 1 at position 1.",
             "<anonymized-corp> has no further action.",
             "<anonymized-runner> passes ice protecting Server 1 at position 1.",
@@ -1143,7 +1261,7 @@
           "click": 4,
           "events": [
             "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "prayge",
+            "<anonymized>",
             "<anonymized-runner> is ending his turn 7 with 6 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
@@ -1166,7 +1284,10 @@
           "events": [
             "<anonymized-corp> started their turn 8 with 16 [Credit] and 7 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1193,8 +1314,8 @@
             "<anonymized-corp> trashes  due to meat damage.",
             "<anonymized-runner> is flatlined.",
             "<anonymized-corp> wins the game.",
-            "gg",
-            "lol",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> has left the game."
           ],
           "action": {

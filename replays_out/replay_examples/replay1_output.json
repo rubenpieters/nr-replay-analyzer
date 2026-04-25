@@ -257,7 +257,37 @@
           "total_cards_drawn": 6,
           "credits_per_click": 0
         }
-      }
+      },
+      "setup_cards": {
+        "Afterimage": {
+          "count": 2,
+          "total_cost": 8
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Mutual Favor": {
+          "count": 2,
+          "total_cost": 0
+        },
+        "Curupira": {
+          "count": 2,
+          "total_cost": 6
+        },
+        "unknown": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        }
+      },
+      "total_setup_cost": 21,
+      "econ_click_ratio": 0.33,
+      "avg_net_credits_per_econ_click": 1.82,
+      "avg_cards_drawn_per_econ_click": 0.74
     }
   },
   "turns": [
@@ -267,10 +297,10 @@
         {
           "click": 0,
           "events": [
-            "gl hf",
+            "<anonymized>",
             "<anonymized-corp> takes a mulligan.",
             "<anonymized-runner> keeps his hand.",
-            "glhf"
+            "<anonymized>"
           ]
         }
       ]
@@ -1005,8 +1035,8 @@
             "<anonymized-runner> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
             "<anonymized-runner> uses Clean Getaway to make a run on Archives.",
             "<anonymized-corp> has no further action.",
-            "ah true I can't boost",
-            "hmm",
+            "<anonymized>",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -1020,7 +1050,7 @@
           "click": 4,
           "events": [
             "<anonymized-runner> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "afterimage is bad in that case",
+            "<anonymized>",
             "<anonymized-runner> uses Clean Getaway to make a run on Archives.",
             "<anonymized-corp> has no further action.",
             "<anonymized-runner> uses The Twinning to place a power counter on itself.",
@@ -1151,7 +1181,7 @@
             "<anonymized-runner> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
             "<anonymized-runner> uses MuslihaT: Multifarious Marketeer to reveal Pinhole Threading from the Stack and add it to the grip.",
             "<anonymized-runner> uses Open Market to gain 1 [Credits].",
-            "nooooooooooooooooooo"
+            "<anonymized>"
           ],
           "effects": {
             "triggered_gains": {
@@ -1165,7 +1195,7 @@
           "events": [
             "<anonymized-runner> spends [Click] and pays 2 [Credits] to install Cezve.",
             "[!] Cezve - Recurring credits usage not restricted",
-            ":DD"
+            "<anonymized>"
           ],
           "action": {
             "type": "install",
@@ -2910,11 +2940,11 @@
         {
           "click": -1,
           "events": [
-            "I forgot to rez the red room twice",
-            "this game is cooked now :D",
-            "oh it is holo man",
-            "red room*",
-            "I though it was holo man"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ]
         }
       ]
@@ -2971,7 +3001,7 @@
             "<anonymized-runner> uses Hermes to add ice protecting R&D at position 0 to HQ.",
             "<anonymized-corp> pays 1 [Credits] to rez The Red Room in the root of HQ.",
             "[!]<anonymized-corp> uses a command: /counter power 1",
-            "you can put a counter on it ;D",
+            "<anonymized>",
             "<anonymized-corp> sets power counters to 1 on The Red Room in the root of HQ.",
             "<anonymized-corp> discards 2 cards from HQ at end of turn.",
             "<anonymized-corp> is ending his turn 17 with 7 [Credit] and 5 cards in HQ.[hr]"
@@ -3018,7 +3048,7 @@
             "<anonymized-runner> uses Curupira to place 1 power counter on itself.",
             "<anonymized-runner> pays 1 [Credits] from Touchstone and 3 [Credits] from his credit pool to increase the strength of Curupira to 3 and break all 2 subroutines on Maskirovka.",
             "<anonymized-runner> has no further action.",
-            "i made at least 3 mistakes this game",
+            "<anonymized>",
             "<anonymized-runner> passes Maskirovka protecting HQ at position 0.",
             "<anonymized-runner> approaches HQ.",
             "<anonymized-runner> uses Transfer of Wealth to take 1 tag.",
@@ -3027,37 +3057,37 @@
             "<anonymized-runner> accesses Eminent Domain from HQ.",
             "<anonymized-runner> steals Eminent Domain and gains 1 agenda point.",
             "<anonymized-runner> wins the game.",
-            "gg",
-            "wp",
-            "gg",
-            "the twinning trash was so rough",
-            "and then the breaker trash too",
-            "I shouldve seen it cause you werent using ob",
-            "its two penroses in deck?",
-            "only 1",
-            "oof",
-            "another decoder?",
-            "nope",
-            "fuuuuuuck",
-            ":D",
-            "I was thinking like",
-            "but like decoders are least important",
-            "no way he's playing only 1 decoder",
-            "haha",
-            "afterimage is soooooooo good against this deck",
-            "yeah",
-            "but I was choked by not drawing agendas",
-            "especially EmDom",
-            "or at least damn greenmail",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-corp> looks at his deck.",
             "<anonymized-corp> stops looking at his deck.",
-            "rematch?",
-            "thanks for the games, I'll just write some short summary and then head out probably",
-            "but maybe some other TAIBs want to play",
-            "ok, I'll ask",
-            "thank you for the games",
-            "was fun",
-            "yep, cya!",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> has left the game."
           ],
           "action": {

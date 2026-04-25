@@ -166,7 +166,33 @@
           "total_cards_drawn": 1,
           "credits_per_click": -1
         }
-      }
+      },
+      "setup_cards": {
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "The Price": {
+          "count": 1,
+          "total_cost": 1
+        },
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Leech": {
+          "count": 1,
+          "total_cost": 1
+        },
+        "Boomerang": {
+          "count": 2,
+          "total_cost": 4
+        }
+      },
+      "total_setup_cost": 11,
+      "econ_click_ratio": 0.26,
+      "avg_net_credits_per_econ_click": 0.93,
+      "avg_cards_drawn_per_econ_click": 1.04
     }
   },
   "turns": [

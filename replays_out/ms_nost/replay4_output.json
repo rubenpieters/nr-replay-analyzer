@@ -87,7 +87,40 @@
       "tempo_clicks": 20,
       "total_econ_clicks": 28,
       "basic_econ_ratio": 0.54,
-      "cards": {}
+      "cards": {
+        "Regolith Mining License": {
+          "uses": 10,
+          "total_credits_gained": 30,
+          "total_cost": 0,
+          "total_net_credits": 30,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
+        "click for credit": {
+          "uses": 11,
+          "total_credits_gained": 11,
+          "total_cost": 0,
+          "total_net_credits": 11,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "click to draw": {
+          "uses": 4,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 4,
+          "credits_per_click": 0
+        },
+        "Extract": {
+          "uses": 2,
+          "total_credits_gained": 18,
+          "total_cost": 6,
+          "total_net_credits": 12,
+          "total_cards_drawn": 0,
+          "credits_per_click": 6
+        }
+      }
     },
     "runner": {
       "basic_clicks": 27,
@@ -199,7 +232,37 @@
           "total_cards_drawn": 12,
           "credits_per_click": 0
         }
-      }
+      },
+      "setup_cards": {
+        "Revolver": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Mutual Favor": {
+          "count": 1,
+          "total_cost": 0
+        },
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "unknown": {
+          "count": 1,
+          "total_cost": 2
+        }
+      },
+      "total_setup_cost": 12,
+      "econ_click_ratio": 0.29,
+      "avg_net_credits_per_econ_click": 2.61,
+      "avg_cards_drawn_per_econ_click": 0.79
     }
   },
   "turns": [
@@ -209,7 +272,7 @@
         {
           "click": 0,
           "events": [
-            "gl hf!",
+            "<anonymized>",
             "<anonymized-corp> keeps their hand.",
             "<anonymized-runner> keeps his hand."
           ]
@@ -225,7 +288,10 @@
           "events": [
             "<anonymized-corp> started their turn 1 with 5 [Credit] and 5 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -361,7 +427,10 @@
             "<anonymized-corp> started their turn 2 with 5 [Credit] and 3 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw.",
             "<anonymized-corp> pays 2 [Credits] to rez Regolith Mining License in Server 1."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -373,6 +442,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         },
@@ -387,6 +459,9 @@
             "effect": "gain 3 [Credits]",
             "cost": 0
           },
+          "effects": {
+            "credits_gained": 3
+          },
           "bucket": "impactful"
         },
         {
@@ -400,6 +475,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         }
@@ -500,7 +578,10 @@
           "events": [
             "<anonymized-corp> started their turn 3 with 10 [Credit] and 4 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -512,6 +593,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         },
@@ -530,6 +614,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         },
@@ -649,7 +736,10 @@
           "events": [
             "<anonymized-corp> started their turn 4 with 16 [Credit] and 4 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -688,6 +778,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -794,7 +887,10 @@
           "events": [
             "<anonymized-corp> started their turn 5 with 12 [Credit] and 3 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -830,7 +926,7 @@
           "events": [
             "<anonymized-corp> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
             "<anonymized-corp> scores Let Them Dream and gains 2 agenda points.",
-            "oh lol",
+            "<anonymized>",
             "<anonymized-corp> uses Let Them Dream to reveal Slash and Burn Agriculture from Archives and add it to the bottom of R&D.",
             "<anonymized-corp> is ending their turn 5 with 9 [Credit] and 3 cards in HQ.[hr]"
           ],
@@ -848,7 +944,7 @@
         {
           "click": -1,
           "events": [
-            "fucking hell yeah i forgot you can do that lol"
+            "<anonymized>"
           ]
         }
       ]
@@ -872,7 +968,7 @@
           "click": 1,
           "events": [
             "<anonymized-runner> spends [Click] and pays 3 [Credits] to play Bravado.",
-            ":)",
+            "<anonymized>",
             "<anonymized-runner> approaches ice protecting R&D at position 0.",
             "<anonymized-corp> pays 5 [Credits] and gains 1 bad publicity to rez Valentão protecting R&D at position 0.",
             "<anonymized-runner> encounters Valentão protecting R&D at position 0.",
@@ -951,7 +1047,10 @@
           "events": [
             "<anonymized-corp> started their turn 6 with 6 [Credit] and 3 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -977,6 +1076,9 @@
             "type": "gain_credits",
             "amount": 1
           },
+          "effects": {
+            "credits_gained": 1
+          },
           "bucket": "basic"
         },
         {
@@ -988,6 +1090,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -1101,7 +1206,10 @@
           "events": [
             "<anonymized-corp> started their turn 7 with 7 [Credit] and 2 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1111,6 +1219,9 @@
           "action": {
             "type": "draw",
             "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
           },
           "bucket": "basic"
         },
@@ -1136,6 +1247,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -1250,7 +1364,10 @@
           "events": [
             "<anonymized-corp> started their turn 8 with 8 [Credit] and 3 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1260,6 +1377,9 @@
           "action": {
             "type": "draw",
             "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
           },
           "bucket": "basic"
         },
@@ -1272,6 +1392,9 @@
             "type": "gain_credits",
             "amount": 1
           },
+          "effects": {
+            "credits_gained": 1
+          },
           "bucket": "basic"
         },
         {
@@ -1283,6 +1406,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -1367,7 +1493,10 @@
           "events": [
             "<anonymized-corp> started their turn 9 with 10 [Credit] and 5 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1391,6 +1520,9 @@
             "type": "gain_credits",
             "amount": 1
           },
+          "effects": {
+            "credits_gained": 1
+          },
           "bucket": "basic"
         },
         {
@@ -1402,6 +1534,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -1521,7 +1656,10 @@
           "events": [
             "<anonymized-corp> started their turn 10 with 3 [Credit] and 5 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1545,6 +1683,9 @@
             "type": "gain_credits",
             "amount": 1
           },
+          "effects": {
+            "credits_gained": 1
+          },
           "bucket": "basic"
         },
         {
@@ -1556,6 +1697,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -1673,7 +1817,10 @@
           "events": [
             "<anonymized-corp> started their turn 11 with 5 [Credit] and 5 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1692,7 +1839,8 @@
             "cost": 3
           },
           "effects": {
-            "credits_paid": 3
+            "credits_paid": 3,
+            "credits_gained": 9
           },
           "bucket": "impactful"
         },
@@ -1707,6 +1855,9 @@
             "effect": "gain 3 [Credits]",
             "cost": 0
           },
+          "effects": {
+            "credits_gained": 3
+          },
           "bucket": "impactful"
         },
         {
@@ -1720,6 +1871,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         }
@@ -1737,9 +1891,9 @@
             "<anonymized-runner> uses MuslihaT: Multifarious Marketeer to reveal Reprise from the Stack and add it to the grip.",
             "<anonymized-runner> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized-runner> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "so this is what it's come to huh",
-            "it sure is :)",
-            "just slapping twinning counters around until the Ob lottery gives me it"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -1835,7 +1989,10 @@
           "events": [
             "<anonymized-corp> started their turn 12 with 17 [Credit] and 5 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1847,6 +2004,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         },
@@ -1983,7 +2143,10 @@
           "events": [
             "<anonymized-corp> started their turn 13 with 18 [Credit] and 4 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -1993,6 +2156,9 @@
           "action": {
             "type": "draw",
             "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
           },
           "bucket": "basic"
         },
@@ -2006,6 +2172,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         },
@@ -2091,9 +2260,9 @@
             "<anonymized-runner> will continue the run.",
             "<anonymized-runner> approaches R&D.",
             "<anonymized-runner> breaches R&D.",
-            "boy",
-            "if i dont hit an agenda im calling the cop",
-            "cops",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> uses The Twinning to access 2 additional cards from R&D.",
             "<anonymized-runner> accesses an unseen card from R&D.",
             "<anonymized-runner> pays 1 [Credits] from Fencer Fueno to trash Anthill Excavation Contract from R&D.",
@@ -2131,7 +2300,7 @@
             "<anonymized-runner> approaches ice protecting HQ at position 0.",
             "<anonymized-corp> pays 5 [Credits] to rez Envelopment protecting HQ at position 0.",
             "<anonymized-runner> encounters Envelopment protecting HQ at position 0.",
-            "thinking",
+            "<anonymized>",
             "<anonymized-runner> spends 3 hosted power counters from on Curupira to use Curupira to bypass Envelopment protecting HQ at position 0.",
             "<anonymized-runner> bypasses Envelopment.",
             "<anonymized-runner> passes Envelopment protecting HQ at position 0.",
@@ -2187,7 +2356,10 @@
           "events": [
             "<anonymized-corp> started their turn 14 with 8 [Credit] and 7 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -2204,6 +2376,9 @@
             "card": "Regolith Mining License",
             "effect": "gain 3 [Credits]",
             "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
           },
           "bucket": "impactful"
         },
@@ -2277,12 +2452,12 @@
             "<anonymized-runner> breaches Server 1.",
             "<anonymized-runner> accesses Let Them Dream from Server 1.",
             "<anonymized-runner> steals Let Them Dream and gains 1 agenda point.",
-            "OH NO",
-            "lol",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> uses Hermes to add a card in Server 1 to HQ.",
             "<anonymized-runner> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized-runner> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "lol"
+            "<anonymized>"
           ],
           "action": {
             "type": "play",
@@ -2301,7 +2476,7 @@
           "click": 2,
           "events": [
             "<anonymized-runner> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Tread Lightly.",
-            "fug",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -2375,7 +2550,10 @@
           "events": [
             "<anonymized-corp> started their turn 15 with 11 [Credit] and 7 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -2409,7 +2587,8 @@
             "cost": 3
           },
           "effects": {
-            "credits_paid": 3
+            "credits_paid": 3,
+            "credits_gained": 9
           },
           "bucket": "impactful"
         },
@@ -2441,7 +2620,7 @@
             "<anonymized-runner> uses MuslihaT: Multifarious Marketeer to reveal Direct Access from the Stack and add it to the grip.",
             "<anonymized-runner> uses Mystic Maemi to add 1 [Credits] to itself.",
             "<anonymized-runner> uses Fencer Fueno to add 1 [Credits] to itself.",
-            "thinking"
+            "<anonymized>"
           ],
           "effects": {
             "cards_drawn": 1
@@ -2466,7 +2645,7 @@
             "<anonymized-runner> uses Transfer of Wealth to take 1 tag.",
             "<anonymized-runner> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
             "<anonymized-runner> breaches HQ.",
-            "shit sorry",
+            "<anonymized>",
             "[undo-click]"
           ]
         },
@@ -2497,7 +2676,7 @@
             "<anonymized-corp> uses Mavirus to purge virus counters.",
             "<anonymized-runner> pays 0 [Credits] to trash Mavirus from HQ.",
             "<anonymized-runner> accesses Stavka from HQ.",
-            "thinking"
+            "<anonymized>"
           ],
           "action": {
             "type": "play",
@@ -2574,7 +2753,10 @@
           "events": [
             "<anonymized-corp> started their turn 16 with 14 [Credit] and 4 cards in HQ.",
             "<anonymized-corp> makes their mandatory start of turn draw."
-          ]
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
         },
         {
           "click": 1,
@@ -2584,6 +2766,9 @@
           "action": {
             "type": "draw",
             "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
           },
           "bucket": "basic"
         },
@@ -2609,6 +2794,9 @@
           "action": {
             "type": "gain_credits",
             "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
           },
           "bucket": "basic"
         }
@@ -2747,8 +2935,8 @@
             "<anonymized-runner> accesses The Basalt Spire from Server 1.",
             "<anonymized-runner> steals The Basalt Spire and gains 3 agenda points.",
             "<anonymized-runner> wins the game.",
-            "gg",
-            "gg",
+            "<anonymized>",
+            "<anonymized>",
             "Gathzen has left the game.",
             "<anonymized-corp> looks at their deck.",
             "<anonymized-runner> looks at his deck.",

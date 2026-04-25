@@ -207,7 +207,37 @@
           "total_cards_drawn": 3,
           "credits_per_click": 0
         }
-      }
+      },
+      "setup_cards": {
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Mutual Favor": {
+          "count": 1,
+          "total_cost": 0
+        },
+        "Penrose": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Mantle": {
+          "count": 1,
+          "total_cost": 1
+        }
+      },
+      "total_setup_cost": 12,
+      "econ_click_ratio": 0.42,
+      "avg_net_credits_per_econ_click": 1.32,
+      "avg_cards_drawn_per_econ_click": 0.79
     }
   },
   "turns": [
@@ -217,8 +247,8 @@
         {
           "click": 0,
           "events": [
-            "GLHF",
-            "u2",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-corp> takes a mulligan.",
             "<anonymized-runner> takes a mulligan."
           ]
@@ -1484,10 +1514,10 @@
             "<anonymized-corp> scores Méliès City Luxury Line and gains 3 agenda points.",
             "<anonymized-corp> wins the game.",
             "<anonymized-runner> looks at his deck.",
-            "GG",
-            "gg",
-            "some unlucky rnd hits",
-            "no pinholes in sight",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-corp> shuffles her deck.",
             "<anonymized-corp> uses Haas-Bioroid: Precision Design to add Seamless Launch in Archives to HQ.",
             "<anonymized-corp> uses Méliès City Luxury Line to gain [Click].",

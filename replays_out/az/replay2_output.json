@@ -179,7 +179,37 @@
           "total_cards_drawn": 0,
           "credits_per_click": 1
         }
-      }
+      },
+      "setup_cards": {
+        "Hermes": {
+          "count": 1,
+          "total_cost": 1
+        },
+        "Echelon": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Unity": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Info Bounty": {
+          "count": 1,
+          "total_cost": 1
+        }
+      },
+      "total_setup_cost": 14,
+      "econ_click_ratio": 0.38,
+      "avg_net_credits_per_econ_click": 1,
+      "avg_cards_drawn_per_econ_click": 0.5
     }
   },
   "turns": [
@@ -189,12 +219,12 @@
         {
           "click": 0,
           "events": [
-            "good luck!",
-            "you too",
-            "[!] The round will begin in one minute.",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-corp> keeps their hand.",
             "<anonymized-runner> takes a mulligan.",
-            "[!] The round has begun!"
+            "<anonymized>"
           ]
         }
       ]
@@ -1596,9 +1626,9 @@
             "<anonymized-corp> trashes Curupira and Open Market due to net damage.",
             "<anonymized-runner> is flatlined.",
             "<anonymized-corp> wins the game.",
-            "gg",
+            "<anonymized>",
             "<anonymized-runner> has left the game.",
-            "gg",
+            "<anonymized>",
             "zyqx has left the game."
           ],
           "action": {

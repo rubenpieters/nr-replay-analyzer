@@ -243,7 +243,37 @@
           "total_cards_drawn": 0,
           "credits_per_click": 6
         }
-      }
+      },
+      "setup_cards": {
+        "Mutual Favor": {
+          "count": 2,
+          "total_cost": 0
+        },
+        "The Twinning": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "Hermes": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "Curupira": {
+          "count": 1,
+          "total_cost": 3
+        },
+        "unknown": {
+          "count": 1,
+          "total_cost": 2
+        },
+        "<anonymized-runner> spends [Click] to steal Méliès City Luxury Line from R&D.": {
+          "count": 1,
+          "total_cost": 0
+        }
+      },
+      "total_setup_cost": 10,
+      "econ_click_ratio": 0.62,
+      "avg_net_credits_per_econ_click": 2.14,
+      "avg_cards_drawn_per_econ_click": 0.81
     }
   },
   "turns": [
@@ -255,13 +285,13 @@
           "events": [
             "<anonymized-corp> takes a mulligan.",
             "<anonymized-runner> keeps his hand.",
-            "we good to start?",
-            "we need to wait for the timer",
-            "cool",
-            "[!] The round will begin in one minute.",
-            "[!] The round has begun!",
-            "gl hf",
-            "glhf!"
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>"
           ]
         }
       ]
@@ -1821,10 +1851,10 @@
             "<anonymized-runner> spends [Click] to steal Méliès City Luxury Line from R&D.",
             "<anonymized-runner> steals Méliès City Luxury Line and gains 3 agenda points.",
             "<anonymized-runner> wins the game.",
-            "gg",
-            "gg",
-            "gl in your other rounds",
-            "thanks, you too",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
+            "<anonymized>",
             "<anonymized-runner> has left the game."
           ],
           "action": {

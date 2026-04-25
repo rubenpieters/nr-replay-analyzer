@@ -1,4 +1,4 @@
-import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon } from "./analyzer.js";
+import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon, SetupCardEntry } from "./analyzer.js";
 
 const ACTION_COLORS: Record<string, string> = {
   run: "#d32f2f",
@@ -67,6 +67,15 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
 .modal-events li { padding: 4px 0; border-bottom: 1px solid #f0f0f0; color: #424242; word-break: break-word; }
 .modal-events li:last-child { border-bottom: none; }
 .modal-empty { font-size: 0.8rem; color: #9e9e9e; font-style: italic; }
+.econ-stats { display: flex; gap: 16px; margin-bottom: 12px; font-size: 0.8rem; flex-wrap: wrap; }
+.econ-stat { color: #555; }
+.econ-stat strong { color: #212121; }
+.setup-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; margin-top: 12px; }
+.setup-table th { text-align: left; padding: 4px 8px; border-bottom: 2px solid #e0e0e0; color: #757575; font-weight: 600; }
+.setup-table td { padding: 3px 8px; border-bottom: 1px solid #f5f5f5; }
+.setup-table tr:last-child td { border-bottom: none; }
+.setup-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.setup-total td { font-weight: 600; border-top: 2px solid #e0e0e0; border-bottom: none; }
 .card-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
 .card-table th { text-align: left; padding: 4px 8px; border-bottom: 2px solid #e0e0e0; color: #757575; font-weight: 600; white-space: nowrap; }
 .card-table td { padding: 3px 8px; border-bottom: 1px solid #f5f5f5; }
@@ -181,12 +190,20 @@ function renderEconomy(economy: PlayerEcon): string {
 
   let tallies: string;
   if ("economy_clicks" in economy) {
+    const ratio = ((economy.econ_click_ratio ?? 0) * 100).toFixed(0);
+    const avgCr = (economy.avg_net_credits_per_econ_click ?? 0).toFixed(2);
+    const avgDraw = (economy.avg_cards_drawn_per_econ_click ?? 0).toFixed(2);
     tallies =
       `<div class="click-tallies">` +
       `<span class="click-tally click-tally-basic">Basic &nbsp;${basic}</span>` +
       `<span class="click-tally click-tally-economy">Economy &nbsp;${economy.economy_clicks ?? 0}</span>` +
       `<span class="click-tally click-tally-run">Run &nbsp;${economy.run_clicks ?? 0}</span>` +
       `<span class="click-tally click-tally-setup">Setup &nbsp;${economy.setup_clicks ?? 0}</span>` +
+      `</div>` +
+      `<div class="econ-stats">` +
+      `<span class="econ-stat">Econ ratio <strong>${ratio}%</strong></span>` +
+      `<span class="econ-stat">Net cr / econ click <strong>${avgCr}</strong></span>` +
+      `<span class="econ-stat">Cards / econ click <strong>${avgDraw}</strong></span>` +
       `</div>`;
   } else {
     tallies =
@@ -240,7 +257,23 @@ function renderEconomy(economy: PlayerEcon): string {
     `<tbody>${rows.join("")}</tbody>` +
     `</table>`;
 
-  return `<div class="econ-summary">${tallies}${table}</div>`;
+  let setupHtml = "";
+  const setupCards = economy.setup_cards as Record<string, SetupCardEntry> | undefined;
+  if (setupCards && Object.keys(setupCards).length > 0) {
+    const sorted = Object.entries(setupCards).sort(([, a], [, b]) => b.total_cost - a.total_cost);
+    const setupRows = sorted.map(([name, e]) =>
+      `<tr><td>${he(name)}</td><td class="num">${e.count}</td><td class="num">${e.total_cost}</td></tr>`
+    ).join("");
+    const totalCost = economy.total_setup_cost as number ?? 0;
+    setupHtml =
+      `<table class="setup-table">` +
+      `<thead><tr><th>Setup</th><th>Count</th><th>Cost</th></tr></thead>` +
+      `<tbody>${setupRows}</tbody>` +
+      `<tfoot><tr class="setup-total"><td>Total</td><td class="num"></td><td class="num">${totalCost}</td></tr></tfoot>` +
+      `</table>`;
+  }
+
+  return `<div class="econ-summary">${tallies}${table}${setupHtml}</div>`;
 }
 
 function renderSection(
