@@ -1,0 +1,1618 @@
+{
+  "summary": {
+    "corp_player": "34Witches",
+    "corp_identity": "AU Co.: The Gold Standard in Clones",
+    "runner_player": "rubenpieters",
+    "runner_identity": "Az McCaffrey: Mechanical Prodigy",
+    "turns": 10,
+    "winner": "corp",
+    "win_reason": "Flatline",
+    "corp_agenda_points": 2,
+    "runner_agenda_points": 3
+  },
+  "action_summary": {
+    "corp": {
+      "install_ice": {
+        "total": 6,
+        "by_card": {
+          "HQ": 1,
+          "Server 3": 1,
+          "R&D": 1,
+          "Archives": 1,
+          "Server 5": 1,
+          "Server 6": 1
+        }
+      },
+      "play": {
+        "total": 2,
+        "by_card": {
+          "Hansei Review": 2
+        }
+      },
+      "install": {
+        "total": 12,
+        "by_card": {
+          "unknown": 11,
+          "Phật Gioan Baotixita": 1
+        }
+      },
+      "draw": 7,
+      "gain_credits": 1,
+      "advance": 2
+    },
+    "runner": {
+      "run": 5,
+      "gain_credits": 6,
+      "install": {
+        "total": 12,
+        "by_card": {
+          "Daily Casts": 1,
+          "The Class Act": 2,
+          "Hermes": 1,
+          "Echelon": 1,
+          "Open Market": 1,
+          "Unity": 1,
+          "Paladin Poemu": 1,
+          "Curupira": 1,
+          "Dr. Nuka Vrolyck": 1,
+          "The Twinning": 1,
+          "Info Bounty": 1
+        }
+      },
+      "play": {
+        "total": 3,
+        "by_card": {
+          "Clean Getaway": 1,
+          "Sure Gamble": 2
+        }
+      },
+      "draw": 9,
+      "ability": {
+        "total": 1,
+        "by_card": {
+          "Dr. Nuka Vrolyck": 1
+        }
+      }
+    }
+  },
+  "economy": {
+    "corp": {
+      "basic_clicks": 8,
+      "impactful_clicks": 2,
+      "tempo_clicks": 20,
+      "total_econ_clicks": 10,
+      "basic_econ_ratio": 0.8,
+      "cards": {
+        "Hansei Review": {
+          "uses": 2,
+          "total_credits_gained": 20,
+          "total_cost": 10,
+          "total_net_credits": 10,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
+        },
+        "click to draw": {
+          "uses": 7,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 7,
+          "credits_per_click": 0
+        },
+        "click for credit": {
+          "uses": 1,
+          "total_credits_gained": 1,
+          "total_cost": 0,
+          "total_net_credits": 1,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        }
+      }
+    },
+    "runner": {
+      "basic_clicks": 15,
+      "economy_clicks": 9,
+      "run_clicks": 6,
+      "setup_clicks": 6,
+      "cards": {
+        "click for credit": {
+          "uses": 6,
+          "total_credits_gained": 6,
+          "total_cost": 0,
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "Az McCaffrey: Mechanical Prodigy": {
+          "uses": 5,
+          "total_credits_gained": 5,
+          "total_cost": 0,
+          "total_net_credits": 5,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "Clean Getaway": {
+          "uses": 1,
+          "total_credits_gained": 6,
+          "total_cost": 3,
+          "total_net_credits": 3,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
+        "click to draw": {
+          "uses": 9,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 9,
+          "credits_per_click": 0
+        },
+        "Sure Gamble": {
+          "uses": 2,
+          "total_credits_gained": 18,
+          "total_cost": 10,
+          "total_net_credits": 8,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Paladin Poemu": {
+          "uses": 1,
+          "total_credits_gained": 2,
+          "total_cost": 1,
+          "total_net_credits": 1,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "Dr. Nuka Vrolyck": {
+          "uses": 1,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 3,
+          "credits_per_click": 0
+        },
+        "Open Market": {
+          "uses": 1,
+          "total_credits_gained": 2,
+          "total_cost": 1,
+          "total_net_credits": 1,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        }
+      }
+    }
+  },
+  "turns": [
+    {
+      "turn": 0,
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "good luck!",
+            "you too",
+            "[!] The round will begin in one minute.",
+            "34Witches keeps their hand.",
+            "rubenpieters takes a mulligan.",
+            "[!] The round has begun!"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "34Witches makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] and pays 0 [Credits] to install ice protecting HQ."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "HQ",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] and pays 5 [Credits] to play Hansei Review.",
+            "34Witches uses Hansei Review to trash a card from HQ and gain 10 [Credits].",
+            "34Witches uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Hansei Review",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 10
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 1 (new remote).",
+            "34Witches is ending their turn 1 with 10 [Credit] and 2 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 1 with 5 [Credit] and 5 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to make a run on Server 1.",
+            "rubenpieters approaches Server 1.",
+            "rubenpieters breaches Server 1.",
+            "rubenpieters accesses Bladderwort from Server 1.",
+            "rubenpieters pays 3 [Credits] to trash Bladderwort from Server 1."
+          ],
+          "action": {
+            "type": "run",
+            "server": "Server 1"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Daily Casts.",
+            "rubenpieters is ending his turn 1 with 1 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Daily Casts",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "economy"
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 2 with 10 [Credit] and 2 cards in HQ.",
+            "34Witches makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 2 (new remote).",
+            "34Witches is ending their turn 2 with 10 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 2",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 2 with 1 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install The Class Act.",
+            "rubenpieters is ending his turn 2 with 3 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "The Class Act",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses The Class Act to draw 4 cards.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "effects": {
+            "cards_drawn": 4
+          }
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 3 with 10 [Credit] and 4 cards in HQ.",
+            "34Witches makes their mandatory start of turn draw.",
+            "34Witches pays 0 [Credits] to rez Spin Doctor in Server 2.",
+            "34Witches uses Spin Doctor to draw 2 cards."
+          ],
+          "effects": {
+            "cards_drawn": 3
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] and pays 0 [Credits] to install ice protecting Server 3 (new remote)."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 3",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] and pays 0 [Credits] to install ice protecting R&D.",
+            "34Witches discards 1 card from HQ at end of turn.",
+            "34Witches is ending their turn 3 with 10 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "R&D",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 3 with 3 [Credit] and 7 cards in his Grip.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install Hermes."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Hermes",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "rubenpieters uses Clean Getaway to make a run on Archives.",
+            "34Witches uses Spin Doctor to shuffle Hansei Review and 1 unseen card into R&D.",
+            "rubenpieters approaches Archives.",
+            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
+            "rubenpieters breaches Archives.",
+            "rubenpieters accesses everything else in Archives."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Clean Getaway",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_gained": 6
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Echelon.",
+            "rubenpieters is ending his turn 3 with 4 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Echelon",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 4 with 10 [Credit] and 5 cards in HQ.",
+            "34Witches makes their mandatory start of turn draw.",
+            "34Witches spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "34Witches uses Petty Cash to gain 5 [credits].",
+            "34Witches uses Petty Cash to gain [Click].",
+            "34Witches removes Petty Cash from the game instead of trashing it."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 3."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 3",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of R&D.",
+            "34Witches is ending their turn 4 with 12 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "R&D",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 4 with 4 [Credit] and 5 cards in his Grip.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "rubenpieters uses Sure Gamble to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Sure Gamble",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install Open Market."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Open Market",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Unity.",
+            "rubenpieters is ending his turn 4 with 6 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Unity",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 5 with 12 [Credit] and 5 cards in HQ.",
+            "34Witches makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 4 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 4",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] and pays 0 [Credits] to install ice protecting Archives.",
+            "34Witches is ending their turn 5 with 12 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Archives",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 5 with 6 [Credit] and 3 cards in his Grip.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits].",
+            "rubenpieters trashes Daily Casts.",
+            "rubenpieters uses Open Market to gain 1 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2,
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "rubenpieters uses Sure Gamble to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Sure Gamble",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to make a run on Server 4.",
+            "34Witches pays 5 [Credits] to rez Hostile Architecture in Server 3.",
+            "rubenpieters approaches Server 4.",
+            "rubenpieters breaches Server 4.",
+            "rubenpieters accesses Bladderwort from Server 4."
+          ],
+          "action": {
+            "type": "run",
+            "server": "Server 4"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters is ending his turn 5 with 13 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "34Witches pays 1 [Credits] to rez Bladderwort in Server 4."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 6 with 6 [Credit] and 5 cards in HQ.",
+            "34Witches uses Bladderwort to gain 1 [Credits].",
+            "34Witches makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Bladderwort": 1
+            },
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] and pays 0 [Credits] to install ice protecting Server 5 (new remote)."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 5",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "34Witches discards 1 card from HQ at end of turn.",
+            "34Witches is ending their turn 6 with 8 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 6 with 13 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install Paladin Poemu."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Paladin Poemu",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "rubenpieters is ending his turn 6 with 14 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 7 with 8 [Credit] and 5 cards in HQ.",
+            "34Witches uses Bladderwort to gain 1 [Credits].",
+            "34Witches makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Bladderwort": 1
+            },
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 5."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 5",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] and pays 5 [Credits] to play Hansei Review.",
+            "34Witches uses Hansei Review to trash a card from HQ and gain 10 [Credits].",
+            "34Witches uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "34Witches is ending their turn 7 with 14 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Hansei Review",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 10
+          },
+          "bucket": "impactful"
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 7 with 14 [Credit] and 5 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters uses Paladin Poemu to add 1 [Credits] to itself."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] from Paladin Poemu and 2 [Credits] from his credit pool to install Curupira."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Curupira",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Paladin Poemu": 1
+            }
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to make a run on Archives.",
+            "rubenpieters approaches ice protecting Archives at position 0.",
+            "34Witches pays 3 [Credits] to rez Anemone protecting Archives at position 0.",
+            "34Witches uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "34Witches trashes 1 card from HQ to use Anemone to do 2 net damage.",
+            "34Witches trashes Clean Getaway and Pinhole Threading due to net damage.",
+            "34Witches uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "rubenpieters encounters Anemone protecting Archives at position 0.",
+            "rubenpieters pays 1 [Credits] to use Echelon to break all 1 subroutines on Anemone.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Anemone protecting Archives at position 0.",
+            "34Witches pays 1 [Credits] to rez The Red Room in the root of R&D.",
+            "rubenpieters approaches Archives.",
+            "rubenpieters breaches Archives.",
+            "rubenpieters accesses Fujii Asset Retrieval from Archives.",
+            "rubenpieters steals Fujii Asset Retrieval and gains 3 agenda points.",
+            "rubenpieters uses Hermes to add ice protecting Server 5 at position 0 to HQ.",
+            "rubenpieters uses Paladin Poemu to add 1 [Credits] to itself.",
+            "34Witches uses Fujii Asset Retrieval to do 2 net damage.",
+            "34Witches trashes Boomerang and Pinhole Threading due to net damage.",
+            "34Witches uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "rubenpieters accesses everything else in Archives."
+          ],
+          "action": {
+            "type": "run",
+            "server": "Archives"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters is ending his turn 7 with 12 [Credit] and 2 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 8 with 10 [Credit] and 4 cards in HQ.",
+            "34Witches spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
+            "34Witches uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
+            "34Witches uses Bladderwort to gain 1 [Credits].",
+            "34Witches makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Bladderwort": 1
+            },
+            "cards_drawn": 3
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 6 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 6",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 7 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 7",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 8 (new remote).",
+            "34Witches pays 1 [Credits] to rez Phật Gioan Baotixita in Server 6.",
+            "34Witches is ending their turn 8 with 10 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Phật Gioan Baotixita",
+            "location": "Server 8",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 8 with 12 [Credit] and 2 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters uses Paladin Poemu to add 1 [Credits] to itself."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install Dr. Nuka Vrolyck."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Dr. Nuka Vrolyck",
+            "cost": 0
+          },
+          "effects": {
+            "credits_from_resources": {
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards.",
+            "rubenpieters uses The Class Act to add the fourth card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Dr. Nuka Vrolyck",
+            "effect": "draw 3 cards",
+            "cost": 0
+          },
+          "effects": {
+            "cards_drawn": 3
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to make a run on Archives.",
+            "rubenpieters approaches Anemone protecting Archives at position 0.",
+            "rubenpieters encounters Anemone protecting Archives at position 0.",
+            "rubenpieters pays 1 [Credits] to use Echelon to break all 1 subroutines on Anemone.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Anemone protecting Archives at position 0.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Archives.",
+            "rubenpieters breaches Archives.",
+            "rubenpieters accesses everything else in Archives."
+          ],
+          "action": {
+            "type": "run",
+            "server": "Archives"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters trashes Open Market.",
+            "rubenpieters spends [Click] and pays 2 [Credits] from Open Market and 2 [Credits] from his credit pool to install The Class Act.",
+            "The Class Act is trashed.",
+            "rubenpieters is ending his turn 8 with 10 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "The Class Act",
+            "cost": 4
+          },
+          "effects": {
+            "credits_paid": 4,
+            "credits_from_resources": {
+              "Open Market": 2
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses The Class Act to draw 4 cards."
+          ],
+          "effects": {
+            "cards_drawn": 4
+          }
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 9 with 10 [Credit] and 4 cards in HQ.",
+            "34Witches spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
+            "34Witches uses AU Co.: The Gold Standard in Clones to trash the third card from R&D and draw 2 cards.",
+            "34Witches uses Bladderwort to gain 1 [Credits].",
+            "34Witches makes their mandatory start of turn draw.",
+            "34Witches spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "34Witches uses Petty Cash to gain 5 [credits].",
+            "34Witches uses Petty Cash to gain [Click].",
+            "34Witches removes Petty Cash from the game instead of trashing it."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Bladderwort": 1
+            },
+            "cards_drawn": 3
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 9 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 9",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 10 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 10",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] and pays 0 [Credits] to install ice protecting Server 6.",
+            "34Witches is ending their turn 9 with 13 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 6",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 9 with 10 [Credit] and 7 cards in his Grip.",
+            "rubenpieters uses Paladin Poemu to add 1 [Credits] to itself."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install The Twinning."
+          ],
+          "action": {
+            "type": "install",
+            "card": "The Twinning",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters spends [Click] and pays 1 [Credits] from Paladin Poemu to install Info Bounty."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Info Bounty",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Paladin Poemu": 1,
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to make a run on Server 9.",
+            "rubenpieters approaches Server 9.",
+            "rubenpieters breaches Server 9.",
+            "rubenpieters accesses Moon Pool from Server 9.",
+            "rubenpieters pays 3 [Credits] to trash Moon Pool from Server 9.",
+            "34Witches uses Hostile Architecture to do 2 meat damage.",
+            "34Witches trashes Sure Gamble and WAKE Implant v2A-JRJ due to meat damage.",
+            "34Witches uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself."
+          ],
+          "action": {
+            "type": "run",
+            "server": "Server 9"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom.",
+            "rubenpieters is ending his turn 9 with 4 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "34Witches pays 3 [Credits] to rez Reaper Function in Server 8."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "34Witches started their turn 10 with 10 [Credit] and 4 cards in HQ.",
+            "34Witches uses Reaper Function to do 2 net damage.",
+            "34Witches trashes Pinhole Threading and The Class Act due to net damage.",
+            "34Witches uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "34Witches uses Bladderwort to gain 1 [Credits].",
+            "34Witches makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Bladderwort": 1
+            },
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "34Witches spends [Click] to install a card in the root of Server 11 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 11",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "34Witches spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 11."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 11",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "34Witches spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 11.",
+            "34Witches scores Blood in the Water and gains 2 agenda points.",
+            "34Witches spends 2 hosted power counters from on Phật Gioan Baotixita to use Phật Gioan Baotixita to do 3 net damage.",
+            "34Witches trashes Curupira and Open Market due to net damage.",
+            "rubenpieters is flatlined.",
+            "34Witches wins the game.",
+            "gg",
+            "rubenpieters has left the game.",
+            "gg",
+            "zyqx has left the game."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 11",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        }
+      ]
+    }
+  ]
+}

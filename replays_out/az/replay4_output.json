@@ -1,0 +1,1839 @@
+{
+  "summary": {
+    "corp_player": "magnostherobot",
+    "corp_identity": "Haas-Bioroid: Precision Design",
+    "runner_player": "rubenpieters",
+    "runner_identity": "Az McCaffrey: Mechanical Prodigy",
+    "turns": 10,
+    "winner": "runner",
+    "win_reason": "Agenda",
+    "corp_agenda_points": 2,
+    "runner_agenda_points": 9
+  },
+  "action_summary": {
+    "corp": {
+      "draw": 8,
+      "play": {
+        "total": 6,
+        "by_card": {
+          "Greasing the Palm": 3,
+          "Hedge Fund": 1,
+          "Red Level Clearance": 1,
+          "Seamless Launch": 1
+        }
+      },
+      "install": {
+        "total": 6,
+        "by_card": {
+          "unknown": 6
+        }
+      },
+      "ability": {
+        "total": 1,
+        "by_card": {
+          "Humanoid Resources": 1
+        }
+      },
+      "advance": 2,
+      "install_ice": {
+        "total": 4,
+        "by_card": {
+          "R&D": 1,
+          "Server 1": 3
+        }
+      },
+      "gain_credits": 3
+    },
+    "runner": {
+      "draw": 5,
+      "install": {
+        "total": 11,
+        "by_card": {
+          "Open Market": 2,
+          "The Class Act": 1,
+          "Daily Casts": 1,
+          "The Twinning": 1,
+          "Cezve": 1,
+          "Dr. Nuka Vrolyck": 2,
+          "Hermes": 1,
+          "Info Bounty": 1,
+          "Curupira": 1
+        }
+      },
+      "run": 3,
+      "gain_credits": 3,
+      "play": {
+        "total": 11,
+        "by_card": {
+          "Mutual Favor": 2,
+          "Sure Gamble": 1,
+          "Pinhole Threading": 2,
+          "Clean Getaway": 3,
+          "Bravado": 2,
+          "Transfer of Wealth": 1
+        }
+      },
+      "ability": {
+        "total": 4,
+        "by_card": {
+          "Dr. Nuka Vrolyck": 4
+        }
+      },
+      "remove_tag": 1,
+      "unknown": 1
+    }
+  },
+  "economy": {
+    "corp": {
+      "basic_clicks": 11,
+      "impactful_clicks": 8,
+      "tempo_clicks": 11,
+      "total_econ_clicks": 19,
+      "basic_econ_ratio": 0.58,
+      "cards": {
+        "click to draw": {
+          "uses": 8,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 8,
+          "credits_per_click": 0
+        },
+        "Greasing the Palm": {
+          "uses": 3,
+          "total_credits_gained": 15,
+          "total_cost": 9,
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 2
+        },
+        "Hedge Fund": {
+          "uses": 1,
+          "total_credits_gained": 9,
+          "total_cost": 5,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Humanoid Resources": {
+          "uses": 1,
+          "total_credits_gained": 4,
+          "total_cost": 0,
+          "total_net_credits": 4,
+          "total_cards_drawn": 3,
+          "credits_per_click": 4
+        },
+        "Red Level Clearance": {
+          "uses": 1,
+          "total_credits_gained": 0,
+          "total_cost": 1,
+          "total_net_credits": -1,
+          "total_cards_drawn": 2,
+          "credits_per_click": -1
+        },
+        "Offworld Office": {
+          "uses": 1,
+          "total_credits_gained": 7,
+          "total_cost": 1,
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 6
+        },
+        "click for credit": {
+          "uses": 3,
+          "total_credits_gained": 3,
+          "total_cost": 0,
+          "total_net_credits": 3,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        }
+      }
+    },
+    "runner": {
+      "basic_clicks": 8,
+      "economy_clicks": 13,
+      "run_clicks": 11,
+      "setup_clicks": 7,
+      "cards": {
+        "click to draw": {
+          "uses": 5,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 5,
+          "credits_per_click": 0
+        },
+        "Az McCaffrey: Mechanical Prodigy": {
+          "uses": 4,
+          "total_credits_gained": 4,
+          "total_cost": 0,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "Open Market": {
+          "uses": 2,
+          "total_credits_gained": 6,
+          "total_cost": 2,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 2
+        },
+        "click for credit": {
+          "uses": 3,
+          "total_credits_gained": 3,
+          "total_cost": 0,
+          "total_net_credits": 3,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "Sure Gamble": {
+          "uses": 1,
+          "total_credits_gained": 9,
+          "total_cost": 5,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Cezve": {
+          "uses": 1,
+          "total_credits_gained": 8,
+          "total_cost": 2,
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 6
+        },
+        "Dr. Nuka Vrolyck": {
+          "uses": 4,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 12,
+          "credits_per_click": 0
+        },
+        "Clean Getaway": {
+          "uses": 3,
+          "total_credits_gained": 18,
+          "total_cost": 9,
+          "total_net_credits": 9,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
+        "Info Bounty": {
+          "uses": 1,
+          "total_credits_gained": 6,
+          "total_cost": 2,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Bravado": {
+          "uses": 1,
+          "total_credits_gained": 8,
+          "total_cost": 3,
+          "total_net_credits": 5,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
+        },
+        "Transfer of Wealth": {
+          "uses": 1,
+          "total_credits_gained": 6,
+          "total_cost": 0,
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 6
+        }
+      }
+    }
+  },
+  "turns": [
+    {
+      "turn": 0,
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot takes a mulligan.",
+            "rubenpieters keeps his hand.",
+            "we good to start?",
+            "we need to wait for the timer",
+            "cool",
+            "[!] The round will begin in one minute.",
+            "[!] The round has begun!",
+            "gl hf",
+            "glhf!"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] and pays 3 [Credits] to play Greasing the Palm.",
+            "magnostherobot uses Greasing the Palm to gain 5 [Credits].",
+            "magnostherobot pays 0 [Credits] to use Greasing the Palm to install ice from HQ protecting HQ."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Greasing the Palm",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_gained": 5
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "magnostherobot uses Hedge Fund to gain 9 [Credits].",
+            "magnostherobot is ending her turn 1 with 11 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Hedge Fund",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "impactful"
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 1 with 5 [Credit] and 5 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install Open Market."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Open Market",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 4 [Credits] from Open Market to install The Class Act."
+          ],
+          "action": {
+            "type": "install",
+            "card": "The Class Act",
+            "cost": 4
+          },
+          "effects": {
+            "credits_paid": 4,
+            "credits_from_resources": {
+              "Open Market": 4
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Daily Casts.",
+            "rubenpieters is ending his turn 1 with 1 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Daily Casts",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses The Class Act to draw 4 cards."
+          ],
+          "effects": {
+            "cards_drawn": 4
+          }
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 2 with 11 [Credit] and 4 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] and pays 3 [Credits] to play Greasing the Palm.",
+            "magnostherobot uses Greasing the Palm to gain 5 [Credits].",
+            "magnostherobot pays 0 [Credits] to use Greasing the Palm to install ice from HQ protecting Server 1 (new remote).",
+            "magnostherobot is ending her turn 2 with 13 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Greasing the Palm",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_gained": 5
+          },
+          "bucket": "impactful"
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 2 with 1 [Credit] and 7 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1,
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to make a run on R&D.",
+            "rubenpieters approaches R&D.",
+            "rubenpieters breaches R&D.",
+            "rubenpieters accesses an unseen card from R&D."
+          ],
+          "action": {
+            "type": "run",
+            "server": "R&D"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to play Mutual Favor.",
+            "rubenpieters uses Mutual Favor to add Unity from the stack to the grip and shuffle the stack.",
+            "rubenpieters uses Mutual Favor to  install Unity.",
+            "rubenpieters pays 3 [Credits] to install Unity from the Stack."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Mutual Favor",
+            "cost": 0
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to play Mutual Favor.",
+            "rubenpieters uses Mutual Favor to add Revolver from the stack to the grip and shuffle the stack.",
+            "rubenpieters uses Mutual Favor to  install Revolver.",
+            "rubenpieters pays 2 [Credits] to install Revolver from the Stack.",
+            "rubenpieters is ending his turn 2 with 0 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Mutual Favor",
+            "cost": 0
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 3 with 13 [Credit] and 5 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] and pays 3 [Credits] to play Greasing the Palm.",
+            "magnostherobot uses Greasing the Palm to gain 5 [Credits].",
+            "magnostherobot pays 1 [Credits] to use Greasing the Palm to install ice from HQ protecting HQ."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Greasing the Palm",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_gained": 5
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] to install a card in the root of Server 2 (new remote).",
+            "magnostherobot is ending her turn 3 with 14 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 2",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 3 with 0 [Credit] and 5 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters trashes Open Market.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1,
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "rubenpieters uses Sure Gamble to gain 9 [Credits].",
+            "rubenpieters is ending his turn 3 with 9 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Sure Gamble",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "economy"
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 4 with 14 [Credit] and 4 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw.",
+            "magnostherobot pays 0 [Credits] to rez Spin Doctor in Server 2.",
+            "magnostherobot uses Spin Doctor to draw 2 cards."
+          ],
+          "effects": {
+            "cards_drawn": 3
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] to install a card in the root of Server 1.",
+            "magnostherobot discards 2 cards from HQ at end of turn.",
+            "magnostherobot is ending her turn 4 with 14 [Credit] and 6 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 4 with 9 [Credit] and 5 cards in his Grip.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install The Twinning."
+          ],
+          "action": {
+            "type": "install",
+            "card": "The Twinning",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to install Cezve.",
+            "[!] Cezve - Recurring credits usage not restricted"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Cezve",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
+            "rubenpieters uses Pinhole Threading to make a run on Archives.",
+            "magnostherobot uses Spin Doctor to shuffle 2 unseen cards into R&D.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Archives.",
+            "rubenpieters uses the replacement effect from Pinhole Threading.",
+            "rubenpieters accesses Humanoid Resources from Server 1.",
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Cezve to trash Humanoid Resources from Server 1."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Pinhole Threading",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Cezve": 1
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom.",
+            "rubenpieters is ending his turn 4 with 5 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 5 with 14 [Credit] and 6 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] to install a card in the root of Server 1.",
+            "magnostherobot is ending her turn 5 with 14 [Credit] and 6 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 5 with 5 [Credit] and 3 cards in his Grip.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits].",
+            "rubenpieters trashes Daily Casts."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install Dr. Nuka Vrolyck."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Dr. Nuka Vrolyck",
+            "cost": 0
+          },
+          "effects": {
+            "credits_from_resources": {
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Dr. Nuka Vrolyck",
+            "effect": "draw 3 cards",
+            "cost": 0
+          },
+          "effects": {
+            "cards_drawn": 3
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to install Hermes.",
+            "rubenpieters is ending his turn 5 with 5 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Hermes",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 6 with 14 [Credit] and 6 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw.",
+            "magnostherobot pays 1 [Credits] to rez Humanoid Resources in Server 1."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click][Click][Click] and trashes Humanoid Resources to use Humanoid Resources to gain 4 [Credits] and draw 3 cards.",
+            "magnostherobot pays 1 [Credits] to use Humanoid Resources to install ice protecting Server 1.",
+            "magnostherobot uses Humanoid Resources to install a card in the root of Server 1.",
+            "magnostherobot pays 1 [Credits] to play Red Level Clearance.",
+            "magnostherobot uses Red Level Clearance to install a non-agenda from hand.",
+            "magnostherobot uses Red Level Clearance to install a card from HQ in the root of Server 1.",
+            "magnostherobot uses Red Level Clearance to gain [Click]."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Humanoid Resources",
+            "effect": "gain 4 [Credits] and draw 3 cards",
+            "trash": "Humanoid Resources"
+          },
+          "effects": {
+            "credits_gained": 4,
+            "cards_drawn": 3
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "magnostherobot is ending her turn 6 with 14 [Credit] and 6 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 6 with 5 [Credit] and 5 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters trashes Dr. Nuka Vrolyck.",
+            "rubenpieters spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards.",
+            "rubenpieters uses The Class Act to add the fourth card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Dr. Nuka Vrolyck",
+            "effect": "draw 3 cards",
+            "cost": 0
+          },
+          "effects": {
+            "cards_drawn": 3
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "rubenpieters uses Clean Getaway to make a run on R&D.",
+            "magnostherobot has no further action.",
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Cezve to use Unity to increase its strength from 1 to 3.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches R&D.",
+            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
+            "rubenpieters breaches R&D.",
+            "rubenpieters uses The Twinning to access 2 additional cards from R&D.",
+            "rubenpieters accesses an unseen card from R&D.",
+            "rubenpieters accesses an unseen card from R&D.",
+            "rubenpieters accesses an unseen card from R&D."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Clean Getaway",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Cezve": 1
+            },
+            "credits_gained": 6
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install Open Market."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Open Market",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] from Open Market to install Info Bounty.",
+            "rubenpieters is ending his turn 6 with 7 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Info Bounty",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2,
+            "credits_from_resources": {
+              "Open Market": 2
+            }
+          },
+          "bucket": "economy"
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 7 with 14 [Credit] and 6 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] and pays 1 [Credits] to play Red Level Clearance.",
+            "magnostherobot uses Red Level Clearance to draw 2 cards.",
+            "magnostherobot uses Red Level Clearance to gain [Click]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Red Level Clearance",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "cards_drawn": 2
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] and pays 1 [Credits] to play Seamless Launch.",
+            "magnostherobot uses Seamless Launch to place 2 advancement counters on a card in Server 1."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Seamless Launch",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "magnostherobot scores Offworld Office and gains 2 agenda points.",
+            "magnostherobot uses Offworld Office to gain 7 [Credits].",
+            "magnostherobot uses Haas-Bioroid: Precision Design to add Seamless Launch in Archives to HQ.",
+            "rubenpieters uses Hermes to add ice protecting Server 1 at position 1 to HQ."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_gained": 7
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 4,
+          "events": [
+            "magnostherobot spends [Click] and pays 0 [Credits] to install ice protecting R&D.",
+            "magnostherobot discards 2 cards from HQ at end of turn.",
+            "magnostherobot is ending her turn 7 with 18 [Credit] and 6 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "R&D",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 7 with 7 [Credit] and 5 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters identifies his mark to be R&D."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Curupira."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Curupira",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "rubenpieters uses Clean Getaway to make a run on R&D.",
+            "rubenpieters approaches ice protecting R&D at position 0.",
+            "magnostherobot pays 4 [Credits] to rez Sleipnir protecting R&D at position 0.",
+            "magnostherobot has no further action.",
+            "rubenpieters encounters Sleipnir protecting R&D at position 0.",
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters pays 2 [Credits] from Cezve and 2 [Credits] from his credit pool to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Sleipnir protecting R&D at position 0.",
+            "rubenpieters approaches R&D.",
+            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
+            "rubenpieters breaches R&D.",
+            "rubenpieters uses The Twinning to access 0 additional cards from R&D.",
+            "rubenpieters accesses an unseen card from R&D.",
+            "rubenpieters steals Offworld Office and gains 2 agenda points.",
+            "rubenpieters uses Hermes to add ice protecting Server 1 at position 0 to HQ.",
+            "rubenpieters uses Info Bounty to gain 2 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Clean Getaway",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Cezve": 2
+            },
+            "credits_gained": 6,
+            "triggered_gains": {
+              "Info Bounty": 2
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to make a run on Server 1.",
+            "magnostherobot pays 2 [Credits] to rez Manegarm Skunkworks in Server 1.",
+            "magnostherobot pays 0 [Credits] to rez Anoetic Void in Server 1.",
+            "rubenpieters approaches Server 1.",
+            "magnostherobot uses Manegarm Skunkworks to end the run."
+          ],
+          "action": {
+            "type": "run",
+            "server": "Server 1"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom.",
+            "rubenpieters is ending his turn 7 with 8 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 8 with 12 [Credit] and 7 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] and pays 0 [Credits] to install ice protecting Server 1."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "magnostherobot is ending her turn 8 with 12 [Credit] and 6 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 8 with 8 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters identifies his mark to be Archives."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install Dr. Nuka Vrolyck."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Dr. Nuka Vrolyck",
+            "cost": 0
+          },
+          "effects": {
+            "credits_from_resources": {
+              "Az McCaffrey: Mechanical Prodigy": 1
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards.",
+            "rubenpieters uses The Class Act to add the fourth card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Dr. Nuka Vrolyck",
+            "effect": "draw 3 cards",
+            "cost": 0
+          },
+          "effects": {
+            "cards_drawn": 3
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "rubenpieters uses Clean Getaway to make a run on Archives.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Archives.",
+            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
+            "rubenpieters breaches Archives.",
+            "rubenpieters accesses everything else in Archives.",
+            "rubenpieters uses Info Bounty to gain 2 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Clean Getaway",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_gained": 6,
+            "triggered_gains": {
+              "Info Bounty": 2
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
+            "rubenpieters approaches ice protecting HQ at position 1.",
+            "rubenpieters passes ice protecting HQ at position 1.",
+            "rubenpieters approaches ice protecting HQ at position 0.",
+            "rubenpieters passes ice protecting HQ at position 0.",
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Cezve to use Unity to increase its strength from 1 to 4.",
+            "rubenpieters approaches HQ.",
+            "rubenpieters breaches HQ.",
+            "rubenpieters uses The Twinning to access 1 additional card from HQ.",
+            "rubenpieters accesses Offworld Office from HQ.",
+            "rubenpieters steals Offworld Office and gains 2 agenda points.",
+            "rubenpieters uses Hermes to add ice protecting Server 1 at position 1 to HQ.",
+            "rubenpieters accesses Brân 1.0 from HQ.",
+            "rubenpieters uses Bravado to gain 8 [Credits].",
+            "rubenpieters is ending his turn 8 with 19 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Bravado",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Cezve": 1
+            },
+            "credits_gained": 8
+          },
+          "bucket": "run"
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 9 with 12 [Credit] and 6 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] and pays 1 [Credits] to install ice protecting Server 1.",
+            "magnostherobot is ending her turn 9 with 11 [Credit] and 6 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 9 with 19 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters identifies his mark to be HQ."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "rubenpieters uses Transfer of Wealth to make a run on HQ.",
+            "rubenpieters approaches ice protecting HQ at position 1.",
+            "rubenpieters passes ice protecting HQ at position 1.",
+            "rubenpieters approaches ice protecting HQ at position 0.",
+            "rubenpieters passes ice protecting HQ at position 0.",
+            "rubenpieters approaches HQ.",
+            "rubenpieters uses Transfer of Wealth to take 1 tag.",
+            "rubenpieters uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "rubenpieters breaches HQ.",
+            "rubenpieters uses The Twinning to access 0 additional cards from HQ.",
+            "rubenpieters accesses Seamless Launch from HQ.",
+            "rubenpieters uses Info Bounty to gain 2 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Transfer of Wealth",
+            "cost": 0
+          },
+          "effects": {
+            "credits_gained": 6,
+            "triggered_gains": {
+              "Info Bounty": 2
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
+            "rubenpieters uses Pinhole Threading to make a run on Archives.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Archives.",
+            "rubenpieters uses the replacement effect from Pinhole Threading.",
+            "rubenpieters accesses Anoetic Void from Server 1.",
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Cezve to trash Anoetic Void from Server 1."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Pinhole Threading",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Cezve": 1
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to make a run on Server 1.",
+            "rubenpieters approaches ice protecting Server 1 at position 1.",
+            "magnostherobot pays 6 [Credits] to rez Brân 1.0 protecting Server 1 at position 1.",
+            "rubenpieters encounters Brân 1.0 protecting Server 1 at position 1.",
+            "rubenpieters uses Curupira to place 1 power counter on itself.",
+            "rubenpieters pays 8 [Credits] to increase the strength of Curupira to 6 and break all 3 subroutines on Brân 1.0.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Brân 1.0 protecting Server 1 at position 1.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches ice protecting Server 1 at position 0.",
+            "rubenpieters passes ice protecting Server 1 at position 0.",
+            "rubenpieters approaches Server 1.",
+            "rubenpieters pays 5 [Credits].",
+            "rubenpieters breaches Server 1.",
+            "rubenpieters accesses Tranquility Home Grid from Server 1.",
+            "rubenpieters pays 4 [Credits] to trash Tranquility Home Grid from Server 1.",
+            "rubenpieters accesses Manegarm Skunkworks from Server 1.",
+            "rubenpieters pays 3 [Credits] to trash Manegarm Skunkworks from Server 1."
+          ],
+          "action": {
+            "type": "run",
+            "server": "Server 1"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "rubenpieters is ending his turn 9 with 5 [Credit] and 2 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "remove_tag",
+            "count": 1,
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "magnostherobot started her turn 10 with 2 [Credit] and 6 cards in HQ.",
+            "magnostherobot makes her mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "magnostherobot spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "magnostherobot spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "magnostherobot is ending her turn 10 with 4 [Credit] and 6 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 10 with 5 [Credit] and 2 cards in his Grip.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters trashes Open Market.",
+            "rubenpieters identifies his mark to be R&D."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters trashes Dr. Nuka Vrolyck.",
+            "rubenpieters spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards.",
+            "rubenpieters uses The Class Act to add the third card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Dr. Nuka Vrolyck",
+            "effect": "draw 3 cards",
+            "cost": 0
+          },
+          "effects": {
+            "cards_drawn": 3
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
+            "rubenpieters approaches Sleipnir protecting R&D at position 0.",
+            "magnostherobot has no further action.",
+            "rubenpieters encounters Sleipnir protecting R&D at position 0.",
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters pays 2 [Credits] from Cezve and 2 [Credits] from his credit pool to increase the strength of Unity to 4 and break all 3 subroutines on Sleipnir.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Sleipnir protecting R&D at position 0.",
+            "rubenpieters approaches R&D.",
+            "rubenpieters breaches R&D.",
+            "rubenpieters uses The Twinning to access 2 additional cards from R&D.",
+            "rubenpieters accesses an unseen card from R&D.",
+            "rubenpieters steals Project Ingatan and gains 2 agenda points.",
+            "rubenpieters uses Hermes to add a card in Server 1 to HQ.",
+            "rubenpieters accesses an unseen card from R&D."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Bravado",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Cezve": 2
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to steal Méliès City Luxury Line from R&D.",
+            "rubenpieters steals Méliès City Luxury Line and gains 3 agenda points.",
+            "rubenpieters wins the game.",
+            "gg",
+            "gg",
+            "gl in your other rounds",
+            "thanks, you too",
+            "rubenpieters has left the game."
+          ],
+          "action": {
+            "type": "unknown",
+            "raw": "rubenpieters spends [Click] to steal Méliès City Luxury Line from R&D."
+          },
+          "bucket": "setup"
+        }
+      ]
+    }
+  ]
+}

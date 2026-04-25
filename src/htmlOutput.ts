@@ -1,0 +1,298 @@
+import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon } from "./analyzer.js";
+
+const ACTION_COLORS: Record<string, string> = {
+  run: "#d32f2f",
+  install: "#1565c0",
+  install_ice: "#1565c0",
+  play: "#2e7d32",
+  ability: "#6a1b9a",
+  gain_credits: "#f57f17",
+  draw: "#00695c",
+  advance: "#e65100",
+  trash: "#546e7a",
+  remove_tag: "#546e7a",
+  unknown: "#9e9e9e",
+};
+
+const CSS = `
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f5f5f5; color: #212121; padding: 16px; }
+h1 { font-size: 1.4rem; margin-bottom: 4px; }
+.game-summary { background: white; border-radius: 8px; padding: 16px; margin-bottom: 24px; border: 1px solid #e0e0e0; }
+.game-summary p { margin: 4px 0; font-size: 0.95rem; }
+.player-section { margin-bottom: 32px; }
+.player-section h2 { font-size: 1.1rem; margin-bottom: 12px; padding: 8px 12px; border-radius: 6px; }
+.corp-section h2 { background: #e3f2fd; border-left: 4px solid #1565c0; }
+.runner-section h2 { background: #fce4ec; border-left: 4px solid #c62828; }
+.turn-row { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; }
+.turn-label { width: 56px; flex-shrink: 0; font-size: 0.8rem; font-weight: 600; color: #757575; padding-top: 8px; text-align: right; }
+.clicks { display: flex; flex-wrap: wrap; gap: 6px; }
+.click-cell { background: white; border: 1px solid #e0e0e0; border-radius: 6px; padding: 8px; min-width: 100px; max-width: 180px; font-size: 0.8rem; }
+.click-cell.start-of-turn { background: #fafafa; border-style: dashed; }
+.click-label { font-size: 0.7rem; color: #9e9e9e; margin-bottom: 4px; }
+.action-badge { display: inline-block; color: white; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px; text-transform: uppercase; }
+.action-detail { font-size: 0.8rem; margin-bottom: 4px; color: #424242; word-break: break-word; }
+.effects { display: flex; flex-direction: column; gap: 2px; margin-top: 4px; border-top: 1px solid #f0f0f0; padding-top: 4px; }
+.effect { font-size: 0.7rem; padding: 1px 4px; border-radius: 3px; }
+.effect-cost { background: #ffebee; color: #c62828; }
+.effect-resource { background: #fff3e0; color: #e65100; }
+.effect-gain { background: #e8f5e9; color: #2e7d32; }
+.effect-trigger { background: #f3e5f5; color: #6a1b9a; }
+.effect-draw { background: #e0f7fa; color: #00695c; }
+.econ-summary { background: white; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px 16px; margin-bottom: 16px; max-width: 700px; }
+.click-tallies { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.click-tally { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 600; padding: 4px 10px; border-radius: 20px; }
+.click-tally-basic { background: #fce4ec; color: #c62828; border: 1px solid #f48fb1; }
+.click-tally-impactful { background: #f1f8e9; color: #33691e; border: 1px solid #aed581; }
+.click-tally-tempo { background: #e3f2fd; color: #0d47a1; border: 1px solid #90caf9; }
+.click-cell.type-basic { background: #fff0f3; border-color: #f48fb1; }
+.click-cell.type-impactful { background: #f9fbe7; border-color: #c5e1a5; }
+.click-cell.type-tempo { background: #e8f4fd; border-color: #90caf9; }
+.click-tally-economy { background: #e3f2fd; color: #0d47a1; border: 1px solid #90caf9; }
+.click-tally-run { background: #fff3e0; color: #e65100; border: 1px solid #ffb74d; }
+.click-tally-setup { background: #f3e5f5; color: #6a1b9a; border: 1px solid #ce93d8; }
+.click-cell.type-economy { background: #e3f2fd; border-color: #90caf9; }
+.click-cell.type-run { background: #fff8f0; border-color: #ffb74d; }
+.click-cell.type-setup { background: #f8f0fc; border-color: #ce93d8; }
+.click-cell.undo { background: #f0f0f0; border-color: #bdbdbd; border-style: dashed; opacity: 0.6; }
+.card-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+.card-table th { text-align: left; padding: 4px 8px; border-bottom: 2px solid #e0e0e0; color: #757575; font-weight: 600; white-space: nowrap; }
+.card-table td { padding: 3px 8px; border-bottom: 1px solid #f5f5f5; }
+.card-table tr:last-child td { border-bottom: none; }
+.card-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.net-pos { color: #2e7d32; font-weight: 600; }
+.net-neg { color: #c62828; font-weight: 600; }
+.net-zero { color: #9e9e9e; }
+`;
+
+function he(text: unknown): string {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function renderActionDetail(action: Action): string {
+  const atype = action.type ?? "unknown";
+  if (["play", "ability", "install", "trash", "unknown"].includes(atype)) {
+    return he((action.card ?? action.raw ?? "") as string);
+  }
+  if (atype === "install_ice") return he((action.location ?? "") as string);
+  if (atype === "run") return he((action.server ?? "") as string);
+  if (atype === "advance") {
+    const target = (action.target ?? "") as string;
+    const loc = (action.location ?? "") as string;
+    return he(loc ? `${target} @ ${loc}` : target);
+  }
+  if (atype === "gain_credits") return he(`+${action.amount ?? ""} credits`);
+  if (atype === "draw") return he(`${action.count ?? ""} cards`);
+  if (atype === "remove_tag") return he(`${action.count ?? ""} tag(s)`);
+  return "";
+}
+
+function renderEffects(effects: Effects | undefined): string {
+  if (!effects) return "";
+  const parts: string[] = [];
+  const paid = effects.credits_paid ?? 0;
+  if (paid) parts.push(`<span class="effect effect-cost">&#8722;${paid} cr</span>`);
+  for (const [card, amt] of Object.entries(effects.credits_from_resources ?? {})) {
+    parts.push(`<span class="effect effect-resource">${he(card)}: &#8722;${amt} cr</span>`);
+  }
+  const gained = effects.credits_gained ?? 0;
+  if (gained) parts.push(`<span class="effect effect-gain">+${gained} cr</span>`);
+  for (const [card, amt] of Object.entries(effects.triggered_gains ?? {})) {
+    parts.push(`<span class="effect effect-trigger">${he(card)}: +${amt} cr</span>`);
+  }
+  const drawn = effects.cards_drawn ?? 0;
+  if (drawn) parts.push(`<span class="effect effect-draw">+${drawn} card(s)</span>`);
+  return parts.join("");
+}
+
+function renderClick(click: ClickGroup): string {
+  const clickNum = click.click ?? 0;
+  const isUndo = (click.events ?? []).includes("[undo-click]");
+
+  let label: string;
+  if (clickNum === 0) label = "Start of Turn";
+  else if (clickNum === -1) label = "End of Turn";
+  else label = `Click ${clickNum}`;
+
+  const action = click.action;
+  const effects = click.effects;
+
+  const atype = action ? (action.type ?? "unknown") : null;
+  const color = atype ? (ACTION_COLORS[atype] ?? "#9e9e9e") : "#bdbdbd";
+
+  let badge = atype ? `<div class="action-badge" style="background:${color}">${he(atype)}</div>` : "";
+  let detail = action ? `<div class="action-detail">${renderActionDetail(action)}</div>` : "";
+  let effectsHtml = effects ? `<div class="effects">${renderEffects(effects)}</div>` : "";
+
+  let extraClass: string;
+  if (isUndo) {
+    extraClass = "undo";
+    badge = '<div class="action-badge" style="background:#9e9e9e">undo</div>';
+    detail = "";
+    effectsHtml = "";
+  } else if (clickNum === 0 || clickNum === -1) {
+    extraClass = "start-of-turn";
+  } else {
+    const ct = click.bucket;
+    extraClass = ct ? `type-${ct}` : "";
+  }
+
+  return (
+    `<div class="click-cell ${extraClass}">` +
+    `<div class="click-label">${label}</div>` +
+    `${badge}${detail}${effectsHtml}` +
+    `</div>`
+  );
+}
+
+function renderTurn(turn: Turn): string {
+  let clicks = turn.clicks ?? [];
+  if (!clicks.length || clicks[clicks.length - 1].click !== -1) {
+    clicks = [...clicks, { click: -1, events: [] }];
+  }
+  const clicksHtml = clicks.map(renderClick).join("");
+  return (
+    `<div class="turn-row">` +
+    `<div class="turn-label">T${turn.turn ?? "?"}</div>` +
+    `<div class="clicks">${clicksHtml}</div>` +
+    `</div>`
+  );
+}
+
+function renderEconomy(economy: PlayerEcon): string {
+  const basic = economy.basic_clicks ?? 0;
+
+  let tallies: string;
+  if ("economy_clicks" in economy) {
+    tallies =
+      `<div class="click-tallies">` +
+      `<span class="click-tally click-tally-basic">Basic &nbsp;${basic}</span>` +
+      `<span class="click-tally click-tally-economy">Economy &nbsp;${economy.economy_clicks ?? 0}</span>` +
+      `<span class="click-tally click-tally-run">Run &nbsp;${economy.run_clicks ?? 0}</span>` +
+      `<span class="click-tally click-tally-setup">Setup &nbsp;${economy.setup_clicks ?? 0}</span>` +
+      `</div>`;
+  } else {
+    tallies =
+      `<div class="click-tallies">` +
+      `<span class="click-tally click-tally-basic">Basic &nbsp;${basic}</span>` +
+      `<span class="click-tally click-tally-impactful">Impactful &nbsp;${economy.impactful_clicks ?? 0}</span>` +
+      `<span class="click-tally click-tally-tempo">Tempo &nbsp;${economy.tempo_clicks ?? 0}</span>` +
+      `</div>`;
+  }
+
+  const cards = economy.cards ?? {};
+  const sortedCards = Object.entries(cards).sort(
+    ([, a], [, b]) =>
+      b.total_net_credits - a.total_net_credits ||
+      b.total_cards_drawn - a.total_cards_drawn
+  );
+
+  const rows: string[] = [];
+  for (const [name, c] of sortedCards) {
+    const net = c.total_net_credits;
+    let netHtml: string;
+    if (net > 0) netHtml = `<td class="num net-pos">+${net}</td>`;
+    else if (net < 0) netHtml = `<td class="num net-neg">${net}</td>`;
+    else netHtml = `<td class="num net-zero">0</td>`;
+
+    const drawn = c.total_cards_drawn;
+    const drawnHtml = drawn
+      ? `<td class="num">${drawn}</td>`
+      : `<td class="num">&#8212;</td>`;
+
+    const cpc = (c.credits_per_click ?? 0).toFixed(2);
+
+    rows.push(
+      `<tr>` +
+        `<td>${he(name)}</td>` +
+        `<td class="num">${c.uses}</td>` +
+        `<td class="num">${c.total_cost}</td>` +
+        `<td class="num">${c.total_credits_gained}</td>` +
+        `${netHtml}` +
+        `${drawnHtml}` +
+        `<td class="num">${cpc}</td>` +
+        `</tr>`
+    );
+  }
+
+  const table =
+    `<table class="card-table">` +
+    `<thead><tr>` +
+    `<th>Card</th><th>Uses</th><th>Cost</th><th>Gained</th><th>Net</th><th>Drawn</th><th>cr/click</th>` +
+    `</tr></thead>` +
+    `<tbody>${rows.join("")}</tbody>` +
+    `</table>`;
+
+  return `<div class="econ-summary">${tallies}${table}</div>`;
+}
+
+function renderSection(
+  playerLabel: string,
+  identity: string,
+  turnsList: Turn[],
+  cssClass: string,
+  economy: PlayerEcon
+): string {
+  const econHtml = renderEconomy(economy);
+  const turnsHtml = turnsList.map(renderTurn).join("");
+  return (
+    `<section class="player-section ${cssClass}">` +
+    `<h2>${he(playerLabel)} : ${he(identity)}</h2>` +
+    `${econHtml}` +
+    `<div class="turns-grid">${turnsHtml}</div>` +
+    `</section>`
+  );
+}
+
+export function generateHtml(data: ParsedReplay): string {
+  const summary = data.summary;
+  const turns = data.turns;
+
+  const corpTurns = turns.filter((t) => t.player === "corp");
+  const runnerTurns = turns.filter((t) => t.player === "runner");
+
+  const economy = data.economy;
+  const corpSection = renderSection(
+    summary.corp_player,
+    summary.corp_identity,
+    corpTurns,
+    "corp-section",
+    economy.corp
+  );
+  const runnerSection = renderSection(
+    summary.runner_player,
+    summary.runner_identity,
+    runnerTurns,
+    "runner-section",
+    economy.runner
+  );
+
+  const winner = summary.winner ?? "";
+  const winReason = summary.win_reason ?? "";
+  const corpAp = summary.corp_agenda_points ?? 0;
+  const runnerAp = summary.runner_agenda_points ?? 0;
+  const title = he(`${summary.corp_player} vs ${summary.runner_player}`);
+
+  return (
+    `<!DOCTYPE html><html lang="en"><head>` +
+    `<meta charset="UTF-8">` +
+    `<meta name="viewport" content="width=device-width, initial-scale=1.0">` +
+    `<title>Replay: ${title}</title>` +
+    `<style>${CSS}</style>` +
+    `</head><body>` +
+    `<div class="game-summary">` +
+    `<h1>Netrunner Replay</h1>` +
+    `<p><strong>Corp:</strong> ${he(summary.corp_player)} : ${he(summary.corp_identity)}</p>` +
+    `<p><strong>Runner:</strong> ${he(summary.runner_player)} : ${he(summary.runner_identity)}</p>` +
+    `<p><strong>Winner:</strong> ${he(winner)} (${he(winReason)})</p>` +
+    `<p><strong>Turns:</strong> ${summary.turns ?? "?"} &nbsp;|&nbsp; ` +
+    `Corp ${corpAp}&ndash;${runnerAp} Runner agenda points</p>` +
+    `</div>` +
+    `${corpSection}${runnerSection}` +
+    `</body></html>`
+  );
+}

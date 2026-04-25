@@ -1,0 +1,2533 @@
+{
+  "summary": {
+    "corp_player": "Tyranda",
+    "corp_identity": "Méliès U: Only the Brightest",
+    "runner_player": "rubenpieters",
+    "runner_identity": "MuslihaT: Multifarious Marketeer",
+    "turns": 14,
+    "winner": "runner",
+    "win_reason": "Agenda",
+    "corp_agenda_points": 2,
+    "runner_agenda_points": 9
+  },
+  "action_summary": {
+    "corp": {
+      "install": {
+        "total": 8,
+        "by_card": {
+          "unknown": 8
+        }
+      },
+      "install_ice": {
+        "total": 10,
+        "by_card": {
+          "Server 1": 4,
+          "R&D": 3,
+          "HQ": 1,
+          "Archives": 2
+        }
+      },
+      "advance": 7,
+      "draw": 3,
+      "trash": 2,
+      "play": {
+        "total": 5,
+        "by_card": {
+          "Unleash": 1,
+          "Hedge Fund": 2,
+          "Seamless Launch": 1,
+          "Petty Cash": 1
+        }
+      },
+      "gain_credits": 7
+    },
+    "runner": {
+      "install": {
+        "total": 14,
+        "by_card": {
+          "Touchstone": 1,
+          "Open Market": 2,
+          "The Class Act": 1,
+          "Afterimage": 2,
+          "Mantle": 1,
+          "Penrose": 1,
+          "Daily Casts": 2,
+          "Hermes": 1,
+          "The Twinning": 1,
+          "Trickster Taka": 1,
+          "Curupira": 1
+        }
+      },
+      "play": {
+        "total": 11,
+        "by_card": {
+          "Carpe Diem": 3,
+          "Sure Gamble": 2,
+          "Transfer of Wealth": 1,
+          "Clean Getaway": 1,
+          "Mutual Favor": 1,
+          "Bravado": 3
+        }
+      },
+      "draw": 16,
+      "remove_tag": 4,
+      "gain_credits": 5,
+      "run": 3
+    }
+  },
+  "economy": {
+    "corp": {
+      "basic_clicks": 10,
+      "impactful_clicks": 6,
+      "tempo_clicks": 26,
+      "total_econ_clicks": 16,
+      "basic_econ_ratio": 0.62,
+      "cards": {
+        "click to draw": {
+          "uses": 3,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 3,
+          "credits_per_click": 0
+        },
+        "Charlotte Caçador": {
+          "uses": 1,
+          "total_credits_gained": 3,
+          "total_cost": 0,
+          "total_net_credits": 3,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
+        "click for credit": {
+          "uses": 7,
+          "total_credits_gained": 7,
+          "total_cost": 0,
+          "total_net_credits": 7,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "Hedge Fund": {
+          "uses": 2,
+          "total_credits_gained": 18,
+          "total_cost": 10,
+          "total_net_credits": 8,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        }
+      }
+    },
+    "runner": {
+      "basic_clicks": 21,
+      "economy_clicks": 12,
+      "run_clicks": 9,
+      "setup_clicks": 11,
+      "cards": {
+        "Carpe Diem": {
+          "uses": 3,
+          "total_credits_gained": 12,
+          "total_cost": 3,
+          "total_net_credits": 9,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
+        "Open Market": {
+          "uses": 2,
+          "total_credits_gained": 4,
+          "total_cost": 4,
+          "total_net_credits": 0,
+          "total_cards_drawn": 0,
+          "credits_per_click": 0
+        },
+        "click to draw": {
+          "uses": 16,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 16,
+          "credits_per_click": 0
+        },
+        "Sure Gamble": {
+          "uses": 2,
+          "total_credits_gained": 18,
+          "total_cost": 10,
+          "total_net_credits": 8,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Transfer of Wealth": {
+          "uses": 1,
+          "total_credits_gained": 6,
+          "total_cost": 0,
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 6
+        },
+        "Mantle": {
+          "uses": 1,
+          "total_credits_gained": 5,
+          "total_cost": 1,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Touchstone": {
+          "uses": 1,
+          "total_credits_gained": 3,
+          "total_cost": 2,
+          "total_net_credits": 1,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "Clean Getaway": {
+          "uses": 1,
+          "total_credits_gained": 6,
+          "total_cost": 3,
+          "total_net_credits": 3,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
+        "Bravado": {
+          "uses": 3,
+          "total_credits_gained": 24,
+          "total_cost": 9,
+          "total_net_credits": 15,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
+        },
+        "Trickster Taka": {
+          "uses": 1,
+          "total_credits_gained": 6,
+          "total_cost": 1,
+          "total_net_credits": 5,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
+        },
+        "click for credit": {
+          "uses": 5,
+          "total_credits_gained": 5,
+          "total_cost": 0,
+          "total_net_credits": 5,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "MuslihaT: Multifarious Marketeer": {
+          "uses": 6,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 6,
+          "credits_per_click": 0
+        }
+      }
+    }
+  },
+  "turns": [
+    {
+      "turn": 0,
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda keeps their hand.",
+            "Tyranda reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
+            "rubenpieters keeps his hand.",
+            "hope you're having a fun day ^^ i know i am :D",
+            "alright , let's rock 'n roll !",
+            "good to hear, I am too",
+            "gl hf"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] to install a card in the root of Server 1 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 0 [Credits] to install ice protecting Server 1."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "Tyranda is ending their turn 1 with 4 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 1 with 5 [Credit] and 5 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to install Touchstone."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Touchstone",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to play Carpe Diem.",
+            "rubenpieters identifies his mark to be R&D.",
+            "rubenpieters uses Carpe Diem to gain 4 [Credits].",
+            "rubenpieters uses Carpe Diem to make a run on R&D.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches R&D.",
+            "Tyranda uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "rubenpieters breaches R&D.",
+            "rubenpieters accesses an unseen card from R&D.",
+            "rubenpieters steals Longevity Serum and gains 2 agenda points."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Carpe Diem",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_gained": 4
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to install Open Market."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Open Market",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 4 [Credits] from Open Market to install The Class Act.",
+            "rubenpieters is ending his turn 1 with 4 [Credit] and 2 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "The Class Act",
+            "cost": 4
+          },
+          "effects": {
+            "credits_paid": 4,
+            "credits_from_resources": {
+              "Open Market": 4
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses The Class Act to draw 4 cards.",
+            "rubenpieters uses The Class Act to add the fifth card on the top of the stack to the bottom.",
+            "good start ^^",
+            "Tyranda pays 0 [Credits] to rez Charlotte Caçador in Server 1."
+          ],
+          "effects": {
+            "cards_drawn": 4
+          }
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 2 with 4 [Credit] and 4 cards in HQ.",
+            "Tyranda uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Charlotte Caçador to remove 1 hosted advancement counter from itself": 4
+            },
+            "cards_drawn": 2
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "Charlotte Caçador",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] to install a card in the root of Server 2 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 2",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] and pays 0 [Credits] to install ice protecting R&D.",
+            "Tyranda is ending their turn 2 with 7 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "R&D",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 2 with 4 [Credit] and 6 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses Open Market to gain 1 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "rubenpieters uses Sure Gamble to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Sure Gamble",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 4 [Credits] to install Afterimage."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Afterimage",
+            "cost": 4
+          },
+          "effects": {
+            "credits_paid": 4
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install Mantle.",
+            "[!] Mantle - Recurring credits usage not restricted",
+            "rubenpieters is ending his turn 2 with 4 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Mantle",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 3 with 8 [Credit] and 4 cards in HQ.",
+            "Tyranda uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Charlotte Caçador to remove 1 hosted advancement counter from itself": 4
+            },
+            "cards_drawn": 2
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "Charlotte Caçador",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
+            "Tyranda discards 1 card from HQ at end of turn.",
+            "Tyranda is ending their turn 3 with 11 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "HQ",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 3 with 4 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses Open Market to gain 1 [Credits].",
+            "rubenpieters trashes Open Market."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to install Open Market."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Open Market",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to play Carpe Diem.",
+            "rubenpieters identifies his mark to be R&D.",
+            "rubenpieters uses Carpe Diem to gain 4 [Credits].",
+            "rubenpieters declines to use Carpe Diem to make a run.",
+            "rubenpieters is ending his turn 3 with 6 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Carpe Diem",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_gained": 4
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 4 with 12 [Credit] and 5 cards in HQ.",
+            "Tyranda uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Charlotte Caçador to remove 1 hosted advancement counter from itself": 4
+            },
+            "cards_drawn": 2
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
+            "Tyranda spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits]."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "Charlotte Caçador",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "triggered_gains": {
+              "Charlotte Caçador": 3
+            }
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] to install a card in the root of Server 1.",
+            "Tyranda is ending their turn 4 with 17 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 4 with 6 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses Open Market to gain 1 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Open Market": 1
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Penrose."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Penrose",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "rubenpieters uses Transfer of Wealth to make a run on HQ.",
+            "rubenpieters approaches ice protecting HQ at position 0.",
+            "Tyranda pays 10 [Credits] to rez Cloud Eater protecting HQ at position 0.",
+            "rubenpieters encounters Cloud Eater protecting HQ at position 0.",
+            "rubenpieters pays 1 [Credits] from Mantle and 1 [Credits] from Touchstone to use Afterimage to bypass Cloud Eater.",
+            "rubenpieters bypasses Cloud Eater.",
+            "Tyranda uses Cloud Eater to force the Runner to take 2 tags.",
+            "rubenpieters passes Cloud Eater protecting HQ at position 0.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches HQ.",
+            "rubenpieters uses Transfer of Wealth to take 1 tag.",
+            "rubenpieters uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "Tyranda uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "rubenpieters breaches HQ.",
+            "rubenpieters accesses Orbital Superiority from HQ.",
+            "rubenpieters steals Orbital Superiority and gains 2 agenda points.",
+            ":O"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Transfer of Wealth",
+            "cost": 0
+          },
+          "effects": {
+            "credits_from_resources": {
+              "Mantle": 1,
+              "Touchstone": 1
+            },
+            "credits_gained": 6
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters is ending his turn 4 with 10 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 5 with 4 [Credit] and 4 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] and pays 2 [Credits] to use Corp Basic Action Card to trash Open Market."
+          ],
+          "action": {
+            "type": "trash",
+            "card": "Open Market",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click], pays 0 [Credits], and removes 1 tag to play Unleash.",
+            "Tyranda uses Unleash to rez Ansel 2.0 protecting Server 1 at position 1 at no cost.",
+            "Tyranda uses Unleash to resolve the subroutine (\"[subroutine] Trash an installed Runner card\") from Ansel 2.0.",
+            "Tyranda uses Ansel 2.0 to trash Afterimage."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Unleash",
+            "cost": 0,
+            "tags_removed": 1
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "Tyranda is ending their turn 5 with 3 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 5 with 10 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Pinhole Threading from the Stack and add it to the grip."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag."
+          ],
+          "action": {
+            "type": "remove_tag",
+            "count": 1,
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag."
+          ],
+          "action": {
+            "type": "remove_tag",
+            "count": 1,
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to play Carpe Diem.",
+            "rubenpieters identifies his mark to be HQ.",
+            "rubenpieters uses Carpe Diem to gain 4 [Credits].",
+            "rubenpieters declines to use Carpe Diem to make a run."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Carpe Diem",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_gained": 4
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Daily Casts.",
+            "rubenpieters is ending his turn 5 with 6 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Daily Casts",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 6 with 4 [Credit] and 4 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw.",
+            "Tyranda pays 0 [Credits] to rez Spin Doctor in Server 2.",
+            "Tyranda uses Spin Doctor to draw 2 cards."
+          ],
+          "effects": {
+            "cards_drawn": 3
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] to install a card in the root of Server 1.",
+            "Tyranda trashes a card in Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "Tyranda discards 1 card from HQ at end of turn.",
+            "Tyranda is ending their turn 6 with 4 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 6 with 6 [Credit] and 3 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "rubenpieters uses Clean Getaway to make a run on Archives.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Archives.",
+            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
+            "Tyranda uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "Tyranda trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "Tyranda uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
+            "rubenpieters breaches Archives.",
+            "rubenpieters accesses everything else in Archives."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Clean Getaway",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_gained": 6
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to install Hermes.",
+            "rubenpieters is ending his turn 6 with 9 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Hermes",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 7 with 4 [Credit] and 6 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] and pays 0 [Credits] to install ice protecting Archives."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Archives",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "Tyranda discards 1 card from HQ at end of turn.",
+            "Tyranda is ending their turn 7 with 6 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 7 with 9 [Credit] and 3 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install The Twinning.",
+            "rubenpieters is ending his turn 7 with 8 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "The Twinning",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 8 with 7 [Credit] and 5 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "Tyranda uses Hedge Fund to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Hedge Fund",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] to install a card in the root of Server 3 (new remote)."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 3",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "Tyranda is ending their turn 8 with 12 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server.",
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Mantle to use Penrose to increase its strength from 2 to 5."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 8 with 8 [Credit] and 5 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            }
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "rubenpieters uses Sure Gamble to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Sure Gamble",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install Trickster Taka.",
+            "rubenpieters is ending his turn 8 with 13 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Trickster Taka",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 9 with 13 [Credit] and 4 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to play Seamless Launch.",
+            "Tyranda uses Seamless Launch to place 2 advancement counters on a card in Server 1."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Seamless Launch",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "Tyranda scores See How They Run and gains 2 agenda points.",
+            "Tyranda uses See How They Run to give the runner 1 tag.",
+            "Tyranda uses See How They Run to start a psi game (do 1 core damage / do 1 net damage).",
+            "rubenpieters pays 0 [Credits].",
+            "Tyranda pays 2 [Credits].",
+            "Tyranda uses See How They Run to do 1 core damage.",
+            "Tyranda trashes Clean Getaway due to core damage.",
+            "rubenpieters uses Hermes to add ice protecting Server 1 at position 0 to HQ.",
+            "rubenpieters uses The Twinning to place a power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Mantle to use Penrose to increase its strength from 2 to 5."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] and pays 2 [Credits] to use Corp Basic Action Card to trash The Twinning.",
+            "Tyranda is ending their turn 9 with 7 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "trash",
+            "card": "The Twinning",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 9 with 13 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits].",
+            "rubenpieters trashes Daily Casts.",
+            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            },
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag."
+          ],
+          "action": {
+            "type": "remove_tag",
+            "count": 1,
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Curupira."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Curupira",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to play Mutual Favor.",
+            "rubenpieters uses Mutual Favor to add Afterimage from the stack to the grip and shuffle the stack.",
+            "rubenpieters discards Fencer Fueno from his Grip at end of turn.",
+            "rubenpieters is ending his turn 9 with 10 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Mutual Favor",
+            "cost": 0
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to gain 1 [Credit].",
+            "Tyranda uses Spin Doctor to shuffle Hedge Fund and Seamless Launch into R&D."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 10 with 8 [Credit] and 5 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to install ice protecting Server 1.",
+            "Tyranda is ending their turn 10 with 6 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 10 with 10 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
+            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 4 [Credits] to install Afterimage."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Afterimage",
+            "cost": 4
+          },
+          "effects": {
+            "credits_paid": 4
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
+            "rubenpieters approaches ice protecting Server 1 at position 1.",
+            "Tyranda pays 2 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
+            "rubenpieters encounters Tatu-Bola protecting Server 1 at position 1.",
+            "rubenpieters uses Curupira to place 1 power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Mantle to use Curupira to break all 1 subroutines on Tatu-Bola.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Tatu-Bola protecting Server 1 at position 1.",
+            "Tyranda uses Tatu-Bola to swap Tatu-Bola protecting Server 1 at position 1 with a piece of ice from HQ and gain 4 [Credits].",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Ansel 2.0 protecting Server 1 at position 0.",
+            "rubenpieters encounters Ansel 2.0 protecting Server 1 at position 0.",
+            "rubenpieters pays 2 [Credits] from Trickster Taka to use Afterimage to bypass Ansel 2.0.",
+            "rubenpieters bypasses Ansel 2.0.",
+            "rubenpieters passes Ansel 2.0 protecting Server 1 at position 0.",
+            "rubenpieters will continue the run.",
+            "Tyranda pays 0 [Credits] to rez Charlotte Caçador in Server 1.",
+            "Tyranda spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits].",
+            "rubenpieters approaches Server 1.",
+            "rubenpieters breaches Server 1.",
+            "rubenpieters uses Bravado to gain 8 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Bravado",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Mantle": 1,
+              "Trickster Taka": 2
+            },
+            "credits_gained": 8
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "rubenpieters is ending his turn 10 with 12 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 11 with 12 [Credit] and 4 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "Tyranda uses Hedge Fund to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Hedge Fund",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to install ice protecting Archives.",
+            "Tyranda is ending their turn 11 with 15 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Archives",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 11 with 12 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Pinhole Threading from the Stack and add it to the grip.",
+            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
+            "rubenpieters approaches ice protecting Archives at position 1.",
+            "Tyranda pays 2 [Credits] to rez Tatu-Bola protecting Archives at position 1.",
+            "rubenpieters encounters Tatu-Bola protecting Archives at position 1.",
+            "rubenpieters uses Curupira to place 1 power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Mantle to use Curupira to break all 1 subroutines on Tatu-Bola.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Tatu-Bola protecting Archives at position 1.",
+            "Tyranda uses Tatu-Bola to swap Tatu-Bola protecting Archives at position 1 with a piece of ice from HQ and gain 4 [Credits].",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches ice protecting Archives at position 0.",
+            "Tyranda pays 3 [Credits] to rez Bathynomus protecting Archives at position 0.",
+            "rubenpieters encounters Bathynomus protecting Archives at position 0.",
+            "rubenpieters pays 1 [Credits] from Trickster Taka to increase the strength of Afterimage to 4.",
+            "rubenpieters pays 1 [Credits] to use Afterimage to break 1 Sentry subroutine on Bathynomus (\"[subroutine] Do 3 net damage\").",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Bathynomus protecting Archives at position 0.",
+            "rubenpieters will continue the run.",
+            "Tyranda pays 0 [Credits] to rez Spin Doctor in Server 3.",
+            "Tyranda uses Spin Doctor to draw 2 cards.",
+            "Tyranda uses Spin Doctor to shuffle Byte! and 1 unseen card into R&D.",
+            "rubenpieters approaches Archives.",
+            "Tyranda uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "rubenpieters breaches Archives.",
+            "rubenpieters accesses everything else in Archives.",
+            "rubenpieters uses Bravado to gain 8 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Bravado",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Mantle": 1,
+              "Trickster Taka": 1
+            },
+            "credits_gained": 8
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to make a run on R&D.",
+            "rubenpieters approaches ice protecting R&D at position 0.",
+            "Tyranda pays 2 [Credits] to rez Tatu-Bola protecting R&D at position 0.",
+            "rubenpieters encounters Tatu-Bola protecting R&D at position 0.",
+            "rubenpieters indicates to fire all unbroken subroutines on Tatu-Bola.",
+            "Tyranda uses Tatu-Bola to end the run.",
+            "Tyranda resolves 1 unbroken subroutine on Tatu-Bola (\"[subroutine] End the run\")."
+          ],
+          "action": {
+            "type": "run",
+            "server": "R&D"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "rubenpieters is ending his turn 11 with 18 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 12 with 12 [Credit] and 6 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] and pays 3 [Credits] to play Petty Cash.",
+            "Tyranda uses Petty Cash to gain 5 [credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Petty Cash",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to install ice protecting R&D."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "R&D",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "Tyranda is ending their turn 12 with 14 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 12 with 18 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
+            "rubenpieters approaches ice protecting R&D at position 1.",
+            "Tyranda pays 2 [Credits] to rez Tatu-Bola protecting R&D at position 1.",
+            "rubenpieters encounters Tatu-Bola protecting R&D at position 1.",
+            "rubenpieters uses Curupira to place 1 power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Mantle to use Curupira to break all 1 subroutines on Tatu-Bola.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Tatu-Bola protecting R&D at position 1.",
+            "Tyranda uses Tatu-Bola to swap Tatu-Bola protecting R&D at position 1 with a piece of ice from HQ and gain 4 [Credits].",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Tatu-Bola protecting R&D at position 0.",
+            "rubenpieters encounters Tatu-Bola protecting R&D at position 0.",
+            "rubenpieters uses Curupira to place 1 power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Trickster Taka to use Curupira to break all 1 subroutines on Tatu-Bola.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Tatu-Bola protecting R&D at position 0.",
+            "Tyranda uses Tatu-Bola to swap Tatu-Bola protecting R&D at position 0 with a piece of ice from HQ and gain 4 [Credits].",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches R&D.",
+            "Tyranda uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "rubenpieters breaches R&D.",
+            "rubenpieters accesses an unseen card from R&D.",
+            "rubenpieters uses Bravado to gain 8 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Bravado",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Mantle": 1,
+              "Trickster Taka": 1
+            },
+            "credits_gained": 8
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "rubenpieters is ending his turn 12 with 25 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 13 with 20 [Credit] and 5 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw.",
+            "Tyranda spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "Tyranda uses Petty Cash to gain 5 [credits].",
+            "Tyranda uses Petty Cash to gain [Click].",
+            "Tyranda removes Petty Cash from the game instead of trashing it."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] and pays 2 [Credits] to install ice protecting Server 1.",
+            "Tyranda is ending their turn 13 with 20 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 13 with 25 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to make a run on Server 1.",
+            "rubenpieters approaches ice protecting Server 1 at position 2.",
+            "Tyranda pays 8 [Credits] to rez Mycoweb protecting Server 1 at position 2.",
+            "rubenpieters encounters Mycoweb protecting Server 1 at position 2.",
+            "rubenpieters pays 1 [Credits] from Mantle to increase the strength of Penrose to 5.",
+            "rubenpieters pays 1 [Credits] from Trickster Taka and 3 [Credits] from his credit pool to use Penrose to break all 4 subroutines on Mycoweb.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Mycoweb protecting Server 1 at position 2.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches ice protecting Server 1 at position 1.",
+            "Tyranda pays 4 [Credits] to rez Phoneutria protecting Server 1 at position 1.",
+            "rubenpieters encounters Phoneutria protecting Server 1 at position 1.",
+            "rubenpieters pays 1 [Credits] to use Afterimage to break 2 Sentry subroutines on Phoneutria (\"[subroutine] Do 1 net damage\" and \"[subroutine] Do 1 net damage\").",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Phoneutria protecting Server 1 at position 1.",
+            "Tyranda uses Phoneutria to give the Runner 1 tag.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Ansel 2.0 protecting Server 1 at position 0.",
+            "rubenpieters encounters Ansel 2.0 protecting Server 1 at position 0.",
+            "rubenpieters pays 2 [Credits] from Touchstone to use Afterimage to bypass Ansel 2.0.",
+            "rubenpieters bypasses Ansel 2.0.",
+            "rubenpieters passes Ansel 2.0 protecting Server 1 at position 0.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches Server 1.",
+            "rubenpieters breaches Server 1.",
+            "rubenpieters accesses See How They Run from Server 1.",
+            "rubenpieters steals See How They Run and gains 2 agenda points.",
+            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
+            "rubenpieters uses Hermes to add ice protecting R&D at position 1 to HQ.",
+            "oh noes :("
+          ],
+          "action": {
+            "type": "run",
+            "server": "Server 1"
+          },
+          "effects": {
+            "credits_from_resources": {
+              "Mantle": 1,
+              "Trickster Taka": 1,
+              "Touchstone": 2
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag."
+          ],
+          "action": {
+            "type": "remove_tag",
+            "count": 1,
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 4,
+          "events": [
+            "rubenpieters spends [Click] and pays 3 [Credits] to install Daily Casts.",
+            "rubenpieters is ending his turn 13 with 16 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Daily Casts",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "Tyranda started their turn 14 with 9 [Credit] and 6 cards in HQ.",
+            "Tyranda makes their mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "Tyranda spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "Tyranda spends [Click] and pays 1 [Credits] to install ice protecting R&D."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "R&D",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "Tyranda spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "Tyranda is ending their turn 14 with 9 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "Tyranda uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 14 with 16 [Credit] and 4 cards in his Grip.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Overclock from the Stack and add it to the grip.",
+            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
+            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Daily Casts": 2
+            },
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to make a run on R&D.",
+            "rubenpieters approaches ice protecting R&D at position 1.",
+            "rubenpieters passes ice protecting R&D at position 1.",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches ice protecting R&D at position 0.",
+            "Tyranda pays 2 [Credits] to rez Tatu-Bola protecting R&D at position 0.",
+            "rubenpieters encounters Tatu-Bola protecting R&D at position 0.",
+            "rubenpieters uses Curupira to place 1 power counter on itself.",
+            "rubenpieters pays 1 [Credits] from Trickster Taka to use Curupira to break all 1 subroutines on Tatu-Bola.",
+            "rubenpieters has no further action.",
+            "rubenpieters passes Tatu-Bola protecting R&D at position 0.",
+            "Tyranda uses Tatu-Bola to swap Tatu-Bola protecting R&D at position 0 with a piece of ice from HQ and gain 4 [Credits].",
+            "rubenpieters will continue the run.",
+            "rubenpieters approaches R&D.",
+            "Tyranda uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "Tyranda trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "Tyranda uses Méliès U: Only the Brightest to add Charlotte Caçador in Archives to HQ.",
+            "rubenpieters breaches R&D.",
+            "rubenpieters accesses an unseen card from R&D.",
+            "rubenpieters steals Send a Message and gains 3 agenda points.",
+            "rubenpieters wins the game.",
+            "dawwww dang it xD",
+            "gg, well played ^^",
+            "gg",
+            "thx for the game, you too",
+            "thanks for the game :D you are very impressive",
+            "the twinning trash was a good play",
+            "was it byte now in s1?",
+            "no just a La Costa Grid",
+            "ah I see",
+            "gl in the last round",
+            "imma take notes on your Stealth gameplay, it's a lot better than mine ^^",
+            "cheers !",
+            "haha",
+            "rubenpieters has left the game."
+          ],
+          "action": {
+            "type": "run",
+            "server": "R&D"
+          },
+          "effects": {
+            "credits_from_resources": {
+              "Trickster Taka": 1
+            }
+          },
+          "bucket": "run"
+        }
+      ]
+    }
+  ]
+}

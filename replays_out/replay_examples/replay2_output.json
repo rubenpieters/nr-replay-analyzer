@@ -1,0 +1,2974 @@
+{
+  "summary": {
+    "corp_player": "rubenpieters",
+    "corp_identity": "Méliès U: Only the Brightest",
+    "runner_player": "AmarumAcies",
+    "runner_identity": "Sebastião Souza Pessoa: Activist Organizer",
+    "turns": 17,
+    "winner": "runner",
+    "win_reason": "Agenda",
+    "corp_agenda_points": 2,
+    "runner_agenda_points": 7
+  },
+  "action_summary": {
+    "corp": {
+      "draw": 6,
+      "play": {
+        "total": 3,
+        "by_card": {
+          "Hedge Fund": 3
+        }
+      },
+      "install_ice": {
+        "total": 11,
+        "by_card": {
+          "HQ": 4,
+          "Server 1": 3,
+          "R&D": 2,
+          "Server 2": 1,
+          "Archives": 1
+        }
+      },
+      "install": {
+        "total": 11,
+        "by_card": {
+          "unknown": 11
+        }
+      },
+      "ability": {
+        "total": 5,
+        "by_card": {
+          "Regolith Mining License": 5
+        }
+      },
+      "advance": 8,
+      "gain_credits": 7
+    },
+    "runner": {
+      "play": {
+        "total": 15,
+        "by_card": {
+          "The Price": 3,
+          "Strike Fund": 2,
+          "Transfer of Wealth": 2,
+          "Privileged Access": 4,
+          "Sure Gamble": 3,
+          "Ashen Epilogue": 1
+        }
+      },
+      "draw": 20,
+      "install": {
+        "total": 13,
+        "by_card": {
+          "Botulus": 1,
+          "Gourmand": 3,
+          "Audrey v2": 1,
+          "Buffer Drive": 1,
+          "Devil Charm": 3,
+          "Arruaceiras Crew": 1,
+          "Rising Tide": 1,
+          "Solidarity Badge": 1,
+          "Amanuensis": 1
+        }
+      },
+      "ability": {
+        "total": 5,
+        "by_card": {
+          "Friend of a Friend": 5
+        }
+      },
+      "remove_tag": 2,
+      "run": 9,
+      "gain_credits": 4
+    }
+  },
+  "economy": {
+    "corp": {
+      "basic_clicks": 13,
+      "impactful_clicks": 8,
+      "tempo_clicks": 30,
+      "total_econ_clicks": 21,
+      "basic_econ_ratio": 0.62,
+      "cards": {
+        "click to draw": {
+          "uses": 6,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 6,
+          "credits_per_click": 0
+        },
+        "Hedge Fund": {
+          "uses": 3,
+          "total_credits_gained": 27,
+          "total_cost": 15,
+          "total_net_credits": 12,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Regolith Mining License": {
+          "uses": 5,
+          "total_credits_gained": 15,
+          "total_cost": 0,
+          "total_net_credits": 15,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
+        "click for credit": {
+          "uses": 7,
+          "total_credits_gained": 7,
+          "total_cost": 0,
+          "total_net_credits": 7,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        }
+      }
+    },
+    "runner": {
+      "basic_clicks": 24,
+      "economy_clicks": 18,
+      "run_clicks": 15,
+      "setup_clicks": 10,
+      "cards": {
+        "click to draw": {
+          "uses": 20,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 22,
+          "credits_per_click": 0
+        },
+        "Strike Fund": {
+          "uses": 2,
+          "total_credits_gained": 12,
+          "total_cost": 2,
+          "total_net_credits": 10,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
+        },
+        "The Price": {
+          "uses": 1,
+          "total_credits_gained": 0,
+          "total_cost": 1,
+          "total_net_credits": -1,
+          "total_cards_drawn": 2,
+          "credits_per_click": -1
+        },
+        "Transfer of Wealth": {
+          "uses": 1,
+          "total_credits_gained": 6,
+          "total_cost": 0,
+          "total_net_credits": 6,
+          "total_cards_drawn": 1,
+          "credits_per_click": 6
+        },
+        "Friend of a Friend": {
+          "uses": 5,
+          "total_credits_gained": 25,
+          "total_cost": 0,
+          "total_net_credits": 25,
+          "total_cards_drawn": 0,
+          "credits_per_click": 5
+        },
+        "click for credit": {
+          "uses": 4,
+          "total_credits_gained": 4,
+          "total_cost": 0,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
+        "Sure Gamble": {
+          "uses": 3,
+          "total_credits_gained": 27,
+          "total_cost": 15,
+          "total_net_credits": 12,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Valentina Ferreira Carvalho": {
+          "uses": 1,
+          "total_credits_gained": 4,
+          "total_cost": 0,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Ashen Epilogue": {
+          "uses": 1,
+          "total_credits_gained": 0,
+          "total_cost": 5,
+          "total_net_credits": -5,
+          "total_cards_drawn": 5,
+          "credits_per_click": -5
+        },
+        "Gourmand": {
+          "uses": 1,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 1,
+          "credits_per_click": 0
+        }
+      }
+    }
+  },
+  "turns": [
+    {
+      "turn": 0,
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters keeps his hand.",
+            "rubenpieters reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
+            "AmarumAcies takes a mulligan.",
+            "gl hf"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw.",
+            "glhf",
+            "mulligan to FoaF or die",
+            "top tier gameplay"
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "rubenpieters uses Hedge Fund to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Hedge Fund",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
+            "rubenpieters is ending his turn 1 with 9 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "HQ",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 1,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 1 with 5 [Credit] and 5 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to play The Price.",
+            "AmarumAcies uses The Price to trash Amanuensis, Sure Gamble, Arruaceiras Crew, and The Tungsten Tailor from the top of the stack.",
+            "AmarumAcies pays 0 [Credits] to use The Price to install Arruaceiras Crew from the Heap (paying 3 [Credits] less)."
+          ],
+          "action": {
+            "type": "play",
+            "card": "The Price",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to play Strike Fund.",
+            "AmarumAcies uses Strike Fund to gain 4 [Credits].",
+            "AmarumAcies is ending his turn 1 with 7 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Strike Fund",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_gained": 4
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 2 with 10 [Credit] and 5 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting Server 1 (new remote)."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 1.",
+            "rubenpieters is ending his turn 2 with 9 [Credit] and 3 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 2 with 7 [Credit] and 5 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to play The Price.",
+            "AmarumAcies uses Steelskin Scarring to draw 2 cards.",
+            "AmarumAcies uses The Price to trash Gourmand, Friend of a Friend, Steelskin Scarring, and Solidarity Badge from the top of the stack.",
+            "AmarumAcies pays 0 [Credits] to use The Price to install Friend of a Friend from the Heap (paying 3 [Credits] less)."
+          ],
+          "action": {
+            "type": "play",
+            "card": "The Price",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "cards_drawn": 2
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] and pays 2 [Credits] to install Botulus on ice protecting HQ at position 0.",
+            "[!] Botulus - [Erratum] Program: Virus - Trojan"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Botulus",
+            "host_ice": "HQ",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to install Gourmand.",
+            "AmarumAcies is ending his turn 2 with 4 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Gourmand",
+            "cost": 0
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 3 with 10 [Credit] and 3 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card.",
+            "rubenpieters pays 2 [Credits] to rez Regolith Mining License in Server 1."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Regolith Mining License to gain 3 [Credits]."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Regolith Mining License",
+            "effect": "gain 3 [Credits]",
+            "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Regolith Mining License to gain 3 [Credits].",
+            "rubenpieters is ending his turn 3 with 14 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Regolith Mining License",
+            "effect": "gain 3 [Credits]",
+            "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 3 with 4 [Credit] and 5 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "AmarumAcies uses Transfer of Wealth to make a run on HQ.",
+            "AmarumAcies approaches ice protecting HQ at position 0.",
+            "rubenpieters pays 2 [Credits] to rez Tatu-Bola protecting HQ at position 0.",
+            "rubenpieters has no further action.",
+            "AmarumAcies encounters Tatu-Bola protecting HQ at position 0.",
+            "AmarumAcies pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Hannah \"Wheels\" Pilintra from the Grip (paying 2 [Credits] less).",
+            "AmarumAcies takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting HQ at position 0 -2 strength for the remainder of the encounter.",
+            "AmarumAcies pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting HQ at position 0.",
+            "AmarumAcies has no further action.",
+            "AmarumAcies approaches HQ.",
+            "AmarumAcies uses Transfer of Wealth to take 1 tag.",
+            "AmarumAcies uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "rubenpieters trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "rubenpieters uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
+            "AmarumAcies breaches HQ.",
+            "AmarumAcies accesses Unleash from HQ.",
+            "AmarumAcies trashes Gourmand to use Gourmand to trash Unleash.",
+            "AmarumAcies uses Gourmand to draw 1 card."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Transfer of Wealth",
+            "cost": 0
+          },
+          "effects": {
+            "credits_gained": 6,
+            "cards_drawn": 1
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Friend of a Friend",
+            "effect": "gain 5 [Credits] and remove 1 tag",
+            "trash": "Friend of a Friend"
+          },
+          "effects": {
+            "credits_gained": 5
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "AmarumAcies is ending his turn 3 with 11 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "remove_tag",
+            "count": 1,
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 4 with 9 [Credit] and 5 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting HQ."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "HQ",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Regolith Mining License to gain 3 [Credits]."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Regolith Mining License",
+            "effect": "gain 3 [Credits]",
+            "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Regolith Mining License to gain 3 [Credits].",
+            "rubenpieters is ending his turn 4 with 15 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Regolith Mining License",
+            "effect": "gain 3 [Credits]",
+            "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 4 with 11 [Credit] and 5 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to play Privileged Access.",
+            "AmarumAcies uses Privileged Access to make a run on Archives.",
+            "AmarumAcies approaches Archives.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "AmarumAcies uses the replacement effect from Privileged Access.",
+            "AmarumAcies uses Privileged Access to take 1 tag.",
+            "AmarumAcies pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
+            "AmarumAcies pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less)."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Privileged Access",
+            "cost": 0
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on R&D.",
+            "AmarumAcies approaches R&D.",
+            "AmarumAcies breaches R&D.",
+            "AmarumAcies accesses an unseen card from R&D.",
+            "AmarumAcies pays 1 [Credits] to trash Anoetic Void from R&D."
+          ],
+          "action": {
+            "type": "run",
+            "server": "R&D"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
+            "AmarumAcies is ending his turn 4 with 14 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Friend of a Friend",
+            "effect": "gain 5 [Credits] and remove 1 tag",
+            "trash": "Friend of a Friend"
+          },
+          "effects": {
+            "credits_gained": 5
+          },
+          "bucket": "economy"
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 5 with 15 [Credit] and 5 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Regolith Mining License to gain 3 [Credits].",
+            "rubenpieters trashes Regolith Mining License."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Regolith Mining License",
+            "effect": "gain 3 [Credits]",
+            "cost": 0
+          },
+          "effects": {
+            "credits_gained": 3
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "rubenpieters uses Hedge Fund to gain 9 [Credits].",
+            "rubenpieters is ending his turn 5 with 22 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Hedge Fund",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 5 with 14 [Credit] and 4 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and pays 3 [Credits] to install Audrey v2."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Audrey v2",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on R&D.",
+            "AmarumAcies approaches R&D.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "AmarumAcies breaches R&D.",
+            "AmarumAcies accesses an unseen card from R&D."
+          ],
+          "action": {
+            "type": "run",
+            "server": "R&D"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and pays 3 [Credits] to install Buffer Drive.",
+            "AmarumAcies is ending his turn 5 with 8 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Buffer Drive",
+            "cost": 3
+          },
+          "effects": {
+            "credits_paid": 3
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 6 with 22 [Credit] and 4 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "rubenpieters is ending his turn 6 with 20 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 6 with 8 [Credit] and 3 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "AmarumAcies uses Steelskin Scarring to draw 2 cards.",
+            "AmarumAcies uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
+            "AmarumAcies trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 3
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on R&D.",
+            "AmarumAcies approaches R&D.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "AmarumAcies breaches R&D.",
+            "AmarumAcies accesses an unseen card from R&D.",
+            "AmarumAcies pays 3 [Credits] to trash Mitra Aman from R&D.",
+            "AmarumAcies uses Audrey v2 to place 1 virus counter on itself."
+          ],
+          "action": {
+            "type": "run",
+            "server": "R&D"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to install Devil Charm.",
+            "AmarumAcies spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 1.",
+            "AmarumAcies approaches ice protecting Server 1 at position 1.",
+            "rubenpieters pays 2 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
+            "rubenpieters has no further action.",
+            "AmarumAcies encounters Tatu-Bola protecting Server 1 at position 1.",
+            "AmarumAcies uses Strike Fund to gain 2 [Credits].",
+            "AmarumAcies trashes 1 card (Strike Fund) from the grip to increase the strength of Audrey v2 to 3.",
+            "AmarumAcies spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break all 1 subroutines on Tatu-Bola.",
+            "AmarumAcies has no further action.",
+            "AmarumAcies passes Tatu-Bola protecting Server 1 at position 1.",
+            "rubenpieters uses Tatu-Bola to swap Tatu-Bola protecting Server 1 at position 1 with a piece of ice from HQ and gain 4 [Credits].",
+            "AmarumAcies will continue the run.",
+            "AmarumAcies approaches ice protecting Server 1 at position 0.",
+            "rubenpieters pays 6 [Credits] to rez Boto protecting Server 1 at position 0.",
+            "AmarumAcies encounters Boto protecting Server 1 at position 0.",
+            "AmarumAcies removes Devil Charm from the game to use Devil Charm to give -6 strength to Boto protecting Server 1 at position 0 for the remainder of the run.",
+            "AmarumAcies pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Boto protecting Server 1 at position 0.",
+            "AmarumAcies has no further action.",
+            "AmarumAcies approaches Server 1.",
+            "AmarumAcies breaches Server 1.",
+            "AmarumAcies accesses Mitra Aman from Server 1.",
+            "AmarumAcies pays 3 [Credits] to trash Mitra Aman from Server 1.",
+            "AmarumAcies uses Audrey v2 to place 1 virus counter on itself.",
+            "AmarumAcies accesses See How They Run from Server 1.",
+            "AmarumAcies steals See How They Run and gains 2 agenda points."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Devil Charm",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "triggered_gains": {
+              "Strike Fund": 2
+            }
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "AmarumAcies is ending his turn 6 with 2 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 7 with 16 [Credit] and 4 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 1."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "rubenpieters is ending his turn 7 with 14 [Credit] and 3 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 7 with 2 [Credit] and 3 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to play Privileged Access.",
+            "AmarumAcies uses Privileged Access to make a run on Archives.",
+            "AmarumAcies approaches Archives.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "AmarumAcies uses the replacement effect from Privileged Access.",
+            "AmarumAcies uses Privileged Access to take 1 tag.",
+            "AmarumAcies pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Lago Paranoá Shelter from the Grip (paying 2 [Credits] less).",
+            "AmarumAcies pays 1 [Credits] to use Privileged Access to install Friend of a Friend from the Heap (paying 2 [Credits] less)."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Privileged Access",
+            "cost": 0
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
+            "AmarumAcies is ending his turn 7 with 6 [Credit] and 3 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Friend of a Friend",
+            "effect": "gain 5 [Credits] and remove 1 tag",
+            "trash": "Friend of a Friend"
+          },
+          "effects": {
+            "credits_gained": 5
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters pays 0 [Credits] to rez Charlotte Caçador in Server 1."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 8 with 14 [Credit] and 3 cards in HQ.",
+            "rubenpieters uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Charlotte Caçador to remove 1 hosted advancement counter from itself": 4
+            },
+            "cards_drawn": 2
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting R&D."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "R&D",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 1.",
+            "AmarumAcies uses Lago Paranoá Shelter to trash Devil Charm from the stack and draw 1 card.",
+            "AmarumAcies uses Buffer Drive to add Devil Charm to the bottom of the stack.",
+            "rubenpieters is ending his turn 8 with 18 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 8 with 6 [Credit] and 4 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "AmarumAcies uses Sure Gamble to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Sure Gamble",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and pays 2 [Credits] to install Arruaceiras Crew."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Arruaceiras Crew",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on R&D.",
+            "AmarumAcies approaches ice protecting R&D at position 0.",
+            "rubenpieters pays 7 [Credits] to rez Empiricist protecting R&D at position 0.",
+            "rubenpieters has no further action.",
+            "AmarumAcies encounters Empiricist protecting R&D at position 0.",
+            "AmarumAcies uses Buffer Drive to add Ashen Epilogue to the bottom of the stack.",
+            "AmarumAcies trashes 2 cards (Ashen Epilogue and Manuel Lattes de Moura) from the grip to increase the strength of Audrey v2 to 6.",
+            "AmarumAcies spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 2 subroutines on Empiricist (\"[subroutine] Do 1 net damage and give the Runner 1 tag\" and \"[subroutine] Do 2 net damage\").",
+            "AmarumAcies indicates to fire all unbroken subroutines on Empiricist.",
+            "AmarumAcies has no further action.",
+            "rubenpieters uses Empiricist to draw 1 card.",
+            "rubenpieters uses Empiricist to add 1 card in HQ to the top of R&D.",
+            "rubenpieters resolves 1 unbroken subroutine on Empiricist (\"[subroutine] Draw 1 card. You may add 1 card from HQ to the top of R&D.\").",
+            "AmarumAcies passes Empiricist protecting R&D at position 0.",
+            "AmarumAcies approaches R&D.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "AmarumAcies breaches R&D.",
+            "AmarumAcies accesses an unseen card from R&D."
+          ],
+          "action": {
+            "type": "run",
+            "server": "R&D"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "AmarumAcies is ending his turn 8 with 8 [Credit] and 1 card in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters pays 3 [Credits] to rez La Costa Grid in Server 1."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 9 with 8 [Credit] and 4 cards in HQ.",
+            "rubenpieters uses La Costa Grid to place 1 advancement counter on Charlotte Caçador in Server 1.",
+            "rubenpieters uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Charlotte Caçador to remove 1 hosted advancement counter from itself": 4
+            },
+            "cards_drawn": 2
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "rubenpieters uses Hedge Fund to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Hedge Fund",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "impactful"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting HQ."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "HQ",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
+            "rubenpieters is ending his turn 9 with 14 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "advance",
+            "target": "Charlotte Caçador",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 9 with 8 [Credit] and 1 card in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "AmarumAcies is ending his turn 9 with 8 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 10 with 15 [Credit] and 4 cards in HQ.",
+            "rubenpieters uses La Costa Grid to place 1 advancement counter on Charlotte Caçador in Server 1.",
+            "rubenpieters uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "rubenpieters makes his mandatory start of turn draw.",
+            "rubenpieters spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Charlotte Caçador to remove 1 hosted advancement counter from itself": 4,
+              "Charlotte Caçador": 3
+            },
+            "cards_drawn": 2
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 1.",
+            "AmarumAcies uses Lago Paranoá Shelter to trash Privileged Access from the stack and draw 1 card.",
+            "AmarumAcies uses Buffer Drive to add Privileged Access to the bottom of the stack."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting R&D."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "R&D",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "rubenpieters is ending his turn 10 with 22 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 10 with 8 [Credit] and 6 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to play The Price.",
+            "AmarumAcies uses Buffer Drive to add Transfer of Wealth to the bottom of the stack.",
+            "AmarumAcies uses The Price to trash Rising Tide, Solidarity Badge, Transfer of Wealth, and Arruaceiras Crew from the top of the stack.",
+            "AmarumAcies pays 0 [Credits] to use The Price to install Arruaceiras Crew from the Heap (paying 3 [Credits] less)."
+          ],
+          "action": {
+            "type": "play",
+            "card": "The Price",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to install Rising Tide."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Rising Tide",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to install Gourmand.",
+            "AmarumAcies is ending his turn 10 with 6 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Gourmand",
+            "cost": 0
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 11 with 23 [Credit] and 4 cards in HQ.",
+            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "rubenpieters scores Let Them Dream and gains 2 agenda points.",
+            "rubenpieters uses Let Them Dream to reveal Send a Message from HQ and add it to the bottom of R&D.",
+            "rubenpieters is ending his turn 11 with 20 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 11 with 6 [Credit] and 4 cards in his Grip."
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to install Solidarity Badge."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Solidarity Badge",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "AmarumAcies is ending his turn 11 with 6 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 12 with 21 [Credit] and 4 cards in HQ.",
+            "rubenpieters uses La Costa Grid to place 1 advancement counter on La Costa Grid in Server 1.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 1.",
+            "AmarumAcies uses Lago Paranoá Shelter to trash Sure Gamble from the stack and draw 1 card.",
+            "AmarumAcies uses Buffer Drive to add Sure Gamble to the bottom of the stack."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 1",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "rubenpieters is ending his turn 12 with 20 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "advance",
+            "target": "a card",
+            "location": "Server 1",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 12 with 6 [Credit] and 6 cards in his Grip.",
+            "AmarumAcies uses Steelskin Scarring to draw 2 cards.",
+            "AmarumAcies uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
+            "AmarumAcies trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
+          ],
+          "effects": {
+            "cards_drawn": 2
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to install Devil Charm.",
+            "AmarumAcies spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 1.",
+            "rubenpieters has no further action.",
+            "AmarumAcies approaches ice protecting Server 1 at position 1.",
+            "rubenpieters pays 2 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
+            "rubenpieters has no further action.",
+            "AmarumAcies encounters Tatu-Bola protecting Server 1 at position 1.",
+            "AmarumAcies pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
+            "AmarumAcies takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting Server 1 at position 1 -2 strength for the remainder of the encounter.",
+            "AmarumAcies pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting Server 1 at position 1.",
+            "AmarumAcies uses Solidarity Badge to place 1 power counter on itself.",
+            "AmarumAcies approaches ice protecting Server 1 at position 0.",
+            "rubenpieters pays 8 [Credits] to rez Mycoweb protecting Server 1 at position 0.",
+            "rubenpieters has no further action.",
+            "AmarumAcies encounters Mycoweb protecting Server 1 at position 0.",
+            "AmarumAcies removes Devil Charm from the game to use Devil Charm to give -6 strength to Mycoweb protecting Server 1 at position 0 for the remainder of the run.",
+            "AmarumAcies pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Mycoweb protecting Server 1 at position 0.",
+            "rubenpieters pays 0 [Credits] to rez Charlotte Caçador in Server 1.",
+            "AmarumAcies has no further action.",
+            "rubenpieters spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits].",
+            "AmarumAcies approaches Server 1.",
+            "AmarumAcies breaches Server 1.",
+            "AmarumAcies accesses La Costa Grid from Server 1.",
+            "AmarumAcies trashes Gourmand to use Gourmand to trash La Costa Grid.",
+            "AmarumAcies uses Audrey v2 to place 1 virus counter on itself.",
+            "AmarumAcies uses Gourmand to draw 1 card."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Devil Charm",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "cards_drawn": 1
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Friend of a Friend",
+            "effect": "gain 5 [Credits] and remove 1 tag",
+            "trash": "Friend of a Friend"
+          },
+          "effects": {
+            "credits_gained": 5
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "AmarumAcies discards Amanuensis from his Grip at end of turn.",
+            "AmarumAcies is ending his turn 12 with 7 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 13 with 14 [Credit] and 5 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting Server 2 (new remote)."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Server 2",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 2.",
+            "AmarumAcies uses Lago Paranoá Shelter to trash Strike Fund from the stack and draw 1 card.",
+            "AmarumAcies uses Strike Fund to gain 2 [Credits].",
+            "AmarumAcies uses Buffer Drive to add Strike Fund to the bottom of the stack."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 2",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "rubenpieters is ending his turn 13 with 15 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 13 with 9 [Credit] and 6 cards in his Grip.",
+            "AmarumAcies uses Solidarity Badge to draw 1 card.",
+            "AmarumAcies spends [Click] to use Hannah \"Wheels\" Pilintra to gain [Click] and make a run on Server 2.",
+            "AmarumAcies approaches ice protecting Server 2 at position 0.",
+            "rubenpieters pays 6 [Credits] to rez Boto protecting Server 2 at position 0.",
+            "rubenpieters has no further action.",
+            "AmarumAcies encounters Boto protecting Server 2 at position 0.",
+            "AmarumAcies uses Steelskin Scarring to draw 2 cards.",
+            "AmarumAcies uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
+            "AmarumAcies trashes 2 cards (Steelskin Scarring and Lago Paranoá Shelter) from the grip to increase the strength of Audrey v2 to 6.",
+            "AmarumAcies spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 2 subroutines on Boto (\"[subroutine] Trash 1 card from HQ to end the run\" and \"[subroutine] Trash 1 card from HQ to end the run\").",
+            "AmarumAcies indicates to fire all unbroken subroutines on Boto.",
+            "AmarumAcies has no further action.",
+            "rubenpieters uses Boto to do 2 net damage.",
+            "rubenpieters trashes Lago Paranoá Shelter and Transfer of Wealth due to net damage.",
+            "rubenpieters resolves 1 unbroken subroutine on Boto (\"[subroutine] Do 2 net damage\").",
+            "AmarumAcies passes Boto protecting Server 2 at position 0.",
+            "AmarumAcies approaches Server 2.",
+            "AmarumAcies breaches Server 2.",
+            "AmarumAcies accesses Let Them Dream from Server 2.",
+            "AmarumAcies steals Let Them Dream and gains 1 agenda point."
+          ],
+          "effects": {
+            "cards_drawn": 3
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to play Privileged Access.",
+            "AmarumAcies uses Privileged Access to make a run on Archives.",
+            "AmarumAcies approaches Archives.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "AmarumAcies uses the replacement effect from Privileged Access.",
+            "AmarumAcies uses Privileged Access to take 1 tag.",
+            "AmarumAcies pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less).",
+            "AmarumAcies pays 2 [Credits] to use Privileged Access to install Botulus from the Heap on ice protecting HQ at position 0.",
+            "[!] Botulus - [Erratum] Program: Virus - Trojan",
+            "AmarumAcies pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Valentina Ferreira Carvalho from the Grip (paying 2 [Credits] less).",
+            "AmarumAcies uses Valentina Ferreira Carvalho to gain 1 [Credits].",
+            "AmarumAcies uses Valentina Ferreira Carvalho to remove 1 tag."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Privileged Access",
+            "cost": 0
+          },
+          "effects": {
+            "triggered_gains": {
+              "Valentina Ferreira Carvalho": 1
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to install Devil Charm.",
+            "AmarumAcies is ending his turn 13 with 7 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "install",
+            "card": "Devil Charm",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 14 with 9 [Credit] and 4 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 2.",
+            "AmarumAcies uses Lago Paranoá Shelter to trash Sure Gamble from the stack and draw 1 card.",
+            "AmarumAcies uses Buffer Drive to add Sure Gamble to the bottom of the stack."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 2",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "rubenpieters is ending his turn 14 with 11 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server.",
+            "AmarumAcies uses Steelskin Scarring to draw 2 cards.",
+            "AmarumAcies trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 14 with 7 [Credit] and 6 cards in his Grip.",
+            "AmarumAcies uses Strike Fund to gain 2 [Credits].",
+            "AmarumAcies uses Buffer Drive to add Strike Fund to the bottom of the stack.",
+            "AmarumAcies trashes 1 card (Strike Fund) from the grip to use Audrey v2 to increase its strength from 3 to 6.",
+            "AmarumAcies uses Steelskin Scarring to draw 2 cards.",
+            "AmarumAcies trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 6 to 9."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Strike Fund": 2
+            },
+            "cards_drawn": 2
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "AmarumAcies uses Sure Gamble to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Sure Gamble",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and pays 1 [Credits] to play Strike Fund.",
+            "AmarumAcies uses Strike Fund to gain 4 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Strike Fund",
+            "cost": 1
+          },
+          "effects": {
+            "credits_paid": 1,
+            "credits_gained": 4
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] and pays 2 [Credits] to install Amanuensis."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Amanuensis",
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2
+          },
+          "bucket": "setup"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] and pays 5 [Credits] to play Ashen Epilogue.",
+            "AmarumAcies uses Ashen Epilogue to shuffle the grip and heap into the stack.",
+            "AmarumAcies removes Steelskin Scarring, Rising Tide, Transfer of Wealth, Strike Fund, and Amanuensis from the game and draws 5 cards.",
+            "AmarumAcies removes Ashen Epilogue from the game instead of trashing it.",
+            "AmarumAcies is ending his turn 14 with 9 [Credit] and 5 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Ashen Epilogue",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "cards_drawn": 5
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 15 with 12 [Credit] and 4 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting Archives.",
+            "rubenpieters discards 1 card from HQ at end of turn.",
+            "rubenpieters is ending his turn 15 with 12 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "Archives",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server.",
+            "maybe its worth to split 1 transfer for 1x boomerang 2x pinhole"
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 15 with 9 [Credit] and 5 cards in his Grip.",
+            "yeah, baa is on 2x boomerang"
+          ]
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] to use Runner Basic Action Card to draw 1 card."
+          ],
+          "action": {
+            "type": "draw",
+            "count": 1
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to install Gourmand."
+          ],
+          "action": {
+            "type": "install",
+            "card": "Gourmand",
+            "cost": 0
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "AmarumAcies uses Transfer of Wealth to make a run on HQ.",
+            "AmarumAcies approaches ice protecting HQ at position 1.",
+            "rubenpieters pays 10 [Credits] to rez Cloud Eater protecting HQ at position 1.",
+            "rubenpieters has no further action.",
+            "AmarumAcies encounters Cloud Eater protecting HQ at position 1.",
+            "AmarumAcies removes Devil Charm from the game to use Devil Charm to give -6 strength to Cloud Eater protecting HQ at position 1 for the remainder of the run.",
+            "AmarumAcies pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Arruaceiras Crew from the Grip (paying 2 [Credits] less).",
+            "AmarumAcies takes 1 tag to use Arruaceiras Crew to give Cloud Eater protecting HQ at position 1 -2 strength for the remainder of the encounter.",
+            "AmarumAcies pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Cloud Eater protecting HQ at position 1.",
+            "AmarumAcies uses Solidarity Badge to place 1 power counter on itself.",
+            "AmarumAcies has no further action.",
+            "AmarumAcies approaches ice protecting HQ at position 0.",
+            "rubenpieters pays 2 [Credits] to rez Tatu-Bola protecting HQ at position 0.",
+            "rubenpieters has no further action.",
+            "AmarumAcies encounters Tatu-Bola protecting HQ at position 0.",
+            "AmarumAcies takes 1 tag to use Arruaceiras Crew to give Tatu-Bola protecting HQ at position 0 -2 strength for the remainder of the encounter.",
+            "AmarumAcies pays 2 [Credits] and trashes Arruaceiras Crew to use Arruaceiras Crew to trash Tatu-Bola protecting HQ at position 0.",
+            "AmarumAcies has no further action.",
+            "rubenpieters pays 0 [Credits] to rez Spin Doctor in Server 2.",
+            "rubenpieters uses Spin Doctor to draw 2 cards.",
+            "AmarumAcies jacks out.",
+            "AmarumAcies spends [Click] and trashes Hannah \"Wheels\" Pilintra to use Hannah \"Wheels\" Pilintra to gain [Click][Click] and remove 1 tag.",
+            "AmarumAcies uses Valentina Ferreira Carvalho to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Transfer of Wealth",
+            "cost": 0
+          },
+          "effects": {
+            "triggered_gains": {
+              "Valentina Ferreira Carvalho": 1
+            }
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on HQ.",
+            "AmarumAcies approaches HQ.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "rubenpieters trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "rubenpieters uses Méliès U: Only the Brightest to add Mitra Aman in Archives to HQ.",
+            "AmarumAcies breaches HQ.",
+            "AmarumAcies accesses Spin Doctor from HQ.",
+            "AmarumAcies pays 2 [Credits] to trash Spin Doctor from HQ.",
+            "AmarumAcies uses Audrey v2 to place 1 virus counter on itself."
+          ],
+          "action": {
+            "type": "run",
+            "server": "HQ"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 5,
+          "events": [
+            "AmarumAcies spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "AmarumAcies uses Valentina Ferreira Carvalho to gain 1 [Credits].",
+            "AmarumAcies uses Strike Fund to gain 2 [Credits].",
+            "AmarumAcies uses Buffer Drive to add Strike Fund to the bottom of the stack.",
+            "AmarumAcies trashes 1 card (Strike Fund) from the grip to use Audrey v2 to increase its strength from 0 to 3.",
+            "AmarumAcies is ending his turn 15 with 5 [Credit] and 2 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "remove_tag",
+            "count": 1,
+            "cost": 2
+          },
+          "effects": {
+            "credits_paid": 2,
+            "triggered_gains": {
+              "Valentina Ferreira Carvalho": 1,
+              "Strike Fund": 2
+            }
+          },
+          "bucket": "setup"
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 16 with 0 [Credit] and 7 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting HQ."
+          ],
+          "action": {
+            "type": "install_ice",
+            "location": "HQ",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of HQ.",
+            "AmarumAcies uses Lago Paranoá Shelter to trash Privileged Access from the stack and draw 1 card.",
+            "AmarumAcies uses Buffer Drive to add Privileged Access to the bottom of the stack."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "HQ",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "rubenpieters discards 1 card from HQ at end of turn.",
+            "rubenpieters is ending his turn 16 with 1 [Credit] and 5 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 16 with 5 [Credit] and 3 cards in his Grip.",
+            "AmarumAcies uses Solidarity Badge to draw 1 card.",
+            "thinking",
+            "so its mitra into another tatubola",
+            "AmarumAcies uses Steelskin Scarring to draw 2 cards.",
+            "AmarumAcies uses Buffer Drive to add Steelskin Scarring to the bottom of the stack.",
+            "AmarumAcies trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
+          ],
+          "effects": {
+            "cards_drawn": 3
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] and pays 0 [Credits] to play Privileged Access.",
+            "AmarumAcies uses Privileged Access to make a run on Archives.",
+            "AmarumAcies approaches ice protecting Archives at position 0.",
+            "rubenpieters has no further action.",
+            "AmarumAcies passes ice protecting Archives at position 0.",
+            "AmarumAcies approaches Archives.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "rubenpieters trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "rubenpieters uses Méliès U: Only the Brightest to add Mitra Aman in Archives to HQ.",
+            "AmarumAcies uses the replacement effect from Privileged Access.",
+            "AmarumAcies uses Privileged Access to take 1 tag.",
+            "AmarumAcies pays 1 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Friend of a Friend from the Grip (paying 2 [Credits] less).",
+            "AmarumAcies pays 0 [Credits] to use Privileged Access to install Arruaceiras Crew from the Heap (paying 2 [Credits] less).",
+            "AmarumAcies pays 2 [Credits] to use Privileged Access to install Botulus from the Heap on Boto protecting Server 2 at position 0.",
+            "[!] Botulus - [Erratum] Program: Virus - Trojan"
+          ],
+          "action": {
+            "type": "play",
+            "card": "Privileged Access",
+            "cost": 0
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] and trashes Friend of a Friend to use Friend of a Friend to gain 5 [Credits] and remove 1 tag.",
+            "AmarumAcies uses Valentina Ferreira Carvalho to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "ability",
+            "card": "Friend of a Friend",
+            "effect": "gain 5 [Credits] and remove 1 tag",
+            "trash": "Friend of a Friend"
+          },
+          "effects": {
+            "credits_gained": 5,
+            "triggered_gains": {
+              "Valentina Ferreira Carvalho": 1
+            }
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on HQ.",
+            "rubenpieters pays 0 [Credits] to rez Mitra Aman in the root of HQ.",
+            "AmarumAcies approaches ice protecting HQ at position 0.",
+            "rubenpieters trashes Mitra Aman to use Mitra Aman to gain 3 [Credits].",
+            "uses  to swap ice protecting HQ at position 0 with Boto in Archives.",
+            "rubenpieters has no further action.",
+            "AmarumAcies passes Boto protecting HQ at position 0.",
+            "AmarumAcies approaches HQ.",
+            "AmarumAcies breaches HQ.",
+            "AmarumAcies accesses Anoetic Void from HQ.",
+            "AmarumAcies pays 1 [Credits] to trash Anoetic Void from HQ.",
+            "AmarumAcies uses Audrey v2 to place 1 virus counter on itself.",
+            "AmarumAcies uses Solidarity Badge to place 1 power counter on itself."
+          ],
+          "action": {
+            "type": "run",
+            "server": "HQ"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 4,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on HQ.",
+            "AmarumAcies approaches Boto protecting HQ at position 0.",
+            "rubenpieters has no further action.",
+            "AmarumAcies passes Boto protecting HQ at position 0.",
+            "AmarumAcies approaches HQ.",
+            "AmarumAcies breaches HQ.",
+            "AmarumAcies accesses Boto from HQ.",
+            "AugustusCaesar has left the game.",
+            "Baa Ram Wu has left the game.",
+            "AmarumAcies trashes Gourmand to use Gourmand to trash Boto.",
+            "AmarumAcies uses Audrey v2 to place 1 virus counter on itself.",
+            "AmarumAcies uses Gourmand to draw 1 card.",
+            "AmarumAcies is ending his turn 16 with 7 [Credit] and 4 cards in his Grip.[hr]"
+          ],
+          "action": {
+            "type": "run",
+            "server": "HQ"
+          },
+          "effects": {
+            "cards_drawn": 1
+          },
+          "bucket": "run"
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "player": "corp",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "rubenpieters started his turn 17 with 4 [Credit] and 4 cards in HQ.",
+            "rubenpieters makes his mandatory start of turn draw.",
+            "rubenpieters uses Spin Doctor to shuffle 2 unseen cards into R&D."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "rubenpieters spends [Click] to install a card in the root of Server 2.",
+            "AmarumAcies uses Lago Paranoá Shelter to trash Lago Paranoá Shelter from the stack and draw 1 card.",
+            "AmarumAcies uses Buffer Drive to add Lago Paranoá Shelter to the bottom of the stack."
+          ],
+          "action": {
+            "type": "install",
+            "card": null,
+            "location": "Server 2",
+            "cost": 0
+          },
+          "bucket": "tempo"
+        },
+        {
+          "click": 2,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": 3,
+          "events": [
+            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "rubenpieters is ending his turn 17 with 6 [Credit] and 4 cards in HQ.[hr]"
+          ],
+          "action": {
+            "type": "gain_credits",
+            "amount": 1
+          },
+          "effects": {
+            "credits_gained": 1
+          },
+          "bucket": "basic"
+        },
+        {
+          "click": -1,
+          "events": [
+            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+          ]
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "player": "runner",
+      "clicks": [
+        {
+          "click": 0,
+          "events": [
+            "AmarumAcies started his turn 17 with 7 [Credit] and 5 cards in his Grip.",
+            "AmarumAcies uses Solidarity Badge to draw 1 card."
+          ],
+          "effects": {
+            "cards_drawn": 1
+          }
+        },
+        {
+          "click": 1,
+          "events": [
+            "AmarumAcies spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "AmarumAcies uses Sure Gamble to gain 9 [Credits]."
+          ],
+          "action": {
+            "type": "play",
+            "card": "Sure Gamble",
+            "cost": 5
+          },
+          "effects": {
+            "credits_paid": 5,
+            "credits_gained": 9
+          },
+          "bucket": "economy"
+        },
+        {
+          "click": 2,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on Archives.",
+            "AmarumAcies approaches ice protecting Archives at position 0.",
+            "rubenpieters pays 6 [Credits] to rez Hammer protecting Archives at position 0.",
+            "rubenpieters has no further action.",
+            "rough",
+            "hot",
+            "AmarumAcies encounters Hammer protecting Archives at position 0.",
+            "AmarumAcies uses Buffer Drive to add The Price to the bottom of the stack.",
+            "AmarumAcies trashes 2 cards (Solidarity Badge and The Price) from the grip to increase the strength of Audrey v2 to 6.",
+            "AmarumAcies spends 1 hosted virus counter from on Audrey v2 to use Audrey v2 to break 1 subroutine on Hammer (\"[subroutine] Choose a resource or piece of hardware to trash\").",
+            "AmarumAcies indicates to fire all unbroken subroutines on Hammer.",
+            "AmarumAcies has no further action.",
+            "rubenpieters uses Hammer to give the Runner 1 tag.",
+            "AmarumAcies pays 0 [Credits] to use Sebastião Souza Pessoa: Activist Organizer to install Manuel Lattes de Moura from the Grip (paying 2 [Credits] less).",
+            "rubenpieters uses Hammer to trash Audrey v2.",
+            "rubenpieters resolves 2 unbroken subroutines on Hammer (\"[subroutine] Give the Runner 1 tag\" and \"[subroutine] Choose a program to trash that is not a decoder, fracter or killer\").",
+            "AmarumAcies passes Hammer protecting Archives at position 0.",
+            "AmarumAcies approaches Archives.",
+            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "AmarumAcies breaches Archives.",
+            "AmarumAcies accesses Orbital Superiority from Archives.",
+            "AmarumAcies steals Orbital Superiority and gains 2 agenda points.",
+            "AmarumAcies accesses everything else in Archives."
+          ],
+          "action": {
+            "type": "run",
+            "server": "Archives"
+          },
+          "bucket": "run"
+        },
+        {
+          "click": 3,
+          "events": [
+            "AmarumAcies spends [Click] to make a run on HQ.",
+            "AmarumAcies approaches Boto protecting HQ at position 0.",
+            "rubenpieters has no further action.",
+            "AmarumAcies passes Boto protecting HQ at position 0.",
+            "AmarumAcies approaches HQ.",
+            "AmarumAcies breaches HQ.",
+            "AmarumAcies uses Manuel Lattes de Moura to access 1 additional card from HQ.",
+            "AmarumAcies accesses La Costa Grid from HQ.",
+            "AmarumAcies accesses See How They Run from HQ.",
+            "AmarumAcies steals See How They Run and gains 2 agenda points.",
+            "AmarumAcies wins the game.",
+            "gg",
+            "gg",
+            "rubenpieters looks at his deck.",
+            "Icecreamcollege has left the game.",
+            "1/4?",
+            "yeah the 10cost ice is just too rough to rez into seb",
+            "yep",
+            "s2?",
+            "rubenpieters stops looking at his deck.",
+            "rubenpieters pays 0 [Credits] to rez Mitra Aman in Server 2.",
+            "rubenpieters looks at his deck.",
+            "nice",
+            "I have a better start here",
+            "definitely",
+            "had*",
+            "I had a ton of agendas at one ponit",
+            "you can freely fixing my wrong english",
+            "thank you :)",
+            "yup, blasting a remote at one point was a good idea",
+            "yeah was too much in the money hole to properly defend after",
+            "wanna switch?",
+            "rubenpieters stops looking at his deck.",
+            "sure",
+            "rubenpieters has left the game."
+          ],
+          "action": {
+            "type": "run",
+            "server": "HQ"
+          },
+          "bucket": "run"
+        }
+      ]
+    }
+  ]
+}

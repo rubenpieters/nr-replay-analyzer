@@ -1,0 +1,15 @@
+{
+  "name": "nr-replay-analyzer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && npx esbuild src/web.ts --bundle --outfile=dist/web.js --format=iife --platform=browser",
+    "cli": "node dist/main.js",
+    "regenerate": "node dist/regenerate.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "esbuild": "^0.21.0",
+    "@types/node": "^20.0.0"
+  }
+}
