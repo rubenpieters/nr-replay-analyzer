@@ -172,8 +172,8 @@
           "uses": 1,
           "clicks": 0,
           "total_credits_gained": 5,
-          "total_cost": 1,
-          "total_net_credits": 4,
+          "total_cost": 9,
+          "total_net_credits": -4,
           "total_cards_drawn": 0
         },
         "Fencer Fueno": {
@@ -217,7 +217,7 @@
       },
       "total_setup_cost": 10,
       "econ_click_ratio": 0.13,
-      "avg_net_credits_per_econ_click": 1.39,
+      "avg_net_credits_per_econ_click": 0.94,
       "avg_cards_drawn_per_econ_click": 0.78
     }
   },

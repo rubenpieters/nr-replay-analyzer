@@ -183,8 +183,8 @@
           "uses": 1,
           "clicks": 0,
           "total_credits_gained": 2,
-          "total_cost": 1,
-          "total_net_credits": 1,
+          "total_cost": 2,
+          "total_net_credits": 0,
           "total_cards_drawn": 0
         }
       },
@@ -216,7 +216,7 @@
       },
       "total_setup_cost": 14,
       "econ_click_ratio": 0.38,
-      "avg_net_credits_per_econ_click": 1.26,
+      "avg_net_credits_per_econ_click": 1.21,
       "avg_cards_drawn_per_econ_click": 0.63
     }
   },

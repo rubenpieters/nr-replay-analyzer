@@ -166,10 +166,10 @@
           "uses": 1,
           "clicks": 1,
           "total_credits_gained": 6,
-          "total_cost": 0,
-          "total_net_credits": 6,
+          "total_cost": 2,
+          "total_net_credits": 4,
           "total_cards_drawn": 0,
-          "credits_per_click": 6
+          "credits_per_click": 4
         },
         "Mantle": {
           "uses": 1,
@@ -200,10 +200,10 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 24,
-          "total_cost": 9,
-          "total_net_credits": 15,
+          "total_cost": 16,
+          "total_net_credits": 8,
           "total_cards_drawn": 0,
-          "credits_per_click": 5
+          "credits_per_click": 2.67
         },
         "Trickster Taka": {
           "uses": 1,
@@ -263,7 +263,7 @@
       },
       "total_setup_cost": 27,
       "econ_click_ratio": 0.36,
-      "avg_net_credits_per_econ_click": 1.81,
+      "avg_net_credits_per_econ_click": 1.52,
       "avg_cards_drawn_per_econ_click": 0.71
     }
   },

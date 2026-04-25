@@ -167,10 +167,10 @@
           "uses": 2,
           "clicks": 2,
           "total_credits_gained": 8,
-          "total_cost": 2,
-          "total_net_credits": 6,
+          "total_cost": 5,
+          "total_net_credits": 3,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 1.5
         },
         "Mystic Maemi": {
           "uses": 1,
@@ -184,10 +184,10 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 22,
-          "total_cost": 9,
-          "total_net_credits": 13,
+          "total_cost": 25,
+          "total_net_credits": -3,
           "total_cards_drawn": 0,
-          "credits_per_click": 4.33
+          "credits_per_click": -1
         },
         "Fencer Fueno": {
           "uses": 1,
@@ -209,10 +209,10 @@
           "uses": 2,
           "clicks": 2,
           "total_credits_gained": 12,
-          "total_cost": 6,
-          "total_net_credits": 6,
+          "total_cost": 9,
+          "total_net_credits": 3,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 1.5
         },
         "Touchstone": {
           "uses": 1,
@@ -226,26 +226,26 @@
           "uses": 2,
           "clicks": 2,
           "total_credits_gained": 12,
-          "total_cost": 0,
-          "total_net_credits": 12,
+          "total_cost": 1,
+          "total_net_credits": 11,
           "total_cards_drawn": 0,
-          "credits_per_click": 6
+          "credits_per_click": 5.5
         },
         "Sure Gamble": {
           "uses": 1,
           "clicks": 1,
           "total_credits_gained": 9,
-          "total_cost": 5,
-          "total_net_credits": 4,
+          "total_cost": 6,
+          "total_net_credits": 3,
           "total_cards_drawn": 0,
-          "credits_per_click": 4
+          "credits_per_click": 3
         },
         "Overclock": {
           "uses": 1,
           "clicks": 0,
           "total_credits_gained": 5,
-          "total_cost": 1,
-          "total_net_credits": 4,
+          "total_cost": 9,
+          "total_net_credits": -4,
           "total_cards_drawn": 0
         },
         "MuslihaT: Multifarious Marketeer": {
@@ -289,7 +289,7 @@
       },
       "total_setup_cost": 23,
       "econ_click_ratio": 0.19,
-      "avg_net_credits_per_econ_click": 2.63,
+      "avg_net_credits_per_econ_click": 1.82,
       "avg_cards_drawn_per_econ_click": 0.7
     }
   },

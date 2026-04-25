@@ -696,7 +696,10 @@ export function computeEconomy(
       const a = click.action;
       if (a && (a.type === "play" || a.type === "install") && a.card && click.click > 0) {
         const card = a.card as string;
-        cardCosts[player][card] = (cardCosts[player][card] ?? 0) + ((a.cost as number) ?? 0);
+        const resPaid = Object.values(
+          (click.effects?.credits_from_resources ?? {}) as Record<string, number>
+        ).reduce((s, v) => s + v, 0);
+        cardCosts[player][card] = (cardCosts[player][card] ?? 0) + ((a.cost as number) ?? 0) + resPaid;
         cardPlayCounts[player][card] = (cardPlayCounts[player][card] ?? 0) + 1;
       }
     }
@@ -760,9 +763,12 @@ export function computeEconomy(
         }
         if (!(cardKey in econ.cards)) econ.cards[cardKey] = newCardEconEntry();
         const entry = econ.cards[cardKey];
+        const resourceCreditsPaid = Object.values(
+          (click.effects?.credits_from_resources ?? {}) as Record<string, number>
+        ).reduce((s, v) => s + v, 0);
         const effectiveCost = promotedFromUnknown
           ? (cardCosts[player][cardKey] ?? 0)
-          : cost;
+          : cost + resourceCreditsPaid;
         if (!isTrigger) {
           entry.uses += 1;
           entry.clicks += 1;

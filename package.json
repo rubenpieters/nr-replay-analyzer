@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsc && npx esbuild src/web.ts --bundle --outfile=dist/web.js --format=iife --platform=browser",
     "cli": "node dist/main.js",
-    "regenerate": "node dist/regenerate.js"
+    "regenerate": "node dist/regenerate.js",
+    "fetch-cards": "node dist/fetchCards.js"
   },
   "devDependencies": {
     "typescript": "^5.4.0",

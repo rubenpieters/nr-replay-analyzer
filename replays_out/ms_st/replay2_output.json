@@ -164,10 +164,10 @@
           "uses": 2,
           "clicks": 2,
           "total_credits_gained": 15,
-          "total_cost": 6,
-          "total_net_credits": 9,
+          "total_cost": 8,
+          "total_net_credits": 7,
           "total_cards_drawn": 0,
-          "credits_per_click": 4.5
+          "credits_per_click": 3.5
         },
         "Transfer of Wealth": {
           "uses": 1,
@@ -198,18 +198,18 @@
           "uses": 1,
           "clicks": 0,
           "total_credits_gained": 5,
-          "total_cost": 1,
-          "total_net_credits": 4,
+          "total_cost": 9,
+          "total_net_credits": -4,
           "total_cards_drawn": 0
         },
         "Carpe Diem": {
           "uses": 1,
           "clicks": 1,
           "total_credits_gained": 4,
-          "total_cost": 1,
-          "total_net_credits": 3,
+          "total_cost": 3,
+          "total_net_credits": 1,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 1
         },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 7,
@@ -252,7 +252,7 @@
       },
       "total_setup_cost": 17,
       "econ_click_ratio": 0.32,
-      "avg_net_credits_per_econ_click": 1.7,
+      "avg_net_credits_per_econ_click": 1.3,
       "avg_cards_drawn_per_econ_click": 0.87
     }
   },

@@ -148,10 +148,10 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 12,
-          "total_cost": 3,
-          "total_net_credits": 9,
+          "total_cost": 4,
+          "total_net_credits": 8,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 2.67
         },
         "click for credit": {
           "uses": 14,
@@ -166,18 +166,18 @@
           "uses": 2,
           "clicks": 0,
           "total_credits_gained": 6,
-          "total_cost": 2,
-          "total_net_credits": 4,
+          "total_cost": 8,
+          "total_net_credits": -2,
           "total_cards_drawn": 0
         },
         "Transfer of Wealth": {
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 18,
-          "total_cost": 0,
-          "total_net_credits": 18,
+          "total_cost": 5,
+          "total_net_credits": 13,
           "total_cards_drawn": 0,
-          "credits_per_click": 6
+          "credits_per_click": 4.33
         },
         "Touchstone": {
           "uses": 1,
@@ -191,19 +191,19 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 18,
-          "total_cost": 9,
-          "total_net_credits": 9,
+          "total_cost": 13,
+          "total_net_credits": 5,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 1.67
         },
         "Bravado": {
           "uses": 2,
           "clicks": 2,
           "total_credits_gained": 14,
-          "total_cost": 6,
-          "total_net_credits": 8,
+          "total_cost": 9,
+          "total_net_credits": 5,
           "total_cards_drawn": 0,
-          "credits_per_click": 4
+          "credits_per_click": 2.5
         },
         "Mystic Maemi": {
           "uses": 1,
@@ -258,7 +258,7 @@
       },
       "total_setup_cost": 25,
       "econ_click_ratio": 0.18,
-      "avg_net_credits_per_econ_click": 1.8,
+      "avg_net_credits_per_econ_click": 1.42,
       "avg_cards_drawn_per_econ_click": 0.6
     }
   },

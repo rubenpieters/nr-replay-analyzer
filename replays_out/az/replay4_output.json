@@ -183,8 +183,8 @@
           "uses": 2,
           "clicks": 0,
           "total_credits_gained": 6,
-          "total_cost": 2,
-          "total_net_credits": 4,
+          "total_cost": 4,
+          "total_net_credits": 2,
           "total_cards_drawn": 0
         },
         "click for credit": {
@@ -226,27 +226,27 @@
           "uses": 3,
           "clicks": 3,
           "total_credits_gained": 18,
-          "total_cost": 9,
-          "total_net_credits": 9,
+          "total_cost": 12,
+          "total_net_credits": 6,
           "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "credits_per_click": 2
         },
         "Info Bounty": {
           "uses": 1,
           "clicks": 0,
           "total_credits_gained": 6,
-          "total_cost": 2,
-          "total_net_credits": 4,
+          "total_cost": 4,
+          "total_net_credits": 2,
           "total_cards_drawn": 0
         },
         "Bravado": {
           "uses": 1,
           "clicks": 1,
           "total_credits_gained": 8,
-          "total_cost": 3,
-          "total_net_credits": 5,
+          "total_cost": 4,
+          "total_net_credits": 4,
           "total_cards_drawn": 0,
-          "credits_per_click": 5
+          "credits_per_click": 4
         },
         "Transfer of Wealth": {
           "uses": 1,
@@ -286,7 +286,7 @@
       },
       "total_setup_cost": 10,
       "econ_click_ratio": 0.62,
-      "avg_net_credits_per_econ_click": 2.5,
+      "avg_net_credits_per_econ_click": 2.06,
       "avg_cards_drawn_per_econ_click": 0.94
     }
   },

@@ -189,10 +189,10 @@
           "uses": 2,
           "clicks": 2,
           "total_credits_gained": 14,
-          "total_cost": 6,
-          "total_net_credits": 8,
+          "total_cost": 8,
+          "total_net_credits": 6,
           "total_cards_drawn": 0,
-          "credits_per_click": 4
+          "credits_per_click": 3
         },
         "Az McCaffrey: Mechanical Prodigy": {
           "uses": 5,
@@ -215,8 +215,8 @@
           "uses": 3,
           "clicks": 0,
           "total_credits_gained": 3,
-          "total_cost": 4,
-          "total_net_credits": -1,
+          "total_cost": 8,
+          "total_net_credits": -5,
           "total_cards_drawn": 0
         },
         "Sell Out": {
@@ -300,7 +300,7 @@
       },
       "total_setup_cost": 16,
       "econ_click_ratio": 0.48,
-      "avg_net_credits_per_econ_click": 1.94,
+      "avg_net_credits_per_econ_click": 1.74,
       "avg_cards_drawn_per_econ_click": 0.81
     }
   },
