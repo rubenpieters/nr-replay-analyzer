@@ -55,6 +55,18 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
 .click-cell.type-run { background: #fff8f0; border-color: #ffb74d; }
 .click-cell.type-setup { background: #f8f0fc; border-color: #ce93d8; }
 .click-cell.undo { background: #f0f0f0; border-color: #bdbdbd; border-style: dashed; opacity: 0.6; }
+.click-cell { cursor: pointer; }
+.modal-backdrop { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 100; align-items: center; justify-content: center; }
+.modal-backdrop.open { display: flex; }
+.modal { background: white; border-radius: 8px; padding: 20px; max-width: 640px; width: 90%; max-height: 80vh; overflow-y: auto; box-shadow: 0 8px 32px rgba(0,0,0,0.2); }
+.modal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.modal-title { font-size: 0.95rem; font-weight: 600; color: #424242; }
+.modal-close { background: none; border: none; font-size: 1.3rem; cursor: pointer; color: #757575; line-height: 1; padding: 0; }
+.modal-close:hover { color: #212121; }
+.modal-events { list-style: none; font-size: 0.75rem; font-family: monospace; }
+.modal-events li { padding: 4px 0; border-bottom: 1px solid #f0f0f0; color: #424242; word-break: break-word; }
+.modal-events li:last-child { border-bottom: none; }
+.modal-empty { font-size: 0.8rem; color: #9e9e9e; font-style: italic; }
 .card-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
 .card-table th { text-align: left; padding: 4px 8px; border-bottom: 2px solid #e0e0e0; color: #757575; font-weight: 600; white-space: nowrap; }
 .card-table td { padding: 3px 8px; border-bottom: 1px solid #f5f5f5; }
@@ -141,8 +153,9 @@ function renderClick(click: ClickGroup): string {
     extraClass = ct ? `type-${ct}` : "";
   }
 
+  const eventsAttr = he(JSON.stringify(click.events ?? []));
   return (
-    `<div class="click-cell ${extraClass}">` +
+    `<div class="click-cell ${extraClass}" data-label="${he(label)}" data-events="${eventsAttr}">` +
     `<div class="click-label">${label}</div>` +
     `${badge}${detail}${effectsHtml}` +
     `</div>`
@@ -293,6 +306,36 @@ export function generateHtml(data: ParsedReplay): string {
     `Corp ${corpAp}&ndash;${runnerAp} Runner agenda points</p>` +
     `</div>` +
     `${corpSection}${runnerSection}` +
+    `<div class="modal-backdrop" id="ev-modal">` +
+    `<div class="modal">` +
+    `<div class="modal-header">` +
+    `<span class="modal-title" id="ev-modal-title"></span>` +
+    `<button class="modal-close" id="ev-modal-close">&times;</button>` +
+    `</div>` +
+    `<div id="ev-modal-body"></div>` +
+    `</div></div>` +
+    `<script>` +
+    `(function(){` +
+    `var backdrop=document.getElementById('ev-modal');` +
+    `var title=document.getElementById('ev-modal-title');` +
+    `var body=document.getElementById('ev-modal-body');` +
+    `function escHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}` +
+    `function open(label,events){` +
+    `title.textContent=label;` +
+    `body.innerHTML=events.length` +
+    `?'<ul class="modal-events">'+events.map(function(e){return'<li>'+escHtml(e)+'</li>';}).join('')+'</ul>'` +
+    `:'<p class="modal-empty">No events.</p>';` +
+    `backdrop.classList.add('open');}` +
+    `function close(){backdrop.classList.remove('open');}` +
+    `document.getElementById('ev-modal-close').addEventListener('click',close);` +
+    `backdrop.addEventListener('click',function(e){if(e.target===backdrop)close();});` +
+    `document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});` +
+    `document.querySelectorAll('.click-cell').forEach(function(el){` +
+    `el.addEventListener('click',function(){` +
+    `var events=JSON.parse(el.getAttribute('data-events')||'[]');` +
+    `open(el.getAttribute('data-label')||'',events);` +
+    `});});})();` +
+    `</script>` +
     `</body></html>`
   );
 }

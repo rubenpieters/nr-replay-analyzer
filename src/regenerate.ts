@@ -10,14 +10,16 @@ const errors: string[] = [];
 
 for (const dir of JOBS) {
   const src = join(root, "replays", dir);
-  const dst = join(root, "replays_out", dir);
+  const dstJson = join(root, "replays_out", dir);
+  const dstHtml = join(root, "replays_html", dir);
 
   if (!existsSync(src)) {
     console.log(`Skipping replays/${dir}/ (not found)`);
     continue;
   }
 
-  mkdirSync(dst, { recursive: true });
+  mkdirSync(dstJson, { recursive: true });
+  mkdirSync(dstHtml, { recursive: true });
 
   const replays = readdirSync(src)
     .filter((f) => f.endsWith(".json"))
@@ -26,8 +28,8 @@ for (const dir of JOBS) {
   for (const replayFile of replays) {
     const replayPath = join(src, replayFile);
     const stem = basename(replayFile, ".json");
-    const outJson = join(dst, `${stem}_output.json`);
-    const outHtml = join(dst, `${stem}_output.html`);
+    const outJson = join(dstJson, `${stem}_output.json`);
+    const outHtml = join(dstHtml, `${stem}_output.html`);
 
     try {
       const text = readFileSync(replayPath, "utf-8");

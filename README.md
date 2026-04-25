@@ -38,7 +38,7 @@ node dist/main.js replays/az/replay1.json output/replay1_output.json
 
 ## Regenerate all golden outputs
 
-Processes all replays in `replays/` and writes JSON + HTML output to matching subdirectories under `replays_out/`:
+Processes all replays in `replays/` and writes JSON output to `replays_out/` and HTML output to `replays_html/`, mirroring the same subdirectory structure:
 
 ```bash
 npm run regenerate
@@ -46,11 +46,4 @@ npm run regenerate
 
 ## Web (browser)
 
-`npm run build` also produces `dist/web.js`, a self-contained browser bundle. Open `index.html` directly in a browser (no server needed), upload a `.json` replay file, and the analyzer will render it inline.
-
-## GitHub Pages Deployment
-
-1. Run `npm run build` to produce `dist/web.js`.
-2. Commit `index.html` and `dist/web.js` to your repository.
-3. In the repository settings, enable GitHub Pages pointing to the branch/folder containing those files.
-4. The analyzer will be available at your Pages URL. No server required; everything runs in the browser.
+`npm run build` also produces `dist/web.js`, a self-contained browser bundle. Open `index.html` directly in a browser, which allows to upload a `.json` replay file for the analyzer to render it inline.
