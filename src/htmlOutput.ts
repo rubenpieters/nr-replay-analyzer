@@ -27,7 +27,7 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
 .turn-row { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; }
 .turn-label { width: 56px; flex-shrink: 0; font-size: 0.8rem; font-weight: 600; color: #757575; padding-top: 8px; text-align: right; }
 .clicks { display: flex; flex-wrap: wrap; gap: 6px; }
-.click-cell { background: white; border: 1px solid #e0e0e0; border-radius: 6px; padding: 8px; min-width: 100px; max-width: 180px; font-size: 0.8rem; }
+.click-cell { background: white; border: 1px solid #e0e0e0; border-radius: 6px; padding: 8px; width: 140px; flex-shrink: 0; font-size: 0.8rem; }
 .click-cell.start-of-turn { background: #fafafa; border-style: dashed; }
 .click-label { font-size: 0.7rem; color: #9e9e9e; margin-bottom: 4px; }
 .action-badge { display: inline-block; color: white; font-size: 0.65rem; font-weight: 600; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px; text-transform: uppercase; }
