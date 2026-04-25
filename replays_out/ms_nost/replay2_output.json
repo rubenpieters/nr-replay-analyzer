@@ -1,8 +1,8 @@
 {
   "summary": {
-    "corp_player": "HalfHusky",
+    "corp_player": "<anonymized>",
     "corp_identity": "Ob Superheavy Logistics: Extract. Export. Excel.",
-    "runner_player": "Icecreamcollege",
+    "runner_player": "<anonymized>",
     "runner_identity": "MuslihaT: Multifarious Marketeer",
     "turns": 17,
     "winner": "runner",
@@ -204,6 +204,14 @@
           "total_cards_drawn": 0,
           "credits_per_click": 3
         },
+        "Maskirovka": {
+          "uses": 1,
+          "total_credits_gained": 2,
+          "total_cost": 0,
+          "total_net_credits": 2,
+          "total_cards_drawn": 0,
+          "credits_per_click": 2
+        },
         "Touchstone": {
           "uses": 1,
           "total_credits_gained": 10,
@@ -227,6 +235,14 @@
           "total_net_credits": 4,
           "total_cards_drawn": 0,
           "credits_per_click": 4
+        },
+        "Tranquility Home Grid": {
+          "uses": 1,
+          "total_credits_gained": 2,
+          "total_cost": 0,
+          "total_net_credits": 2,
+          "total_cards_drawn": 0,
+          "credits_per_click": 2
         },
         "Overclock": {
           "uses": 1,
@@ -257,8 +273,8 @@
             "[!] Please pause, Runner is acting.",
             "gl hf!",
             "glhf",
-            "HalfHusky keeps their hand.",
-            "Icecreamcollege takes a mulligan."
+            "<anonymized> keeps their hand.",
+            "<anonymized> takes a mulligan."
           ]
         }
       ]
@@ -270,8 +286,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 1 with 5 [Credit] and 5 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -280,7 +296,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] and pays 0 [Credits] to install ice protecting HQ."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -292,7 +308,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 0 [Credits] to install ice protecting R&D."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting R&D."
           ],
           "action": {
             "type": "install_ice",
@@ -304,8 +320,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky is ending their turn 1 with 6 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 1 with 6 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -325,9 +341,9 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 1 with 5 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Overclock from the Stack and add it to the grip."
+            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Overclock from the Stack and add it to the grip."
           ],
           "effects": {
             "cards_drawn": 1
@@ -336,7 +352,7 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -350,7 +366,7 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] to install Mystic Maemi."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install Mystic Maemi."
           ],
           "action": {
             "type": "install",
@@ -365,7 +381,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 4 [Credits] to install The Class Act."
+            "<anonymized> spends [Click] and pays 4 [Credits] to install The Class Act."
           ],
           "action": {
             "type": "install",
@@ -380,8 +396,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "Icecreamcollege is ending his turn 1 with 1 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 1 with 1 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -395,7 +411,7 @@
         {
           "click": -1,
           "events": [
-            "Icecreamcollege uses The Class Act to draw 4 cards."
+            "<anonymized> uses The Class Act to draw 4 cards."
           ],
           "effects": {
             "cards_drawn": 4
@@ -410,8 +426,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 2 with 6 [Credit] and 4 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 2 with 6 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -420,7 +436,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to install a card in the root of Server 1 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 1 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -433,7 +449,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 0 [Credits] to install ice protecting Server 1."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -445,8 +461,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky is ending their turn 2 with 7 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 2 with 7 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -466,10 +482,10 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 2 with 1 [Credit] and 9 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Direct Access from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 2 with 1 [Credit] and 9 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Direct Access from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -478,10 +494,10 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi to play Carpe Diem.",
-            "Icecreamcollege identifies his mark to be HQ.",
-            "Icecreamcollege uses Carpe Diem to gain 4 [Credits].",
-            "Icecreamcollege declines to use Carpe Diem to make a run."
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Carpe Diem.",
+            "<anonymized> identifies his mark to be HQ.",
+            "<anonymized> uses Carpe Diem to gain 4 [Credits].",
+            "<anonymized> declines to use Carpe Diem to make a run."
           ],
           "action": {
             "type": "play",
@@ -500,7 +516,7 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 0 [Credits] to install Fencer Fueno.",
+            "<anonymized> spends [Click] and pays 0 [Credits] to install Fencer Fueno.",
             "so if this is a tranq im very sad",
             "^^",
             "surely it's 7",
@@ -517,18 +533,18 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 3 [Credits] to play Bravado.",
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
             "oic",
             "how many treads you on?",
             "2",
             "valid",
-            "Icecreamcollege approaches ice protecting Server 1 at position 0.",
-            "HalfHusky pays 4 [Credits] to rez Event Horizon protecting Server 1 at position 0.",
-            "Icecreamcollege encounters Event Horizon protecting Server 1 at position 0.",
-            "Icecreamcollege indicates to fire all unbroken subroutines on Event Horizon.",
-            "HalfHusky uses Event Horizon to end the run.",
-            "HalfHusky resolves 2 unbroken subroutines on Event Horizon (\"[subroutine] Trash 1 program unless runner pays 3 [Credits]\" and \"[subroutine] End the run unless the Runner pays 3 [Credits]\").",
-            "Icecreamcollege uses Bravado to gain 6 [Credits]."
+            "<anonymized> approaches ice protecting Server 1 at position 0.",
+            "<anonymized> pays 4 [Credits] to rez Event Horizon protecting Server 1 at position 0.",
+            "<anonymized> encounters Event Horizon protecting Server 1 at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Event Horizon.",
+            "<anonymized> uses Event Horizon to end the run.",
+            "<anonymized> resolves 2 unbroken subroutines on Event Horizon (\"[subroutine] Trash 1 program unless runner pays 3 [Credits]\" and \"[subroutine] End the run unless the Runner pays 3 [Credits]\").",
+            "<anonymized> uses Bravado to gain 6 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -544,15 +560,15 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
-            "Icecreamcollege uses Pinhole Threading to make a run on Archives.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches Archives.",
-            "Icecreamcollege uses the replacement effect from Pinhole Threading.",
-            "Icecreamcollege accesses Anthill Excavation Contract from Server 1.",
-            "Icecreamcollege pays 1 [Credits] to trash Anthill Excavation Contract from Server 1.",
-            "Icecreamcollege discards The Class Act from his Grip at end of turn.",
-            "Icecreamcollege is ending his turn 2 with 6 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
+            "<anonymized> uses Pinhole Threading to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses the replacement effect from Pinhole Threading.",
+            "<anonymized> accesses Anthill Excavation Contract from Server 1.",
+            "<anonymized> pays 1 [Credits] to trash Anthill Excavation Contract from Server 1.",
+            "<anonymized> discards The Class Act from his Grip at end of turn.",
+            "<anonymized> is ending his turn 2 with 6 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -573,8 +589,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 3 with 3 [Credit] and 3 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 3 with 3 [Credit] and 3 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -583,7 +599,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to install a card in the root of R&D."
+            "<anonymized> spends [Click] to install a card in the root of R&D."
           ],
           "action": {
             "type": "install",
@@ -596,7 +612,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -610,8 +626,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky is ending their turn 3 with 5 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 3 with 5 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -631,11 +647,11 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 3 with 6 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself.",
+            "<anonymized> started his turn 3 with 6 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
             "now this is interesting",
             "some dank lines but i dont think i do it",
             "coward",
@@ -652,8 +668,8 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the first card on the top of the stack to the bottom.",
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom.",
             "sorry",
             "[undo-click]"
           ]
@@ -661,8 +677,8 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -676,7 +692,7 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] to install Cezve.",
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Cezve.",
             "[!] Cezve - Recurring credits usage not restricted"
           ],
           "action": {
@@ -692,7 +708,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] to install Hermes."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Hermes."
           ],
           "action": {
             "type": "install",
@@ -707,8 +723,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "Icecreamcollege is ending his turn 3 with 3 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 3 with 3 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -722,12 +738,12 @@
         {
           "click": -1,
           "events": [
-            "HalfHusky pays 3 [Credits] to rez Mavirus in the root of R&D.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 2-cost card.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
-            "HalfHusky installs a card in the root of Server 1.",
-            "HalfHusky uses Regolith Mining License to rez Regolith Mining License in Server 1 at no cost.",
-            "HalfHusky trashes Mavirus to use Mavirus to purge virus counters."
+            "<anonymized> pays 3 [Credits] to rez Mavirus in the root of R&D.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 2-cost card.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
+            "<anonymized> installs a card in the root of Server 1.",
+            "<anonymized> uses Regolith Mining License to rez Regolith Mining License in Server 1 at no cost.",
+            "<anonymized> trashes Mavirus to use Mavirus to purge virus counters."
           ]
         }
       ]
@@ -739,8 +755,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 4 with 2 [Credit] and 3 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 4 with 2 [Credit] and 3 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -749,7 +765,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to use Regolith Mining License to gain 3 [Credits]."
+            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits]."
           ],
           "action": {
             "type": "ability",
@@ -765,7 +781,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] to use Regolith Mining License to gain 3 [Credits]."
+            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits]."
           ],
           "action": {
             "type": "ability",
@@ -781,8 +797,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Regolith Mining License to gain 3 [Credits].",
-            "HalfHusky is ending their turn 4 with 11 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits].",
+            "<anonymized> is ending their turn 4 with 11 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "ability",
@@ -804,17 +820,17 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 4 with 3 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 4 with 3 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -828,13 +844,13 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi to play Pinhole Threading.",
-            "Icecreamcollege uses Pinhole Threading to make a run on Archives.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches Archives.",
-            "Icecreamcollege uses the replacement effect from Pinhole Threading.",
-            "Icecreamcollege accesses Regolith Mining License from Server 1.",
-            "Icecreamcollege pays 2 [Credits] from Fencer Fueno and 1 [Credits] from Cezve to trash Regolith Mining License from Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Pinhole Threading.",
+            "<anonymized> uses Pinhole Threading to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses the replacement effect from Pinhole Threading.",
+            "<anonymized> accesses Regolith Mining License from Server 1.",
+            "<anonymized> pays 2 [Credits] from Fencer Fueno and 1 [Credits] from Cezve to trash Regolith Mining License from Server 1."
           ],
           "action": {
             "type": "play",
@@ -854,7 +870,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -868,8 +884,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "Icecreamcollege is ending his turn 4 with 5 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 4 with 5 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -889,8 +905,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 5 with 11 [Credit] and 4 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 5 with 11 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -899,7 +915,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -913,8 +929,8 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "HalfHusky uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -930,8 +946,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to install a card in the root of HQ.",
-            "HalfHusky is ending their turn 5 with 15 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to install a card in the root of HQ.",
+            "<anonymized> is ending their turn 5 with 15 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -950,11 +966,11 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 5 with 5 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Tread Lightly from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 5 with 5 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Tread Lightly from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -963,8 +979,8 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -978,15 +994,15 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] from Mystic Maemi and 1 [Credits] from his credit pool to play Clean Getaway.",
-            "Icecreamcollege uses Clean Getaway to make a run on Archives.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches Archives.",
-            "Icecreamcollege uses Clean Getaway to gain 6 [Credits].",
-            "Icecreamcollege breaches Archives.",
-            "Icecreamcollege accesses Mavirus from Archives.",
-            "HalfHusky uses Mavirus to purge virus counters.",
-            "Icecreamcollege accesses everything else in Archives."
+            "<anonymized> spends [Click] and pays 2 [Credits] from Mystic Maemi and 1 [Credits] from his credit pool to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses Mavirus from Archives.",
+            "<anonymized> uses Mavirus to purge virus counters.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "play",
@@ -1005,7 +1021,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1019,8 +1035,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] and pays 3 [Credits] to install Echelon.",
-            "Icecreamcollege is ending his turn 5 with 8 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Echelon.",
+            "<anonymized> is ending his turn 5 with 8 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1041,8 +1057,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 6 with 15 [Credit] and 4 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 6 with 15 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1051,7 +1067,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -1064,7 +1080,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -1080,8 +1096,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] and pays 1 [Credits] to install ice protecting Server 1.",
-            "HalfHusky is ending their turn 6 with 13 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1.",
+            "<anonymized> is ending their turn 6 with 13 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -1102,11 +1118,11 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 6 with 8 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Tread Lightly from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself.",
+            "<anonymized> started his turn 6 with 8 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Tread Lightly from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
             "hmmm"
           ],
           "effects": {
@@ -1116,8 +1132,8 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1131,7 +1147,7 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] to install Touchstone."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Touchstone."
           ],
           "action": {
             "type": "install",
@@ -1146,15 +1162,15 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi to play Tread Lightly.",
-            "Icecreamcollege uses Tread Lightly to make a run on HQ.",
-            "Icecreamcollege approaches ice protecting HQ at position 0.",
-            "HalfHusky pays 6 [Credits] to rez Afshar protecting HQ at position 0.",
-            "Icecreamcollege encounters Afshar protecting HQ at position 0.",
-            "Icecreamcollege indicates to fire all unbroken subroutines on Afshar.",
-            "HalfHusky uses Afshar to force the Runner to lose 2 [Credits].",
-            "HalfHusky uses Afshar to end the run.",
-            "HalfHusky resolves 2 unbroken subroutines on Afshar (\"[subroutine] Make the Runner lose 2 [Credits]\" and \"[subroutine] End the run\")."
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Tread Lightly.",
+            "<anonymized> uses Tread Lightly to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> pays 6 [Credits] to rez Afshar protecting HQ at position 0.",
+            "<anonymized> encounters Afshar protecting HQ at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Afshar.",
+            "<anonymized> uses Afshar to force the Runner to lose 2 [Credits].",
+            "<anonymized> uses Afshar to end the run.",
+            "<anonymized> resolves 2 unbroken subroutines on Afshar (\"[subroutine] Make the Runner lose 2 [Credits]\" and \"[subroutine] End the run\")."
           ],
           "action": {
             "type": "play",
@@ -1172,20 +1188,25 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to make a run on R&D.",
-            "Icecreamcollege approaches ice protecting R&D at position 0.",
-            "HalfHusky pays 3 [Credits] to rez Maskirovka protecting R&D at position 0.",
-            "HalfHusky has no further action.",
-            "Icecreamcollege encounters Maskirovka protecting R&D at position 0.",
-            "Icecreamcollege indicates to fire all unbroken subroutines on Maskirovka.",
-            "HalfHusky uses Maskirovka to gain 2 [Credits].",
-            "HalfHusky uses Maskirovka to end the run.",
-            "HalfHusky resolves 2 unbroken subroutines on Maskirovka (\"[subroutine] Gain 2 [Credits]\" and \"[subroutine] End the run\").",
-            "Icecreamcollege is ending his turn 6 with 4 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on R&D.",
+            "<anonymized> approaches ice protecting R&D at position 0.",
+            "<anonymized> pays 3 [Credits] to rez Maskirovka protecting R&D at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Maskirovka protecting R&D at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Maskirovka.",
+            "<anonymized> uses Maskirovka to gain 2 [Credits].",
+            "<anonymized> uses Maskirovka to end the run.",
+            "<anonymized> resolves 2 unbroken subroutines on Maskirovka (\"[subroutine] Gain 2 [Credits]\" and \"[subroutine] End the run\").",
+            "<anonymized> is ending his turn 6 with 4 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
             "server": "R&D"
+          },
+          "effects": {
+            "triggered_gains": {
+              "Maskirovka": 2
+            }
           },
           "bucket": "run"
         }
@@ -1198,8 +1219,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 7 with 6 [Credit] and 3 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 7 with 6 [Credit] and 3 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1208,13 +1229,13 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] and pays 3 [Credits] to play Extract.",
-            "HalfHusky uses Extract to gain 6 [Credit].",
-            "HalfHusky uses Extract to trash Maskirovka protecting R&D at position 0 and gain 3 [Credits].",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 2-cost card.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
-            "HalfHusky installs a card in the root of Server 1.",
-            "HalfHusky uses The Holo Man to rez The Holo Man in Server 1 at no cost."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Extract.",
+            "<anonymized> uses Extract to gain 6 [Credit].",
+            "<anonymized> uses Extract to trash Maskirovka protecting R&D at position 0 and gain 3 [Credits].",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 2-cost card.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
+            "<anonymized> installs a card in the root of Server 1.",
+            "<anonymized> uses The Holo Man to rez The Holo Man in Server 1 at no cost."
           ],
           "action": {
             "type": "play",
@@ -1230,7 +1251,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 4 [Credits] to use The Holo Man to place 3 advancement counters on a card in Server 1."
+            "<anonymized> spends [Click] and pays 4 [Credits] to use The Holo Man to place 3 advancement counters on a card in Server 1."
           ],
           "action": {
             "type": "ability",
@@ -1246,10 +1267,10 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "HalfHusky scores The Basalt Spire and gains 3 agenda points.",
-            "Icecreamcollege uses Hermes to add ice protecting Server 1 at position 1 to HQ.",
-            "HalfHusky is ending their turn 7 with 7 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized> scores The Basalt Spire and gains 3 agenda points.",
+            "<anonymized> uses Hermes to add ice protecting Server 1 at position 1 to HQ.",
+            "<anonymized> is ending their turn 7 with 7 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1271,11 +1292,11 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 7 with 4 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Revolver from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 7 with 4 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Revolver from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1284,21 +1305,21 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi to play Direct Access.",
-            "Icecreamcollege approaches Event Horizon protecting Server 1 at position 0.",
-            "Icecreamcollege encounters Event Horizon protecting Server 1 at position 0.",
-            "Icecreamcollege pays 2 [Credits] from Touchstone to use Echelon to break all 2 subroutines on Event Horizon.",
-            "Icecreamcollege has no further action.",
-            "Icecreamcollege passes Event Horizon protecting Server 1 at position 0.",
-            "Icecreamcollege will continue the run.",
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Direct Access.",
+            "<anonymized> approaches Event Horizon protecting Server 1 at position 0.",
+            "<anonymized> encounters Event Horizon protecting Server 1 at position 0.",
+            "<anonymized> pays 2 [Credits] from Touchstone to use Echelon to break all 2 subroutines on Event Horizon.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Event Horizon protecting Server 1 at position 0.",
+            "<anonymized> will continue the run.",
             "think",
             "direct ass btw",
             "yupyup",
-            "Icecreamcollege approaches Server 1.",
-            "Icecreamcollege breaches Server 1.",
-            "Icecreamcollege accesses The Holo Man from Server 1.",
-            "Icecreamcollege pays 2 [Credits] from Fencer Fueno to trash The Holo Man from Server 1.",
-            "Icecreamcollege uses Direct Access to shuffle itself into the Stack."
+            "<anonymized> approaches Server 1.",
+            "<anonymized> breaches Server 1.",
+            "<anonymized> accesses The Holo Man from Server 1.",
+            "<anonymized> pays 2 [Credits] from Fencer Fueno to trash The Holo Man from Server 1.",
+            "<anonymized> uses Direct Access to shuffle itself into the Stack."
           ],
           "action": {
             "type": "play",
@@ -1318,8 +1339,8 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1333,7 +1354,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1347,8 +1368,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] to install Revolver.",
-            "Icecreamcollege is ending his turn 7 with 3 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Revolver.",
+            "<anonymized> is ending his turn 7 with 3 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1363,12 +1384,12 @@
         {
           "click": -1,
           "events": [
-            "HalfHusky pays 3 [Credits] to rez Mavirus in the root of HQ.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 2-cost card.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
-            "HalfHusky installs a card in the root of Server 1.",
-            "HalfHusky uses Regolith Mining License to rez Regolith Mining License in Server 1 at no cost.",
-            "HalfHusky trashes Mavirus to use Mavirus to purge virus counters."
+            "<anonymized> pays 3 [Credits] to rez Mavirus in the root of HQ.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 2-cost card.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
+            "<anonymized> installs a card in the root of Server 1.",
+            "<anonymized> uses Regolith Mining License to rez Regolith Mining License in Server 1 at no cost.",
+            "<anonymized> trashes Mavirus to use Mavirus to purge virus counters."
           ]
         }
       ]
@@ -1380,8 +1401,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 8 with 4 [Credit] and 4 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 8 with 4 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1390,7 +1411,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to use Regolith Mining License to gain 3 [Credits]."
+            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits]."
           ],
           "action": {
             "type": "ability",
@@ -1406,7 +1427,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] to use Regolith Mining License to gain 3 [Credits]."
+            "<anonymized> spends [Click] to use Regolith Mining License to gain 3 [Credits]."
           ],
           "action": {
             "type": "ability",
@@ -1422,8 +1443,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] and pays 0 [Credits] to install ice protecting R&D.",
-            "HalfHusky is ending their turn 8 with 10 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting R&D.",
+            "<anonymized> is ending their turn 8 with 10 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -1441,17 +1462,17 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 8 with 3 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 8 with 3 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1465,7 +1486,7 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 3 [Credits] to install Sang Kancil."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Sang Kancil."
           ],
           "action": {
             "type": "install",
@@ -1480,12 +1501,12 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "Icecreamcollege uses Transfer of Wealth to make a run on HQ.",
-            "Icecreamcollege approaches Afshar protecting HQ at position 0.",
-            "HalfHusky has no further action.",
-            "Icecreamcollege encounters Afshar protecting HQ at position 0.",
-            "Icecreamcollege pays 1 [Credits] from Cezve to use Sang Kancil to break 1 Code Gate subroutine on Afshar (\"[subroutine] End the run\").",
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized> approaches Afshar protecting HQ at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Afshar protecting HQ at position 0.",
+            "<anonymized> pays 1 [Credits] from Cezve to use Sang Kancil to break 1 Code Gate subroutine on Afshar (\"[subroutine] End the run\").",
             "that draw was so bad lmao",
             "am i allowed to take that back or naw",
             "i didnt draw this ToW",
@@ -1515,7 +1536,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 3 [Credits] to install Sang Kancil."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Sang Kancil."
           ],
           "action": {
             "type": "install",
@@ -1530,25 +1551,25 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "Icecreamcollege uses Transfer of Wealth to make a run on HQ.",
-            "Icecreamcollege approaches Afshar protecting HQ at position 0.",
-            "Icecreamcollege encounters Afshar protecting HQ at position 0.",
-            "Icecreamcollege pays 1 [Credits] from Cezve to use Sang Kancil to break 1 Code Gate subroutine on Afshar (\"[subroutine] End the run\").",
-            "Icecreamcollege indicates to fire all unbroken subroutines on Afshar.",
-            "Icecreamcollege has no further action.",
-            "HalfHusky resolves 1 unbroken subroutine on Afshar (\"[subroutine] Make the Runner lose 2 [Credits]\").",
-            "Icecreamcollege passes Afshar protecting HQ at position 0.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches HQ.",
-            "Icecreamcollege uses Transfer of Wealth to take 1 tag.",
-            "Icecreamcollege uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "Icecreamcollege breaches HQ.",
-            "Icecreamcollege accesses Let Them Dream from HQ.",
-            "Icecreamcollege steals Let Them Dream and gains 1 agenda point.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Hermes to add ice protecting R&D at position 0 to HQ."
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized> approaches Afshar protecting HQ at position 0.",
+            "<anonymized> encounters Afshar protecting HQ at position 0.",
+            "<anonymized> pays 1 [Credits] from Cezve to use Sang Kancil to break 1 Code Gate subroutine on Afshar (\"[subroutine] End the run\").",
+            "<anonymized> indicates to fire all unbroken subroutines on Afshar.",
+            "<anonymized> has no further action.",
+            "<anonymized> resolves 1 unbroken subroutine on Afshar (\"[subroutine] Make the Runner lose 2 [Credits]\").",
+            "<anonymized> passes Afshar protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Let Them Dream from HQ.",
+            "<anonymized> steals Let Them Dream and gains 1 agenda point.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
+            "<anonymized> uses Hermes to add ice protecting R&D at position 0 to HQ."
           ],
           "action": {
             "type": "play",
@@ -1566,14 +1587,14 @@
         {
           "click": 5,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] from Mystic Maemi to play Reprise.",
-            "Icecreamcollege uses Reprise to add Event Horizon protecting Server 1 at position 0 to HQ.",
-            "Icecreamcollege uses Reprise to make a run on Server 1.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches Server 1.",
-            "Icecreamcollege breaches Server 1.",
-            "Icecreamcollege accesses Regolith Mining License from Server 1.",
-            "Icecreamcollege pays 3 [Credits] from Fencer Fueno to trash Regolith Mining License from Server 1."
+            "<anonymized> spends [Click] and pays 2 [Credits] from Mystic Maemi to play Reprise.",
+            "<anonymized> uses Reprise to add Event Horizon protecting Server 1 at position 0 to HQ.",
+            "<anonymized> uses Reprise to make a run on Server 1.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 1.",
+            "<anonymized> breaches Server 1.",
+            "<anonymized> accesses Regolith Mining License from Server 1.",
+            "<anonymized> pays 3 [Credits] from Fencer Fueno to trash Regolith Mining License from Server 1."
           ],
           "action": {
             "type": "play",
@@ -1592,8 +1613,8 @@
         {
           "click": 6,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "Icecreamcollege is ending his turn 8 with 4 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized> is ending his turn 8 with 4 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -1614,8 +1635,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 9 with 7 [Credit] and 5 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 9 with 7 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1624,7 +1645,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] and pays 0 [Credits] to install ice protecting R&D."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting R&D."
           ],
           "action": {
             "type": "install_ice",
@@ -1636,7 +1657,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 1 [Credits] to install ice protecting HQ."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -1651,8 +1672,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky is ending their turn 9 with 7 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 9 with 7 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1672,17 +1693,17 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 9 with 4 [Credit] and 2 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 9 with 4 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1696,7 +1717,7 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1710,7 +1731,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1724,18 +1745,18 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi and 2 [Credits] from his credit pool to play Clean Getaway.",
-            "Icecreamcollege uses Clean Getaway to make a run on Archives.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches Archives.",
-            "Icecreamcollege uses Clean Getaway to gain 6 [Credits].",
-            "Icecreamcollege breaches Archives.",
-            "Icecreamcollege accesses Mavirus from Archives.",
-            "HalfHusky uses Mavirus to purge virus counters.",
-            "Icecreamcollege accesses Mavirus from Archives.",
-            "HalfHusky uses Mavirus to purge virus counters.",
-            "Icecreamcollege accesses everything else in Archives.",
-            "Icecreamcollege is ending his turn 9 with 8 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi and 2 [Credits] from his credit pool to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses Mavirus from Archives.",
+            "<anonymized> uses Mavirus to purge virus counters.",
+            "<anonymized> accesses Mavirus from Archives.",
+            "<anonymized> uses Mavirus to purge virus counters.",
+            "<anonymized> accesses everything else in Archives.",
+            "<anonymized> is ending his turn 9 with 8 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1760,8 +1781,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 10 with 7 [Credit] and 4 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 10 with 7 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1770,7 +1791,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to install a card in the root of Server 2 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 2 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -1783,7 +1804,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 0 [Credits] to install ice protecting Server 2."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 2."
           ],
           "action": {
             "type": "install_ice",
@@ -1795,8 +1816,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky is ending their turn 10 with 8 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 10 with 8 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1816,17 +1837,17 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 10 with 8 [Credit] and 4 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 10 with 8 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1840,16 +1861,16 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi to play Tread Lightly.",
-            "Icecreamcollege uses Tread Lightly to make a run on Server 2.",
-            "Icecreamcollege approaches ice protecting Server 2 at position 0.",
-            "HalfHusky has no further action.",
-            "Icecreamcollege passes ice protecting Server 2 at position 0.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches Server 2.",
-            "Icecreamcollege breaches Server 2.",
-            "Icecreamcollege accesses Tucana from Server 2.",
-            "Icecreamcollege pays 1 [Credits] from Fencer Fueno to trash Tucana from Server 2."
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Tread Lightly.",
+            "<anonymized> uses Tread Lightly to make a run on Server 2.",
+            "<anonymized> approaches ice protecting Server 2 at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes ice protecting Server 2 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 2.",
+            "<anonymized> breaches Server 2.",
+            "<anonymized> accesses Tucana from Server 2.",
+            "<anonymized> pays 1 [Credits] from Fencer Fueno to trash Tucana from Server 2."
           ],
           "action": {
             "type": "play",
@@ -1868,7 +1889,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1882,8 +1903,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "Icecreamcollege is ending his turn 10 with 9 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 10 with 9 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1903,8 +1924,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 11 with 8 [Credit] and 3 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 11 with 8 [Credit] and 3 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1913,7 +1934,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1927,7 +1948,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] to install a card in the root of HQ."
+            "<anonymized> spends [Click] to install a card in the root of HQ."
           ],
           "action": {
             "type": "install",
@@ -1940,8 +1961,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky is ending their turn 11 with 9 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 11 with 9 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1961,11 +1982,11 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 11 with 9 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Curupira from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 11 with 9 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Curupira from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1974,7 +1995,7 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] and pays 3 [Credits] to install Curupira."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Curupira."
           ],
           "action": {
             "type": "install",
@@ -1989,8 +2010,8 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2004,8 +2025,8 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi and 4 [Credits] from his credit pool to play Sure Gamble.",
-            "Icecreamcollege uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi and 4 [Credits] from his credit pool to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2024,8 +2045,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "Icecreamcollege is ending his turn 11 with 12 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 11 with 12 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2045,8 +2066,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 12 with 9 [Credit] and 4 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 12 with 9 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2055,7 +2076,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to install a card in the root of Server 2."
+            "<anonymized> spends [Click] to install a card in the root of Server 2."
           ],
           "action": {
             "type": "install",
@@ -2068,7 +2089,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 1 [Credits] to install ice protecting Server 2."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 2."
           ],
           "action": {
             "type": "install_ice",
@@ -2083,8 +2104,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky is ending their turn 12 with 9 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 12 with 9 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2104,17 +2125,17 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 12 with 12 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 12 with 12 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2128,7 +2149,7 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 3 [Credits] to install The Twinning."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install The Twinning."
           ],
           "action": {
             "type": "install",
@@ -2143,30 +2164,30 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege uses The Twinning to place a power counter on itself.",
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi and 2 [Credits] from his credit pool to play Bravado.",
-            "Icecreamcollege approaches ice protecting Server 2 at position 1.",
-            "HalfHusky pays 4 [Credits] to rez Event Horizon protecting Server 2 at position 1.",
-            "HalfHusky has no further action.",
-            "Icecreamcollege encounters Event Horizon protecting Server 2 at position 1.",
-            "Icecreamcollege pays 2 [Credits] from Touchstone to use Echelon to break all 2 subroutines on Event Horizon.",
-            "Icecreamcollege has no further action.",
-            "Icecreamcollege passes Event Horizon protecting Server 2 at position 1.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches ice protecting Server 2 at position 0.",
-            "HalfHusky pays 3 [Credits] to rez Sandstone protecting Server 2 at position 0.",
-            "Icecreamcollege encounters Sandstone protecting Server 2 at position 0.",
-            "HalfHusky uses Sandstone to place 1 virus counter on itself.",
-            "Icecreamcollege uses Curupira to place 1 power counter on itself.",
-            "Icecreamcollege pays 3 [Credits] from Touchstone and 2 [Credits] from his credit pool to increase the strength of Curupira to 5 and break all  subroutines on Sandstone.",
-            "Icecreamcollege has no further action.",
-            "Icecreamcollege passes Sandstone protecting Server 2 at position 0.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches Server 2.",
-            "Icecreamcollege breaches Server 2.",
-            "Icecreamcollege accesses Malapert Data Vault from Server 2.",
-            "Icecreamcollege pays 3 [Credits] from Fencer Fueno and 1 [Credits] from his credit pool to trash Malapert Data Vault from Server 2.",
-            "Icecreamcollege uses Bravado to gain 8 [Credits]."
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi and 2 [Credits] from his credit pool to play Bravado.",
+            "<anonymized> approaches ice protecting Server 2 at position 1.",
+            "<anonymized> pays 4 [Credits] to rez Event Horizon protecting Server 2 at position 1.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Event Horizon protecting Server 2 at position 1.",
+            "<anonymized> pays 2 [Credits] from Touchstone to use Echelon to break all 2 subroutines on Event Horizon.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Event Horizon protecting Server 2 at position 1.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches ice protecting Server 2 at position 0.",
+            "<anonymized> pays 3 [Credits] to rez Sandstone protecting Server 2 at position 0.",
+            "<anonymized> encounters Sandstone protecting Server 2 at position 0.",
+            "<anonymized> uses Sandstone to place 1 virus counter on itself.",
+            "<anonymized> uses Curupira to place 1 power counter on itself.",
+            "<anonymized> pays 3 [Credits] from Touchstone and 2 [Credits] from his credit pool to increase the strength of Curupira to 5 and break all  subroutines on Sandstone.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Sandstone protecting Server 2 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 2.",
+            "<anonymized> breaches Server 2.",
+            "<anonymized> accesses Malapert Data Vault from Server 2.",
+            "<anonymized> pays 3 [Credits] from Fencer Fueno and 1 [Credits] from his credit pool to trash Malapert Data Vault from Server 2.",
+            "<anonymized> uses Bravado to gain 8 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2187,8 +2208,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "Icecreamcollege is ending his turn 12 with 13 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 12 with 13 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2208,8 +2229,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 13 with 2 [Credit] and 3 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 13 with 2 [Credit] and 3 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2218,7 +2239,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2232,7 +2253,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2246,8 +2267,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky is ending their turn 13 with 5 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 13 with 5 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2267,11 +2288,11 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 13 with 13 [Credit] and 4 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 13 with 13 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2280,12 +2301,12 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to make a run on R&D.",
-            "Icecreamcollege approaches ice protecting R&D at position 0.",
-            "Icecreamcollege passes ice protecting R&D at position 0.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches R&D.",
-            "Icecreamcollege breaches R&D.",
+            "<anonymized> spends [Click] to make a run on R&D.",
+            "<anonymized> approaches ice protecting R&D at position 0.",
+            "<anonymized> passes ice protecting R&D at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches R&D.",
+            "<anonymized> breaches R&D.",
             "[!] Please pause, Runner is acting.",
             "sorry",
             "[undo-click]"
@@ -2294,21 +2315,21 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to make a run on R&D.",
-            "Icecreamcollege approaches ice protecting R&D at position 0.",
-            "Icecreamcollege passes ice protecting R&D at position 0.",
-            "Icecreamcollege uses The Twinning to place a power counter on itself.",
-            "Icecreamcollege pays 1 [Credits] from Cezve to use Curupira to increase its strength from 1 to 2.",
-            "Icecreamcollege approaches R&D.",
-            "Icecreamcollege breaches R&D.",
-            "Icecreamcollege uses The Twinning to access 2 additional cards from R&D.",
-            "Icecreamcollege accesses an unseen card from R&D.",
-            "Icecreamcollege accesses an unseen card from R&D.",
-            "Icecreamcollege steals Let Them Dream and gains 1 agenda point.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Hermes to add ice protecting HQ at position 1 to HQ.",
-            "Icecreamcollege accesses an unseen card from R&D."
+            "<anonymized> spends [Click] to make a run on R&D.",
+            "<anonymized> approaches ice protecting R&D at position 0.",
+            "<anonymized> passes ice protecting R&D at position 0.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 1 [Credits] from Cezve to use Curupira to increase its strength from 1 to 2.",
+            "<anonymized> approaches R&D.",
+            "<anonymized> breaches R&D.",
+            "<anonymized> uses The Twinning to access 2 additional cards from R&D.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> steals Let Them Dream and gains 1 agenda point.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
+            "<anonymized> uses Hermes to add ice protecting HQ at position 1 to HQ.",
+            "<anonymized> accesses an unseen card from R&D."
           ],
           "action": {
             "type": "run",
@@ -2324,15 +2345,15 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] from Mystic Maemi to play Reprise.",
-            "Icecreamcollege uses Reprise to add Afshar protecting HQ at position 0 to HQ.",
-            "Icecreamcollege uses Reprise to make a run on HQ.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches HQ.",
-            "Icecreamcollege breaches HQ.",
-            "Icecreamcollege accesses Flagship from the root of HQ.",
-            "Icecreamcollege pays 1 [Credits] from Cezve, 2 [Credits] from Fencer Fueno, and 1 [Credits] from Touchstone to trash Flagship from the root of HQ.",
-            "Icecreamcollege accesses Stavka from HQ."
+            "<anonymized> spends [Click] and pays 2 [Credits] from Mystic Maemi to play Reprise.",
+            "<anonymized> uses Reprise to add Afshar protecting HQ at position 0 to HQ.",
+            "<anonymized> uses Reprise to make a run on HQ.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Flagship from the root of HQ.",
+            "<anonymized> pays 1 [Credits] from Cezve, 2 [Credits] from Fencer Fueno, and 1 [Credits] from Touchstone to trash Flagship from the root of HQ.",
+            "<anonymized> accesses Stavka from HQ."
           ],
           "action": {
             "type": "play",
@@ -2351,14 +2372,14 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "Icecreamcollege uses Transfer of Wealth to make a run on HQ.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches HQ.",
-            "Icecreamcollege uses Transfer of Wealth to take 1 tag.",
-            "Icecreamcollege uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "Icecreamcollege breaches HQ.",
-            "Icecreamcollege accesses Sleipnir from HQ."
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Sleipnir from HQ."
           ],
           "action": {
             "type": "play",
@@ -2373,8 +2394,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "Icecreamcollege is ending his turn 13 with 17 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized> is ending his turn 13 with 17 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -2395,8 +2416,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 14 with 2 [Credit] and 6 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 14 with 2 [Credit] and 6 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2405,7 +2426,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] and pays 0 [Credits] to install ice protecting HQ."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -2417,7 +2438,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2431,9 +2452,9 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HalfHusky discards 1 card from HQ at end of turn.",
-            "HalfHusky is ending their turn 14 with 4 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending their turn 14 with 4 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2453,11 +2474,11 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 14 with 17 [Credit] and 3 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 14 with 17 [Credit] and 3 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2466,16 +2487,16 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to make a run on HQ.",
-            "Icecreamcollege approaches ice protecting HQ at position 0.",
-            "Icecreamcollege passes ice protecting HQ at position 0.",
-            "Icecreamcollege uses The Twinning to place a power counter on itself.",
-            "Icecreamcollege pays 1 [Credits] from Cezve to use Curupira to increase its strength from 1 to 2.",
-            "Icecreamcollege approaches HQ.",
-            "Icecreamcollege breaches HQ.",
-            "Icecreamcollege uses The Twinning to access 0 additional cards from HQ.",
-            "Icecreamcollege accesses Measured Response from HQ.",
-            "Icecreamcollege pays 1 [Credits] from Cezve and 1 [Credits] from Fencer Fueno and 1 [Credits] from his credit pool to trash Measured Response from HQ."
+            "<anonymized> spends [Click] to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> passes ice protecting HQ at position 0.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 1 [Credits] from Cezve to use Curupira to increase its strength from 1 to 2.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> uses The Twinning to access 0 additional cards from HQ.",
+            "<anonymized> accesses Measured Response from HQ.",
+            "<anonymized> pays 1 [Credits] from Cezve and 1 [Credits] from Fencer Fueno and 1 [Credits] from his credit pool to trash Measured Response from HQ."
           ],
           "action": {
             "type": "run",
@@ -2492,13 +2513,13 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] to make a run on HQ.",
-            "Icecreamcollege approaches ice protecting HQ at position 0.",
-            "Icecreamcollege passes ice protecting HQ at position 0.",
-            "Icecreamcollege approaches HQ.",
-            "Icecreamcollege breaches HQ.",
-            "Icecreamcollege uses The Twinning to access 0 additional cards from HQ.",
-            "Icecreamcollege accesses Hedge Fund from HQ."
+            "<anonymized> spends [Click] to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> passes ice protecting HQ at position 0.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> uses The Twinning to access 0 additional cards from HQ.",
+            "<anonymized> accesses Hedge Fund from HQ."
           ],
           "action": {
             "type": "run",
@@ -2509,14 +2530,14 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] to make a run on HQ.",
-            "Icecreamcollege approaches ice protecting HQ at position 0.",
-            "Icecreamcollege passes ice protecting HQ at position 0.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches HQ.",
-            "Icecreamcollege breaches HQ.",
-            "Icecreamcollege uses The Twinning to access 0 additional cards from HQ.",
-            "Icecreamcollege accesses Afshar from HQ."
+            "<anonymized> spends [Click] to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> passes ice protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> uses The Twinning to access 0 additional cards from HQ.",
+            "<anonymized> accesses Afshar from HQ."
           ],
           "action": {
             "type": "run",
@@ -2527,8 +2548,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "Icecreamcollege is ending his turn 14 with 17 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 14 with 17 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2548,8 +2569,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 15 with 4 [Credit] and 4 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 15 with 4 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2558,13 +2579,13 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] and pays 3 [Credits] to play Extract.",
-            "HalfHusky uses Extract to gain 6 [Credit].",
-            "HalfHusky uses Extract to trash Sandstone protecting Server 2 at position 0 and gain 3 [Credits].",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 2-cost card.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
-            "HalfHusky pays 0 [Credits] to install ice protecting R&D.",
-            "HalfHusky uses Flywheel to rez Flywheel protecting R&D at position 1 at no cost."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Extract.",
+            "<anonymized> uses Extract to gain 6 [Credit].",
+            "<anonymized> uses Extract to trash Sandstone protecting Server 2 at position 0 and gain 3 [Credits].",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 2-cost card.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
+            "<anonymized> pays 0 [Credits] to install ice protecting R&D.",
+            "<anonymized> uses Flywheel to rez Flywheel protecting R&D at position 1 at no cost."
           ],
           "action": {
             "type": "play",
@@ -2580,7 +2601,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 1 [Credits] to install ice protecting HQ."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -2595,9 +2616,9 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "HalfHusky uses Hedge Fund to gain 9 [Credits].",
-            "HalfHusky is ending their turn 15 with 13 [Credit] and 2 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits].",
+            "<anonymized> is ending their turn 15 with 13 [Credit] and 2 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -2619,11 +2640,11 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 15 with 17 [Credit] and 4 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 15 with 17 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2632,37 +2653,37 @@
         {
           "click": 1,
           "events": [
-            "Icecreamcollege uses The Twinning to place a power counter on itself.",
-            "Icecreamcollege spends [Click] and pays 2 [Credits] from Mystic Maemi and 1 [Credits] from his credit pool to play Bravado.",
-            "Icecreamcollege approaches Flywheel protecting R&D at position 1.",
-            "Icecreamcollege encounters Flywheel protecting R&D at position 1.",
-            "Icecreamcollege pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Flywheel.",
-            "Icecreamcollege has no further action.",
-            "Icecreamcollege passes Flywheel protecting R&D at position 1.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches ice protecting R&D at position 0.",
-            "HalfHusky pays 3 [Credits] to rez Maskirovka protecting R&D at position 0.",
-            "HalfHusky has no further action.",
-            "Icecreamcollege encounters Maskirovka protecting R&D at position 0.",
-            "Icecreamcollege uses Curupira to place 1 power counter on itself.",
-            "Icecreamcollege pays 1 [Credits] from Touchstone and 3 [Credits] from his credit pool to increase the strength of Curupira to 3 and break all 2 subroutines on Maskirovka.",
-            "Icecreamcollege has no further action.",
-            "Icecreamcollege passes Maskirovka protecting R&D at position 0.",
-            "Icecreamcollege will continue the run.",
-            "Icecreamcollege approaches R&D.",
-            "Icecreamcollege breaches R&D.",
-            "Icecreamcollege uses The Twinning to access 2 additional cards from R&D.",
-            "Icecreamcollege accesses an unseen card from R&D.",
-            "Icecreamcollege pays 1 [Credits] from Fencer Fueno and 1 [Credits] from his credit pool to trash Spin Doctor from R&D.",
-            "Icecreamcollege accesses an unseen card from R&D.",
-            "Icecreamcollege steals The Basalt Spire and gains 3 agenda points.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Hermes to add ice protecting HQ at position 1 to HQ.",
-            "HalfHusky uses The Basalt Spire to add Measured Response in Archives to HQ.",
-            "Icecreamcollege accesses an unseen card from R&D.",
-            "Icecreamcollege pays 1 [Credits] from Fencer Fueno to trash Anthill Excavation Contract from R&D.",
-            "Icecreamcollege uses Bravado to gain 8 [Credits]."
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 2 [Credits] from Mystic Maemi and 1 [Credits] from his credit pool to play Bravado.",
+            "<anonymized> approaches Flywheel protecting R&D at position 1.",
+            "<anonymized> encounters Flywheel protecting R&D at position 1.",
+            "<anonymized> pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Flywheel.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Flywheel protecting R&D at position 1.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches ice protecting R&D at position 0.",
+            "<anonymized> pays 3 [Credits] to rez Maskirovka protecting R&D at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Maskirovka protecting R&D at position 0.",
+            "<anonymized> uses Curupira to place 1 power counter on itself.",
+            "<anonymized> pays 1 [Credits] from Touchstone and 3 [Credits] from his credit pool to increase the strength of Curupira to 3 and break all 2 subroutines on Maskirovka.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Maskirovka protecting R&D at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches R&D.",
+            "<anonymized> breaches R&D.",
+            "<anonymized> uses The Twinning to access 2 additional cards from R&D.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> pays 1 [Credits] from Fencer Fueno and 1 [Credits] from his credit pool to trash Spin Doctor from R&D.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> steals The Basalt Spire and gains 3 agenda points.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
+            "<anonymized> uses Hermes to add ice protecting HQ at position 1 to HQ.",
+            "<anonymized> uses The Basalt Spire to add Measured Response in Archives to HQ.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> pays 1 [Credits] from Fencer Fueno to trash Anthill Excavation Contract from R&D.",
+            "<anonymized> uses Bravado to gain 8 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2684,7 +2705,7 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2698,7 +2719,7 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2712,9 +2733,9 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the first card on the top of the stack to the bottom.",
-            "Icecreamcollege is ending his turn 15 with 22 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom.",
+            "<anonymized> is ending his turn 15 with 22 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -2734,8 +2755,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 16 with 10 [Credit] and 4 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 16 with 10 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2744,8 +2765,8 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] and pays 5 [Credits] to play Measured Response.",
-            "Icecreamcollege pays 8 [Credits] to satisfy Measured Response."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Measured Response.",
+            "<anonymized> pays 8 [Credits] to satisfy Measured Response."
           ],
           "action": {
             "type": "play",
@@ -2760,13 +2781,13 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] and pays 3 [Credits] to play Extract.",
-            "HalfHusky uses Extract to gain 6 [Credit].",
-            "HalfHusky uses Extract to trash Flywheel protecting R&D at position 1 and gain 3 [Credits].",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 1-cost card.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
-            "HalfHusky installs a card in the root of Server 2.",
-            "HalfHusky uses Tranquility Home Grid to rez Tranquility Home Grid in Server 2 at no cost."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Extract.",
+            "<anonymized> uses Extract to gain 6 [Credit].",
+            "<anonymized> uses Extract to trash Flywheel protecting R&D at position 1 and gain 3 [Credits].",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 1-cost card.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
+            "<anonymized> installs a card in the root of Server 2.",
+            "<anonymized> uses Tranquility Home Grid to rez Tranquility Home Grid in Server 2 at no cost."
           ],
           "action": {
             "type": "play",
@@ -2782,8 +2803,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] and pays 1 [Credits] to install ice protecting R&D.",
-            "HalfHusky is ending their turn 16 with 10 [Credit] and 2 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting R&D.",
+            "<anonymized> is ending their turn 16 with 10 [Credit] and 2 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -2804,17 +2825,17 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 16 with 14 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 16 with 14 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2828,22 +2849,22 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "Icecreamcollege uses Transfer of Wealth to make a run on HQ.",
-            "Icecreamcollege approaches ice protecting HQ at position 0.",
-            "HalfHusky pays 4 [Credits] to rez Event Horizon protecting HQ at position 0.",
-            "Icecreamcollege encounters Event Horizon protecting HQ at position 0.",
-            "Icecreamcollege uses The Twinning to place a power counter on itself.",
-            "Icecreamcollege pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Event Horizon.",
-            "Icecreamcollege has no further action.",
-            "Icecreamcollege passes Event Horizon protecting HQ at position 0.",
-            "Icecreamcollege will continue the run.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 3-cost card.",
-            "HalfHusky uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
-            "HalfHusky installs a card in the root of Server 2.",
-            "HalfHusky uses Tranquility Home Grid to gain 2 [Credits].",
-            "HalfHusky uses Anthill Excavation Contract to rez Anthill Excavation Contract in Server 2 at no cost.",
-            "HalfHusky trashes Event Horizon to use Event Horizon to end the run."
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> pays 4 [Credits] to rez Event Horizon protecting HQ at position 0.",
+            "<anonymized> encounters Event Horizon protecting HQ at position 0.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 2 [Credits] from Cezve to use Echelon to break all 2 subroutines on Event Horizon.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Event Horizon protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to search R&D for a 3-cost card.",
+            "<anonymized> uses Ob Superheavy Logistics: Extract. Export. Excel. to shuffle R&D.",
+            "<anonymized> installs a card in the root of Server 2.",
+            "<anonymized> uses Tranquility Home Grid to gain 2 [Credits].",
+            "<anonymized> uses Anthill Excavation Contract to rez Anthill Excavation Contract in Server 2 at no cost.",
+            "<anonymized> trashes Event Horizon to use Event Horizon to end the run."
           ],
           "action": {
             "type": "play",
@@ -2853,6 +2874,9 @@
           "effects": {
             "credits_from_resources": {
               "Cezve": 2
+            },
+            "triggered_gains": {
+              "Tranquility Home Grid": 2
             }
           },
           "bucket": "run"
@@ -2860,19 +2884,19 @@
         {
           "click": 3,
           "events": [
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi to play Overclock.",
-            "Icecreamcollege uses Overclock to make a run on Server 2.",
-            "Icecreamcollege approaches Event Horizon protecting Server 2 at position 0.",
-            "Icecreamcollege encounters Event Horizon protecting Server 2 at position 0.",
-            "Icecreamcollege pays 2 [Credits] from Overclock to use Echelon to break all 2 subroutines on Event Horizon.",
-            "Icecreamcollege has no further action.",
-            "Icecreamcollege passes Event Horizon protecting Server 2 at position 0.",
-            "Icecreamcollege approaches Server 2.",
-            "Icecreamcollege breaches Server 2.",
-            "Icecreamcollege accesses Anthill Excavation Contract from Server 2.",
-            "Icecreamcollege pays 1 [Credits] from Fencer Fueno to trash Anthill Excavation Contract from Server 2.",
-            "Icecreamcollege accesses Tranquility Home Grid from Server 2.",
-            "Icecreamcollege pays 1 [Credits] from Touchstone and 3 [Credits] from Overclock to trash Tranquility Home Grid from Server 2."
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Overclock.",
+            "<anonymized> uses Overclock to make a run on Server 2.",
+            "<anonymized> approaches Event Horizon protecting Server 2 at position 0.",
+            "<anonymized> encounters Event Horizon protecting Server 2 at position 0.",
+            "<anonymized> pays 2 [Credits] from Overclock to use Echelon to break all 2 subroutines on Event Horizon.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Event Horizon protecting Server 2 at position 0.",
+            "<anonymized> approaches Server 2.",
+            "<anonymized> breaches Server 2.",
+            "<anonymized> accesses Anthill Excavation Contract from Server 2.",
+            "<anonymized> pays 1 [Credits] from Fencer Fueno to trash Anthill Excavation Contract from Server 2.",
+            "<anonymized> accesses Tranquility Home Grid from Server 2.",
+            "<anonymized> pays 1 [Credits] from Touchstone and 3 [Credits] from Overclock to trash Tranquility Home Grid from Server 2."
           ],
           "action": {
             "type": "play",
@@ -2893,8 +2917,8 @@
         {
           "click": 4,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege is ending his turn 16 with 14 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> is ending his turn 16 with 14 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -2914,8 +2938,8 @@
         {
           "click": 0,
           "events": [
-            "HalfHusky started their turn 17 with 8 [Credit] and 2 cards in HQ.",
-            "HalfHusky makes their mandatory start of turn draw."
+            "<anonymized> started their turn 17 with 8 [Credit] and 2 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2924,7 +2948,7 @@
         {
           "click": 1,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2938,7 +2962,7 @@
         {
           "click": 2,
           "events": [
-            "HalfHusky spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2952,8 +2976,8 @@
         {
           "click": 3,
           "events": [
-            "HalfHusky spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
-            "HalfHusky is ending their turn 17 with 8 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
+            "<anonymized> is ending their turn 17 with 8 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -2971,17 +2995,17 @@
         {
           "click": 0,
           "events": [
-            "Icecreamcollege started his turn 17 with 14 [Credit] and 5 cards in his Grip.",
-            "Icecreamcollege uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "Icecreamcollege uses Mystic Maemi to add 1 [Credits] to itself.",
-            "Icecreamcollege uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 17 with 14 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "Icecreamcollege spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "Icecreamcollege uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2995,31 +3019,31 @@
         {
           "click": 2,
           "events": [
-            "Icecreamcollege uses The Twinning to place a power counter on itself.",
-            "Icecreamcollege spends [Click] and pays 1 [Credits] from Mystic Maemi to play Carpe Diem.",
-            "Icecreamcollege identifies his mark to be HQ.",
-            "Icecreamcollege uses Carpe Diem to gain 4 [Credits].",
-            "Icecreamcollege uses Carpe Diem to make a run on HQ.",
-            "Icecreamcollege approaches ice protecting HQ at position 0.",
-            "HalfHusky pays 3 [Credits] to rez Afshar protecting HQ at position 0.",
-            "HalfHusky has no further action.",
-            "Icecreamcollege encounters Afshar protecting HQ at position 0.",
-            "Icecreamcollege pays 1 [Credits] from Cezve to use Sang Kancil to break 1 Code Gate subroutine on Afshar (\"[subroutine] End the run\").",
-            "Icecreamcollege indicates to fire all unbroken subroutines on Afshar.",
-            "Icecreamcollege has no further action.",
-            "HalfHusky uses Afshar to force the Runner to lose 2 [Credits].",
-            "HalfHusky resolves 1 unbroken subroutine on Afshar (\"[subroutine] Make the Runner lose 2 [Credits]\").",
-            "Icecreamcollege passes Afshar protecting HQ at position 0.",
-            "Icecreamcollege approaches HQ.",
-            "Icecreamcollege breaches HQ.",
-            "Icecreamcollege uses The Twinning to access 2 additional cards from HQ.",
-            "Icecreamcollege accesses Azef Protocol from HQ.",
-            "Icecreamcollege steals Azef Protocol and gains 2 agenda points.",
-            "Icecreamcollege wins the game.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Carpe Diem.",
+            "<anonymized> identifies his mark to be HQ.",
+            "<anonymized> uses Carpe Diem to gain 4 [Credits].",
+            "<anonymized> uses Carpe Diem to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> pays 3 [Credits] to rez Afshar protecting HQ at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Afshar protecting HQ at position 0.",
+            "<anonymized> pays 1 [Credits] from Cezve to use Sang Kancil to break 1 Code Gate subroutine on Afshar (\"[subroutine] End the run\").",
+            "<anonymized> indicates to fire all unbroken subroutines on Afshar.",
+            "<anonymized> has no further action.",
+            "<anonymized> uses Afshar to force the Runner to lose 2 [Credits].",
+            "<anonymized> resolves 1 unbroken subroutine on Afshar (\"[subroutine] Make the Runner lose 2 [Credits]\").",
+            "<anonymized> passes Afshar protecting HQ at position 0.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> uses The Twinning to access 2 additional cards from HQ.",
+            "<anonymized> accesses Azef Protocol from HQ.",
+            "<anonymized> steals Azef Protocol and gains 2 agenda points.",
+            "<anonymized> wins the game.",
             "gg!",
             "gg wp",
-            "HalfHusky looks at their deck.",
-            "HalfHusky stops looking at their deck.",
+            "<anonymized> looks at their deck.",
+            "<anonymized> stops looking at their deck.",
             "Mr F has left the game."
           ],
           "action": {

@@ -1,8 +1,8 @@
 {
   "summary": {
-    "corp_player": "aksu",
+    "corp_player": "<anonymized>",
     "corp_identity": "Méliès U: Only the Brightest",
-    "runner_player": "rubenpieters",
+    "runner_player": "<anonymized>",
     "runner_identity": "Virtual Intelligence, P.I.: \"You Can Call Me Vic\"",
     "turns": 13,
     "winner": "corp",
@@ -176,9 +176,9 @@
         {
           "click": 0,
           "events": [
-            "aksu takes a mulligan.",
-            "aksu reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
-            "rubenpieters takes a mulligan."
+            "<anonymized> takes a mulligan.",
+            "<anonymized> reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
+            "<anonymized> takes a mulligan."
           ]
         }
       ]
@@ -190,8 +190,8 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 1 with 5 [Credit] and 5 cards in HQ.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -200,7 +200,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] and pays 0 [Credits] to install ice protecting HQ."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -212,7 +212,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -226,8 +226,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] and pays 0 [Credits] to install ice protecting R&D.",
-            "aksu is ending his turn 1 with 6 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting R&D.",
+            "<anonymized> is ending his turn 1 with 6 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -239,7 +239,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -251,25 +251,25 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 1 with 5 [Credit] and 5 cards in his Grip."
+            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
-            "rubenpieters approaches ice protecting R&D at position 0.",
-            "aksu pays 6 [Credits] to rez Lionsmane protecting R&D at position 0.",
-            "rubenpieters encounters Lionsmane protecting R&D at position 0.",
-            "rubenpieters indicates to fire all unbroken subroutines on Lionsmane.",
-            "aksu uses Lionsmane to do 2 net damage.",
-            "aksu trashes Open Market and Shibboleth due to net damage.",
-            "aksu uses Lionsmane to do 2 net damage.",
-            "aksu trashes Pinhole Threading and The Price due to net damage.",
-            "rubenpieters uses Lionsmane to jack out.",
-            "rubenpieters jacks out.",
-            "aksu resolves 3 unbroken subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\").",
-            "rubenpieters uses Bravado to gain 6 [Credits]."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
+            "<anonymized> approaches ice protecting R&D at position 0.",
+            "<anonymized> pays 6 [Credits] to rez Lionsmane protecting R&D at position 0.",
+            "<anonymized> encounters Lionsmane protecting R&D at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Lionsmane.",
+            "<anonymized> uses Lionsmane to do 2 net damage.",
+            "<anonymized> trashes Open Market and Shibboleth due to net damage.",
+            "<anonymized> uses Lionsmane to do 2 net damage.",
+            "<anonymized> trashes Pinhole Threading and The Price due to net damage.",
+            "<anonymized> uses Lionsmane to jack out.",
+            "<anonymized> jacks out.",
+            "<anonymized> resolves 3 unbroken subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\").",
+            "<anonymized> uses Bravado to gain 6 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -285,7 +285,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -299,7 +299,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -313,15 +313,15 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to make a run on HQ.",
-            "rubenpieters approaches ice protecting HQ at position 0.",
-            "rubenpieters passes ice protecting HQ at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches HQ.",
-            "aksu uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "rubenpieters breaches HQ.",
-            "rubenpieters accesses Boto from HQ.",
-            "rubenpieters is ending his turn 1 with 8 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> passes ice protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Boto from HQ.",
+            "<anonymized> is ending his turn 1 with 8 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -338,8 +338,8 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 2 with 0 [Credit] and 4 cards in HQ.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 2 with 0 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -348,7 +348,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -362,7 +362,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -376,8 +376,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "aksu is ending his turn 2 with 3 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 2 with 3 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -391,7 +391,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -403,13 +403,13 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 2 with 8 [Credit] and 2 cards in his Grip."
+            "<anonymized> started his turn 2 with 8 [Credit] and 2 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -423,7 +423,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
             "HaverOfFun has left the game."
           ],
           "action": {
@@ -438,12 +438,12 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "rubenpieters uses Clean Getaway to make a run on Archives.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
-            "aksu uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "rubenpieters breaches Archives."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on Archives.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized> breaches Archives."
           ],
           "action": {
             "type": "play",
@@ -459,8 +459,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to install Daily Casts.",
-            "rubenpieters is ending his turn 2 with 8 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Daily Casts.",
+            "<anonymized> is ending his turn 2 with 8 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -481,8 +481,8 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 3 with 3 [Credit] and 5 cards in HQ.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 3 with 3 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -491,7 +491,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] and pays 0 [Credits] to install ice protecting Server 1 (new remote)."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 1 (new remote)."
           ],
           "action": {
             "type": "install_ice",
@@ -503,7 +503,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -516,8 +516,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "aksu is ending his turn 3 with 4 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 3 with 4 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -531,7 +531,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -543,8 +543,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 3 with 8 [Credit] and 2 cards in his Grip.",
-            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+            "<anonymized> started his turn 3 with 8 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses Daily Casts to gain 2 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -555,7 +555,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
             "xiaat has left the game."
           ],
           "action": {
@@ -570,15 +570,15 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
-            "rubenpieters uses Pinhole Threading to make a run on Archives.",
-            "rubenpieters approaches Archives.",
-            "aksu uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "aksu trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "aksu uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
-            "rubenpieters uses the replacement effect from Pinhole Threading.",
-            "rubenpieters accesses Humanoid Resources from Server 1.",
-            "rubenpieters pays 1 [Credits] to trash Humanoid Resources from Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
+            "<anonymized> uses Pinhole Threading to make a run on Archives.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
+            "<anonymized> uses the replacement effect from Pinhole Threading.",
+            "<anonymized> accesses Humanoid Resources from Server 1.",
+            "<anonymized> pays 1 [Credits] to trash Humanoid Resources from Server 1."
           ],
           "action": {
             "type": "play",
@@ -593,7 +593,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -607,8 +607,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 2 [Credits] to install Open Market.",
-            "rubenpieters is ending his turn 3 with 6 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Open Market.",
+            "<anonymized> is ending his turn 3 with 6 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -629,8 +629,8 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 4 with 4 [Credit] and 5 cards in HQ.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 4 with 4 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -639,7 +639,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -652,7 +652,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -665,8 +665,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "aksu is ending his turn 4 with 5 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 4 with 5 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -680,7 +680,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -692,9 +692,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 4 with 6 [Credit] and 2 cards in his Grip.",
-            "rubenpieters uses Daily Casts to gain 2 [Credits].",
-            "rubenpieters uses Open Market to gain 1 [Credits]."
+            "<anonymized> started his turn 4 with 6 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -706,7 +706,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -720,7 +720,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to install DreamNet."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install DreamNet."
           ],
           "action": {
             "type": "install",
@@ -735,14 +735,14 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to make a run on Server 1.",
-            "rubenpieters approaches ice protecting Server 1 at position 0.",
-            "aksu pays 2 [Credits] to rez Flyswatter protecting Server 1 at position 0.",
-            "aksu uses Flyswatter to purge virus counters.",
-            "rubenpieters encounters Flyswatter protecting Server 1 at position 0.",
-            "rubenpieters indicates to fire all unbroken subroutines on Flyswatter.",
-            "aksu uses Flyswatter to end the run.",
-            "aksu resolves 1 unbroken subroutine on Flyswatter (\"[subroutine] End the run\")."
+            "<anonymized> spends [Click] to make a run on Server 1.",
+            "<anonymized> approaches ice protecting Server 1 at position 0.",
+            "<anonymized> pays 2 [Credits] to rez Flyswatter protecting Server 1 at position 0.",
+            "<anonymized> uses Flyswatter to purge virus counters.",
+            "<anonymized> encounters Flyswatter protecting Server 1 at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Flyswatter.",
+            "<anonymized> uses Flyswatter to end the run.",
+            "<anonymized> resolves 1 unbroken subroutine on Flyswatter (\"[subroutine] End the run\")."
           ],
           "action": {
             "type": "run",
@@ -753,16 +753,16 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to make a run on Archives.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses DreamNet to draw 1 card and gain 1 [Credit].",
-            "aksu uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "aksu trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "aksu uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses everything else in Archives.",
-            "rubenpieters is ending his turn 4 with 7 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses DreamNet to draw 1 card and gain 1 [Credit].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives.",
+            "<anonymized> is ending his turn 4 with 7 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -783,8 +783,8 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 5 with 3 [Credit] and 5 cards in HQ.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 5 with 3 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -793,7 +793,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -807,7 +807,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -821,9 +821,9 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "aksu uses Hedge Fund to gain 9 [Credits].",
-            "aksu is ending his turn 5 with 9 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits].",
+            "<anonymized> is ending his turn 5 with 9 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -839,7 +839,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -851,9 +851,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 5 with 7 [Credit] and 3 cards in his Grip.",
-            "rubenpieters uses Daily Casts to gain 2 [Credits].",
-            "rubenpieters uses Open Market to gain 1 [Credits]."
+            "<anonymized> started his turn 5 with 7 [Credit] and 3 cards in his Grip.",
+            "<anonymized> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -865,7 +865,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -879,15 +879,15 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to make a run on Archives.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses DreamNet to draw 1 card and gain 1 [Credit].",
-            "aksu uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "aksu trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "aksu uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses everything else in Archives."
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses DreamNet to draw 1 card and gain 1 [Credit].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "run",
@@ -902,7 +902,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 2 [Credits] from Open Market to install Open Market."
+            "<anonymized> spends [Click] and pays 2 [Credits] from Open Market to install Open Market."
           ],
           "action": {
             "type": "install",
@@ -920,8 +920,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 2 [Credits] to install Hermes.",
-            "rubenpieters is ending his turn 5 with 9 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Hermes.",
+            "<anonymized> is ending his turn 5 with 9 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -942,8 +942,8 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 6 with 9 [Credit] and 6 cards in HQ.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 6 with 9 [Credit] and 6 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -952,7 +952,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -965,7 +965,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] and pays 0 [Credits] to install ice protecting Archives."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Archives."
           ],
           "action": {
             "type": "install_ice",
@@ -977,8 +977,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "aksu is ending his turn 6 with 10 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 6 with 10 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -992,7 +992,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1004,11 +1004,11 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 6 with 9 [Credit] and 3 cards in his Grip.",
-            "rubenpieters uses Daily Casts to gain 2 [Credits].",
-            "rubenpieters trashes Daily Casts.",
-            "rubenpieters uses Open Market to gain 1 [Credits].",
-            "rubenpieters uses Open Market to gain 1 [Credits]."
+            "<anonymized> started his turn 6 with 9 [Credit] and 3 cards in his Grip.",
+            "<anonymized> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized> trashes Daily Casts.",
+            "<anonymized> uses Open Market to gain 1 [Credits].",
+            "<anonymized> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1020,7 +1020,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1034,17 +1034,17 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to make a run on HQ.",
-            "rubenpieters approaches ice protecting HQ at position 0.",
-            "aksu pays 6 [Credits] to rez Lionsmane protecting HQ at position 0.",
-            "rubenpieters encounters Lionsmane protecting HQ at position 0.",
-            "rubenpieters indicates to fire all unbroken subroutines on Lionsmane.",
-            "aksu uses Lionsmane to do 2 net damage.",
-            "aksu trashes Bravado and Privileged Access due to net damage.",
-            "rubenpieters pays 3 [Credits] to satisfy Lionsmane.",
-            "rubenpieters uses Lionsmane to jack out.",
-            "rubenpieters jacks out.",
-            "aksu resolves 3 unbroken subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\")."
+            "<anonymized> spends [Click] to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> pays 6 [Credits] to rez Lionsmane protecting HQ at position 0.",
+            "<anonymized> encounters Lionsmane protecting HQ at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Lionsmane.",
+            "<anonymized> uses Lionsmane to do 2 net damage.",
+            "<anonymized> trashes Bravado and Privileged Access due to net damage.",
+            "<anonymized> pays 3 [Credits] to satisfy Lionsmane.",
+            "<anonymized> uses Lionsmane to jack out.",
+            "<anonymized> jacks out.",
+            "<anonymized> resolves 3 unbroken subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\")."
           ],
           "action": {
             "type": "run",
@@ -1055,18 +1055,18 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to make a run on Archives.",
-            "aksu has no further action.",
-            "rubenpieters approaches ice protecting Archives at position 0.",
-            "aksu has no further action.",
-            "rubenpieters passes ice protecting Archives at position 0.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses DreamNet to draw 1 card and gain 1 [Credit].",
-            "aksu uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "aksu trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "aksu uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses everything else in Archives."
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> has no further action.",
+            "<anonymized> approaches ice protecting Archives at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes ice protecting Archives at position 0.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses DreamNet to draw 1 card and gain 1 [Credit].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "run",
@@ -1081,8 +1081,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters is ending his turn 6 with 11 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> is ending his turn 6 with 11 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -1102,8 +1102,8 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 7 with 4 [Credit] and 6 cards in HQ.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 7 with 4 [Credit] and 6 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1112,7 +1112,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1126,8 +1126,8 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "aksu uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1143,8 +1143,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] and pays 1 [Credits] to install ice protecting Server 1.",
-            "aksu is ending his turn 7 with 8 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1.",
+            "<anonymized> is ending his turn 7 with 8 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -1159,7 +1159,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1171,10 +1171,10 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 7 with 11 [Credit] and 4 cards in his Grip.",
-            "rubenpieters uses Open Market to gain 1 [Credits].",
-            "rubenpieters trashes Open Market.",
-            "rubenpieters uses Open Market to gain 1 [Credits]."
+            "<anonymized> started his turn 7 with 11 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses Open Market to gain 1 [Credits].",
+            "<anonymized> trashes Open Market.",
+            "<anonymized> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1185,9 +1185,9 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to play The Price.",
-            "rubenpieters uses The Price to trash Shibboleth, DreamNet, The Class Act, and Cezve from the top of the stack.",
-            "rubenpieters pays 0 [Credits] to use The Price to install Shibboleth from the Heap (paying 3 [Credits] less)."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play The Price.",
+            "<anonymized> uses The Price to trash Shibboleth, DreamNet, The Class Act, and Cezve from the top of the stack.",
+            "<anonymized> pays 0 [Credits] to use The Price to install Shibboleth from the Heap (paying 3 [Credits] less)."
           ],
           "action": {
             "type": "play",
@@ -1202,7 +1202,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1216,7 +1216,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1230,8 +1230,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to install Curupira.",
-            "rubenpieters is ending his turn 7 with 9 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Curupira.",
+            "<anonymized> is ending his turn 7 with 9 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1246,9 +1246,14 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to gain 1 [Credit].",
-            "aksu pays 3 [Credits] to rez La Costa Grid in Server 1."
-          ]
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit].",
+            "<anonymized> pays 3 [Credits] to rez La Costa Grid in Server 1."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            }
+          }
         }
       ]
     },
@@ -1259,9 +1264,9 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 8 with 6 [Credit] and 5 cards in HQ.",
-            "aksu uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 8 with 6 [Credit] and 5 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1270,7 +1275,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1284,7 +1289,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1298,9 +1303,9 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "aksu discards 1 card from HQ at end of turn.",
-            "aksu is ending his turn 8 with 9 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending his turn 8 with 9 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1314,7 +1319,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1326,8 +1331,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 8 with 9 [Credit] and 4 cards in his Grip.",
-            "rubenpieters uses Open Market to gain 1 [Credits]."
+            "<anonymized> started his turn 8 with 9 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1338,17 +1343,17 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to make a run on Archives.",
-            "rubenpieters approaches ice protecting Archives at position 0.",
-            "rubenpieters passes ice protecting Archives at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses DreamNet to draw 1 card and gain 1 [Credit].",
-            "aksu uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "aksu trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "aksu uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses everything else in Archives."
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> approaches ice protecting Archives at position 0.",
+            "<anonymized> passes ice protecting Archives at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses DreamNet to draw 1 card and gain 1 [Credit].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "run",
@@ -1363,8 +1368,8 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "rubenpieters uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1380,29 +1385,29 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to make a run on Server 1.",
-            "rubenpieters approaches ice protecting Server 1 at position 1.",
-            "aksu pays 6 [Credits] to rez Lionsmane protecting Server 1 at position 1.",
-            "rubenpieters encounters Lionsmane protecting Server 1 at position 1.",
-            "rubenpieters indicates to fire all unbroken subroutines on Lionsmane.",
-            "aksu uses Lionsmane to do 2 net damage.",
-            "aksu trashes Privileged Access and Transfer of Wealth due to net damage.",
-            "rubenpieters pays 3 [Credits] to satisfy Lionsmane.",
-            "aksu uses Lionsmane to do 2 net damage.",
-            "aksu trashes Hermes and Pinhole Threading due to net damage.",
-            "aksu resolves 3 unbroken subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\").",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Lionsmane protecting Server 1 at position 1.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Flyswatter protecting Server 1 at position 0.",
-            "rubenpieters encounters Flyswatter protecting Server 1 at position 0.",
-            "rubenpieters pays 1 [Credits] to use Shibboleth to break all 1 subroutines on Flyswatter.",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Flyswatter protecting Server 1 at position 0.",
-            "rubenpieters will continue the run.",
-            "aksu pays 0 [Credits] to rez Anoetic Void in Server 1.",
-            "rubenpieters approaches Server 1.",
-            "aksu pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run."
+            "<anonymized> spends [Click] to make a run on Server 1.",
+            "<anonymized> approaches ice protecting Server 1 at position 1.",
+            "<anonymized> pays 6 [Credits] to rez Lionsmane protecting Server 1 at position 1.",
+            "<anonymized> encounters Lionsmane protecting Server 1 at position 1.",
+            "<anonymized> indicates to fire all unbroken subroutines on Lionsmane.",
+            "<anonymized> uses Lionsmane to do 2 net damage.",
+            "<anonymized> trashes Privileged Access and Transfer of Wealth due to net damage.",
+            "<anonymized> pays 3 [Credits] to satisfy Lionsmane.",
+            "<anonymized> uses Lionsmane to do 2 net damage.",
+            "<anonymized> trashes Hermes and Pinhole Threading due to net damage.",
+            "<anonymized> resolves 3 unbroken subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\").",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Lionsmane protecting Server 1 at position 1.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Flyswatter protecting Server 1 at position 0.",
+            "<anonymized> encounters Flyswatter protecting Server 1 at position 0.",
+            "<anonymized> pays 1 [Credits] to use Shibboleth to break all 1 subroutines on Flyswatter.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Flyswatter protecting Server 1 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> pays 0 [Credits] to rez Anoetic Void in Server 1.",
+            "<anonymized> approaches Server 1.",
+            "<anonymized> pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run."
           ],
           "action": {
             "type": "run",
@@ -1413,8 +1418,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters is ending his turn 8 with 11 [Credit] and 1 card in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> is ending his turn 8 with 11 [Credit] and 1 card in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -1434,9 +1439,9 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 9 with 1 [Credit] and 4 cards in HQ.",
-            "aksu uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 9 with 1 [Credit] and 4 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1445,7 +1450,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1459,7 +1464,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1473,8 +1478,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "aksu is ending his turn 9 with 4 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 9 with 4 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1488,7 +1493,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1500,8 +1505,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 9 with 11 [Credit] and 1 card in his Grip.",
-            "rubenpieters uses Open Market to gain 1 [Credits]."
+            "<anonymized> started his turn 9 with 11 [Credit] and 1 card in his Grip.",
+            "<anonymized> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1512,7 +1517,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1526,7 +1531,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1540,7 +1545,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install Leech."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install Leech."
           ],
           "action": {
             "type": "install",
@@ -1555,18 +1560,18 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to make a run on Archives.",
-            "rubenpieters approaches ice protecting Archives at position 0.",
-            "rubenpieters passes ice protecting Archives at position 0.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses DreamNet to draw 1 card and gain 1 [Credit].",
-            "rubenpieters uses Leech to place 1 virus counter on itself.",
-            "aksu uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "aksu trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "aksu uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses everything else in Archives.",
-            "rubenpieters is ending his turn 9 with 12 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> approaches ice protecting Archives at position 0.",
+            "<anonymized> passes ice protecting Archives at position 0.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses DreamNet to draw 1 card and gain 1 [Credit].",
+            "<anonymized> uses Leech to place 1 virus counter on itself.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives.",
+            "<anonymized> is ending his turn 9 with 12 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -1587,9 +1592,9 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 10 with 4 [Credit] and 6 cards in HQ.",
-            "aksu uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 10 with 4 [Credit] and 6 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1598,7 +1603,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1612,8 +1617,8 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "aksu uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1629,9 +1634,9 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "aksu uses Hedge Fund to gain 9 [Credits].",
-            "aksu is ending his turn 10 with 13 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits].",
+            "<anonymized> is ending his turn 10 with 13 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1647,7 +1652,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1659,8 +1664,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 10 with 12 [Credit] and 3 cards in his Grip.",
-            "rubenpieters uses Open Market to gain 1 [Credits]."
+            "<anonymized> started his turn 10 with 12 [Credit] and 3 cards in his Grip.",
+            "<anonymized> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -1671,27 +1676,27 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to make a run on Archives.",
-            "rubenpieters approaches ice protecting Archives at position 0.",
-            "aksu pays 6 [Credits] to rez Boto protecting Archives at position 0.",
-            "rubenpieters encounters Boto protecting Archives at position 0.",
-            "rubenpieters spends 1 hosted virus counter from on Leech to use Leech to give -1 strength to Boto.",
-            "rubenpieters pays 2 [Credits] to increase the strength of Curupira to 3.",
-            "rubenpieters pays 1 [Credits] to use Curupira to break 1 Barrier subroutine on Boto (\"[subroutine] Do 2 net damage\").",
-            "rubenpieters indicates to fire all unbroken subroutines on Boto.",
-            "rubenpieters has no further action.",
-            "aksu resolves 2 unbroken subroutines on Boto (\"[subroutine] Trash 1 card from HQ to end the run\" and \"[subroutine] Trash 1 card from HQ to end the run\").",
-            "rubenpieters passes Boto protecting Archives at position 0.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses DreamNet to draw 1 card and gain 1 [Credit].",
-            "rubenpieters uses Leech to place 1 virus counter on itself.",
-            "aksu uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "aksu trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "aksu uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses Mavirus from Archives.",
-            "aksu uses Mavirus to purge virus counters.",
-            "rubenpieters accesses everything else in Archives."
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> approaches ice protecting Archives at position 0.",
+            "<anonymized> pays 6 [Credits] to rez Boto protecting Archives at position 0.",
+            "<anonymized> encounters Boto protecting Archives at position 0.",
+            "<anonymized> spends 1 hosted virus counter from on Leech to use Leech to give -1 strength to Boto.",
+            "<anonymized> pays 2 [Credits] to increase the strength of Curupira to 3.",
+            "<anonymized> pays 1 [Credits] to use Curupira to break 1 Barrier subroutine on Boto (\"[subroutine] Do 2 net damage\").",
+            "<anonymized> indicates to fire all unbroken subroutines on Boto.",
+            "<anonymized> has no further action.",
+            "<anonymized> resolves 2 unbroken subroutines on Boto (\"[subroutine] Trash 1 card from HQ to end the run\" and \"[subroutine] Trash 1 card from HQ to end the run\").",
+            "<anonymized> passes Boto protecting Archives at position 0.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses DreamNet to draw 1 card and gain 1 [Credit].",
+            "<anonymized> uses Leech to place 1 virus counter on itself.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses Mavirus from Archives.",
+            "<anonymized> uses Mavirus to purge virus counters.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "run",
@@ -1706,8 +1711,8 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 2 [Credits] to install Boomerang.",
-            "rubenpieters uses Boomerang to target Lionsmane protecting HQ at position 0."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Boomerang.",
+            "<anonymized> uses Boomerang to target Lionsmane protecting HQ at position 0."
           ],
           "action": {
             "type": "install",
@@ -1722,24 +1727,24 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "rubenpieters uses Transfer of Wealth to make a run on HQ.",
-            "rubenpieters approaches Lionsmane protecting HQ at position 0.",
-            "rubenpieters encounters Lionsmane protecting HQ at position 0.",
-            "rubenpieters trashes Boomerang to use Boomerang to break 2 subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\").",
-            "rubenpieters indicates to fire all unbroken subroutines on Lionsmane.",
-            "rubenpieters pays 3 [Credits] to satisfy Lionsmane.",
-            "aksu resolves 1 unbroken subroutine on Lionsmane (\"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\").",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Lionsmane protecting HQ at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches HQ.",
-            "rubenpieters uses Transfer of Wealth to take 1 tag.",
-            "rubenpieters uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "rubenpieters uses Leech to place 1 virus counter on itself.",
-            "rubenpieters breaches HQ.",
-            "rubenpieters accesses Hedge Fund from HQ.",
-            "rubenpieters uses Boomerang to shuffle a copy of Boomerang back into the Stack."
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized> approaches Lionsmane protecting HQ at position 0.",
+            "<anonymized> encounters Lionsmane protecting HQ at position 0.",
+            "<anonymized> trashes Boomerang to use Boomerang to break 2 subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\").",
+            "<anonymized> indicates to fire all unbroken subroutines on Lionsmane.",
+            "<anonymized> pays 3 [Credits] to satisfy Lionsmane.",
+            "<anonymized> resolves 1 unbroken subroutine on Lionsmane (\"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\").",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Lionsmane protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized> uses Leech to place 1 virus counter on itself.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Hedge Fund from HQ.",
+            "<anonymized> uses Boomerang to shuffle a copy of Boomerang back into the Stack."
           ],
           "action": {
             "type": "play",
@@ -1754,8 +1759,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Virtual Intelligence, P.I.: \"You Can Call Me Vic\" to draw 1 card and remove 1 tag.",
-            "rubenpieters is ending his turn 10 with 11 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Virtual Intelligence, P.I.: \"You Can Call Me Vic\" to draw 1 card and remove 1 tag.",
+            "<anonymized> is ending his turn 10 with 11 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "ability",
@@ -1778,9 +1783,9 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 11 with 4 [Credit] and 6 cards in HQ.",
-            "aksu uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 11 with 4 [Credit] and 6 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1789,7 +1794,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1803,9 +1808,9 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "aksu uses Hedge Fund to gain 9 [Credits].",
-            "aksu scores Proprionegation and gains 2 agenda points."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits].",
+            "<anonymized> scores Proprionegation and gains 2 agenda points."
           ],
           "action": {
             "type": "play",
@@ -1821,8 +1826,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] to install a card in the root of Server 1.",
-            "aksu is ending his turn 11 with 9 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to install a card in the root of Server 1.",
+            "<anonymized> is ending his turn 11 with 9 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1835,7 +1840,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1847,9 +1852,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 11 with 11 [Credit] and 3 cards in his Grip.",
-            "rubenpieters uses Open Market to gain 1 [Credits].",
-            "rubenpieters trashes Open Market."
+            "<anonymized> started his turn 11 with 11 [Credit] and 3 cards in his Grip.",
+            "<anonymized> uses Open Market to gain 1 [Credits].",
+            "<anonymized> trashes Open Market."
           ],
           "effects": {
             "triggered_gains": {
@@ -1860,7 +1865,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1874,7 +1879,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1888,7 +1893,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1902,9 +1907,9 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "rubenpieters uses Sure Gamble to gain 9 [Credits].",
-            "rubenpieters is ending his turn 11 with 16 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits].",
+            "<anonymized> is ending his turn 11 with 16 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1920,8 +1925,13 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ]
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            }
+          }
         }
       ]
     },
@@ -1932,9 +1942,9 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 12 with 10 [Credit] and 5 cards in HQ.",
-            "aksu uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 12 with 10 [Credit] and 5 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1943,7 +1953,7 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -1959,7 +1969,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -1975,10 +1985,10 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "aksu scores Lotus Haze and gains 2 agenda points.",
-            "aksu discards 1 card from HQ at end of turn.",
-            "aksu is ending his turn 12 with 7 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized> scores Lotus Haze and gains 2 agenda points.",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending his turn 12 with 7 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1994,7 +2004,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2006,13 +2016,13 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 12 with 16 [Credit] and 5 cards in his Grip."
+            "<anonymized> started his turn 12 with 16 [Credit] and 5 cards in his Grip."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2026,7 +2036,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2040,8 +2050,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 2 [Credits] to install Boomerang.",
-            "rubenpieters uses Boomerang to target Lionsmane protecting HQ at position 0."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Boomerang.",
+            "<anonymized> uses Boomerang to target Lionsmane protecting HQ at position 0."
           ],
           "action": {
             "type": "install",
@@ -2056,29 +2066,29 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
-            "aksu has no further action.",
-            "rubenpieters approaches Lionsmane protecting HQ at position 0.",
-            "aksu has no further action.",
-            "rubenpieters encounters Lionsmane protecting HQ at position 0.",
-            "rubenpieters trashes Boomerang to use Boomerang to break 2 subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\").",
-            "rubenpieters indicates to fire all unbroken subroutines on Lionsmane.",
-            "rubenpieters pays 3 [Credits] to satisfy Lionsmane.",
-            "aksu resolves 1 unbroken subroutine on Lionsmane (\"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\").",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Lionsmane protecting HQ at position 0.",
-            "rubenpieters approaches HQ.",
-            "rubenpieters uses DreamNet to draw 1 card and gain 1 [Credit].",
-            "rubenpieters uses Leech to place 1 virus counter on itself.",
-            "aksu uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "aksu trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "aksu uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
-            "rubenpieters breaches HQ.",
-            "rubenpieters accesses Spin Doctor from HQ.",
-            "rubenpieters uses Bravado to gain 7 [Credits].",
-            "rubenpieters uses Boomerang to shuffle a copy of Boomerang back into the Stack.",
-            "rubenpieters discards DreamNet from his Grip at end of turn.",
-            "rubenpieters is ending his turn 12 with 16 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
+            "<anonymized> has no further action.",
+            "<anonymized> approaches Lionsmane protecting HQ at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Lionsmane protecting HQ at position 0.",
+            "<anonymized> trashes Boomerang to use Boomerang to break 2 subroutines on Lionsmane (\"[subroutine] Do 2 net damage\" and \"[subroutine] Do 2 net damage unless the Runner jacks out\").",
+            "<anonymized> indicates to fire all unbroken subroutines on Lionsmane.",
+            "<anonymized> pays 3 [Credits] to satisfy Lionsmane.",
+            "<anonymized> resolves 1 unbroken subroutine on Lionsmane (\"[subroutine] Do 2 net damage unless the Runner pays 3 [Credits]\").",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Lionsmane protecting HQ at position 0.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses DreamNet to draw 1 card and gain 1 [Credit].",
+            "<anonymized> uses Leech to place 1 virus counter on itself.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add Hedge Fund in Archives to HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Spin Doctor from HQ.",
+            "<anonymized> uses Bravado to gain 7 [Credits].",
+            "<anonymized> uses Boomerang to shuffle a copy of Boomerang back into the Stack.",
+            "<anonymized> discards DreamNet from his Grip at end of turn.",
+            "<anonymized> is ending his turn 12 with 16 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -2101,9 +2111,9 @@
         {
           "click": 0,
           "events": [
-            "aksu started his turn 13 with 7 [Credit] and 6 cards in HQ.",
-            "aksu uses La Costa Grid to place 1 advancement counter on Anoetic Void in Server 1.",
-            "aksu makes his mandatory start of turn draw."
+            "<anonymized> started his turn 13 with 7 [Credit] and 6 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on Anoetic Void in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2112,8 +2122,8 @@
         {
           "click": 1,
           "events": [
-            "aksu spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "aksu uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2129,7 +2139,7 @@
         {
           "click": 2,
           "events": [
-            "aksu spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -2142,8 +2152,8 @@
         {
           "click": 3,
           "events": [
-            "aksu spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "aksu is ending his turn 13 with 10 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized> is ending his turn 13 with 10 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -2159,7 +2169,7 @@
         {
           "click": -1,
           "events": [
-            "aksu uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2171,15 +2181,15 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 13 with 16 [Credit] and 5 cards in his Grip.",
-            "rubenpieters looks at his deck.",
-            "rubenpieters concedes.",
-            "aksu wins the game.",
-            "rubenpieters stops looking at his deck.",
-            "rubenpieters looks at his deck.",
-            "aksu has left the game.",
+            "<anonymized> started his turn 13 with 16 [Credit] and 5 cards in his Grip.",
+            "<anonymized> looks at his deck.",
+            "<anonymized> concedes.",
+            "<anonymized> wins the game.",
+            "<anonymized> stops looking at his deck.",
+            "<anonymized> looks at his deck.",
+            "<anonymized> has left the game.",
             "wowarlok has left the game.",
-            "rubenpieters stops looking at his deck."
+            "<anonymized> stops looking at his deck."
           ]
         }
       ]

@@ -1,8 +1,8 @@
 {
   "summary": {
-    "corp_player": "rubenpieters",
+    "corp_player": "<anonymized>",
     "corp_identity": "Méliès U: Only the Brightest",
-    "runner_player": "wowarlok",
+    "runner_player": "<anonymized>",
     "runner_identity": "MuslihaT: Multifarious Marketeer",
     "turns": 20,
     "winner": "corp",
@@ -154,6 +154,14 @@
           "total_cards_drawn": 0,
           "credits_per_click": 1
         },
+        "Charlotte Caçador": {
+          "uses": 1,
+          "total_credits_gained": 3,
+          "total_cost": 0,
+          "total_net_credits": 3,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
         "Overclock": {
           "uses": 2,
           "total_credits_gained": 6,
@@ -167,7 +175,7 @@
           "total_credits_gained": 18,
           "total_cost": 0,
           "total_net_credits": 18,
-          "total_cards_drawn": 0,
+          "total_cards_drawn": 2,
           "credits_per_click": 6
         },
         "Touchstone": {
@@ -202,6 +210,14 @@
           "total_cards_drawn": 0,
           "credits_per_click": 9
         },
+        "Mitra Aman": {
+          "uses": 1,
+          "total_credits_gained": 3,
+          "total_cost": 0,
+          "total_net_credits": 3,
+          "total_cards_drawn": 0,
+          "credits_per_click": 3
+        },
         "MuslihaT: Multifarious Marketeer": {
           "uses": 8,
           "total_credits_gained": 0,
@@ -220,9 +236,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters takes a mulligan.",
-            "rubenpieters reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
-            "wowarlok takes a mulligan."
+            "<anonymized> takes a mulligan.",
+            "<anonymized> reveals that the three hidden faces of Méliès U: Only the Brightest are: Tenure Floors: Méliès U, Subsurface Labs: Méliès U, and Disposal Grounds: Méliès U.",
+            "<anonymized> takes a mulligan."
           ]
         }
       ]
@@ -234,8 +250,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 1 with 5 [Credit] and 5 cards in HQ.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -244,7 +260,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -258,8 +274,8 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "rubenpieters uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -275,8 +291,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
-            "rubenpieters is ending his turn 1 with 9 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
+            "<anonymized> is ending his turn 1 with 9 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -288,7 +304,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -300,9 +316,9 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 1 with 5 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip."
+            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip."
           ],
           "effects": {
             "cards_drawn": 1
@@ -311,7 +327,7 @@
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -325,8 +341,8 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "wowarlok uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -342,7 +358,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 2 [Credits] to install Revolver."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Revolver."
           ],
           "action": {
             "type": "install",
@@ -357,12 +373,12 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to make a run on Archives.",
-            "wowarlok approaches Archives.",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
-            "wowarlok breaches Archives.",
-            "wowarlok accesses everything else in Archives.",
-            "wowarlok is ending his turn 1 with 7 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives.",
+            "<anonymized> is ending his turn 1 with 7 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -379,8 +395,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 2 with 9 [Credit] and 5 cards in HQ.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 2 with 9 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -389,7 +405,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -403,8 +419,8 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "rubenpieters uses Hedge Fund to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -420,8 +436,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting Server 1 (new remote).",
-            "rubenpieters is ending his turn 2 with 13 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 1 (new remote).",
+            "<anonymized> is ending his turn 2 with 13 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -433,7 +449,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -445,9 +461,9 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 2 with 7 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip."
+            "<anonymized> started his turn 2 with 7 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip."
           ],
           "effects": {
             "cards_drawn": 1
@@ -456,15 +472,15 @@
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] and pays 1 [Credits] to play Carpe Diem.",
-            "wowarlok identifies his mark to be R&D.",
-            "wowarlok uses Carpe Diem to gain 4 [Credits].",
-            "wowarlok uses Carpe Diem to make a run on R&D.",
-            "wowarlok approaches R&D.",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
-            "wowarlok breaches R&D.",
-            "wowarlok accesses an unseen card from R&D.",
-            "wowarlok pays 3 [Credits] to trash Regolith Mining License from R&D."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Carpe Diem.",
+            "<anonymized> identifies his mark to be R&D.",
+            "<anonymized> uses Carpe Diem to gain 4 [Credits].",
+            "<anonymized> uses Carpe Diem to make a run on R&D.",
+            "<anonymized> approaches R&D.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "<anonymized> breaches R&D.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> pays 3 [Credits] to trash Regolith Mining License from R&D."
           ],
           "action": {
             "type": "play",
@@ -480,7 +496,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -494,7 +510,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 3 [Credits] to install Sang Kancil."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Sang Kancil."
           ],
           "action": {
             "type": "install",
@@ -509,8 +525,8 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "wowarlok is ending his turn 2 with 5 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 2 with 5 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -530,8 +546,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 3 with 13 [Credit] and 5 cards in HQ.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 3 with 13 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -540,7 +556,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -553,7 +569,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -566,8 +582,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "rubenpieters is ending his turn 3 with 12 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized> is ending his turn 3 with 12 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -583,7 +599,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -595,22 +611,22 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 3 with 5 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
+            "<anonymized> started his turn 3 with 5 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
-            "wowarlok uses Pinhole Threading to make a run on Archives.",
-            "rubenpieters pays 0 [Credits] to rez Charlotte Caçador in Server 1.",
-            "rubenpieters spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits].",
-            "wowarlok approaches Archives.",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
-            "wowarlok uses the replacement effect from Pinhole Threading.",
-            "wowarlok accesses Mitra Aman from Server 1.",
-            "wowarlok pays 3 [Credits] to trash Mitra Aman from Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
+            "<anonymized> uses Pinhole Threading to make a run on Archives.",
+            "<anonymized> pays 0 [Credits] to rez Charlotte Caçador in Server 1.",
+            "<anonymized> spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits].",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "<anonymized> uses the replacement effect from Pinhole Threading.",
+            "<anonymized> accesses Mitra Aman from Server 1.",
+            "<anonymized> pays 3 [Credits] to trash Mitra Aman from Server 1."
           ],
           "action": {
             "type": "play",
@@ -618,14 +634,17 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1
+            "credits_paid": 1,
+            "triggered_gains": {
+              "Charlotte Caçador": 3
+            }
           },
           "bucket": "run"
         },
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
             "sebastiank has left the game."
           ],
           "action": {
@@ -640,7 +659,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -654,8 +673,8 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "wowarlok is ending his turn 3 with 3 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 3 with 3 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -675,8 +694,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 4 with 15 [Credit] and 4 cards in HQ.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 4 with 15 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -685,7 +704,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -698,7 +717,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -714,8 +733,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "rubenpieters is ending his turn 4 with 13 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized> is ending his turn 4 with 13 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -731,7 +750,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -743,14 +762,14 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 4 with 3 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
+            "<anonymized> started his turn 4 with 3 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -764,7 +783,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] and pays 2 [Credits] to install Hermes."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Hermes."
           ],
           "action": {
             "type": "install",
@@ -779,7 +798,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -793,8 +812,8 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "wowarlok is ending his turn 4 with 3 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 4 with 3 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -808,8 +827,13 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ]
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            }
+          }
         }
       ]
     },
@@ -820,8 +844,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 5 with 14 [Credit] and 4 cards in HQ.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 5 with 14 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -830,7 +854,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -845,7 +869,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -858,8 +882,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 5 with 14 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 5 with 14 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -873,7 +897,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -885,9 +909,9 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 5 with 3 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to reveal Overclock from the Stack and add it to the grip."
+            "<anonymized> started his turn 5 with 3 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Overclock from the Stack and add it to the grip."
           ],
           "effects": {
             "cards_drawn": 1
@@ -896,7 +920,7 @@
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -910,7 +934,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] and pays 2 [Credits] to install Touchstone."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Touchstone."
           ],
           "action": {
             "type": "install",
@@ -925,7 +949,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -939,29 +963,29 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
             "[undo-click]"
           ]
         },
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] and pays 1 [Credits] to play Overclock.",
-            "wowarlok uses Overclock to make a run on HQ.",
-            "wowarlok approaches ice protecting HQ at position 0.",
-            "rubenpieters pays 3 [Credits] to rez Anemone protecting HQ at position 0.",
-            "rubenpieters trashes 1 card from HQ to use Anemone to do 2 net damage.",
-            "rubenpieters trashes Overclock and Tread Lightly due to net damage.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Anemone protecting HQ at position 0.",
-            "wowarlok pays 2 [Credits] from Overclock and spends 1 hosted power counter from on Revolver to increase the strength of Revolver to 4 and break all  subroutines on Anemone.",
-            "wowarlok has no further action.",
-            "wowarlok passes Anemone protecting HQ at position 0.",
-            "wowarlok approaches HQ.",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
-            "wowarlok breaches HQ.",
-            "wowarlok accesses Unleash from HQ.",
-            "wowarlok is ending his turn 5 with 1 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Overclock.",
+            "<anonymized> uses Overclock to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> pays 3 [Credits] to rez Anemone protecting HQ at position 0.",
+            "<anonymized> trashes 1 card from HQ to use Anemone to do 2 net damage.",
+            "<anonymized> trashes Overclock and Tread Lightly due to net damage.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Anemone protecting HQ at position 0.",
+            "<anonymized> pays 2 [Credits] from Overclock and spends 1 hosted power counter from on Revolver to increase the strength of Revolver to 4 and break all  subroutines on Anemone.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Anemone protecting HQ at position 0.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Unleash from HQ.",
+            "<anonymized> is ending his turn 5 with 1 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -985,8 +1009,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 6 with 11 [Credit] and 2 cards in HQ.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 6 with 11 [Credit] and 2 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -995,7 +1019,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -1011,7 +1035,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 2 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 2 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -1024,8 +1048,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 6 with 11 [Credit] and 2 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 6 with 11 [Credit] and 2 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1039,7 +1063,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1051,14 +1075,14 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 6 with 1 [Credit] and 3 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
+            "<anonymized> started his turn 6 with 1 [Credit] and 3 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1072,7 +1096,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1086,19 +1110,19 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "wowarlok uses Transfer of Wealth to make a run on HQ.",
-            "wowarlok approaches Anemone protecting HQ at position 0.",
-            "wowarlok encounters Anemone protecting HQ at position 0.",
-            "wowarlok pays 2 [Credits] from Touchstone and spends 1 hosted power counter from on Revolver to increase the strength of Revolver to 4 and break all  subroutines on Anemone.",
-            "wowarlok has no further action.",
-            "wowarlok passes Anemone protecting HQ at position 0.",
-            "wowarlok approaches HQ.",
-            "wowarlok uses Transfer of Wealth to take 1 tag.",
-            "wowarlok uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
-            "wowarlok breaches HQ.",
-            "wowarlok accesses Unleash from HQ."
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized> approaches Anemone protecting HQ at position 0.",
+            "<anonymized> encounters Anemone protecting HQ at position 0.",
+            "<anonymized> pays 2 [Credits] from Touchstone and spends 1 hosted power counter from on Revolver to increase the strength of Revolver to 4 and break all  subroutines on Anemone.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Anemone protecting HQ at position 0.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Unleash from HQ."
           ],
           "action": {
             "type": "play",
@@ -1116,8 +1140,8 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "wowarlok is ending his turn 6 with 5 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized> is ending his turn 6 with 5 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -1138,8 +1162,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 7 with 8 [Credit] and 2 cards in HQ.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 7 with 8 [Credit] and 2 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1148,10 +1172,10 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "rubenpieters scores Orbital Superiority and gains 2 agenda points.",
-            "rubenpieters uses Orbital Superiority to give the Runner 1 tag.",
-            "wowarlok uses Hermes to add ice protecting Server 1 at position 1 to HQ."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized> scores Orbital Superiority and gains 2 agenda points.",
+            "<anonymized> uses Orbital Superiority to give the Runner 1 tag.",
+            "<anonymized> uses Hermes to add ice protecting Server 1 at position 1 to HQ."
           ],
           "action": {
             "type": "advance",
@@ -1167,7 +1191,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -1182,11 +1206,11 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click], pays 0 [Credits], and removes 1 tag to play Unleash.",
-            "rubenpieters uses Unleash to rez Cloud Eater protecting Server 1 at position 1 at no cost.",
-            "rubenpieters uses Unleash to resolve the subroutine (\"[subroutine] Trash an installed Runner card\") from Cloud Eater.",
-            "rubenpieters uses Cloud Eater to trash Sang Kancil.",
-            "rubenpieters is ending his turn 7 with 6 [Credit] and 2 cards in HQ.[hr]"
+            "<anonymized> spends [Click], pays 0 [Credits], and removes 1 tag to play Unleash.",
+            "<anonymized> uses Unleash to rez Cloud Eater protecting Server 1 at position 1 at no cost.",
+            "<anonymized> uses Unleash to resolve the subroutine (\"[subroutine] Trash an installed Runner card\") from Cloud Eater.",
+            "<anonymized> uses Cloud Eater to trash Sang Kancil.",
+            "<anonymized> is ending his turn 7 with 6 [Credit] and 2 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1199,7 +1223,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1211,9 +1235,9 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 7 with 5 [Credit] and 4 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to reveal Curupira from the Stack and add it to the grip."
+            "<anonymized> started his turn 7 with 5 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Curupira from the Stack and add it to the grip."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1222,7 +1246,7 @@
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1236,7 +1260,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1250,7 +1274,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 0 [Credits] to install Fencer Fueno."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install Fencer Fueno."
           ],
           "action": {
             "type": "install",
@@ -1262,8 +1286,8 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] and pays 3 [Credits] to install The Twinning.",
-            "wowarlok is ending his turn 7 with 2 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to install The Twinning.",
+            "<anonymized> is ending his turn 7 with 2 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1278,8 +1302,13 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ]
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            }
+          }
         }
       ]
     },
@@ -1290,8 +1319,8 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 8 with 7 [Credit] and 2 cards in HQ.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 8 with 7 [Credit] and 2 cards in HQ.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1300,7 +1329,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -1313,7 +1342,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1."
           ],
           "action": {
             "type": "advance",
@@ -1329,8 +1358,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 8 with 7 [Credit] and 2 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 8 with 7 [Credit] and 2 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1344,7 +1373,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1356,15 +1385,15 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 8 with 2 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 8 with 2 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1378,30 +1407,30 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "wowarlok uses Transfer of Wealth to make a run on HQ.",
-            "wowarlok approaches Anemone protecting HQ at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Anemone protecting HQ at position 0.",
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok pays 1 [Credits] from Touchstone and 1 [Credits] from his credit pool and spends 1 hosted power counter from on Revolver to increase the strength of Revolver to 4 and break all  subroutines on Anemone.",
-            "wowarlok has no further action.",
-            "wowarlok passes Anemone protecting HQ at position 0.",
-            "wowarlok will continue the run.",
-            "rubenpieters pays 0 [Credits] to rez Charlotte Caçador in Server 1.",
-            "rubenpieters pays 0 [Credits] to rez Spin Doctor in Server 2.",
-            "rubenpieters uses Spin Doctor to draw 2 cards.",
-            "wowarlok approaches HQ.",
-            "wowarlok uses Transfer of Wealth to take 1 tag.",
-            "wowarlok uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
-            "wowarlok breaches HQ.",
-            "wowarlok uses The Twinning to access 1 additional card from HQ.",
-            "wowarlok accesses Send a Message from HQ.",
-            "wowarlok steals Send a Message and gains 3 agenda points.",
-            "wowarlok uses Hermes to add ice protecting Server 1 at position 0 to HQ.",
-            "wowarlok uses Fencer Fueno to add 1 [Credits] to itself.",
-            "wowarlok accesses Boto from HQ."
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized> approaches Anemone protecting HQ at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Anemone protecting HQ at position 0.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 1 [Credits] from Touchstone and 1 [Credits] from his credit pool and spends 1 hosted power counter from on Revolver to increase the strength of Revolver to 4 and break all  subroutines on Anemone.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Anemone protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> pays 0 [Credits] to rez Charlotte Caçador in Server 1.",
+            "<anonymized> pays 0 [Credits] to rez Spin Doctor in Server 2.",
+            "<anonymized> uses Spin Doctor to draw 2 cards.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> uses The Twinning to access 1 additional card from HQ.",
+            "<anonymized> accesses Send a Message from HQ.",
+            "<anonymized> steals Send a Message and gains 3 agenda points.",
+            "<anonymized> uses Hermes to add ice protecting Server 1 at position 0 to HQ.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself.",
+            "<anonymized> accesses Boto from HQ."
           ],
           "action": {
             "type": "play",
@@ -1412,24 +1441,25 @@
             "credits_from_resources": {
               "Touchstone": 1
             },
-            "credits_gained": 6
+            "credits_gained": 6,
+            "cards_drawn": 2
           },
           "bucket": "run"
         },
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 1 [Credits] to play Overclock.",
-            "wowarlok uses Overclock to make a run on Server 1.",
-            "wowarlok approaches Cloud Eater protecting Server 1 at position 0.",
-            "wowarlok encounters Cloud Eater protecting Server 1 at position 0.",
-            "wowarlok pays 4 [Credits] from Overclock and spends 3 hosted power counters from on Revolver to increase the strength of Revolver to 7 and break all 3 subroutines on Cloud Eater.",
-            "wowarlok has no further action.",
-            "wowarlok passes Cloud Eater protecting Server 1 at position 0.",
-            "wowarlok will continue the run.",
-            "rubenpieters pays 0 [Credits] to rez Anoetic Void in Server 1.",
-            "wowarlok approaches Server 1.",
-            "rubenpieters pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Overclock.",
+            "<anonymized> uses Overclock to make a run on Server 1.",
+            "<anonymized> approaches Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> encounters Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> pays 4 [Credits] from Overclock and spends 3 hosted power counters from on Revolver to increase the strength of Revolver to 7 and break all 3 subroutines on Cloud Eater.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> pays 0 [Credits] to rez Anoetic Void in Server 1.",
+            "<anonymized> approaches Server 1.",
+            "<anonymized> pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run."
           ],
           "action": {
             "type": "play",
@@ -1447,8 +1477,8 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "wowarlok is ending his turn 8 with 4 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized> is ending his turn 8 with 4 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -1469,9 +1499,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 9 with 2 [Credit] and 2 cards in HQ.",
-            "rubenpieters uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 9 with 2 [Credit] and 2 cards in HQ.",
+            "<anonymized> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -1483,7 +1513,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1497,7 +1527,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -1512,8 +1542,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
-            "rubenpieters is ending his turn 9 with 4 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
+            "<anonymized> is ending his turn 9 with 4 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1529,7 +1559,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1541,15 +1571,15 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 9 with 4 [Credit] and 4 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 9 with 4 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1563,7 +1593,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1577,13 +1607,13 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "wowarlok uses Clean Getaway to make a run on R&D.",
-            "wowarlok approaches R&D.",
-            "wowarlok uses Clean Getaway to gain 6 [Credits].",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "wowarlok breaches R&D.",
-            "wowarlok accesses an unseen card from R&D."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on R&D.",
+            "<anonymized> approaches R&D.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized> breaches R&D.",
+            "<anonymized> accesses an unseen card from R&D."
           ],
           "action": {
             "type": "play",
@@ -1599,9 +1629,9 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to make a run on Server 2.",
-            "rubenpieters uses Spin Doctor to shuffle Hedge Fund and 1 unseen card into R&D.",
-            "wowarlok is ending his turn 9 with 7 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on Server 2.",
+            "<anonymized> uses Spin Doctor to shuffle Hedge Fund and 1 unseen card into R&D.",
+            "<anonymized> is ending his turn 9 with 7 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -1612,7 +1642,7 @@
         {
           "click": -1,
           "events": [
-            "wowarlok uses Fencer Fueno to pay 1 [Credits]."
+            "<anonymized> uses Fencer Fueno to pay 1 [Credits]."
           ]
         }
       ]
@@ -1624,9 +1654,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 10 with 4 [Credit] and 4 cards in HQ.",
-            "rubenpieters uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 10 with 4 [Credit] and 4 cards in HQ.",
+            "<anonymized> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -1638,7 +1668,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting R&D."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting R&D."
           ],
           "action": {
             "type": "install_ice",
@@ -1650,7 +1680,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -1663,8 +1693,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
-            "rubenpieters is ending his turn 10 with 7 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
+            "<anonymized> is ending his turn 10 with 7 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1680,7 +1710,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1692,10 +1722,10 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 10 with 6 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to reveal Direct Access from the Stack and add it to the grip.",
-            "wowarlok uses Fencer Fueno to add 1 [Credits] to itself."
+            "<anonymized> started his turn 10 with 6 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Direct Access from the Stack and add it to the grip.",
+            "<anonymized> uses Fencer Fueno to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1704,7 +1734,7 @@
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1718,8 +1748,8 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "wowarlok uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1735,7 +1765,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 4 [Credits] to install The Class Act."
+            "<anonymized> spends [Click] and pays 4 [Credits] to install The Class Act."
           ],
           "action": {
             "type": "install",
@@ -1750,8 +1780,8 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] and pays 3 [Credits] to install Curupira.",
-            "wowarlok is ending his turn 10 with 3 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Curupira.",
+            "<anonymized> is ending his turn 10 with 3 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1766,11 +1796,14 @@
         {
           "click": -1,
           "events": [
-            "wowarlok uses The Class Act to draw 4 cards.",
-            "wowarlok uses Fencer Fueno to trash itself.",
-            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+            "<anonymized> uses The Class Act to draw 4 cards.",
+            "<anonymized> uses Fencer Fueno to trash itself.",
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ],
           "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            },
             "cards_drawn": 4
           }
         }
@@ -1783,9 +1816,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 11 with 8 [Credit] and 4 cards in HQ.",
-            "rubenpieters uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 11 with 8 [Credit] and 4 cards in HQ.",
+            "<anonymized> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -1797,7 +1830,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -1810,7 +1843,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting Archives."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Archives."
           ],
           "action": {
             "type": "install_ice",
@@ -1822,8 +1855,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
-            "rubenpieters is ending his turn 11 with 11 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance Charlotte Caçador in Server 1.",
+            "<anonymized> is ending his turn 11 with 11 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1839,7 +1872,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -1851,9 +1884,9 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 11 with 3 [Credit] and 8 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip."
+            "<anonymized> started his turn 11 with 3 [Credit] and 8 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1862,10 +1895,10 @@
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] and pays 1 [Credits] to play Carpe Diem.",
-            "wowarlok identifies his mark to be Archives.",
-            "wowarlok uses Carpe Diem to gain 4 [Credits].",
-            "wowarlok declines to use Carpe Diem to make a run."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Carpe Diem.",
+            "<anonymized> identifies his mark to be Archives.",
+            "<anonymized> uses Carpe Diem to gain 4 [Credits].",
+            "<anonymized> declines to use Carpe Diem to make a run."
           ],
           "action": {
             "type": "play",
@@ -1881,8 +1914,8 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "wowarlok uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1898,26 +1931,26 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
-            "wowarlok uses Transfer of Wealth to make a run on HQ.",
-            "wowarlok approaches Anemone protecting HQ at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Anemone protecting HQ at position 0.",
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok pays 2 [Credits] from Touchstone to increase the strength of Revolver to 4.",
-            "wowarlok trashes Revolver to use Revolver to break 1 Sentry subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
-            "wowarlok has no further action.",
-            "wowarlok passes Anemone protecting HQ at position 0.",
-            "wowarlok approaches HQ.",
-            "wowarlok uses Transfer of Wealth to take 1 tag.",
-            "wowarlok uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "rubenpieters trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "rubenpieters uses Méliès U: Only the Brightest to add Unleash in Archives to HQ.",
-            "wowarlok breaches HQ.",
-            "wowarlok uses The Twinning to access 1 additional card from HQ.",
-            "wowarlok accesses Unleash from HQ.",
-            "wowarlok accesses Boto from HQ."
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Transfer of Wealth.",
+            "<anonymized> uses Transfer of Wealth to make a run on HQ.",
+            "<anonymized> approaches Anemone protecting HQ at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Anemone protecting HQ at position 0.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 2 [Credits] from Touchstone to increase the strength of Revolver to 4.",
+            "<anonymized> trashes Revolver to use Revolver to break 1 Sentry subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Anemone protecting HQ at position 0.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses Transfer of Wealth to take 1 tag.",
+            "<anonymized> uses Transfer of Wealth to force the Corp to lose 3 [Credits],  and gain 6 [Credits].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add Unleash in Archives to HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> uses The Twinning to access 1 additional card from HQ.",
+            "<anonymized> accesses Unleash from HQ.",
+            "<anonymized> accesses Boto from HQ."
           ],
           "action": {
             "type": "play",
@@ -1935,9 +1968,9 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
-            "wowarlok discards Direct Access from his Grip at end of turn.",
-            "wowarlok is ending his turn 11 with 14 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 2 [Credits] to use Runner Basic Action Card to remove 1 tag.",
+            "<anonymized> discards Direct Access from his Grip at end of turn.",
+            "<anonymized> is ending his turn 11 with 14 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "remove_tag",
@@ -1952,7 +1985,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters pays 3 [Credits] to rez La Costa Grid in Server 1."
+            "<anonymized> pays 3 [Credits] to rez La Costa Grid in Server 1."
           ]
         }
       ]
@@ -1964,10 +1997,10 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 12 with 5 [Credit] and 5 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on Charlotte Caçador in Server 1.",
-            "rubenpieters uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 12 with 5 [Credit] and 5 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on Charlotte Caçador in Server 1.",
+            "<anonymized> uses Charlotte Caçador to remove 1 hosted advancement counter from itself to gain 4 [Credits] and draw 1 card.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -1979,7 +2012,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of HQ."
+            "<anonymized> spends [Click] to install a card in the root of HQ."
           ],
           "action": {
             "type": "install",
@@ -1992,8 +2025,8 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting R&D.",
-            "rubenpieters spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits]."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting R&D.",
+            "<anonymized> spends 1 hosted advancement counter from on Charlotte Caçador and trashes Charlotte Caçador to use Charlotte Caçador to gain 3 [Credits]."
           ],
           "action": {
             "type": "install_ice",
@@ -2011,8 +2044,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1.",
-            "rubenpieters is ending his turn 12 with 11 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to install a card in the root of Server 1.",
+            "<anonymized> is ending his turn 12 with 11 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -2025,7 +2058,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2037,15 +2070,15 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 12 with 14 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
+            "<anonymized> started his turn 12 with 14 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "wowarlok uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2059,7 +2092,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2073,7 +2106,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 1 [Credits] to install Mystic Maemi."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install Mystic Maemi."
           ],
           "action": {
             "type": "install",
@@ -2088,9 +2121,9 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] and pays 4 [Credits] to install The Class Act.",
+            "<anonymized> spends [Click] and pays 4 [Credits] to install The Class Act.",
             "The Class Act is trashed.",
-            "wowarlok is ending his turn 12 with 9 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> is ending his turn 12 with 9 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -2105,10 +2138,13 @@
         {
           "click": -1,
           "events": [
-            "wowarlok uses The Class Act to draw 4 cards.",
-            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
+            "<anonymized> uses The Class Act to draw 4 cards.",
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ],
           "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            },
             "cards_drawn": 4
           }
         }
@@ -2121,9 +2157,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 13 with 12 [Credit] and 4 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 13 with 12 [Credit] and 4 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2132,7 +2168,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2146,7 +2182,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting HQ."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting HQ."
           ],
           "action": {
             "type": "install_ice",
@@ -2161,9 +2197,9 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Hedge Fund.",
-            "rubenpieters uses Hedge Fund to gain 9 [Credits].",
-            "rubenpieters is ending his turn 13 with 15 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hedge Fund.",
+            "<anonymized> uses Hedge Fund to gain 9 [Credits].",
+            "<anonymized> is ending his turn 13 with 15 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -2179,7 +2215,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2191,15 +2227,15 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 13 with 9 [Credit] and 9 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 13 with 9 [Credit] and 9 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] and pays 3 [Credits] to install Echelon."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Echelon."
           ],
           "action": {
             "type": "install",
@@ -2214,22 +2250,22 @@
         {
           "click": 2,
           "events": [
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok spends [Click] and pays 1 [Credits] from Mystic Maemi and 2 [Credits] from his credit pool to play Bravado.",
-            "wowarlok approaches ice protecting Archives at position 0.",
-            "wowarlok passes ice protecting Archives at position 0.",
-            "wowarlok will continue the run.",
-            "wowarlok approaches Archives.",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "rubenpieters trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
-            "rubenpieters uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
-            "wowarlok breaches Archives.",
-            "wowarlok accesses Let Them Dream from Archives.",
-            "wowarlok steals Let Them Dream and gains 1 agenda point.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself.",
-            "wowarlok uses Hermes to add ice protecting Server 1 at position 1 to HQ.",
-            "wowarlok accesses everything else in Archives.",
-            "wowarlok uses Bravado to gain 7 [Credits]."
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi and 2 [Credits] from his credit pool to play Bravado.",
+            "<anonymized> approaches ice protecting Archives at position 0.",
+            "<anonymized> passes ice protecting Archives at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> trashes 1 card from the top of R&D to use Méliès U: Only the Brightest to add 1 card from Archives to HQ.",
+            "<anonymized> uses Méliès U: Only the Brightest to add a card in Archives to HQ.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses Let Them Dream from Archives.",
+            "<anonymized> steals Let Them Dream and gains 1 agenda point.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> uses Hermes to add ice protecting Server 1 at position 1 to HQ.",
+            "<anonymized> accesses everything else in Archives.",
+            "<anonymized> uses Bravado to gain 7 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2248,11 +2284,11 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 1 [Credits] from Mystic Maemi and 1 [Credits] from his credit pool to play Reprise.",
-            "wowarlok uses Reprise to add Cloud Eater protecting Server 1 at position 0 to HQ.",
-            "wowarlok uses Reprise to make a run on Server 1.",
-            "wowarlok approaches Server 1.",
-            "rubenpieters pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run."
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi and 1 [Credits] from his credit pool to play Reprise.",
+            "<anonymized> uses Reprise to add Cloud Eater protecting Server 1 at position 0 to HQ.",
+            "<anonymized> uses Reprise to make a run on Server 1.",
+            "<anonymized> approaches Server 1.",
+            "<anonymized> pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run."
           ],
           "action": {
             "type": "play",
@@ -2270,11 +2306,11 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to make a run on Server 1.",
-            "wowarlok approaches Server 1.",
-            "rubenpieters pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run.",
-            "wowarlok discards The Class Act from his Grip at end of turn.",
-            "wowarlok is ending his turn 13 with 10 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on Server 1.",
+            "<anonymized> approaches Server 1.",
+            "<anonymized> pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run.",
+            "<anonymized> discards The Class Act from his Grip at end of turn.",
+            "<anonymized> is ending his turn 13 with 10 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -2291,9 +2327,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 14 with 11 [Credit] and 3 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 14 with 11 [Credit] and 3 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2302,7 +2338,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2316,7 +2352,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting Server 1."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -2328,8 +2364,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 14 with 12 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 14 with 12 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2343,7 +2379,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2355,16 +2391,16 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 14 with 10 [Credit] and 5 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 14 with 10 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "wowarlok uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2378,7 +2414,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2392,7 +2428,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] and pays 3 [Credits] to install Sang Kancil."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Sang Kancil."
           ],
           "action": {
             "type": "install",
@@ -2407,19 +2443,19 @@
         {
           "click": 4,
           "events": [
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok spends [Click] and pays 1 [Credits] from Mystic Maemi to play Carpe Diem.",
-            "wowarlok identifies his mark to be Archives.",
-            "wowarlok uses Carpe Diem to gain 4 [Credits].",
-            "wowarlok uses Carpe Diem to make a run on Archives.",
-            "wowarlok approaches ice protecting Archives at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok passes ice protecting Archives at position 0.",
-            "wowarlok approaches Archives.",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
-            "wowarlok breaches Archives.",
-            "wowarlok accesses everything else in Archives.",
-            "wowarlok is ending his turn 14 with 11 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Carpe Diem.",
+            "<anonymized> identifies his mark to be Archives.",
+            "<anonymized> uses Carpe Diem to gain 4 [Credits].",
+            "<anonymized> uses Carpe Diem to make a run on Archives.",
+            "<anonymized> approaches ice protecting Archives at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes ice protecting Archives at position 0.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Subsurface Labs: Méliès U.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives.",
+            "<anonymized> is ending his turn 14 with 11 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -2444,9 +2480,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 15 with 12 [Credit] and 4 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 15 with 12 [Credit] and 4 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2455,15 +2491,15 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "rubenpieters scores See How They Run and gains 2 agenda points.",
-            "rubenpieters uses See How They Run to give the runner 1 tag.",
-            "rubenpieters uses See How They Run to start a psi game (do 1 core damage / do 1 net damage).",
-            "rubenpieters pays 0 [Credits].",
-            "wowarlok pays 2 [Credits].",
-            "rubenpieters uses See How They Run to do 1 core damage.",
-            "rubenpieters trashes Curupira due to core damage.",
-            "wowarlok uses Hermes to add ice protecting Server 1 at position 0 to HQ."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized> scores See How They Run and gains 2 agenda points.",
+            "<anonymized> uses See How They Run to give the runner 1 tag.",
+            "<anonymized> uses See How They Run to start a psi game (do 1 core damage / do 1 net damage).",
+            "<anonymized> pays 0 [Credits].",
+            "<anonymized> pays 2 [Credits].",
+            "<anonymized> uses See How They Run to do 1 core damage.",
+            "<anonymized> trashes Curupira due to core damage.",
+            "<anonymized> uses Hermes to add ice protecting Server 1 at position 0 to HQ."
           ],
           "action": {
             "type": "advance",
@@ -2479,7 +2515,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 0 [Credits] to install ice protecting Server 1."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -2491,11 +2527,11 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click], pays 0 [Credits], and removes 1 tag to play Unleash.",
-            "rubenpieters uses Unleash to rez Cloud Eater protecting Server 1 at position 0 at no cost.",
-            "rubenpieters uses Unleash to resolve the subroutine (\"[subroutine] Trash an installed Runner card\") from Cloud Eater.",
-            "rubenpieters uses Cloud Eater to trash Curupira.",
-            "rubenpieters is ending his turn 15 with 11 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click], pays 0 [Credits], and removes 1 tag to play Unleash.",
+            "<anonymized> uses Unleash to rez Cloud Eater protecting Server 1 at position 0 at no cost.",
+            "<anonymized> uses Unleash to resolve the subroutine (\"[subroutine] Trash an installed Runner card\") from Cloud Eater.",
+            "<anonymized> uses Cloud Eater to trash Curupira.",
+            "<anonymized> is ending his turn 15 with 11 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -2508,7 +2544,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2520,16 +2556,16 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 15 with 9 [Credit] and 4 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 15 with 9 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "wowarlok uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2543,24 +2579,24 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] and pays 0 [Credits] to play Mutual Favor.",
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Mutual Favor.",
             "[undo-click]"
           ]
         },
         {
           "click": 2,
           "events": [
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok spends [Click] and pays 1 [Credits] from Mystic Maemi and 2 [Credits] from his credit pool to play Clean Getaway.",
-            "wowarlok uses Clean Getaway to make a run on Archives.",
-            "wowarlok approaches ice protecting Archives at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok passes ice protecting Archives at position 0.",
-            "wowarlok approaches Archives.",
-            "wowarlok uses Clean Getaway to gain 6 [Credits].",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
-            "wowarlok breaches Archives.",
-            "wowarlok accesses everything else in Archives."
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi and 2 [Credits] from his credit pool to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on Archives.",
+            "<anonymized> approaches ice protecting Archives at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes ice protecting Archives at position 0.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Tenure Floors: Méliès U.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "play",
@@ -2579,19 +2615,19 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] to make a run on R&D.",
-            "wowarlok approaches ice protecting R&D at position 1.",
-            "rubenpieters has no further action.",
-            "wowarlok passes ice protecting R&D at position 1.",
-            "wowarlok approaches ice protecting R&D at position 0.",
-            "rubenpieters pays 6 [Credits] to rez Boto protecting R&D at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Boto protecting R&D at position 0.",
-            "wowarlok indicates to fire all unbroken subroutines on Boto.",
-            "rubenpieters uses Boto to do 2 net damage.",
-            "rubenpieters trashes Mutual Favor and Pinhole Threading due to net damage.",
-            "rubenpieters trashes 1 card from HQ to use Boto to end the run.",
-            "rubenpieters resolves 2 unbroken subroutines on Boto (\"[subroutine] Do 2 net damage\" and \"[subroutine] Trash 1 card from HQ to end the run\")."
+            "<anonymized> spends [Click] to make a run on R&D.",
+            "<anonymized> approaches ice protecting R&D at position 1.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes ice protecting R&D at position 1.",
+            "<anonymized> approaches ice protecting R&D at position 0.",
+            "<anonymized> pays 6 [Credits] to rez Boto protecting R&D at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Boto protecting R&D at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Boto.",
+            "<anonymized> uses Boto to do 2 net damage.",
+            "<anonymized> trashes Mutual Favor and Pinhole Threading due to net damage.",
+            "<anonymized> trashes 1 card from HQ to use Boto to end the run.",
+            "<anonymized> resolves 2 unbroken subroutines on Boto (\"[subroutine] Do 2 net damage\" and \"[subroutine] Trash 1 card from HQ to end the run\")."
           ],
           "action": {
             "type": "run",
@@ -2602,26 +2638,31 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to make a run on HQ.",
-            "wowarlok approaches ice protecting HQ at position 1.",
-            "rubenpieters has no further action.",
-            "wowarlok passes ice protecting HQ at position 1.",
-            "wowarlok will continue the run.",
-            "rubenpieters pays 0 [Credits] to rez Mitra Aman in the root of HQ.",
-            "wowarlok approaches Anemone protecting HQ at position 0.",
-            "rubenpieters trashes Mitra Aman to use Mitra Aman to gain 3 [Credits].",
+            "<anonymized> spends [Click] to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 1.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes ice protecting HQ at position 1.",
+            "<anonymized> will continue the run.",
+            "<anonymized> pays 0 [Credits] to rez Mitra Aman in the root of HQ.",
+            "<anonymized> approaches Anemone protecting HQ at position 0.",
+            "<anonymized> trashes Mitra Aman to use Mitra Aman to gain 3 [Credits].",
             "uses  to swap Anemone protecting HQ at position 0 with Tatu-Bola in Archives.",
-            "rubenpieters pays 2 [Credits] to rez Tatu-Bola protecting HQ at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Tatu-Bola protecting HQ at position 0.",
-            "wowarlok indicates to fire all unbroken subroutines on Tatu-Bola.",
-            "rubenpieters uses Tatu-Bola to end the run.",
-            "rubenpieters resolves 1 unbroken subroutine on Tatu-Bola (\"[subroutine] End the run\").",
-            "wowarlok is ending his turn 15 with 13 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> pays 2 [Credits] to rez Tatu-Bola protecting HQ at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Tatu-Bola protecting HQ at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Tatu-Bola.",
+            "<anonymized> uses Tatu-Bola to end the run.",
+            "<anonymized> resolves 1 unbroken subroutine on Tatu-Bola (\"[subroutine] End the run\").",
+            "<anonymized> is ending his turn 15 with 13 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
             "server": "HQ"
+          },
+          "effects": {
+            "triggered_gains": {
+              "Mitra Aman": 3
+            }
           },
           "bucket": "run"
         }
@@ -2634,9 +2675,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 16 with 6 [Credit] and 3 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 16 with 6 [Credit] and 3 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2645,7 +2686,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2659,7 +2700,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -2672,8 +2713,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 16 with 7 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 16 with 7 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2687,7 +2728,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2699,25 +2740,25 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 16 with 13 [Credit] and 2 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 16 with 13 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to make a run on Server 1.",
-            "wowarlok approaches Cloud Eater protecting Server 1 at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Cloud Eater protecting Server 1 at position 0.",
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok pays 4 [Credits] from Touchstone and 5 [Credits] from his credit pool to increase the strength of Echelon to 6 and break all 3 subroutines on Cloud Eater.",
-            "wowarlok has no further action.",
-            "wowarlok passes Cloud Eater protecting Server 1 at position 0.",
-            "wowarlok will continue the run.",
-            "wowarlok approaches Server 1.",
-            "rubenpieters pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run."
+            "<anonymized> spends [Click] to make a run on Server 1.",
+            "<anonymized> approaches Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 4 [Credits] from Touchstone and 5 [Credits] from his credit pool to increase the strength of Echelon to 6 and break all 3 subroutines on Cloud Eater.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 1.",
+            "<anonymized> pays 2 [Credits] and trashes 2 cards from HQ to use Anoetic Void to end the run."
           ],
           "action": {
             "type": "run",
@@ -2733,7 +2774,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2747,7 +2788,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2761,25 +2802,25 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to make a run on Server 1.",
-            "wowarlok approaches Cloud Eater protecting Server 1 at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Cloud Eater protecting Server 1 at position 0.",
-            "wowarlok pays 9 [Credits] to increase the strength of Echelon to 6 and break all 3 subroutines on Cloud Eater.",
-            "wowarlok has no further action.",
-            "wowarlok passes Cloud Eater protecting Server 1 at position 0.",
-            "wowarlok will continue the run.",
-            "wowarlok approaches Server 1.",
-            "wowarlok breaches Server 1.",
-            "wowarlok accesses Let Them Dream from Server 1.",
-            "wowarlok steals Let Them Dream and gains 1 agenda point.",
-            "wowarlok uses Hermes to add ice protecting Archives at position 0 to HQ.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself.",
-            "wowarlok accesses Anoetic Void from Server 1.",
-            "wowarlok pays 1 [Credits] to trash Anoetic Void from Server 1.",
-            "wowarlok accesses Anoetic Void from Server 1.",
-            "wowarlok accesses La Costa Grid from Server 1.",
-            "wowarlok is ending his turn 16 with 0 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on Server 1.",
+            "<anonymized> approaches Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> pays 9 [Credits] to increase the strength of Echelon to 6 and break all 3 subroutines on Cloud Eater.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Cloud Eater protecting Server 1 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 1.",
+            "<anonymized> breaches Server 1.",
+            "<anonymized> accesses Let Them Dream from Server 1.",
+            "<anonymized> steals Let Them Dream and gains 1 agenda point.",
+            "<anonymized> uses Hermes to add ice protecting Archives at position 0 to HQ.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself.",
+            "<anonymized> accesses Anoetic Void from Server 1.",
+            "<anonymized> pays 1 [Credits] to trash Anoetic Void from Server 1.",
+            "<anonymized> accesses Anoetic Void from Server 1.",
+            "<anonymized> accesses La Costa Grid from Server 1.",
+            "<anonymized> is ending his turn 16 with 0 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -2790,8 +2831,13 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ]
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            }
+          }
         }
       ]
     },
@@ -2802,9 +2848,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 17 with 6 [Credit] and 3 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 17 with 6 [Credit] and 3 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2813,7 +2859,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2827,7 +2873,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -2840,8 +2886,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 3 (new remote).",
-            "rubenpieters is ending his turn 17 with 6 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to install a card in the root of Server 3 (new remote).",
+            "<anonymized> is ending his turn 17 with 6 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -2854,7 +2900,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -2866,16 +2912,16 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 17 with 0 [Credit] and 2 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 17 with 0 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "wowarlok uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2889,7 +2935,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2903,7 +2949,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2917,16 +2963,16 @@
         {
           "click": 4,
           "events": [
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok spends [Click] and pays 3 [Credits] from Mystic Maemi to play Clean Getaway.",
-            "wowarlok uses Clean Getaway to make a run on Archives.",
-            "wowarlok will continue the run.",
-            "wowarlok approaches Archives.",
-            "wowarlok uses Clean Getaway to gain 6 [Credits].",
-            "rubenpieters uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
-            "wowarlok breaches Archives.",
-            "wowarlok accesses everything else in Archives.",
-            "wowarlok is ending his turn 17 with 6 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 3 [Credits] from Mystic Maemi to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> uses Méliès U: Only the Brightest to flip to Disposal Grounds: Méliès U.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives.",
+            "<anonymized> is ending his turn 17 with 6 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -2945,10 +2991,13 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters pays 0 [Credits] to rez Spin Doctor in Server 3.",
-            "rubenpieters uses Spin Doctor to draw 2 cards.",
-            "rubenpieters uses Spin Doctor to shuffle Mitra Aman and Tatu-Bola into R&D."
-          ]
+            "<anonymized> pays 0 [Credits] to rez Spin Doctor in Server 3.",
+            "<anonymized> uses Spin Doctor to draw 2 cards.",
+            "<anonymized> uses Spin Doctor to shuffle Mitra Aman and Tatu-Bola into R&D."
+          ],
+          "effects": {
+            "cards_drawn": 2
+          }
         }
       ]
     },
@@ -2959,9 +3008,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 18 with 6 [Credit] and 5 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 18 with 6 [Credit] and 5 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2970,7 +3019,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -2985,7 +3034,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -2999,8 +3048,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 18 with 7 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 18 with 7 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -3014,7 +3063,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -3026,10 +3075,10 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 18 with 6 [Credit] and 4 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 18 with 6 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -3038,7 +3087,7 @@
         {
           "click": 1,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -3052,7 +3101,7 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -3066,7 +3115,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -3080,9 +3129,9 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "wowarlok discards Hermes from his Grip at end of turn.",
-            "wowarlok is ending his turn 18 with 10 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> discards Hermes from his Grip at end of turn.",
+            "<anonymized> is ending his turn 18 with 10 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -3096,8 +3145,13 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ]
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            }
+          }
         }
       ]
     },
@@ -3108,9 +3162,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 19 with 8 [Credit] and 5 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 19 with 8 [Credit] and 5 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -3119,7 +3173,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1."
+            "<anonymized> spends [Click] to install a card in the root of Server 1."
           ],
           "action": {
             "type": "install",
@@ -3132,7 +3186,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -3146,8 +3200,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 19 with 10 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 19 with 10 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -3161,7 +3215,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -3173,26 +3227,26 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 19 with 10 [Credit] and 4 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 19 with 10 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok spends [Click] and pays 2 [Credits] from Mystic Maemi and 1 [Credits] from his credit pool to play Bravado.",
-            "wowarlok approaches ice protecting HQ at position 1.",
-            "rubenpieters has no further action.",
-            "wowarlok passes ice protecting HQ at position 1.",
-            "wowarlok approaches Tatu-Bola protecting HQ at position 0.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Tatu-Bola protecting HQ at position 0.",
-            "wowarlok indicates to fire all unbroken subroutines on Tatu-Bola.",
-            "rubenpieters uses Tatu-Bola to end the run.",
-            "rubenpieters resolves 1 unbroken subroutine on Tatu-Bola (\"[subroutine] End the run\").",
-            "wowarlok uses Bravado to gain 7 [Credits]."
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 2 [Credits] from Mystic Maemi and 1 [Credits] from his credit pool to play Bravado.",
+            "<anonymized> approaches ice protecting HQ at position 1.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes ice protecting HQ at position 1.",
+            "<anonymized> approaches Tatu-Bola protecting HQ at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Tatu-Bola protecting HQ at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Tatu-Bola.",
+            "<anonymized> uses Tatu-Bola to end the run.",
+            "<anonymized> resolves 1 unbroken subroutine on Tatu-Bola (\"[subroutine] End the run\").",
+            "<anonymized> uses Bravado to gain 7 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -3211,8 +3265,8 @@
         {
           "click": 2,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "wowarlok uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -3226,7 +3280,7 @@
         {
           "click": 3,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -3240,8 +3294,8 @@
         {
           "click": 4,
           "events": [
-            "wowarlok spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "wowarlok is ending his turn 19 with 18 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 19 with 18 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -3255,8 +3309,13 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to gain 1 [Credit]."
-          ]
+            "<anonymized> uses Méliès U: Only the Brightest to gain 1 [Credit]."
+          ],
+          "effects": {
+            "triggered_gains": {
+              "Méliès U: Only the Brightest": 1
+            }
+          }
         }
       ]
     },
@@ -3267,9 +3326,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 20 with 11 [Credit] and 5 cards in HQ.",
-            "rubenpieters uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
-            "rubenpieters makes his mandatory start of turn draw."
+            "<anonymized> started his turn 20 with 11 [Credit] and 5 cards in HQ.",
+            "<anonymized> uses La Costa Grid to place 1 advancement counter on a card in Server 1.",
+            "<anonymized> makes his mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -3278,10 +3337,10 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
-            "rubenpieters scores Let Them Dream and gains 2 agenda points.",
-            "rubenpieters uses Let Them Dream to reveal Send a Message from R&D, shuffle R&D, and then add it to the bottom of R&D.",
-            "wowarlok uses Hermes to add ice protecting Server 1 at position 1 to HQ."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 1.",
+            "<anonymized> scores Let Them Dream and gains 2 agenda points.",
+            "<anonymized> uses Let Them Dream to reveal Send a Message from R&D, shuffle R&D, and then add it to the bottom of R&D.",
+            "<anonymized> uses Hermes to add ice protecting Server 1 at position 1 to HQ."
           ],
           "action": {
             "type": "advance",
@@ -3297,7 +3356,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to install ice protecting Server 1."
           ],
           "action": {
             "type": "install_ice",
@@ -3312,8 +3371,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to install a card in the root of Server 1.",
-            "rubenpieters is ending his turn 20 with 9 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to install a card in the root of Server 1.",
+            "<anonymized> is ending his turn 20 with 9 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -3326,7 +3385,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses Méliès U: Only the Brightest to secretly choose a server."
+            "<anonymized> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
       ]
@@ -3338,10 +3397,10 @@
         {
           "click": 0,
           "events": [
-            "wowarlok started his turn 20 with 18 [Credit] and 4 cards in his Grip.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "wowarlok uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
-            "wowarlok uses Mystic Maemi to add 1 [Credits] to itself."
+            "<anonymized> started his turn 20 with 18 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
+            "<anonymized> uses Mystic Maemi to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -3350,24 +3409,24 @@
         {
           "click": 1,
           "events": [
-            "wowarlok uses The Twinning to place a power counter on itself.",
-            "wowarlok spends [Click] and pays 1 [Credits] from Mystic Maemi to play Tread Lightly.",
-            "wowarlok uses Tread Lightly to make a run on Server 1.",
-            "wowarlok approaches ice protecting Server 1 at position 1.",
-            "rubenpieters pays 5 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
-            "rubenpieters has no further action.",
-            "wowarlok encounters Tatu-Bola protecting Server 1 at position 1.",
-            "wowarlok concedes.",
-            "rubenpieters wins the game.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> spends [Click] and pays 1 [Credits] from Mystic Maemi to play Tread Lightly.",
+            "<anonymized> uses Tread Lightly to make a run on Server 1.",
+            "<anonymized> approaches ice protecting Server 1 at position 1.",
+            "<anonymized> pays 5 [Credits] to rez Tatu-Bola protecting Server 1 at position 1.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Tatu-Bola protecting Server 1 at position 1.",
+            "<anonymized> concedes.",
+            "<anonymized> wins the game.",
             "sebastiank has left the game.",
             "AmarumAcies has left the game.",
             "bfg has left the game.",
-            "rubenpieters looks at his deck.",
-            "rubenpieters stops looking at his deck.",
-            "rubenpieters looks at his deck.",
-            "[!]wowarlok uses a command: /save-replay",
-            "wowarlok has left the game.",
-            "rubenpieters stops looking at his deck."
+            "<anonymized> looks at his deck.",
+            "<anonymized> stops looking at his deck.",
+            "<anonymized> looks at his deck.",
+            "[!]<anonymized> uses a command: /save-replay",
+            "<anonymized> has left the game.",
+            "<anonymized> stops looking at his deck."
           ],
           "action": {
             "type": "play",

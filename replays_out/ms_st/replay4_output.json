@@ -1,8 +1,8 @@
 {
   "summary": {
-    "corp_player": "HaverOfFun",
+    "corp_player": "<anonymized>",
     "corp_identity": "AU Co.: The Gold Standard in Clones",
-    "runner_player": "rubenpieters",
+    "runner_player": "<anonymized>",
     "runner_identity": "MuslihaT: Multifarious Marketeer",
     "turns": 16,
     "winner": "runner",
@@ -106,6 +106,14 @@
           "total_net_credits": 10,
           "total_cards_drawn": 0,
           "credits_per_click": 5
+        },
+        "Mantle": {
+          "uses": 1,
+          "total_credits_gained": 1,
+          "total_cost": 0,
+          "total_net_credits": 1,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
         }
       }
     },
@@ -179,6 +187,14 @@
           "total_cards_drawn": 0,
           "credits_per_click": 8
         },
+        "Spin Doctor": {
+          "uses": 1,
+          "total_credits_gained": 0,
+          "total_cost": 0,
+          "total_net_credits": 0,
+          "total_cards_drawn": 2,
+          "credits_per_click": 0
+        },
         "Bravado": {
           "uses": 3,
           "total_credits_gained": 21,
@@ -221,8 +237,8 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun takes a mulligan.",
-            "rubenpieters keeps his hand."
+            "<anonymized> takes a mulligan.",
+            "<anonymized> keeps his hand."
           ]
         }
       ]
@@ -234,8 +250,8 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 1 with 5 [Credit] and 5 cards in HQ.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 1 with 5 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -244,7 +260,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 1 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 1 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -257,7 +273,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 2 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 2 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -270,9 +286,9 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 0 [Credits] to install ice protecting Server 1.",
-            "HaverOfFun pays 1 [Credits] to rez Phật Gioan Baotixita in Server 1.",
-            "HaverOfFun is ending their turn 1 with 4 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 1.",
+            "<anonymized> pays 1 [Credits] to rez Phật Gioan Baotixita in Server 1.",
+            "<anonymized> is ending their turn 1 with 4 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -290,15 +306,15 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 1 with 5 [Credit] and 5 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
+            "<anonymized> started his turn 1 with 5 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "rubenpieters uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -314,13 +330,13 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
-            "rubenpieters uses Pinhole Threading to make a run on HQ.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches HQ.",
-            "rubenpieters uses the replacement effect from Pinhole Threading.",
-            "rubenpieters accesses Phật Gioan Baotixita from Server 1.",
-            "rubenpieters pays 3 [Credits] to trash Phật Gioan Baotixita from Server 1."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Pinhole Threading.",
+            "<anonymized> uses Pinhole Threading to make a run on HQ.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> uses the replacement effect from Pinhole Threading.",
+            "<anonymized> accesses Phật Gioan Baotixita from Server 1.",
+            "<anonymized> pays 3 [Credits] to trash Phật Gioan Baotixita from Server 1."
           ],
           "action": {
             "type": "play",
@@ -335,7 +351,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -349,8 +365,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 4 [Credits] to install The Class Act.",
-            "rubenpieters is ending his turn 1 with 2 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 4 [Credits] to install The Class Act.",
+            "<anonymized> is ending his turn 1 with 2 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -365,9 +381,9 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses The Class Act to draw 4 cards.",
-            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom.",
-            "HaverOfFun pays 1 [Credits] to rez Bladderwort in Server 2."
+            "<anonymized> uses The Class Act to draw 4 cards.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom.",
+            "<anonymized> pays 1 [Credits] to rez Bladderwort in Server 2."
           ],
           "effects": {
             "cards_drawn": 4
@@ -382,12 +398,12 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 2 with 3 [Credit] and 3 cards in HQ.",
-            "HaverOfFun uses Bladderwort to gain 1 [Credits].",
-            "HaverOfFun uses Bladderwort to do 1 net damage.",
-            "HaverOfFun trashes Transfer of Wealth due to net damage.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 2 with 3 [Credit] and 3 cards in HQ.",
+            "<anonymized> uses Bladderwort to gain 1 [Credits].",
+            "<anonymized> uses Bladderwort to do 1 net damage.",
+            "<anonymized> trashes Transfer of Wealth due to net damage.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -399,8 +415,8 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click][Click] and pays 1 [Credits] to play Retirement Plan.",
-            "HaverOfFun uses Retirement Plan to install Phật Gioan Baotixita from Archives in the root of Server 1."
+            "<anonymized> spends [Click][Click] and pays 1 [Credits] to play Retirement Plan.",
+            "<anonymized> uses Retirement Plan to install Phật Gioan Baotixita from Archives in the root of Server 1."
           ],
           "action": {
             "type": "play",
@@ -415,9 +431,9 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
-            "HaverOfFun pays 1 [Credits] to rez Phật Gioan Baotixita in Server 1.",
-            "HaverOfFun is ending their turn 2 with 2 [Credit] and 2 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
+            "<anonymized> pays 1 [Credits] to rez Phật Gioan Baotixita in Server 1.",
+            "<anonymized> is ending their turn 2 with 2 [Credit] and 2 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -435,9 +451,9 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 2 with 2 [Credit] and 5 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Clean Getaway from the Stack and add it to the grip."
+            "<anonymized> started his turn 2 with 2 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Clean Getaway from the Stack and add it to the grip."
           ],
           "effects": {
             "cards_drawn": 1
@@ -446,7 +462,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 2 [Credits] to install Touchstone."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Touchstone."
           ],
           "action": {
             "type": "install",
@@ -461,7 +477,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -475,10 +491,10 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to play Carpe Diem.",
-            "rubenpieters identifies his mark to be HQ.",
-            "rubenpieters uses Carpe Diem to gain 4 [Credits].",
-            "rubenpieters declines to use Carpe Diem to make a run."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Carpe Diem.",
+            "<anonymized> identifies his mark to be HQ.",
+            "<anonymized> uses Carpe Diem to gain 4 [Credits].",
+            "<anonymized> declines to use Carpe Diem to make a run."
           ],
           "action": {
             "type": "play",
@@ -494,15 +510,15 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "rubenpieters uses Clean Getaway to make a run on Server 2.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Server 2.",
-            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
-            "rubenpieters breaches Server 2.",
-            "rubenpieters accesses Bladderwort from Server 2.",
-            "rubenpieters pays 3 [Credits] to trash Bladderwort from Server 2.",
-            "rubenpieters is ending his turn 2 with 4 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on Server 2.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 2.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> breaches Server 2.",
+            "<anonymized> accesses Bladderwort from Server 2.",
+            "<anonymized> pays 3 [Credits] to trash Bladderwort from Server 2.",
+            "<anonymized> is ending his turn 2 with 4 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -524,8 +540,8 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 3 with 2 [Credit] and 2 cards in HQ.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 3 with 2 [Credit] and 2 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -534,7 +550,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -548,7 +564,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -562,8 +578,8 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HaverOfFun is ending their turn 3 with 3 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 3 with 3 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -583,15 +599,15 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 3 with 4 [Credit] and 3 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
+            "<anonymized> started his turn 3 with 4 [Credit] and 3 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -605,7 +621,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -619,7 +635,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -633,9 +649,9 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "rubenpieters uses Sure Gamble to gain 9 [Credits].",
-            "rubenpieters is ending his turn 3 with 9 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits].",
+            "<anonymized> is ending his turn 3 with 9 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -657,8 +673,8 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 4 with 3 [Credit] and 5 cards in HQ.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 4 with 3 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -667,7 +683,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of HQ."
+            "<anonymized> spends [Click] to install a card in the root of HQ."
           ],
           "action": {
             "type": "install",
@@ -680,7 +696,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -694,9 +710,9 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to draw 1 card.",
-            "HaverOfFun discards 1 card from HQ at end of turn.",
-            "HaverOfFun is ending their turn 4 with 4 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to draw 1 card.",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending their turn 4 with 4 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -716,15 +732,15 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 4 with 9 [Credit] and 4 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
+            "<anonymized> started his turn 4 with 9 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -738,7 +754,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 2 [Credits] to install Open Market."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Open Market."
           ],
           "action": {
             "type": "install",
@@ -753,7 +769,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 4 [Credits] from Open Market to install The Class Act.",
+            "<anonymized> spends [Click] and pays 4 [Credits] from Open Market to install The Class Act.",
             "The Class Act is trashed."
           ],
           "action": {
@@ -772,14 +788,14 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "rubenpieters uses Clean Getaway to make a run on Archives.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses everything else in Archives.",
-            "rubenpieters is ending his turn 4 with 10 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives.",
+            "<anonymized> is ending his turn 4 with 10 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -795,7 +811,7 @@
         {
           "click": -1,
           "events": [
-            "rubenpieters uses The Class Act to draw 4 cards."
+            "<anonymized> uses The Class Act to draw 4 cards."
           ],
           "effects": {
             "cards_drawn": 4
@@ -810,8 +826,8 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 5 with 4 [Credit] and 5 cards in HQ.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 5 with 4 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -820,7 +836,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -834,7 +850,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -848,9 +864,9 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HaverOfFun discards 1 card from HQ at end of turn.",
-            "HaverOfFun is ending their turn 5 with 7 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending their turn 5 with 7 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -870,10 +886,10 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 5 with 10 [Credit] and 6 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip.",
-            "rubenpieters uses Open Market to gain 1 [Credits]."
+            "<anonymized> started his turn 5 with 10 [Credit] and 6 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Transfer of Wealth from the Stack and add it to the grip.",
+            "<anonymized> uses Open Market to gain 1 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -885,7 +901,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to install Curupira."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Curupira."
           ],
           "action": {
             "type": "install",
@@ -900,7 +916,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 2 [Credits] to install Hermes."
+            "<anonymized> spends [Click] and pays 2 [Credits] to install Hermes."
           ],
           "action": {
             "type": "install",
@@ -915,12 +931,12 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Clean Getaway.",
-            "rubenpieters uses Clean Getaway to make a run on Archives.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters uses Clean Getaway to gain 6 [Credits].",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses everything else in Archives."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Clean Getaway.",
+            "<anonymized> uses Clean Getaway to make a run on Archives.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> uses Clean Getaway to gain 6 [Credits].",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "play",
@@ -936,9 +952,9 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom.",
-            "rubenpieters is ending his turn 5 with 9 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom.",
+            "<anonymized> is ending his turn 5 with 9 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -958,8 +974,8 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 6 with 7 [Credit] and 5 cards in HQ.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 6 with 7 [Credit] and 5 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -968,8 +984,8 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 3 (new remote).",
-            "HaverOfFun pays 1 [Credits] to rez The Red Room in the root of HQ."
+            "<anonymized> spends [Click] to install a card in the root of Server 3 (new remote).",
+            "<anonymized> pays 1 [Credits] to rez The Red Room in the root of HQ."
           ],
           "action": {
             "type": "install",
@@ -982,7 +998,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 3."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 3."
           ],
           "action": {
             "type": "advance",
@@ -998,14 +1014,14 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 3.",
-            "HaverOfFun scores Hybrid Release and gains 1 agenda point.",
-            "HaverOfFun spends 2 hosted power counters from on Phật Gioan Baotixita to use Phật Gioan Baotixita to do 3 net damage.",
-            "HaverOfFun trashes Boomerang, Cezve, and Transfer of Wealth due to net damage.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "rubenpieters uses Hermes to add ice protecting Server 1 at position 0 to HQ.",
-            "HaverOfFun discards 1 card from HQ at end of turn.",
-            "HaverOfFun is ending their turn 6 with 4 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 3.",
+            "<anonymized> scores Hybrid Release and gains 1 agenda point.",
+            "<anonymized> spends 2 hosted power counters from on Phật Gioan Baotixita to use Phật Gioan Baotixita to do 3 net damage.",
+            "<anonymized> trashes Boomerang, Cezve, and Transfer of Wealth due to net damage.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> uses Hermes to add ice protecting Server 1 at position 0 to HQ.",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending their turn 6 with 4 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -1027,11 +1043,11 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 6 with 9 [Credit] and 2 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip.",
-            "rubenpieters uses Open Market to gain 1 [Credits].",
-            "rubenpieters trashes Open Market."
+            "<anonymized> started his turn 6 with 9 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Carpe Diem from the Stack and add it to the grip.",
+            "<anonymized> uses Open Market to gain 1 [Credits].",
+            "<anonymized> trashes Open Market."
           ],
           "effects": {
             "triggered_gains": {
@@ -1043,8 +1059,8 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1058,7 +1074,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1072,8 +1088,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "rubenpieters uses Sure Gamble to gain 9 [Credits]."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1089,9 +1105,9 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to make a run on Server 1.",
-            "rubenpieters will continue the run.",
-            "HaverOfFun spends 1 hosted power counter from on The Red Room to use The Red Room to End the run.",
+            "<anonymized> spends [Click] to make a run on Server 1.",
+            "<anonymized> will continue the run.",
+            "<anonymized> spends 1 hosted power counter from on The Red Room to use The Red Room to End the run.",
             "[undo-click]"
           ]
         },
@@ -1104,12 +1120,12 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to make a run on Server 1.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Server 1.",
-            "rubenpieters breaches Server 1.",
-            "rubenpieters accesses Phật Gioan Baotixita from Server 1.",
-            "rubenpieters pays 3 [Credits] to trash Phật Gioan Baotixita from Server 1."
+            "<anonymized> spends [Click] to make a run on Server 1.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 1.",
+            "<anonymized> breaches Server 1.",
+            "<anonymized> accesses Phật Gioan Baotixita from Server 1.",
+            "<anonymized> pays 3 [Credits] to trash Phật Gioan Baotixita from Server 1."
           ],
           "action": {
             "type": "run",
@@ -1120,9 +1136,9 @@
         {
           "click": 5,
           "events": [
-            "rubenpieters spends [Click] and pays 5 [Credits] to play Sure Gamble.",
-            "rubenpieters uses Sure Gamble to gain 9 [Credits].",
-            "rubenpieters is ending his turn 6 with 11 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Sure Gamble.",
+            "<anonymized> uses Sure Gamble to gain 9 [Credits].",
+            "<anonymized> is ending his turn 6 with 11 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1144,10 +1160,10 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 7 with 4 [Credit] and 5 cards in HQ.",
-            "HaverOfFun spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 7 with 4 [Credit] and 5 cards in HQ.",
+            "<anonymized> spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 3
@@ -1156,7 +1172,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 4 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 4 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -1169,7 +1185,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 5 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 5 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -1182,9 +1198,9 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 0 [Credits] to install ice protecting Server 5.",
-            "HaverOfFun pays 1 [Credits] to rez Phật Gioan Baotixita in Server 5.",
-            "HaverOfFun is ending their turn 7 with 3 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 5.",
+            "<anonymized> pays 1 [Credits] to rez Phật Gioan Baotixita in Server 5.",
+            "<anonymized> is ending their turn 7 with 3 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -1202,15 +1218,15 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 7 with 11 [Credit] and 4 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
+            "<anonymized> started his turn 7 with 11 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1224,17 +1240,17 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to make a run on Server 5.",
-            "rubenpieters approaches ice protecting Server 5 at position 0.",
-            "HaverOfFun pays 2 [Credits] to rez Whitespace protecting Server 5 at position 0.",
-            "rubenpieters encounters Whitespace protecting Server 5 at position 0.",
-            "rubenpieters indicates to fire all unbroken subroutines on Whitespace.",
-            "HaverOfFun uses Whitespace to force the Runner to lose 3 [Credits].",
-            "HaverOfFun resolves 2 unbroken subroutines on Whitespace (\"[subroutine] Make the Runner lose 3 [Credits]\" and \"[subroutine] End the run if the Runner has 6 [Credits] or less\").",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Whitespace protecting Server 5 at position 0.",
-            "rubenpieters will continue the run.",
-            "HaverOfFun spends 1 hosted power counter from on The Red Room to use The Red Room to End the run."
+            "<anonymized> spends [Click] to make a run on Server 5.",
+            "<anonymized> approaches ice protecting Server 5 at position 0.",
+            "<anonymized> pays 2 [Credits] to rez Whitespace protecting Server 5 at position 0.",
+            "<anonymized> encounters Whitespace protecting Server 5 at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Whitespace.",
+            "<anonymized> uses Whitespace to force the Runner to lose 3 [Credits].",
+            "<anonymized> resolves 2 unbroken subroutines on Whitespace (\"[subroutine] Make the Runner lose 3 [Credits]\" and \"[subroutine] End the run if the Runner has 6 [Credits] or less\").",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Whitespace protecting Server 5 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> spends 1 hosted power counter from on The Red Room to use The Red Room to End the run."
           ],
           "action": {
             "type": "run",
@@ -1245,10 +1261,10 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to play Carpe Diem.",
-            "rubenpieters identifies his mark to be R&D.",
-            "rubenpieters uses Carpe Diem to gain 4 [Credits].",
-            "rubenpieters declines to use Carpe Diem to make a run."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Carpe Diem.",
+            "<anonymized> identifies his mark to be R&D.",
+            "<anonymized> uses Carpe Diem to gain 4 [Credits].",
+            "<anonymized> declines to use Carpe Diem to make a run."
           ],
           "action": {
             "type": "play",
@@ -1264,8 +1280,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install Trickster Taka.",
-            "rubenpieters is ending his turn 7 with 10 [Credit] and 3 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to install Trickster Taka.",
+            "<anonymized> is ending his turn 7 with 10 [Credit] and 3 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1280,7 +1296,7 @@
         {
           "click": -1,
           "events": [
-            "HaverOfFun pays 1 [Credits] to rez Bladderwort in Server 4."
+            "<anonymized> pays 1 [Credits] to rez Bladderwort in Server 4."
           ]
         }
       ]
@@ -1292,12 +1308,12 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 8 with 0 [Credit] and 5 cards in HQ.",
-            "HaverOfFun uses Bladderwort to gain 1 [Credits].",
-            "HaverOfFun uses Bladderwort to do 1 net damage.",
-            "HaverOfFun trashes Carpe Diem due to net damage.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 8 with 0 [Credit] and 5 cards in HQ.",
+            "<anonymized> uses Bladderwort to gain 1 [Credits].",
+            "<anonymized> uses Bladderwort to do 1 net damage.",
+            "<anonymized> trashes Carpe Diem due to net damage.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -1309,7 +1325,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1323,7 +1339,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1337,15 +1353,15 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 0 [Credits] to install ice protecting Server 6 (new remote).",
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 6 (new remote).",
             "[undo-click]"
           ]
         },
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 0 [Credits] to install ice protecting Server 4.",
-            "HaverOfFun is ending their turn 8 with 3 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 4.",
+            "<anonymized> is ending their turn 8 with 3 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -1363,10 +1379,10 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 8 with 10 [Credit] and 2 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Pinhole Threading from the Stack and add it to the grip.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+            "<anonymized> started his turn 8 with 10 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Pinhole Threading from the Stack and add it to the grip.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1375,8 +1391,8 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1390,25 +1406,25 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to make a run on Server 4.",
-            "rubenpieters approaches ice protecting Server 4 at position 0.",
-            "HaverOfFun pays 3 [Credits] to rez Anemone protecting Server 4 at position 0.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun trashes 1 card from HQ to use Anemone to do 2 net damage.",
-            "HaverOfFun trashes Open Market and Pinhole Threading due to net damage.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "rubenpieters encounters Anemone protecting Server 4 at position 0.",
-            "rubenpieters indicates to fire all unbroken subroutines on Anemone.",
-            "HaverOfFun uses Anemone to do 1 net damage.",
-            "HaverOfFun trashes Pinhole Threading due to net damage.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun resolves 1 unbroken subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
-            "rubenpieters passes Anemone protecting Server 4 at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Server 4.",
-            "rubenpieters breaches Server 4.",
-            "rubenpieters accesses Bladderwort from Server 4.",
-            "rubenpieters pays 1 [Credits] from Touchstone and 2 [Credits] from his credit pool to trash Bladderwort from Server 4."
+            "<anonymized> spends [Click] to make a run on Server 4.",
+            "<anonymized> approaches ice protecting Server 4 at position 0.",
+            "<anonymized> pays 3 [Credits] to rez Anemone protecting Server 4 at position 0.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> trashes 1 card from HQ to use Anemone to do 2 net damage.",
+            "<anonymized> trashes Open Market and Pinhole Threading due to net damage.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> encounters Anemone protecting Server 4 at position 0.",
+            "<anonymized> indicates to fire all unbroken subroutines on Anemone.",
+            "<anonymized> uses Anemone to do 1 net damage.",
+            "<anonymized> trashes Pinhole Threading due to net damage.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> resolves 1 unbroken subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
+            "<anonymized> passes Anemone protecting Server 4 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 4.",
+            "<anonymized> breaches Server 4.",
+            "<anonymized> accesses Bladderwort from Server 4.",
+            "<anonymized> pays 1 [Credits] from Touchstone and 2 [Credits] from his credit pool to trash Bladderwort from Server 4."
           ],
           "action": {
             "type": "run",
@@ -1424,7 +1440,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1438,11 +1454,11 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 0 [Credits] to play Mutual Favor.",
-            "rubenpieters uses Mutual Favor to add Afterimage from the stack to the grip and shuffle the stack.",
-            "rubenpieters uses Mutual Favor to  install Afterimage.",
-            "rubenpieters pays 4 [Credits] to install Afterimage from the Stack.",
-            "rubenpieters is ending his turn 8 with 4 [Credit] and 1 card in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to play Mutual Favor.",
+            "<anonymized> uses Mutual Favor to add Afterimage from the stack to the grip and shuffle the stack.",
+            "<anonymized> uses Mutual Favor to  install Afterimage.",
+            "<anonymized> pays 4 [Credits] to install Afterimage from the Stack.",
+            "<anonymized> is ending his turn 8 with 4 [Credit] and 1 card in his Grip.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1460,8 +1476,8 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 9 with 0 [Credit] and 4 cards in HQ.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 9 with 0 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1470,7 +1486,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 4."
+            "<anonymized> spends [Click] to install a card in the root of Server 4."
           ],
           "action": {
             "type": "install",
@@ -1483,7 +1499,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1497,8 +1513,8 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
-            "HaverOfFun is ending their turn 9 with 2 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to use Corp Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending their turn 9 with 2 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1518,16 +1534,16 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 9 with 4 [Credit] and 1 card in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+            "<anonymized> started his turn 9 with 4 [Credit] and 1 card in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1541,7 +1557,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to install Penrose."
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Penrose."
           ],
           "action": {
             "type": "install",
@@ -1556,18 +1572,18 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to make a run on Server 5.",
-            "rubenpieters approaches Whitespace protecting Server 5 at position 0.",
-            "rubenpieters encounters Whitespace protecting Server 5 at position 0.",
-            "rubenpieters pays 1 [Credits] from Trickster Taka to use Penrose to break 1 Code Gate subroutine on Whitespace (\"[subroutine] Make the Runner lose 3 [Credits]\").",
-            "rubenpieters pays 1 [Credits] from Trickster Taka to use Penrose to break 1 Code Gate subroutine on Whitespace (\"[subroutine] End the run if the Runner has 6 [Credits] or less\").",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Whitespace protecting Server 5 at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Server 5.",
-            "rubenpieters breaches Server 5.",
-            "rubenpieters accesses Phật Gioan Baotixita from Server 5.",
-            "rubenpieters pays 2 [Credits] from Touchstone and 1 [Credits] from his credit pool to trash Phật Gioan Baotixita from Server 5."
+            "<anonymized> spends [Click] to make a run on Server 5.",
+            "<anonymized> approaches Whitespace protecting Server 5 at position 0.",
+            "<anonymized> encounters Whitespace protecting Server 5 at position 0.",
+            "<anonymized> pays 1 [Credits] from Trickster Taka to use Penrose to break 1 Code Gate subroutine on Whitespace (\"[subroutine] Make the Runner lose 3 [Credits]\").",
+            "<anonymized> pays 1 [Credits] from Trickster Taka to use Penrose to break 1 Code Gate subroutine on Whitespace (\"[subroutine] End the run if the Runner has 6 [Credits] or less\").",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Whitespace protecting Server 5 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 5.",
+            "<anonymized> breaches Server 5.",
+            "<anonymized> accesses Phật Gioan Baotixita from Server 5.",
+            "<anonymized> pays 2 [Credits] from Touchstone and 1 [Credits] from his credit pool to trash Phật Gioan Baotixita from Server 5."
           ],
           "action": {
             "type": "run",
@@ -1584,8 +1600,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters is ending his turn 9 with 0 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> is ending his turn 9 with 0 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -1599,7 +1615,7 @@
         {
           "click": -1,
           "events": [
-            "HaverOfFun pays 1 [Credits] to rez Cohort Guidance Program in Server 4."
+            "<anonymized> pays 1 [Credits] to rez Cohort Guidance Program in Server 4."
           ]
         }
       ]
@@ -1611,16 +1627,16 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 10 with 1 [Credit] and 4 cards in HQ.",
-            "HaverOfFun uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
-            "HaverOfFun makes their mandatory start of turn draw.",
-            "HaverOfFun spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
-            "HaverOfFun uses Petty Cash to gain 5 [credits].",
-            "HaverOfFun uses Petty Cash to gain [Click].",
-            "HaverOfFun removes Petty Cash from the game instead of trashing it."
+            "<anonymized> started their turn 10 with 1 [Credit] and 4 cards in HQ.",
+            "<anonymized> uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
+            "<anonymized> makes their mandatory start of turn draw.",
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "<anonymized> uses Petty Cash to gain 5 [credits].",
+            "<anonymized> uses Petty Cash to gain [Click].",
+            "<anonymized> removes Petty Cash from the game instead of trashing it."
           ],
           "effects": {
             "triggered_gains": {
@@ -1632,9 +1648,9 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] and pays 5 [Credits] to play Hansei Review.",
-            "HaverOfFun uses Hansei Review to trash a card from HQ and gain 10 [Credits].",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hansei Review.",
+            "<anonymized> uses Hansei Review to trash a card from HQ and gain 10 [Credits].",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself."
           ],
           "action": {
             "type": "play",
@@ -1650,7 +1666,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 5."
+            "<anonymized> spends [Click] to install a card in the root of Server 5."
           ],
           "action": {
             "type": "install",
@@ -1663,8 +1679,8 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 6 (new remote).",
-            "HaverOfFun is ending their turn 10 with 10 [Credit] and 3 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to install a card in the root of Server 6 (new remote).",
+            "<anonymized> is ending their turn 10 with 10 [Credit] and 3 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -1683,10 +1699,10 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 10 with 0 [Credit] and 2 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+            "<anonymized> started his turn 10 with 0 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1695,26 +1711,29 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to make a run on Archives.",
-            "rubenpieters will continue the run.",
-            "HaverOfFun pays 0 [Credits] to rez Spin Doctor in Server 5.",
-            "HaverOfFun uses Spin Doctor to draw 2 cards.",
-            "HaverOfFun uses Spin Doctor to shuffle Retirement Plan and 1 unseen card into R&D.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses everything else in Archives."
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> pays 0 [Credits] to rez Spin Doctor in Server 5.",
+            "<anonymized> uses Spin Doctor to draw 2 cards.",
+            "<anonymized> uses Spin Doctor to shuffle Retirement Plan and 1 unseen card into R&D.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "run",
             "server": "Archives"
+          },
+          "effects": {
+            "cards_drawn": 2
           },
           "bucket": "run"
         },
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the first card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the first card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -1728,7 +1747,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -1742,8 +1761,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 10 with 1 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 10 with 1 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -1763,16 +1782,16 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 11 with 10 [Credit] and 5 cards in HQ.",
-            "HaverOfFun spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to trash the top card from R&D and draw 2 cards.",
-            "HaverOfFun uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun makes their mandatory start of turn draw.",
-            "HaverOfFun spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
-            "HaverOfFun uses Petty Cash to gain 5 [credits].",
-            "HaverOfFun uses Petty Cash to gain [Click].",
-            "HaverOfFun removes Petty Cash from the game instead of trashing it."
+            "<anonymized> started their turn 11 with 10 [Credit] and 5 cards in HQ.",
+            "<anonymized> spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to trash the top card from R&D and draw 2 cards.",
+            "<anonymized> uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> makes their mandatory start of turn draw.",
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "<anonymized> uses Petty Cash to gain 5 [credits].",
+            "<anonymized> uses Petty Cash to gain [Click].",
+            "<anonymized> removes Petty Cash from the game instead of trashing it."
           ],
           "effects": {
             "triggered_gains": {
@@ -1784,7 +1803,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] and pays 0 [Credits] to install ice protecting Server 6."
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Server 6."
           ],
           "action": {
             "type": "install_ice",
@@ -1796,11 +1815,11 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click][Click] and pays 1 [Credits] to play Retirement Plan.",
-            "HaverOfFun uses Retirement Plan to install Phật Gioan Baotixita from Archives in the root of Server 5.",
-            "HaverOfFun pays 1 [Credits] to rez Phật Gioan Baotixita in Server 5.",
-            "HaverOfFun discards 1 card from HQ at end of turn.",
-            "HaverOfFun is ending their turn 11 with 12 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click][Click] and pays 1 [Credits] to play Retirement Plan.",
+            "<anonymized> uses Retirement Plan to install Phật Gioan Baotixita from Archives in the root of Server 5.",
+            "<anonymized> pays 1 [Credits] to rez Phật Gioan Baotixita in Server 5.",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending their turn 11 with 12 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "play",
@@ -1821,15 +1840,15 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 11 with 1 [Credit] and 5 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+            "<anonymized> started his turn 11 with 1 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself."
           ]
         },
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1843,7 +1862,7 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits]."
           ],
           "action": {
             "type": "gain_credits",
@@ -1857,18 +1876,18 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
-            "rubenpieters approaches Whitespace protecting Server 5 at position 0.",
-            "rubenpieters encounters Whitespace protecting Server 5 at position 0.",
-            "rubenpieters pays 2 [Credits] from Trickster Taka to use Penrose to break all 2 subroutines on Whitespace.",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Whitespace protecting Server 5 at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Server 5.",
-            "rubenpieters breaches Server 5.",
-            "rubenpieters accesses Phật Gioan Baotixita from Server 5.",
-            "rubenpieters pays 3 [Credits] from Touchstone to trash Phật Gioan Baotixita from Server 5.",
-            "rubenpieters uses Bravado to gain 7 [Credits]."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
+            "<anonymized> approaches Whitespace protecting Server 5 at position 0.",
+            "<anonymized> encounters Whitespace protecting Server 5 at position 0.",
+            "<anonymized> pays 2 [Credits] from Trickster Taka to use Penrose to break all 2 subroutines on Whitespace.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Whitespace protecting Server 5 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 5.",
+            "<anonymized> breaches Server 5.",
+            "<anonymized> accesses Phật Gioan Baotixita from Server 5.",
+            "<anonymized> pays 3 [Credits] from Touchstone to trash Phật Gioan Baotixita from Server 5.",
+            "<anonymized> uses Bravado to gain 7 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -1888,9 +1907,9 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom.",
-            "rubenpieters is ending his turn 11 with 7 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom.",
+            "<anonymized> is ending his turn 11 with 7 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "draw",
@@ -1910,10 +1929,10 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 12 with 12 [Credit] and 5 cards in HQ.",
-            "HaverOfFun uses Cohort Guidance Program to turn Bladderwort in Archives faceup.",
-            "HaverOfFun uses Cohort Guidance Program to place 1 advancement counter on a card in Server 6.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 12 with 12 [Credit] and 5 cards in HQ.",
+            "<anonymized> uses Cohort Guidance Program to turn Bladderwort in Archives faceup.",
+            "<anonymized> uses Cohort Guidance Program to place 1 advancement counter on a card in Server 6.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1922,7 +1941,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6."
           ],
           "action": {
             "type": "advance",
@@ -1938,10 +1957,10 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6.",
-            "HaverOfFun scores Regenesis and gains 1 agenda point.",
-            "HaverOfFun uses Regenesis to reveal Hybrid Release and add it to their score area.",
-            "rubenpieters uses Hermes to add ice protecting HQ at position 0 to HQ."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6.",
+            "<anonymized> scores Regenesis and gains 1 agenda point.",
+            "<anonymized> uses Regenesis to reveal Hybrid Release and add it to their score area.",
+            "<anonymized> uses Hermes to add ice protecting HQ at position 0 to HQ."
           ],
           "action": {
             "type": "advance",
@@ -1957,9 +1976,9 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
-            "HaverOfFun discards 1 card from HQ at end of turn.",
-            "HaverOfFun is ending their turn 12 with 10 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting HQ.",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending their turn 12 with 10 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -1977,10 +1996,10 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 12 with 7 [Credit] and 5 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Overclock from the Stack and add it to the grip.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself."
+            "<anonymized> started his turn 12 with 7 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Overclock from the Stack and add it to the grip.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself."
           ],
           "effects": {
             "cards_drawn": 1
@@ -1989,24 +2008,24 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to play Overclock.",
-            "rubenpieters uses Overclock to make a run on HQ.",
-            "rubenpieters approaches ice protecting HQ at position 0.",
-            "HaverOfFun pays 3 [Credits] to rez Anemone protecting HQ at position 0.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun trashes 1 card from HQ to use Anemone to do 2 net damage.",
-            "HaverOfFun trashes Debbie \"Downtown\" Moreira and Open Market due to net damage.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "rubenpieters encounters Anemone protecting HQ at position 0.",
-            "rubenpieters pays 1 [Credits] from Overclock to use Afterimage to break 1 Sentry subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Anemone protecting HQ at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches HQ.",
-            "rubenpieters breaches HQ.",
-            "rubenpieters accesses Semak-samun from HQ.",
-            "rubenpieters accesses The Red Room from the root of HQ.",
-            "rubenpieters pays 3 [Credits] from Overclock to trash The Red Room from the root of HQ."
+            "<anonymized> spends [Click] and pays 1 [Credits] to play Overclock.",
+            "<anonymized> uses Overclock to make a run on HQ.",
+            "<anonymized> approaches ice protecting HQ at position 0.",
+            "<anonymized> pays 3 [Credits] to rez Anemone protecting HQ at position 0.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> trashes 1 card from HQ to use Anemone to do 2 net damage.",
+            "<anonymized> trashes Debbie \"Downtown\" Moreira and Open Market due to net damage.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> encounters Anemone protecting HQ at position 0.",
+            "<anonymized> pays 1 [Credits] from Overclock to use Afterimage to break 1 Sentry subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Anemone protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Semak-samun from HQ.",
+            "<anonymized> accesses The Red Room from the root of HQ.",
+            "<anonymized> pays 3 [Credits] from Overclock to trash The Red Room from the root of HQ."
           ],
           "action": {
             "type": "play",
@@ -2024,8 +2043,8 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2039,7 +2058,7 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card."
           ],
           "action": {
             "type": "draw",
@@ -2053,8 +2072,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to install Daily Casts.",
-            "rubenpieters is ending his turn 12 with 3 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to install Daily Casts.",
+            "<anonymized> is ending his turn 12 with 3 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -2075,12 +2094,12 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 13 with 7 [Credit] and 4 cards in HQ.",
-            "HaverOfFun spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
-            "HaverOfFun uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 13 with 7 [Credit] and 4 cards in HQ.",
+            "<anonymized> spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
+            "<anonymized> uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -2092,7 +2111,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 5."
+            "<anonymized> spends [Click] to install a card in the root of Server 5."
           ],
           "action": {
             "type": "install",
@@ -2105,7 +2124,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 7 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 7 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -2118,8 +2137,8 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 6.",
-            "HaverOfFun is ending their turn 13 with 9 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] to install a card in the root of Server 6.",
+            "<anonymized> is ending their turn 13 with 9 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install",
@@ -2138,11 +2157,11 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 13 with 3 [Credit] and 4 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
-            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+            "<anonymized> started his turn 13 with 3 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself.",
+            "<anonymized> uses Daily Casts to gain 2 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -2154,22 +2173,22 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
-            "rubenpieters approaches ice protecting Server 6 at position 0.",
-            "HaverOfFun pays 3 [Credits] to rez Semak-samun protecting Server 6 at position 0.",
-            "rubenpieters encounters Semak-samun protecting Server 6 at position 0.",
-            "rubenpieters uses Curupira to place 1 power counter on itself.",
-            "rubenpieters pays 2 [Credits] from Trickster Taka and 1 [Credits] from Touchstone to increase the strength of Curupira to 3 and break all  subroutines on Semak-samun.",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Semak-samun protecting Server 6 at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Server 6.",
-            "rubenpieters breaches Server 6.",
-            "rubenpieters accesses Regenesis from Server 6.",
-            "rubenpieters steals Regenesis and gains 1 agenda point.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
-            "rubenpieters uses Hermes to add a card in Server 5 to HQ.",
-            "rubenpieters uses Bravado to gain 7 [Credits]."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
+            "<anonymized> approaches ice protecting Server 6 at position 0.",
+            "<anonymized> pays 3 [Credits] to rez Semak-samun protecting Server 6 at position 0.",
+            "<anonymized> encounters Semak-samun protecting Server 6 at position 0.",
+            "<anonymized> uses Curupira to place 1 power counter on itself.",
+            "<anonymized> pays 2 [Credits] from Trickster Taka and 1 [Credits] from Touchstone to increase the strength of Curupira to 3 and break all  subroutines on Semak-samun.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Semak-samun protecting Server 6 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 6.",
+            "<anonymized> breaches Server 6.",
+            "<anonymized> accesses Regenesis from Server 6.",
+            "<anonymized> steals Regenesis and gains 1 agenda point.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself.",
+            "<anonymized> uses Hermes to add a card in Server 5 to HQ.",
+            "<anonymized> uses Bravado to gain 7 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2189,12 +2208,12 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to make a run on Server 7.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Server 7.",
-            "rubenpieters breaches Server 7.",
-            "rubenpieters accesses Moon Pool from Server 7.",
-            "rubenpieters pays 1 [Credits] from Touchstone and 2 [Credits] from his credit pool to trash Moon Pool from Server 7."
+            "<anonymized> spends [Click] to make a run on Server 7.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Server 7.",
+            "<anonymized> breaches Server 7.",
+            "<anonymized> accesses Moon Pool from Server 7.",
+            "<anonymized> pays 1 [Credits] from Touchstone and 2 [Credits] from his credit pool to trash Moon Pool from Server 7."
           ],
           "action": {
             "type": "run",
@@ -2210,8 +2229,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2225,8 +2244,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
-            "rubenpieters is ending his turn 13 with 8 [Credit] and 5 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to use Runner Basic Action Card to gain 1 [Credits].",
+            "<anonymized> is ending his turn 13 with 8 [Credit] and 5 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "gain_credits",
@@ -2246,12 +2265,12 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 14 with 6 [Credit] and 5 cards in HQ.",
-            "HaverOfFun spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
-            "HaverOfFun uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 14 with 6 [Credit] and 5 cards in HQ.",
+            "<anonymized> spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
+            "<anonymized> uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "triggered_gains": {
@@ -2263,9 +2282,9 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] and pays 5 [Credits] to play Hansei Review.",
-            "HaverOfFun uses Hansei Review to trash a card from HQ and gain 10 [Credits].",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself."
+            "<anonymized> spends [Click] and pays 5 [Credits] to play Hansei Review.",
+            "<anonymized> uses Hansei Review to trash a card from HQ and gain 10 [Credits].",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself."
           ],
           "action": {
             "type": "play",
@@ -2281,7 +2300,7 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 5."
+            "<anonymized> spends [Click] to install a card in the root of Server 5."
           ],
           "action": {
             "type": "install",
@@ -2294,8 +2313,8 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 0 [Credits] to install ice protecting Archives.",
-            "HaverOfFun is ending their turn 14 with 13 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 0 [Credits] to install ice protecting Archives.",
+            "<anonymized> is ending their turn 14 with 13 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "install_ice",
@@ -2313,11 +2332,11 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 14 with 8 [Credit] and 5 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
-            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+            "<anonymized> started his turn 14 with 8 [Credit] and 5 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to reveal Bravado from the Stack and add it to the grip.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself.",
+            "<anonymized> uses Daily Casts to gain 2 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -2329,7 +2348,7 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] and pays 1 [Credits] to install Mantle.",
+            "<anonymized> spends [Click] and pays 1 [Credits] to install Mantle.",
             "[!] Mantle - Recurring credits usage not restricted"
           ],
           "action": {
@@ -2345,19 +2364,19 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to play Bravado.",
-            "rubenpieters approaches Whitespace protecting Server 5 at position 0.",
-            "HaverOfFun has no further action.",
-            "rubenpieters encounters Whitespace protecting Server 5 at position 0.",
-            "rubenpieters pays 1 [Credits] from Mantle and 1 [Credits] from Trickster Taka to use Penrose to break all 2 subroutines on Whitespace.",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Whitespace protecting Server 5 at position 0.",
-            "rubenpieters will continue the run.",
-            "HaverOfFun pays 5 [Credits] to rez Hostile Architecture in Server 5.",
-            "rubenpieters approaches Server 5.",
-            "rubenpieters breaches Server 5.",
-            "rubenpieters accesses Hostile Architecture from Server 5.",
-            "rubenpieters uses Bravado to gain 7 [Credits]."
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Bravado.",
+            "<anonymized> approaches Whitespace protecting Server 5 at position 0.",
+            "<anonymized> has no further action.",
+            "<anonymized> encounters Whitespace protecting Server 5 at position 0.",
+            "<anonymized> pays 1 [Credits] from Mantle and 1 [Credits] from Trickster Taka to use Penrose to break all 2 subroutines on Whitespace.",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Whitespace protecting Server 5 at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> pays 5 [Credits] to rez Hostile Architecture in Server 5.",
+            "<anonymized> approaches Server 5.",
+            "<anonymized> breaches Server 5.",
+            "<anonymized> accesses Hostile Architecture from Server 5.",
+            "<anonymized> uses Bravado to gain 7 [Credits]."
           ],
           "action": {
             "type": "play",
@@ -2377,8 +2396,8 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "rubenpieters uses The Class Act to add the second card on the top of the stack to the bottom."
+            "<anonymized> spends [Click] to use Runner Basic Action Card to draw 1 card.",
+            "<anonymized> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
             "type": "draw",
@@ -2392,8 +2411,8 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] and pays 3 [Credits] to install The Twinning.",
-            "rubenpieters is ending his turn 14 with 10 [Credit] and 4 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] and pays 3 [Credits] to install The Twinning.",
+            "<anonymized> is ending his turn 14 with 10 [Credit] and 4 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "install",
@@ -2414,16 +2433,16 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 15 with 8 [Credit] and 4 cards in HQ.",
-            "HaverOfFun spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
-            "HaverOfFun uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "HaverOfFun makes their mandatory start of turn draw.",
-            "HaverOfFun spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
-            "HaverOfFun uses Petty Cash to gain 5 [credits].",
-            "HaverOfFun uses Petty Cash to gain [Click].",
-            "HaverOfFun removes Petty Cash from the game instead of trashing it."
+            "<anonymized> started their turn 15 with 8 [Credit] and 4 cards in HQ.",
+            "<anonymized> spends 2 hosted power counters from on AU Co.: The Gold Standard in Clones to use AU Co.: The Gold Standard in Clones to look at the top 3 cards of R&D.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to trash the second card from R&D and draw 2 cards.",
+            "<anonymized> uses Cohort Guidance Program to trash a card from HQ to gain 2 [Credits] and draw 1 card.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> makes their mandatory start of turn draw.",
+            "<anonymized> spends [Click] and pays 3 [Credits] to play Petty Cash from Archives.",
+            "<anonymized> uses Petty Cash to gain 5 [credits].",
+            "<anonymized> uses Petty Cash to gain [Click].",
+            "<anonymized> removes Petty Cash from the game instead of trashing it."
           ],
           "effects": {
             "triggered_gains": {
@@ -2435,7 +2454,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 8 (new remote)."
+            "<anonymized> spends [Click] to install a card in the root of Server 8 (new remote)."
           ],
           "action": {
             "type": "install",
@@ -2448,12 +2467,12 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 6.",
-            "HaverOfFun pays 3 [Credits] to rez Moon Pool in Server 8.",
-            "HaverOfFun uses Moon Pool to decline to trash any cards from HQ.",
+            "<anonymized> spends [Click] to install a card in the root of Server 6.",
+            "<anonymized> pays 3 [Credits] to rez Moon Pool in Server 8.",
+            "<anonymized> uses Moon Pool to decline to trash any cards from HQ.",
             "uses  to reveal Fujii Asset Retrieval and Fujii Asset Retrieval from Archives and shuffle them into R&D.",
-            "HaverOfFun uses Moon Pool to place 1 advancement counter on a card in Server 6.",
-            "HaverOfFun uses Moon Pool to place 1 advancement counter on a card in Server 6."
+            "<anonymized> uses Moon Pool to place 1 advancement counter on a card in Server 6.",
+            "<anonymized> uses Moon Pool to place 1 advancement counter on a card in Server 6."
           ],
           "action": {
             "type": "install",
@@ -2466,11 +2485,11 @@
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6.",
-            "HaverOfFun scores Sericulture Expansion and gains 2 agenda points.",
-            "rubenpieters uses Hermes to add ice protecting Archives at position 0 to HQ.",
-            "HaverOfFun discards 1 card from HQ at end of turn.",
-            "HaverOfFun is ending their turn 15 with 8 [Credit] and 5 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6.",
+            "<anonymized> scores Sericulture Expansion and gains 2 agenda points.",
+            "<anonymized> uses Hermes to add ice protecting Archives at position 0 to HQ.",
+            "<anonymized> discards 1 card from HQ at end of turn.",
+            "<anonymized> is ending their turn 15 with 8 [Credit] and 5 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -2492,10 +2511,10 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 15 with 10 [Credit] and 4 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
-            "rubenpieters uses Daily Casts to gain 2 [Credits]."
+            "<anonymized> started his turn 15 with 10 [Credit] and 4 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself.",
+            "<anonymized> uses Daily Casts to gain 2 [Credits]."
           ],
           "effects": {
             "triggered_gains": {
@@ -2506,14 +2525,14 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to make a run on Archives.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches Archives.",
-            "rubenpieters breaches Archives.",
-            "rubenpieters accesses Sericulture Expansion from Archives.",
-            "rubenpieters steals Sericulture Expansion and gains 2 agenda points.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
-            "rubenpieters accesses everything else in Archives."
+            "<anonymized> spends [Click] to make a run on Archives.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches Archives.",
+            "<anonymized> breaches Archives.",
+            "<anonymized> accesses Sericulture Expansion from Archives.",
+            "<anonymized> steals Sericulture Expansion and gains 2 agenda points.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself.",
+            "<anonymized> accesses everything else in Archives."
           ],
           "action": {
             "type": "run",
@@ -2524,18 +2543,18 @@
         {
           "click": 2,
           "events": [
-            "rubenpieters spends [Click] to make a run on HQ.",
-            "rubenpieters approaches Anemone protecting HQ at position 0.",
-            "rubenpieters encounters Anemone protecting HQ at position 0.",
-            "rubenpieters uses The Twinning to place a power counter on itself.",
-            "rubenpieters pays 1 [Credits] from Trickster Taka to use Afterimage to break 1 Sentry subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
-            "rubenpieters passes Anemone protecting HQ at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches HQ.",
-            "rubenpieters breaches HQ.",
-            "rubenpieters uses The Twinning to access 1 additional card from HQ.",
-            "rubenpieters accesses Semak-samun from HQ.",
-            "rubenpieters accesses Whitespace from HQ."
+            "<anonymized> spends [Click] to make a run on HQ.",
+            "<anonymized> approaches Anemone protecting HQ at position 0.",
+            "<anonymized> encounters Anemone protecting HQ at position 0.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 1 [Credits] from Trickster Taka to use Afterimage to break 1 Sentry subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
+            "<anonymized> passes Anemone protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> uses The Twinning to access 1 additional card from HQ.",
+            "<anonymized> accesses Semak-samun from HQ.",
+            "<anonymized> accesses Whitespace from HQ."
           ],
           "action": {
             "type": "run",
@@ -2551,16 +2570,16 @@
         {
           "click": 3,
           "events": [
-            "rubenpieters spends [Click] to make a run on R&D.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches R&D.",
-            "rubenpieters breaches R&D.",
-            "rubenpieters accesses an unseen card from R&D.",
-            "rubenpieters steals Fujii Asset Retrieval and gains 3 agenda points.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
-            "HaverOfFun uses Fujii Asset Retrieval to do 2 net damage.",
-            "HaverOfFun trashes Hermes and Touchstone due to net damage.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself."
+            "<anonymized> spends [Click] to make a run on R&D.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches R&D.",
+            "<anonymized> breaches R&D.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> steals Fujii Asset Retrieval and gains 3 agenda points.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself.",
+            "<anonymized> uses Fujii Asset Retrieval to do 2 net damage.",
+            "<anonymized> trashes Hermes and Touchstone due to net damage.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself."
           ],
           "action": {
             "type": "run",
@@ -2571,18 +2590,18 @@
         {
           "click": 4,
           "events": [
-            "rubenpieters spends [Click] to make a run on HQ.",
-            "rubenpieters approaches Anemone protecting HQ at position 0.",
-            "rubenpieters encounters Anemone protecting HQ at position 0.",
-            "rubenpieters pays 1 [Credits] from Trickster Taka to use Afterimage to break 1 Sentry subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
-            "rubenpieters has no further action.",
-            "rubenpieters passes Anemone protecting HQ at position 0.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches HQ.",
-            "rubenpieters breaches HQ.",
-            "rubenpieters accesses Spin Doctor from HQ.",
-            "rubenpieters pays 2 [Credits] from Touchstone to trash Spin Doctor from HQ.",
-            "rubenpieters is ending his turn 15 with 12 [Credit] and 2 cards in his Grip.[hr]"
+            "<anonymized> spends [Click] to make a run on HQ.",
+            "<anonymized> approaches Anemone protecting HQ at position 0.",
+            "<anonymized> encounters Anemone protecting HQ at position 0.",
+            "<anonymized> pays 1 [Credits] from Trickster Taka to use Afterimage to break 1 Sentry subroutine on Anemone (\"[subroutine] Do 1 net damage\").",
+            "<anonymized> has no further action.",
+            "<anonymized> passes Anemone protecting HQ at position 0.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches HQ.",
+            "<anonymized> breaches HQ.",
+            "<anonymized> accesses Spin Doctor from HQ.",
+            "<anonymized> pays 2 [Credits] from Touchstone to trash Spin Doctor from HQ.",
+            "<anonymized> is ending his turn 15 with 12 [Credit] and 2 cards in his Grip.[hr]"
           ],
           "action": {
             "type": "run",
@@ -2605,8 +2624,8 @@
         {
           "click": 0,
           "events": [
-            "HaverOfFun started their turn 16 with 8 [Credit] and 4 cards in HQ.",
-            "HaverOfFun makes their mandatory start of turn draw."
+            "<anonymized> started their turn 16 with 8 [Credit] and 4 cards in HQ.",
+            "<anonymized> makes their mandatory start of turn draw."
           ],
           "effects": {
             "cards_drawn": 1
@@ -2615,7 +2634,7 @@
         {
           "click": 1,
           "events": [
-            "HaverOfFun spends [Click] to install a card in the root of Server 6."
+            "<anonymized> spends [Click] to install a card in the root of Server 6."
           ],
           "action": {
             "type": "install",
@@ -2628,9 +2647,9 @@
         {
           "click": 2,
           "events": [
-            "HaverOfFun spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6.",
-            "rubenpieters uses The Twinning to place a power counter on itself.",
-            "rubenpieters pays 1 [Credits] from Mantle to use Afterimage to increase its strength from 2 to 4."
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 1 [Credits] from Mantle to use Afterimage to increase its strength from 2 to 4."
           ],
           "action": {
             "type": "advance",
@@ -2639,16 +2658,19 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Mantle": 1
+            }
           },
           "bucket": "tempo"
         },
         {
           "click": 3,
           "events": [
-            "HaverOfFun spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6.",
-            "HaverOfFun scores Hybrid Release and gains 1 agenda point.",
-            "HaverOfFun is ending their turn 16 with 6 [Credit] and 4 cards in HQ.[hr]"
+            "<anonymized> spends [Click] and pays 1 [Credits] to use Corp Basic Action Card to advance a card in Server 6.",
+            "<anonymized> scores Hybrid Release and gains 1 agenda point.",
+            "<anonymized> is ending their turn 16 with 6 [Credit] and 4 cards in HQ.[hr]"
           ],
           "action": {
             "type": "advance",
@@ -2670,11 +2692,11 @@
         {
           "click": 0,
           "events": [
-            "rubenpieters started his turn 16 with 12 [Credit] and 2 cards in his Grip.",
-            "rubenpieters uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
-            "rubenpieters uses Daily Casts to gain 2 [Credits].",
-            "rubenpieters trashes Daily Casts."
+            "<anonymized> started his turn 16 with 12 [Credit] and 2 cards in his Grip.",
+            "<anonymized> uses MuslihaT: Multifarious Marketeer to look at the top card of the stack.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself.",
+            "<anonymized> uses Daily Casts to gain 2 [Credits].",
+            "<anonymized> trashes Daily Casts."
           ],
           "effects": {
             "triggered_gains": {
@@ -2685,30 +2707,30 @@
         {
           "click": 1,
           "events": [
-            "rubenpieters spends [Click] to make a run on R&D.",
-            "HaverOfFun has no further action.",
-            "rubenpieters uses The Twinning to place a power counter on itself.",
-            "rubenpieters pays 1 [Credits] from Mantle to use Afterimage to increase its strength from 2 to 4.",
-            "rubenpieters will continue the run.",
-            "rubenpieters approaches R&D.",
-            "rubenpieters breaches R&D.",
-            "rubenpieters uses The Twinning to access 2 additional cards from R&D.",
-            "rubenpieters accesses an unseen card from R&D.",
-            "rubenpieters accesses an unseen card from R&D.",
-            "rubenpieters steals Fujii Asset Retrieval and gains 3 agenda points.",
-            "rubenpieters wins the game.",
-            "rubenpieters uses Trickster Taka to add 1 [Credits] to itself.",
-            "HaverOfFun uses Fujii Asset Retrieval to do 2 net damage.",
-            "HaverOfFun trashes Daily Casts and Transfer of Wealth due to net damage.",
-            "HaverOfFun uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
-            "rubenpieters accesses an unseen card from R&D.",
-            "rubenpieters looks at his deck.",
-            "rubenpieters stops looking at his deck.",
-            "rubenpieters looks at his deck.",
-            "rubenpieters stops looking at his deck.",
-            "rubenpieters looks at his deck.",
-            "rubenpieters stops looking at his deck.",
-            "HaverOfFun has left the game."
+            "<anonymized> spends [Click] to make a run on R&D.",
+            "<anonymized> has no further action.",
+            "<anonymized> uses The Twinning to place a power counter on itself.",
+            "<anonymized> pays 1 [Credits] from Mantle to use Afterimage to increase its strength from 2 to 4.",
+            "<anonymized> will continue the run.",
+            "<anonymized> approaches R&D.",
+            "<anonymized> breaches R&D.",
+            "<anonymized> uses The Twinning to access 2 additional cards from R&D.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> steals Fujii Asset Retrieval and gains 3 agenda points.",
+            "<anonymized> wins the game.",
+            "<anonymized> uses Trickster Taka to add 1 [Credits] to itself.",
+            "<anonymized> uses Fujii Asset Retrieval to do 2 net damage.",
+            "<anonymized> trashes Daily Casts and Transfer of Wealth due to net damage.",
+            "<anonymized> uses AU Co.: The Gold Standard in Clones to place 1 power counter on itself.",
+            "<anonymized> accesses an unseen card from R&D.",
+            "<anonymized> looks at his deck.",
+            "<anonymized> stops looking at his deck.",
+            "<anonymized> looks at his deck.",
+            "<anonymized> stops looking at his deck.",
+            "<anonymized> looks at his deck.",
+            "<anonymized> stops looking at his deck.",
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "run",

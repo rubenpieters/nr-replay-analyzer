@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 
 import { join, basename } from "path";
 import { parseReplayFromString } from "./analyzer.js";
 import { generateHtml } from "./htmlOutput.js";
+import { anonymizeRawJson, anonymizeParsed } from "./anonymize.js";
 
 const JOBS = ["replay_examples", "ms_st", "ms_nost", "az"];
 
@@ -34,8 +35,11 @@ for (const dir of JOBS) {
     try {
       const text = readFileSync(replayPath, "utf-8");
       const data = parseReplayFromString(text);
-      writeFileSync(outJson, JSON.stringify(data, null, 2), "utf-8");
-      writeFileSync(outHtml, generateHtml(data), "utf-8");
+      const anonData = anonymizeParsed(data);
+      const anonRaw = anonymizeRawJson(text, data.summary.corp_player, data.summary.runner_player);
+      writeFileSync(replayPath, anonRaw, "utf-8");
+      writeFileSync(outJson, JSON.stringify(anonData, null, 2), "utf-8");
+      writeFileSync(outHtml, generateHtml(anonData), "utf-8");
       console.log(`Wrote parsed replay to ${outJson}`);
       console.log(`Wrote HTML replay to ${outHtml}`);
     } catch (err) {
