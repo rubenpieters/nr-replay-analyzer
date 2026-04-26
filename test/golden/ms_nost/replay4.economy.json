@@ -1,0 +1,201 @@
+{
+  "corp": {
+    "basic_clicks": 15,
+    "impactful_clicks": 13,
+    "tempo_clicks": 20,
+    "total_econ_clicks": 28,
+    "basic_econ_ratio": 0.54,
+    "cards": {
+      "Regolith Mining License": {
+        "uses": 10,
+        "clicks": 10,
+        "total_credits_gained": 30,
+        "total_cost": 2,
+        "total_net_credits": 28,
+        "total_cards_drawn": 0,
+        "credits_per_click": 2.8
+      },
+      "click for credit": {
+        "uses": 11,
+        "clicks": 11,
+        "total_credits_gained": 11,
+        "total_cost": 0,
+        "total_net_credits": 11,
+        "total_cards_drawn": 0,
+        "credits_per_click": 1
+      },
+      "click to draw": {
+        "uses": 4,
+        "clicks": 4,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 4,
+        "credits_per_click": 0
+      },
+      "Extract": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 18,
+        "total_cost": 6,
+        "total_net_credits": 12,
+        "total_cards_drawn": 0,
+        "credits_per_click": 6
+      }
+    }
+  },
+  "runner": {
+    "basic_clicks": 27,
+    "economy_clicks": 9,
+    "run_clicks": 21,
+    "setup_clicks": 6,
+    "cards": {
+      "Sure Gamble": {
+        "uses": 3,
+        "clicks": 3,
+        "total_credits_gained": 27,
+        "total_cost": 15,
+        "total_net_credits": 12,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      },
+      "click for credit": {
+        "uses": 9,
+        "clicks": 9,
+        "total_credits_gained": 9,
+        "total_cost": 0,
+        "total_net_credits": 9,
+        "total_cards_drawn": 0,
+        "credits_per_click": 1
+      },
+      "Bravado": {
+        "uses": 3,
+        "clicks": 3,
+        "total_credits_gained": 20,
+        "total_cost": 9,
+        "total_net_credits": 11,
+        "total_cards_drawn": 0,
+        "credits_per_click": 3.67
+      },
+      "click to draw": {
+        "uses": 18,
+        "clicks": 18,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 18,
+        "credits_per_click": 0
+      },
+      "Carpe Diem": {
+        "uses": 3,
+        "clicks": 3,
+        "total_credits_gained": 12,
+        "total_cost": 3,
+        "total_net_credits": 9,
+        "total_cards_drawn": 0,
+        "credits_per_click": 3
+      },
+      "Cezve": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 17,
+        "total_cost": 4,
+        "total_net_credits": 13,
+        "total_cards_drawn": 0,
+        "credits_per_click": 6.5
+      },
+      "Touchstone": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 6,
+        "total_cost": 2,
+        "total_net_credits": 4,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      },
+      "Mystic Maemi": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 11,
+        "total_cost": 1,
+        "total_net_credits": 10,
+        "total_cards_drawn": 0,
+        "credits_per_click": 10
+      },
+      "Fencer Fueno": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 9,
+        "total_cost": 0,
+        "total_net_credits": 9,
+        "total_cards_drawn": 0,
+        "credits_per_click": 9
+      },
+      "Clean Getaway": {
+        "uses": 3,
+        "clicks": 3,
+        "total_credits_gained": 18,
+        "total_cost": 9,
+        "total_net_credits": 9,
+        "total_cards_drawn": 0,
+        "credits_per_click": 3
+      },
+      "Overclock": {
+        "uses": 3,
+        "clicks": 3,
+        "total_credits_gained": 10,
+        "total_cost": 3,
+        "total_net_credits": 7,
+        "total_cards_drawn": 0,
+        "credits_per_click": 2.33
+      },
+      "Transfer of Wealth": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 6,
+        "total_cost": 0,
+        "total_net_credits": 6,
+        "total_cards_drawn": 0,
+        "credits_per_click": 6
+      },
+      "MuslihaT: Multifarious Marketeer": {
+        "uses": 12,
+        "clicks": 0,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 12
+      }
+    },
+    "setup_cards": {
+      "Revolver": {
+        "count": 1,
+        "total_cost": 2
+      },
+      "Curupira": {
+        "count": 1,
+        "total_cost": 3
+      },
+      "Mutual Favor": {
+        "count": 1,
+        "total_cost": 0
+      },
+      "Hermes": {
+        "count": 1,
+        "total_cost": 2
+      },
+      "The Twinning": {
+        "count": 1,
+        "total_cost": 3
+      },
+      "unknown": {
+        "count": 1,
+        "total_cost": 2
+      }
+    },
+    "total_setup_cost": 12,
+    "econ_click_ratio": 0.25,
+    "avg_net_credits_per_econ_click": 2.06,
+    "avg_cards_drawn_per_econ_click": 0.63
+  }
+}

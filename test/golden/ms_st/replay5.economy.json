@@ -1,0 +1,144 @@
+{
+  "corp": {
+    "basic_clicks": 18,
+    "impactful_clicks": 6,
+    "tempo_clicks": 15,
+    "total_econ_clicks": 24,
+    "basic_econ_ratio": 0.75,
+    "cards": {
+      "click for credit": {
+        "uses": 18,
+        "clicks": 18,
+        "total_credits_gained": 18,
+        "total_cost": 0,
+        "total_net_credits": 18,
+        "total_cards_drawn": 0,
+        "credits_per_click": 1
+      },
+      "Hedge Fund": {
+        "uses": 6,
+        "clicks": 6,
+        "total_credits_gained": 54,
+        "total_cost": 30,
+        "total_net_credits": 24,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      }
+    }
+  },
+  "runner": {
+    "basic_clicks": 20,
+    "economy_clicks": 7,
+    "run_clicks": 10,
+    "setup_clicks": 6,
+    "cards": {
+      "Bravado": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 14,
+        "total_cost": 6,
+        "total_net_credits": 8,
+        "total_cards_drawn": 1,
+        "credits_per_click": 4
+      },
+      "click to draw": {
+        "uses": 20,
+        "clicks": 20,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 20,
+        "credits_per_click": 0
+      },
+      "Clean Getaway": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 6,
+        "total_cost": 3,
+        "total_net_credits": 3,
+        "total_cards_drawn": 0,
+        "credits_per_click": 3
+      },
+      "DreamNet": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 6,
+        "total_cost": 3,
+        "total_net_credits": 3,
+        "total_cards_drawn": 6,
+        "credits_per_click": 3
+      },
+      "Open Market": {
+        "uses": 2,
+        "clicks": 4,
+        "total_credits_gained": 12,
+        "total_cost": 4,
+        "total_net_credits": 8,
+        "total_cards_drawn": 0,
+        "credits_per_click": 2
+      },
+      "Sure Gamble": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 18,
+        "total_cost": 10,
+        "total_net_credits": 8,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      },
+      "Transfer of Wealth": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 6,
+        "total_cost": 0,
+        "total_net_credits": 6,
+        "total_cards_drawn": 0,
+        "credits_per_click": 6
+      },
+      "Virtual Intelligence, P.I.: \"You Can Call Me Vic\"": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 1,
+        "total_net_credits": -1,
+        "total_cards_drawn": 1,
+        "credits_per_click": -1
+      },
+      "Daily Casts": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 8,
+        "total_cost": 3,
+        "total_net_credits": 5,
+        "total_cards_drawn": 0,
+        "credits_per_click": 5
+      }
+    },
+    "setup_cards": {
+      "Hermes": {
+        "count": 1,
+        "total_cost": 2
+      },
+      "The Price": {
+        "count": 1,
+        "total_cost": 1
+      },
+      "Curupira": {
+        "count": 1,
+        "total_cost": 3
+      },
+      "Leech": {
+        "count": 1,
+        "total_cost": 1
+      },
+      "Boomerang": {
+        "count": 2,
+        "total_cost": 4
+      }
+    },
+    "total_setup_cost": 11,
+    "econ_click_ratio": 0.26,
+    "avg_net_credits_per_econ_click": 1.21,
+    "avg_cards_drawn_per_econ_click": 0.85
+  }
+}

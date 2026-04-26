@@ -1,0 +1,212 @@
+{
+  "corp": {
+    "basic_clicks": 10,
+    "impactful_clicks": 9,
+    "tempo_clicks": 32,
+    "total_econ_clicks": 19,
+    "basic_econ_ratio": 0.53,
+    "cards": {
+      "click for credit": {
+        "uses": 8,
+        "clicks": 8,
+        "total_credits_gained": 8,
+        "total_cost": 0,
+        "total_net_credits": 8,
+        "total_cards_drawn": 0,
+        "credits_per_click": 1
+      },
+      "Regolith Mining License": {
+        "uses": 5,
+        "clicks": 5,
+        "total_credits_gained": 15,
+        "total_cost": 0,
+        "total_net_credits": 15,
+        "total_cards_drawn": 0,
+        "credits_per_click": 3
+      },
+      "click to draw": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 2,
+        "credits_per_click": 0
+      },
+      "Charlotte Caçador": {
+        "uses": 1,
+        "clicks": 0,
+        "total_credits_gained": 3,
+        "total_cost": 0,
+        "total_net_credits": 3,
+        "total_cards_drawn": 0
+      },
+      "Hedge Fund": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 9,
+        "total_cost": 5,
+        "total_net_credits": 4,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      },
+      "Charlotte Caçador to remove 1 hosted advancement counter from itself": {
+        "uses": 0,
+        "clicks": 0,
+        "total_credits_gained": 20,
+        "total_cost": 0,
+        "total_net_credits": 20,
+        "total_cards_drawn": 0
+      }
+    }
+  },
+  "runner": {
+    "basic_clicks": 21,
+    "economy_clicks": 24,
+    "run_clicks": 7,
+    "setup_clicks": 14,
+    "cards": {
+      "click to draw": {
+        "uses": 20,
+        "clicks": 20,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 20,
+        "credits_per_click": 0
+      },
+      "click for credit": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 1,
+        "total_cost": 0,
+        "total_net_credits": 1,
+        "total_cards_drawn": 0,
+        "credits_per_click": 1
+      },
+      "Transfer of Wealth": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 6,
+        "total_cost": 0,
+        "total_net_credits": 6,
+        "total_cards_drawn": 0,
+        "credits_per_click": 6
+      },
+      "Sure Gamble": {
+        "uses": 6,
+        "clicks": 6,
+        "total_credits_gained": 54,
+        "total_cost": 30,
+        "total_net_credits": 24,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      },
+      "Steelskin Scarring": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 1,
+        "total_net_credits": -1,
+        "total_cards_drawn": 3,
+        "credits_per_click": -1
+      },
+      "The Price": {
+        "uses": 1,
+        "clicks": 4,
+        "total_credits_gained": 0,
+        "total_cost": 1,
+        "total_net_credits": -1,
+        "total_cards_drawn": 4,
+        "credits_per_click": -0.25
+      },
+      "Friend of a Friend": {
+        "uses": 4,
+        "clicks": 7,
+        "total_credits_gained": 28,
+        "total_cost": 9,
+        "total_net_credits": 19,
+        "total_cards_drawn": 2,
+        "credits_per_click": 2.71
+      },
+      "Mitra Aman": {
+        "uses": 1,
+        "clicks": 0,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 1
+      },
+      "Strike Fund": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 12,
+        "total_cost": 2,
+        "total_net_credits": 10,
+        "total_cards_drawn": 0,
+        "credits_per_click": 5
+      },
+      "Valentina Ferreira Carvalho": {
+        "uses": 1,
+        "clicks": 2,
+        "total_credits_gained": 6,
+        "total_cost": 2,
+        "total_net_credits": 4,
+        "total_cards_drawn": 0,
+        "credits_per_click": 2
+      },
+      "Ashen Epilogue": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 5,
+        "total_net_credits": -5,
+        "total_cards_drawn": 5,
+        "credits_per_click": -5
+      },
+      "Amanuensis": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 2,
+        "total_net_credits": -2,
+        "total_cards_drawn": 2,
+        "credits_per_click": -2
+      }
+    },
+    "setup_cards": {
+      "Arruaceiras Crew": {
+        "count": 4,
+        "total_cost": 8
+      },
+      "Devil Charm": {
+        "count": 3,
+        "total_cost": 3
+      },
+      "Gourmand": {
+        "count": 2,
+        "total_cost": 0
+      },
+      "unknown": {
+        "count": 4,
+        "total_cost": 8
+      },
+      "Buffer Drive": {
+        "count": 1,
+        "total_cost": 3
+      },
+      "Rising Tide": {
+        "count": 1,
+        "total_cost": 1
+      },
+      "Audrey v2": {
+        "count": 1,
+        "total_cost": 3
+      }
+    },
+    "total_setup_cost": 26,
+    "econ_click_ratio": 0.53,
+    "avg_net_credits_per_econ_click": 1.2,
+    "avg_cards_drawn_per_econ_click": 0.8
+  }
+}

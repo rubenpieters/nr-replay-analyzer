@@ -1,0 +1,226 @@
+{
+  "corp": {
+    "basic_clicks": 8,
+    "impactful_clicks": 14,
+    "tempo_clicks": 23,
+    "total_econ_clicks": 22,
+    "basic_econ_ratio": 0.36,
+    "cards": {
+      "click to draw": {
+        "uses": 7,
+        "clicks": 7,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 7,
+        "credits_per_click": 0
+      },
+      "Hedge Fund": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 18,
+        "total_cost": 10,
+        "total_net_credits": 8,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      },
+      "click for credit": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 1,
+        "total_cost": 0,
+        "total_net_credits": 1,
+        "total_cards_drawn": 0,
+        "credits_per_click": 1
+      },
+      "Tranquility Home Grid": {
+        "uses": 1,
+        "clicks": 0,
+        "total_credits_gained": 10,
+        "total_cost": 0,
+        "total_net_credits": 10,
+        "total_cards_drawn": 0
+      },
+      "Humanoid Resources": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 4,
+        "total_cost": 1,
+        "total_net_credits": 3,
+        "total_cards_drawn": 3,
+        "credits_per_click": 3
+      }
+    }
+  },
+  "runner": {
+    "basic_clicks": 17,
+    "economy_clicks": 16,
+    "run_clicks": 20,
+    "setup_clicks": 9,
+    "cards": {
+      "Transfer of Wealth": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 12,
+        "total_cost": 0,
+        "total_net_credits": 12,
+        "total_cards_drawn": 0,
+        "credits_per_click": 6
+      },
+      "Sure Gamble": {
+        "uses": 3,
+        "clicks": 3,
+        "total_credits_gained": 27,
+        "total_cost": 15,
+        "total_net_credits": 12,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      },
+      "click to draw": {
+        "uses": 16,
+        "clicks": 16,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 16,
+        "credits_per_click": 0
+      },
+      "Clean Getaway": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 12,
+        "total_cost": 6,
+        "total_net_credits": 6,
+        "total_cards_drawn": 0,
+        "credits_per_click": 3
+      },
+      "Bravado": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 14,
+        "total_cost": 6,
+        "total_net_credits": 8,
+        "total_cards_drawn": 0,
+        "credits_per_click": 4
+      },
+      "Az McCaffrey: Mechanical Prodigy": {
+        "uses": 5,
+        "clicks": 0,
+        "total_credits_gained": 5,
+        "total_cost": 0,
+        "total_net_credits": 5,
+        "total_cards_drawn": 0
+      },
+      "Dr. Nuka Vrolyck": {
+        "uses": 2,
+        "clicks": 3,
+        "total_credits_gained": 0,
+        "total_cost": 1,
+        "total_net_credits": -1,
+        "total_cards_drawn": 6,
+        "credits_per_click": -0.33
+      },
+      "Open Market": {
+        "uses": 3,
+        "clicks": 3,
+        "total_credits_gained": 16,
+        "total_cost": 6,
+        "total_net_credits": 10,
+        "total_cards_drawn": 0,
+        "credits_per_click": 3.33
+      },
+      "Sell Out": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 4,
+        "total_cost": 1,
+        "total_net_credits": 3,
+        "total_cards_drawn": 2,
+        "credits_per_click": 3
+      },
+      "click for credit": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 1,
+        "total_cost": 0,
+        "total_net_credits": 1,
+        "total_cards_drawn": 0,
+        "credits_per_click": 1
+      },
+      "Info Bounty": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 8,
+        "total_cost": 2,
+        "total_net_credits": 6,
+        "total_cards_drawn": 0,
+        "credits_per_click": 6
+      },
+      "Cezve": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 10,
+        "total_cost": 2,
+        "total_net_credits": 8,
+        "total_cards_drawn": 0,
+        "credits_per_click": 8
+      },
+      "unknown": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 1,
+        "credits_per_click": 0
+      },
+      "Daily Casts": {
+        "uses": 3,
+        "clicks": 3,
+        "total_credits_gained": 24,
+        "total_cost": 9,
+        "total_net_credits": 15,
+        "total_cards_drawn": 0,
+        "credits_per_click": 5
+      }
+    },
+    "setup_cards": {
+      "unknown": {
+        "count": 2,
+        "total_cost": 4
+      },
+      "Mutual Favor": {
+        "count": 1,
+        "total_cost": 0
+      },
+      "Curupira": {
+        "count": 1,
+        "total_cost": 3
+      },
+      "Revolver": {
+        "count": 1,
+        "total_cost": 2
+      },
+      "Hermes": {
+        "count": 1,
+        "total_cost": 1
+      },
+      "The Twinning": {
+        "count": 1,
+        "total_cost": 3
+      },
+      "Echelon": {
+        "count": 1,
+        "total_cost": 3
+      },
+      "<anonymized-runner> spends [Click] to steal Méliès City Luxury Line from R&D.": {
+        "count": 1,
+        "total_cost": 0
+      }
+    },
+    "total_setup_cost": 16,
+    "econ_click_ratio": 0.48,
+    "avg_net_credits_per_econ_click": 2.18,
+    "avg_cards_drawn_per_econ_click": 0.64
+  }
+}
