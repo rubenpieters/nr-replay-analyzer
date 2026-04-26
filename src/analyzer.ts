@@ -42,6 +42,15 @@ export interface CardEconEntry {
   total_net_credits: number;
   total_cards_drawn: number;
   credits_per_click?: number;
+  run?: true;
+}
+
+export interface RunEntry {
+  turn: number;
+  click: number;
+  server: string;
+  successful: boolean;
+  card?: string;
 }
 
 export interface PlayerEcon {
@@ -59,6 +68,7 @@ export interface PlayerEcon {
   setup_cards?: Record<string, SetupCardEntry>;
   total_setup_cost?: number;
   cards: Record<string, CardEconEntry>;
+  runs?: RunEntry[];
   [key: string]: unknown;
 }
 
@@ -519,6 +529,36 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
   return turns;
 }
 
+// -- Run info extraction --
+
+function extractRunInfo(
+  action: Action,
+  events: string[]
+): { server: string; successful: boolean } {
+  let server: string;
+  if (action.type === "run" && typeof action.server === "string") {
+    server = action.server;
+  } else {
+    const runOnMatch = events.map((e) => /\bmakes? a run on (.+?)\./.exec(e)).find(Boolean);
+    if (runOnMatch) {
+      server = runOnMatch[1];
+    } else {
+      // Fallback: infer from "approaches ice protecting X at position" or "approaches X"
+      const approachMatch = events
+        .map((e) => /\bapproaches ice protecting (.+?) at position|\bapproaches (HQ|R&D|Archives|Server \d+)\b/.exec(e))
+        .find(Boolean);
+      if (approachMatch) {
+        server = approachMatch[1] ?? approachMatch[2];
+      } else {
+        // No run-initiation pattern found: event card did not make a run
+        server = "no run";
+      }
+    }
+  }
+  const successful = events.some((e) => /\bbreaches\b|\buses the replacement effect\b/.test(e));
+  return { server, successful };
+}
+
 // -- Economy tracking --
 
 const BASIC_ECON_TYPES = new Set(["gain_credits", "draw"]);
@@ -570,6 +610,7 @@ function emptyEcon(player: "corp" | "runner"): PlayerEcon {
       run_clicks: 0,
       setup_clicks: 0,
       cards: {},
+      runs: [],
     };
   }
   return {
@@ -676,6 +717,14 @@ export function computeEconomy(
 
       click.bucket = bucket;
 
+      if (bucket === "run" && player === "runner") {
+        const { server, successful } = extractRunInfo(action, events);
+        const runEntry: RunEntry = { turn: phase.turn, click: click.click, server, successful };
+        const cardTitle = action.card as string | undefined;
+        if (cardTitle && cardDb?.isRunEvent(cardTitle)) runEntry.card = cardTitle;
+        econ.runs!.push(runEntry);
+      }
+
       if (isEcon) {
         if (!isTrigger) {
           (econ as Record<string, unknown>)[bucket + "_clicks"] =
@@ -684,6 +733,10 @@ export function computeEconomy(
         const isNewEntry = !(cardKey in econ.cards);
         if (!(cardKey in econ.cards)) econ.cards[cardKey] = newCardEconEntry();
         const entry = econ.cards[cardKey];
+        if (isNewEntry) {
+          const cardTitle = action.card as string | undefined;
+          if (cardTitle && cardDb?.isRunEvent(cardTitle)) entry.run = true;
+        }
         const resourceCreditsPaid = Object.values(
           (click.effects?.credits_from_resources ?? {}) as Record<string, number>
         ).reduce((s, v) => s + v, 0);
@@ -745,7 +798,10 @@ export function computeEconomy(
           const playCost = cardCosts[player][resCard] ?? cardDb?.getPrintedCost(resCard) ?? 0;
           const playCount = cardPlayCounts[player][resCard] ?? 0;
           resEntry.uses = playCount;
-          if (resCard === action.card) resEntry.clicks = playCount;
+          if (resCard === action.card && action.type !== "install") {
+            resEntry.clicks = playCount;
+            if (cardDb?.isRunEvent(resCard)) resEntry.run = true;
+          }
           resEntry.total_cost += playCost;
           resEntry.total_net_credits -= playCost;
         }
@@ -758,13 +814,16 @@ export function computeEconomy(
     }
   }
 
-  // Process SOT/EOT triggered gains (skipped by main loop which requires click.click > 0)
+  // Process SOT/EOT triggered gains/draws (skipped by main loop which requires click.click > 0)
+  const triggeredDrawRe = /\buses (.+?) to draw \d/;
   for (const phase of turns) {
     if (!("player" in phase)) continue;
     const player = phase.player as string;
+    const playerName = playerNames[player] ?? null;
     const econ = result[player as "corp" | "runner"];
     for (const click of phase.clicks) {
       if (click.click !== 0 && click.click !== -1) continue;
+
       const tg = (click.effects?.triggered_gains as Record<string, number> | undefined) ?? {};
       for (const [card, amount] of Object.entries(tg)) {
         const isNew = !(card in econ.cards);
@@ -778,6 +837,27 @@ export function computeEconomy(
         }
         entry.total_credits_gained += amount;
         entry.total_net_credits += amount;
+      }
+
+      // Attribute triggered card draws ("uses X to draw N cards")
+      const totalDrawn = (click.effects?.cards_drawn as number | undefined) ?? 0;
+      if (totalDrawn > 0) {
+        for (const ev of (click.events ?? [])) {
+          if (playerName && !ev.startsWith(playerName)) continue;
+          const m = triggeredDrawRe.exec(ev);
+          if (!m) continue;
+          const card = m[1];
+          const isNew = !(card in econ.cards);
+          if (isNew) econ.cards[card] = newCardEconEntry();
+          const entry = econ.cards[card];
+          if (isNew) {
+            const playCost = cardCosts[player][card] ?? cardDb?.getPrintedCost(card) ?? 0;
+            entry.uses = cardPlayCounts[player][card] ?? 0;
+            entry.total_cost += playCost;
+            entry.total_net_credits -= playCost;
+          }
+          entry.total_cards_drawn += totalDrawn;
+        }
       }
     }
   }
@@ -816,8 +896,15 @@ export function computeEconomy(
         click.bucket = "economy";
         runnerEcon.setup_clicks! -= 1;
         runnerEcon.economy_clicks! += 1;
-        const entry = runnerEcon.cards[action.card as string];
-        if (entry) entry.clicks += 1;
+        const cardKey = action.card as string;
+        if (!(cardKey in runnerEcon.cards)) {
+          runnerEcon.cards[cardKey] = newCardEconEntry();
+          const playCost = cardCosts["runner"][cardKey] ?? cardDb?.getPrintedCost(cardKey) ?? 0;
+          runnerEcon.cards[cardKey].uses = cardPlayCounts["runner"][cardKey] ?? 0;
+          runnerEcon.cards[cardKey].total_cost += playCost;
+          runnerEcon.cards[cardKey].total_net_credits -= playCost;
+        }
+        runnerEcon.cards[cardKey].clicks += 1;
       }
     }
   }

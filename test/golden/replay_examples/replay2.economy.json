@@ -100,6 +100,7 @@
         "total_cost": 0,
         "total_net_credits": 6,
         "total_cards_drawn": 1,
+        "run": true,
         "credits_per_click": 6
       },
       "Friend of a Friend": {
@@ -155,8 +156,123 @@
         "total_net_credits": 0,
         "total_cards_drawn": 1,
         "credits_per_click": 0
+      },
+      "Steelskin Scarring": {
+        "uses": 0,
+        "clicks": 0,
+        "total_credits_gained": 0,
+        "total_cost": 1,
+        "total_net_credits": -1,
+        "total_cards_drawn": 10
+      },
+      "Solidarity Badge": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 1,
+        "total_net_credits": -1,
+        "total_cards_drawn": 7,
+        "credits_per_click": -1
       }
     },
+    "runs": [
+      {
+        "turn": 3,
+        "click": 2,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 4,
+        "click": 2,
+        "server": "Archives",
+        "successful": true,
+        "card": "Privileged Access"
+      },
+      {
+        "turn": 4,
+        "click": 3,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 5,
+        "click": 3,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 6,
+        "click": 2,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 7,
+        "click": 3,
+        "server": "Archives",
+        "successful": true,
+        "card": "Privileged Access"
+      },
+      {
+        "turn": 8,
+        "click": 3,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 13,
+        "click": 2,
+        "server": "Archives",
+        "successful": true,
+        "card": "Privileged Access"
+      },
+      {
+        "turn": 15,
+        "click": 3,
+        "server": "HQ",
+        "successful": false,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 15,
+        "click": 4,
+        "server": "HQ",
+        "successful": true
+      },
+      {
+        "turn": 16,
+        "click": 1,
+        "server": "Archives",
+        "successful": true,
+        "card": "Privileged Access"
+      },
+      {
+        "turn": 16,
+        "click": 3,
+        "server": "HQ",
+        "successful": true
+      },
+      {
+        "turn": 16,
+        "click": 4,
+        "server": "HQ",
+        "successful": true
+      },
+      {
+        "turn": 17,
+        "click": 2,
+        "server": "Archives",
+        "successful": true
+      },
+      {
+        "turn": 17,
+        "click": 3,
+        "server": "HQ",
+        "successful": true
+      }
+    ],
     "setup_cards": {
       "Botulus": {
         "count": 1,
@@ -193,7 +309,7 @@
     },
     "total_setup_cost": 20,
     "econ_click_ratio": 0.43,
-    "avg_net_credits_per_econ_click": 1.26,
-    "avg_cards_drawn_per_econ_click": 0.72
+    "avg_net_credits_per_econ_click": 1.18,
+    "avg_cards_drawn_per_econ_click": 1.09
   }
 }

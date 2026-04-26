@@ -178,6 +178,7 @@
           "total_cost": 0,
           "total_net_credits": 6,
           "total_cards_drawn": 0,
+          "run": true,
           "credits_per_click": 6
         },
         "Sure Gamble": {
@@ -195,7 +196,7 @@
           "total_credits_gained": 0,
           "total_cost": 1,
           "total_net_credits": -1,
-          "total_cards_drawn": 3,
+          "total_cards_drawn": 5,
           "credits_per_click": -1
         },
         "The Price": {
@@ -259,8 +260,62 @@
           "total_net_credits": -2,
           "total_cards_drawn": 2,
           "credits_per_click": -2
+        },
+        "Solidarity Badge": {
+          "uses": 1,
+          "clicks": 1,
+          "total_credits_gained": 0,
+          "total_cost": 1,
+          "total_net_credits": -1,
+          "total_cards_drawn": 2,
+          "credits_per_click": -1
         }
       },
+      "runs": [
+        {
+          "turn": 3,
+          "click": 3,
+          "server": "HQ",
+          "successful": true,
+          "card": "Transfer of Wealth"
+        },
+        {
+          "turn": 5,
+          "click": 3,
+          "server": "R&D",
+          "successful": true
+        },
+        {
+          "turn": 7,
+          "click": 3,
+          "server": "HQ",
+          "successful": true
+        },
+        {
+          "turn": 9,
+          "click": 2,
+          "server": "R&D",
+          "successful": true
+        },
+        {
+          "turn": 10,
+          "click": 3,
+          "server": "Server 2",
+          "successful": false
+        },
+        {
+          "turn": 16,
+          "click": 3,
+          "server": "R&D",
+          "successful": true
+        },
+        {
+          "turn": 17,
+          "click": 4,
+          "server": "R&D",
+          "successful": true
+        }
+      ],
       "setup_cards": {
         "Arruaceiras Crew": {
           "count": 4,
@@ -293,8 +348,8 @@
       },
       "total_setup_cost": 26,
       "econ_click_ratio": 0.53,
-      "avg_net_credits_per_econ_click": 1.2,
-      "avg_cards_drawn_per_econ_click": 0.8
+      "avg_net_credits_per_econ_click": 1.15,
+      "avg_cards_drawn_per_econ_click": 0.87
     }
   },
   "turns": [

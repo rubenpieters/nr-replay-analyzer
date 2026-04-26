@@ -1,4 +1,4 @@
-import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon, SetupCardEntry } from "./analyzer.js";
+import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon, SetupCardEntry, RunEntry } from "./analyzer.js";
 
 const ACTION_COLORS: Record<string, string> = {
   run: "#d32f2f",
@@ -85,6 +85,13 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
 .net-pos { color: #2e7d32; font-weight: 600; }
 .net-neg { color: #c62828; font-weight: 600; }
 .net-zero { color: #9e9e9e; }
+.runs-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; margin-top: 12px; }
+.runs-table th { text-align: left; padding: 4px 8px; border-bottom: 2px solid #e0e0e0; color: #757575; font-weight: 600; }
+.runs-table td { padding: 3px 8px; border-bottom: 1px solid #f5f5f5; }
+.runs-table tr:last-child td { border-bottom: none; }
+.runs-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.run-success { color: #2e7d32; font-weight: 600; }
+.run-failure { color: #c62828; font-weight: 600; }
 `;
 
 const CORP_FACTIONS = ["Haas-Bioroid", "Weyland Consortium", "Jinteki", "NBN"];
@@ -225,11 +232,13 @@ function renderEconomy(economy: PlayerEcon): string {
   }
 
   const cards = economy.cards ?? {};
-  const sortedCards = Object.entries(cards).sort(
-    ([, a], [, b]) =>
-      b.total_net_credits - a.total_net_credits ||
-      b.total_cards_drawn - a.total_cards_drawn
-  );
+  const sortedCards = Object.entries(cards)
+    .filter(([, c]) => !c.run)
+    .sort(
+      ([, a], [, b]) =>
+        b.total_net_credits - a.total_net_credits ||
+        b.total_cards_drawn - a.total_cards_drawn
+    );
 
   const rows: string[] = [];
   for (const [name, c] of sortedCards) {
@@ -309,7 +318,32 @@ function renderEconomy(economy: PlayerEcon): string {
       `</table>`;
   }
 
-  return `<div class="econ-summary">${tallies}${table}${setupHtml}</div>`;
+  let runsHtml = "";
+  const runs = economy.runs as RunEntry[] | undefined;
+  if (runs && runs.length > 0) {
+    const runRows = runs.map((r) => {
+      const outcome = r.successful
+        ? `<span class="run-success">&#10003;</span>`
+        : `<span class="run-failure">&#10007;</span>`;
+      const card = r.card ? he(shortIdentity(r.card)) : "&#8212;";
+      return (
+        `<tr>` +
+        `<td class="num">T${r.turn}</td>` +
+        `<td class="num">C${r.click}</td>` +
+        `<td>${he(r.server)}</td>` +
+        `<td>${outcome}</td>` +
+        `<td>${card}</td>` +
+        `</tr>`
+      );
+    }).join("");
+    runsHtml =
+      `<table class="runs-table">` +
+      `<thead><tr><th>Turn</th><th>Click</th><th>Server</th><th>Result</th><th>Card</th></tr></thead>` +
+      `<tbody>${runRows}</tbody>` +
+      `</table>`;
+  }
+
+  return `<div class="econ-summary">${tallies}${table}${setupHtml}${runsHtml}</div>`;
 }
 
 function renderSection(

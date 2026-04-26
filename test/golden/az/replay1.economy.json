@@ -50,6 +50,14 @@
         "total_net_credits": 3,
         "total_cards_drawn": 0
       },
+      "Spin Doctor": {
+        "uses": 0,
+        "clicks": 0,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 3
+      },
       "Charlotte Caçador to remove 1 hosted advancement counter from itself": {
         "uses": 0,
         "clicks": 0,
@@ -90,6 +98,7 @@
         "total_cost": 6,
         "total_net_credits": 6,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 3
       },
       "click for credit": {
@@ -121,12 +130,12 @@
       },
       "Open Market": {
         "uses": 3,
-        "clicks": 6,
+        "clicks": 3,
         "total_credits_gained": 13,
         "total_cost": 6,
         "total_net_credits": 7,
         "total_cards_drawn": 0,
-        "credits_per_click": 1.17
+        "credits_per_click": 2.33
       },
       "Paladin Poemu": {
         "uses": 1,
@@ -144,6 +153,7 @@
         "total_cost": 6,
         "total_net_credits": 9,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 4.5
       },
       "Cezve": {
@@ -180,6 +190,7 @@
         "total_cost": 0,
         "total_net_credits": 12,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 6
       },
       "Daily Casts": {
@@ -190,8 +201,92 @@
         "total_net_credits": 15,
         "total_cards_drawn": 0,
         "credits_per_click": 5
+      },
+      "The Class Act": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 0,
+        "total_cost": 8,
+        "total_net_credits": -8,
+        "total_cards_drawn": 8,
+        "credits_per_click": -4
       }
     },
+    "runs": [
+      {
+        "turn": 1,
+        "click": 3,
+        "server": "Archives",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 4,
+        "click": 2,
+        "server": "Archives",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 8,
+        "click": 3,
+        "server": "R&D",
+        "successful": true,
+        "card": "Bravado"
+      },
+      {
+        "turn": 10,
+        "click": 3,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 11,
+        "click": 2,
+        "server": "Archives",
+        "successful": true
+      },
+      {
+        "turn": 12,
+        "click": 1,
+        "server": "R&D",
+        "successful": true,
+        "card": "Bravado"
+      },
+      {
+        "turn": 12,
+        "click": 2,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 13,
+        "click": 1,
+        "server": "Archives",
+        "successful": true,
+        "card": "Pinhole Threading"
+      },
+      {
+        "turn": 13,
+        "click": 2,
+        "server": "Archives",
+        "successful": true
+      },
+      {
+        "turn": 14,
+        "click": 1,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 14,
+        "click": 2,
+        "server": "R&D",
+        "successful": true
+      }
+    ],
     "setup_cards": {
       "Curupira": {
         "count": 1,
@@ -232,7 +327,7 @@
     },
     "total_setup_cost": 19,
     "econ_click_ratio": 0.65,
-    "avg_net_credits_per_econ_click": 1.93,
-    "avg_cards_drawn_per_econ_click": 0.68
+    "avg_net_credits_per_econ_click": 1.77,
+    "avg_cards_drawn_per_econ_click": 0.9
   }
 }

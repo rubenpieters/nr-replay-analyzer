@@ -33,6 +33,14 @@
         "total_cards_drawn": 0,
         "credits_per_click": 1
       },
+      "Spin Doctor": {
+        "uses": 0,
+        "clicks": 0,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 3
+      },
       "Bladderwort": {
         "uses": 0,
         "clicks": 0,
@@ -73,6 +81,7 @@
         "total_cost": 3,
         "total_net_credits": 3,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 3
       },
       "click to draw": {
@@ -128,8 +137,56 @@
         "total_net_credits": 5,
         "total_cards_drawn": 0,
         "credits_per_click": 5
+      },
+      "The Class Act": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 0,
+        "total_cost": 8,
+        "total_net_credits": -8,
+        "total_cards_drawn": 8,
+        "credits_per_click": -4
       }
     },
+    "runs": [
+      {
+        "turn": 1,
+        "click": 1,
+        "server": "Server 1",
+        "successful": true
+      },
+      {
+        "turn": 3,
+        "click": 2,
+        "server": "Archives",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 5,
+        "click": 3,
+        "server": "Server 4",
+        "successful": true
+      },
+      {
+        "turn": 7,
+        "click": 2,
+        "server": "Archives",
+        "successful": true
+      },
+      {
+        "turn": 8,
+        "click": 3,
+        "server": "Archives",
+        "successful": true
+      },
+      {
+        "turn": 9,
+        "click": 3,
+        "server": "Server 9",
+        "successful": true
+      }
+    ],
     "setup_cards": {
       "Hermes": {
         "count": 1,
@@ -158,7 +215,7 @@
     },
     "total_setup_cost": 14,
     "econ_click_ratio": 0.38,
-    "avg_net_credits_per_econ_click": 1.35,
-    "avg_cards_drawn_per_econ_click": 0.52
+    "avg_net_credits_per_econ_click": 0.92,
+    "avg_cards_drawn_per_econ_click": 0.8
   }
 }

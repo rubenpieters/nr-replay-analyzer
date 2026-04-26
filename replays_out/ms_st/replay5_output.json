@@ -111,6 +111,7 @@
           "total_cost": 6,
           "total_net_credits": 8,
           "total_cards_drawn": 1,
+          "run": true,
           "credits_per_click": 4
         },
         "click to draw": {
@@ -129,6 +130,7 @@
           "total_cost": 3,
           "total_net_credits": 3,
           "total_cards_drawn": 0,
+          "run": true,
           "credits_per_click": 3
         },
         "DreamNet": {
@@ -142,12 +144,12 @@
         },
         "Open Market": {
           "uses": 2,
-          "clicks": 4,
+          "clicks": 2,
           "total_credits_gained": 12,
           "total_cost": 4,
           "total_net_credits": 8,
           "total_cards_drawn": 0,
-          "credits_per_click": 2
+          "credits_per_click": 4
         },
         "Sure Gamble": {
           "uses": 2,
@@ -165,6 +167,7 @@
           "total_cost": 0,
           "total_net_credits": 6,
           "total_cards_drawn": 0,
+          "run": true,
           "credits_per_click": 6
         },
         "Virtual Intelligence, P.I.: \"You Can Call Me Vic\"": {
@@ -186,6 +189,103 @@
           "credits_per_click": 5
         }
       },
+      "runs": [
+        {
+          "turn": 1,
+          "click": 1,
+          "server": "R&D",
+          "successful": false,
+          "card": "Bravado"
+        },
+        {
+          "turn": 1,
+          "click": 4,
+          "server": "HQ",
+          "successful": true
+        },
+        {
+          "turn": 2,
+          "click": 3,
+          "server": "Archives",
+          "successful": true,
+          "card": "Clean Getaway"
+        },
+        {
+          "turn": 3,
+          "click": 2,
+          "server": "Archives",
+          "successful": true,
+          "card": "Pinhole Threading"
+        },
+        {
+          "turn": 4,
+          "click": 3,
+          "server": "Server 1",
+          "successful": false
+        },
+        {
+          "turn": 4,
+          "click": 4,
+          "server": "Archives",
+          "successful": true
+        },
+        {
+          "turn": 5,
+          "click": 2,
+          "server": "Archives",
+          "successful": true
+        },
+        {
+          "turn": 6,
+          "click": 2,
+          "server": "HQ",
+          "successful": false
+        },
+        {
+          "turn": 6,
+          "click": 3,
+          "server": "Archives",
+          "successful": true
+        },
+        {
+          "turn": 8,
+          "click": 1,
+          "server": "Archives",
+          "successful": true
+        },
+        {
+          "turn": 8,
+          "click": 3,
+          "server": "Server 1",
+          "successful": false
+        },
+        {
+          "turn": 9,
+          "click": 4,
+          "server": "Archives",
+          "successful": true
+        },
+        {
+          "turn": 10,
+          "click": 1,
+          "server": "Archives",
+          "successful": true
+        },
+        {
+          "turn": 10,
+          "click": 3,
+          "server": "HQ",
+          "successful": true,
+          "card": "Transfer of Wealth"
+        },
+        {
+          "turn": 12,
+          "click": 4,
+          "server": "HQ",
+          "successful": true,
+          "card": "Bravado"
+        }
+      ],
       "setup_cards": {
         "Hermes": {
           "count": 1,
@@ -210,8 +310,8 @@
       },
       "total_setup_cost": 11,
       "econ_click_ratio": 0.26,
-      "avg_net_credits_per_econ_click": 1.21,
-      "avg_cards_drawn_per_econ_click": 0.85
+      "avg_net_credits_per_econ_click": 1.29,
+      "avg_cards_drawn_per_econ_click": 0.9
     }
   },
   "turns": [

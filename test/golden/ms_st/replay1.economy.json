@@ -48,6 +48,14 @@
         "total_cost": 0,
         "total_net_credits": 12,
         "total_cards_drawn": 0
+      },
+      "Spin Doctor": {
+        "uses": 0,
+        "clicks": 0,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 3
       }
     }
   },
@@ -64,6 +72,7 @@
         "total_cost": 3,
         "total_net_credits": 9,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 3
       },
       "Open Market": {
@@ -100,6 +109,7 @@
         "total_cost": 0,
         "total_net_credits": 6,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 6
       },
       "Mantle": {
@@ -127,6 +137,7 @@
         "total_cost": 3,
         "total_net_credits": 3,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 3
       },
       "Bravado": {
@@ -136,6 +147,7 @@
         "total_cost": 9,
         "total_net_credits": 15,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 5
       },
       "Trickster Taka": {
@@ -156,6 +168,15 @@
         "total_cards_drawn": 0,
         "credits_per_click": 1
       },
+      "The Class Act": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 4,
+        "total_net_credits": -4,
+        "total_cards_drawn": 4,
+        "credits_per_click": -4
+      },
       "Daily Casts": {
         "uses": 2,
         "clicks": 2,
@@ -174,6 +195,82 @@
         "total_cards_drawn": 6
       }
     },
+    "runs": [
+      {
+        "turn": 1,
+        "click": 2,
+        "server": "R&D",
+        "successful": true,
+        "card": "Carpe Diem"
+      },
+      {
+        "turn": 3,
+        "click": 4,
+        "server": "no run",
+        "successful": false,
+        "card": "Carpe Diem"
+      },
+      {
+        "turn": 4,
+        "click": 3,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 5,
+        "click": 3,
+        "server": "no run",
+        "successful": false,
+        "card": "Carpe Diem"
+      },
+      {
+        "turn": 6,
+        "click": 3,
+        "server": "Archives",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 10,
+        "click": 2,
+        "server": "Server 1",
+        "successful": true,
+        "card": "Bravado"
+      },
+      {
+        "turn": 11,
+        "click": 1,
+        "server": "Archives",
+        "successful": true,
+        "card": "Bravado"
+      },
+      {
+        "turn": 11,
+        "click": 2,
+        "server": "R&D",
+        "successful": false
+      },
+      {
+        "turn": 12,
+        "click": 2,
+        "server": "R&D",
+        "successful": true,
+        "card": "Bravado"
+      },
+      {
+        "turn": 13,
+        "click": 2,
+        "server": "Server 1",
+        "successful": true
+      },
+      {
+        "turn": 14,
+        "click": 1,
+        "server": "R&D",
+        "successful": true
+      }
+    ],
     "setup_cards": {
       "Afterimage": {
         "count": 2,
@@ -206,7 +303,7 @@
     },
     "total_setup_cost": 27,
     "econ_click_ratio": 0.32,
-    "avg_net_credits_per_econ_click": 1.66,
-    "avg_cards_drawn_per_econ_click": 0.58
+    "avg_net_credits_per_econ_click": 1.51,
+    "avg_cards_drawn_per_econ_click": 0.67
   }
 }

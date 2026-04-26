@@ -8,11 +8,12 @@
     "regenerate": "node dist/regenerate.js",
     "fetch-cards": "node dist/fetchCards.js",
     "test": "vitest run",
-    "test:update": "node scripts/updateGolden.js"
+    "test:update": "npx tsx scripts/updateGolden.ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "esbuild": "^0.21.0",
+    "tsx": "^4.21.0",
     "typescript": "^5.4.0",
     "vitest": "^3.2.4"
   }

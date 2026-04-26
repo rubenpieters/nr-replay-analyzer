@@ -68,6 +68,14 @@
         "total_net_credits": 3,
         "total_cards_drawn": 0,
         "credits_per_click": 1
+      },
+      "Spin Doctor": {
+        "uses": 0,
+        "clicks": 0,
+        "total_credits_gained": 0,
+        "total_cost": 0,
+        "total_net_credits": 0,
+        "total_cards_drawn": 3
       }
     }
   },
@@ -146,6 +154,7 @@
         "total_cost": 9,
         "total_net_credits": 9,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 3
       },
       "Info Bounty": {
@@ -164,6 +173,7 @@
         "total_cost": 3,
         "total_net_credits": 5,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 5
       },
       "Transfer of Wealth": {
@@ -173,7 +183,17 @@
         "total_cost": 0,
         "total_net_credits": 6,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 6
+      },
+      "The Class Act": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 4,
+        "total_net_credits": -4,
+        "total_cards_drawn": 4,
+        "credits_per_click": -4
       },
       "Daily Casts": {
         "uses": 1,
@@ -185,6 +205,82 @@
         "credits_per_click": 5
       }
     },
+    "runs": [
+      {
+        "turn": 2,
+        "click": 1,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 4,
+        "click": 3,
+        "server": "Archives",
+        "successful": true,
+        "card": "Pinhole Threading"
+      },
+      {
+        "turn": 6,
+        "click": 2,
+        "server": "R&D",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 7,
+        "click": 2,
+        "server": "R&D",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 7,
+        "click": 3,
+        "server": "Server 1",
+        "successful": false
+      },
+      {
+        "turn": 8,
+        "click": 3,
+        "server": "Archives",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 8,
+        "click": 4,
+        "server": "HQ",
+        "successful": true,
+        "card": "Bravado"
+      },
+      {
+        "turn": 9,
+        "click": 1,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 9,
+        "click": 2,
+        "server": "Archives",
+        "successful": true,
+        "card": "Pinhole Threading"
+      },
+      {
+        "turn": 9,
+        "click": 3,
+        "server": "Server 1",
+        "successful": true
+      },
+      {
+        "turn": 10,
+        "click": 2,
+        "server": "R&D",
+        "successful": true,
+        "card": "Bravado"
+      }
+    ],
     "setup_cards": {
       "Mutual Favor": {
         "count": 2,
@@ -213,7 +309,7 @@
     },
     "total_setup_cost": 10,
     "econ_click_ratio": 0.62,
-    "avg_net_credits_per_econ_click": 2,
-    "avg_cards_drawn_per_econ_click": 0.65
+    "avg_net_credits_per_econ_click": 1.78,
+    "avg_cards_drawn_per_econ_click": 0.78
   }
 }

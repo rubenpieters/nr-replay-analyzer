@@ -82,6 +82,7 @@
         "total_cost": 3,
         "total_net_credits": 9,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 3
       },
       "click for credit": {
@@ -100,6 +101,7 @@
         "total_cost": 2,
         "total_net_credits": 4,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 2
       },
       "Transfer of Wealth": {
@@ -109,6 +111,7 @@
         "total_cost": 0,
         "total_net_credits": 18,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 6
       },
       "Touchstone": {
@@ -127,6 +130,7 @@
         "total_cost": 9,
         "total_net_credits": 9,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 3
       },
       "Bravado": {
@@ -136,6 +140,7 @@
         "total_cost": 6,
         "total_net_credits": 8,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 4
       },
       "Mystic Maemi": {
@@ -147,6 +152,15 @@
         "total_cards_drawn": 0,
         "credits_per_click": 9
       },
+      "The Class Act": {
+        "uses": 2,
+        "clicks": 2,
+        "total_credits_gained": 0,
+        "total_cost": 8,
+        "total_net_credits": -8,
+        "total_cards_drawn": 8,
+        "credits_per_click": -4
+      },
       "MuslihaT: Multifarious Marketeer": {
         "uses": 8,
         "clicks": 0,
@@ -156,6 +170,162 @@
         "total_cards_drawn": 8
       }
     },
+    "runs": [
+      {
+        "turn": 1,
+        "click": 4,
+        "server": "Archives",
+        "successful": true
+      },
+      {
+        "turn": 2,
+        "click": 1,
+        "server": "R&D",
+        "successful": true,
+        "card": "Carpe Diem"
+      },
+      {
+        "turn": 3,
+        "click": 1,
+        "server": "Archives",
+        "successful": true,
+        "card": "Pinhole Threading"
+      },
+      {
+        "turn": 5,
+        "click": 4,
+        "server": "HQ",
+        "successful": true,
+        "card": "Overclock"
+      },
+      {
+        "turn": 6,
+        "click": 3,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 8,
+        "click": 2,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 8,
+        "click": 3,
+        "server": "Server 1",
+        "successful": false,
+        "card": "Overclock"
+      },
+      {
+        "turn": 9,
+        "click": 3,
+        "server": "R&D",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 9,
+        "click": 4,
+        "server": "Server 2",
+        "successful": false
+      },
+      {
+        "turn": 11,
+        "click": 1,
+        "server": "no run",
+        "successful": false,
+        "card": "Carpe Diem"
+      },
+      {
+        "turn": 11,
+        "click": 3,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 13,
+        "click": 2,
+        "server": "Archives",
+        "successful": true,
+        "card": "Bravado"
+      },
+      {
+        "turn": 13,
+        "click": 3,
+        "server": "Server 1",
+        "successful": false,
+        "card": "Reprise"
+      },
+      {
+        "turn": 13,
+        "click": 4,
+        "server": "Server 1",
+        "successful": false
+      },
+      {
+        "turn": 14,
+        "click": 4,
+        "server": "Archives",
+        "successful": true,
+        "card": "Carpe Diem"
+      },
+      {
+        "turn": 15,
+        "click": 2,
+        "server": "Archives",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 15,
+        "click": 3,
+        "server": "R&D",
+        "successful": false
+      },
+      {
+        "turn": 15,
+        "click": 4,
+        "server": "HQ",
+        "successful": false
+      },
+      {
+        "turn": 16,
+        "click": 1,
+        "server": "Server 1",
+        "successful": false
+      },
+      {
+        "turn": 16,
+        "click": 4,
+        "server": "Server 1",
+        "successful": true
+      },
+      {
+        "turn": 17,
+        "click": 4,
+        "server": "Archives",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 19,
+        "click": 1,
+        "server": "HQ",
+        "successful": false,
+        "card": "Bravado"
+      },
+      {
+        "turn": 20,
+        "click": 1,
+        "server": "Server 1",
+        "successful": false,
+        "card": "Tread Lightly"
+      }
+    ],
     "setup_cards": {
       "Revolver": {
         "count": 1,
@@ -192,7 +362,7 @@
     },
     "total_setup_cost": 25,
     "econ_click_ratio": 0.16,
-    "avg_net_credits_per_econ_click": 1.67,
-    "avg_cards_drawn_per_econ_click": 0.56
+    "avg_net_credits_per_econ_click": 1.46,
+    "avg_cards_drawn_per_econ_click": 0.68
   }
 }

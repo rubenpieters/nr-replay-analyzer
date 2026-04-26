@@ -65,6 +65,7 @@
         "total_cost": 0,
         "total_net_credits": 12,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 6
       },
       "Sure Gamble": {
@@ -92,6 +93,7 @@
         "total_cost": 6,
         "total_net_credits": 6,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 3
       },
       "Bravado": {
@@ -101,6 +103,7 @@
         "total_cost": 6,
         "total_net_credits": 8,
         "total_cards_drawn": 0,
+        "run": true,
         "credits_per_click": 4
       },
       "Az McCaffrey: Mechanical Prodigy": {
@@ -182,8 +185,158 @@
         "total_net_credits": 15,
         "total_cards_drawn": 0,
         "credits_per_click": 5
+      },
+      "The Class Act": {
+        "uses": 1,
+        "clicks": 1,
+        "total_credits_gained": 0,
+        "total_cost": 4,
+        "total_net_credits": -4,
+        "total_cards_drawn": 4,
+        "credits_per_click": -4
       }
     },
+    "runs": [
+      {
+        "turn": 1,
+        "click": 1,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 1,
+        "click": 3,
+        "server": "Server 1",
+        "successful": true
+      },
+      {
+        "turn": 2,
+        "click": 3,
+        "server": "R&D",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 3,
+        "click": 3,
+        "server": "R&D",
+        "successful": true,
+        "card": "Clean Getaway"
+      },
+      {
+        "turn": 3,
+        "click": 4,
+        "server": "Server 2",
+        "successful": false
+      },
+      {
+        "turn": 4,
+        "click": 1,
+        "server": "HQ",
+        "successful": false,
+        "card": "Bravado"
+      },
+      {
+        "turn": 4,
+        "click": 2,
+        "server": "Server 3",
+        "successful": true
+      },
+      {
+        "turn": 6,
+        "click": 3,
+        "server": "Archives",
+        "successful": true,
+        "card": "Pinhole Threading"
+      },
+      {
+        "turn": 7,
+        "click": 3,
+        "server": "Server 4",
+        "successful": false
+      },
+      {
+        "turn": 7,
+        "click": 4,
+        "server": "Server 4",
+        "successful": true
+      },
+      {
+        "turn": 11,
+        "click": 3,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 12,
+        "click": 1,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 12,
+        "click": 2,
+        "server": "Server 4",
+        "successful": false
+      },
+      {
+        "turn": 12,
+        "click": 3,
+        "server": "HQ",
+        "successful": true,
+        "card": "Transfer of Wealth"
+      },
+      {
+        "turn": 13,
+        "click": 1,
+        "server": "Archives",
+        "successful": true
+      },
+      {
+        "turn": 13,
+        "click": 3,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 14,
+        "click": 2,
+        "server": "R&D",
+        "successful": true,
+        "card": "Bravado"
+      },
+      {
+        "turn": 14,
+        "click": 3,
+        "server": "HQ",
+        "successful": true
+      },
+      {
+        "turn": 14,
+        "click": 4,
+        "server": "HQ",
+        "successful": true
+      },
+      {
+        "turn": 15,
+        "click": 1,
+        "server": "R&D",
+        "successful": false
+      },
+      {
+        "turn": 15,
+        "click": 2,
+        "server": "R&D",
+        "successful": true
+      },
+      {
+        "turn": 15,
+        "click": 3,
+        "server": "HQ",
+        "successful": true
+      }
+    ],
     "setup_cards": {
       "unknown": {
         "count": 2,
@@ -220,7 +373,7 @@
     },
     "total_setup_cost": 16,
     "econ_click_ratio": 0.48,
-    "avg_net_credits_per_econ_click": 2.18,
-    "avg_cards_drawn_per_econ_click": 0.64
+    "avg_net_credits_per_econ_click": 2.02,
+    "avg_cards_drawn_per_econ_click": 0.72
   }
 }
