@@ -21,12 +21,32 @@ export interface ClickGroup {
   action?: Action;
   effects?: Effects;
   bucket?: string;
+  breach_hq_snapshot?: ZoneSnapshot;
+  breach_rd_snapshot?: ZoneSnapshot;
+}
+
+export interface ZoneSnapshot {
+  total: number;
+  agenda_cards: number;
+  agenda_points: number;
+}
+
+export interface CardSnapshot {
+  title: string;
+  type: string;
+  agenda_points?: number;
+}
+
+export interface HandSnapshot {
+  corp: CardSnapshot[];
+  runner: CardSnapshot[];
 }
 
 export interface Turn {
   turn: number;
   player?: string;
   clicks: ClickGroup[];
+  hand_snapshot?: HandSnapshot;
 }
 
 export interface SetupCardEntry {
@@ -57,6 +77,8 @@ export interface RunEntry {
   successful: boolean;
   card?: string;
   accessed?: AccessEntry[];
+  hq_snapshot?: ZoneSnapshot;
+  rd_snapshot?: ZoneSnapshot;
 }
 
 export interface PlayerEcon {
@@ -407,15 +429,151 @@ function computeEotEffects(events: string[], playerName: string | null): Effects
 
 export function parseTurns(history: unknown[], corpName: string, runnerName: string): Turn[] {
   const initial = history[0] as Record<string, unknown>;
+  const corpInitial = initial["corp"] as Record<string, unknown> | undefined;
+  const initialDeckSize = (corpInitial?.["deck-count"] as number) ?? 0;
+  const totalCorpAgendaPoints = 18 + 2 * Math.floor((initialDeckSize - 40) / 5);
+  const runnerInitial = initial["runner"] as Record<string, unknown> | undefined;
   const state = {
     turn: (initial["turn"] as number) ?? 0,
     activePlayer: (initial["active-player"] as string) ?? "corp",
-    corpClick: ((initial["corp"] as Record<string, unknown>)?.["click"] as number) ?? 0,
-    runnerClick: ((initial["runner"] as Record<string, unknown>)?.["click"] as number) ?? 0,
+    corpClick: (corpInitial?.["click"] as number) ?? 0,
+    runnerClick: (runnerInitial?.["click"] as number) ?? 0,
+    corpDeckCount: (corpInitial?.["deck-count"] as number) ?? 0,
+    corpHandCount: (corpInitial?.["hand-count"] as number) ?? 99,
+    runnerHandCount: (runnerInitial?.["hand-count"] as number) ?? 99,
   };
 
   function activeClick(): number {
     return state.activePlayer === "corp" ? state.corpClick : state.runnerClick;
+  }
+
+  // -- Card registry --
+  interface CardRegistryEntry {
+    title: string;
+    type: string;
+    agendaPoints?: number;
+    side: string;
+    zone: string[];
+  }
+  const cardRegistry = new Map<string, CardRegistryEntry>();
+
+  function scanCardObject(o: Record<string, unknown>, inferSide?: string, inferZone?: string[]): void {
+    const cid = o["cid"] as string;
+    const existing = cardRegistry.get(cid);
+    if (!existing) {
+      const newEntry: CardRegistryEntry = {
+        title: typeof o["title"] === "string" ? o["title"] : "",
+        type: typeof o["type"] === "string" ? o["type"] : "",
+        side: typeof o["side"] === "string" ? o["side"] : (inferSide ?? ""),
+        zone: Array.isArray(o["zone"]) ? (o["zone"] as string[]) : (inferZone ?? []),
+        agendaPoints: typeof o["agendapoints"] === "number" ? o["agendapoints"] : undefined,
+      };
+      cardRegistry.set(cid, newEntry);
+      // Retroactively add newly-revealed hand cards to the most recent turn snapshot,
+      // but only when we're in the opponent's phase — cards first seen during your own
+      // phase could be mid-turn draws, not start-of-turn hand members.
+      if (newEntry.zone[0] === "hand" && newEntry.title && currentPhase.player !== undefined) {
+        const cardSnap: CardSnapshot = { title: newEntry.title, type: newEntry.type };
+        if (newEntry.agendaPoints !== undefined) cardSnap.agenda_points = newEntry.agendaPoints;
+        if (newEntry.side === "Corp" && currentPhase.player !== "corp" &&
+            augCorpSnap && augCorpSnap.snap.corp.length < augCorpSnap.maxCount) {
+          augCorpSnap.snap.corp.push(cardSnap);
+        } else if (newEntry.side === "Runner" && currentPhase.player !== "runner" &&
+            augRunnerSnap && augRunnerSnap.snap.runner.length < augRunnerSnap.maxCount) {
+          augRunnerSnap.snap.runner.push(cardSnap);
+        }
+      }
+    } else {
+      if (typeof o["title"] === "string") existing.title = o["title"];
+      if (typeof o["type"] === "string") existing.type = o["type"];
+      if (typeof o["side"] === "string") existing.side = o["side"];
+      else if (inferSide && !existing.side) existing.side = inferSide;
+      if (typeof o["agendapoints"] === "number") existing.agendaPoints = o["agendapoints"];
+      // Only update zone from explicit field for existing entries
+      if (Array.isArray(o["zone"])) existing.zone = o["zone"] as string[];
+    }
+  }
+
+  function scanPlayerState(ps: Record<string, unknown>, side: string): void {
+    for (const [key, val] of Object.entries(ps)) {
+      if (!val || typeof val !== "object") continue;
+      const inferZone: string[] | undefined =
+        key === "hand" ? ["hand"] :
+        key === "deck" ? ["deck"] :
+        key === "discard" ? ["discard"] : undefined;
+      scanCards(val, side, inferZone);
+    }
+  }
+
+  function scanCards(obj: unknown, inferSide?: string, inferZone?: string[]): void {
+    if (!obj || typeof obj !== "object") return;
+    if (Array.isArray(obj)) {
+      obj.forEach(el => scanCards(el, inferSide, inferZone));
+      return;
+    }
+    const o = obj as Record<string, unknown>;
+    if (typeof o["cid"] === "string") {
+      scanCardObject(o, inferSide, inferZone);
+      return; // don't recurse into card sub-objects
+    }
+    // Descend into corp/runner with appropriate side context
+    if (o["corp"] && typeof o["corp"] === "object" && !Array.isArray(o["corp"])) {
+      scanPlayerState(o["corp"] as Record<string, unknown>, "Corp");
+    }
+    if (o["runner"] && typeof o["runner"] === "object" && !Array.isArray(o["runner"])) {
+      scanPlayerState(o["runner"] as Record<string, unknown>, "Runner");
+    }
+    // Recurse into other keys (servers content, etc.)
+    for (const [k, v] of Object.entries(o)) {
+      if (k !== "corp" && k !== "runner" && k !== "abilities" && k !== "subroutines" && k !== "log" && k !== "sfx") {
+        scanCards(v, inferSide, inferZone);
+      }
+    }
+  }
+
+  function captureHandSnapshot(): HandSnapshot {
+    const corp: CardSnapshot[] = [];
+    const runner: CardSnapshot[] = [];
+    for (const entry of cardRegistry.values()) {
+      if (entry.zone[0] !== "hand" || !entry.title) continue;
+      const snap: CardSnapshot = { title: entry.title, type: entry.type };
+      if (entry.agendaPoints !== undefined) snap.agenda_points = entry.agendaPoints;
+      if (entry.side === "Corp") corp.push(snap);
+      else if (entry.side === "Runner") runner.push(snap);
+    }
+    // Clamp to tracked hand size to avoid accumulation from silent discards
+    return {
+      corp: corp.slice(0, state.corpHandCount),
+      runner: runner.slice(0, state.runnerHandCount),
+    };
+  }
+
+  function agendaPointsNotInDeck(): number {
+    let points = 0;
+    for (const entry of cardRegistry.values()) {
+      if (entry.side !== "Corp" || entry.type !== "Agenda" || !entry.title) continue;
+      if (entry.zone[0] !== "deck") points += entry.agendaPoints ?? 0;
+    }
+    return points;
+  }
+
+  function captureZoneSnapshot(zone: string): ZoneSnapshot {
+    let total = 0, agenda_cards = 0, agenda_points = 0;
+    for (const entry of cardRegistry.values()) {
+      if (entry.side !== "Corp" || entry.zone[0] !== zone || !entry.title) continue;
+      total++;
+      if (entry.type === "Agenda") {
+        agenda_cards++;
+        agenda_points += entry.agendaPoints ?? 0;
+      }
+    }
+    if (zone === "deck") {
+      total = state.corpDeckCount;
+      const elsewhere = agendaPointsNotInDeck();
+      agenda_points = Math.max(0, totalCorpAgendaPoints - elsewhere);
+      // agenda_cards stays as registry count (known agendas in deck)
+    }
+    return { total, agenda_cards, agenda_points };
   }
 
   const turns: Turn[] = [];
@@ -426,6 +584,16 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
   let clickNumber = 0;
   let undoneFlag = false;
   let pendingEvents: string[] = [];
+  let pendingHqSnapshot: ZoneSnapshot | undefined;
+  let pendingRdSnapshot: ZoneSnapshot | undefined;
+
+  // Retroactive hand augmentation: when a corp/runner card is first revealed in hand
+  // after the phase snapshot was taken, add it if there's still room.
+  let augCorpSnap: { snap: HandSnapshot; maxCount: number } | undefined;
+  let augRunnerSnap: { snap: HandSnapshot; maxCount: number } | undefined;
+
+  // Seed registry from initial game state
+  scanCards(initial);
 
   function flushClickGroup(isUndo = false): void {
     if (pendingEvents.length > 0) {
@@ -453,6 +621,16 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
           }
         }
       }
+      if (!isUndo) {
+        if (pendingHqSnapshot) {
+          group.breach_hq_snapshot = pendingHqSnapshot;
+          pendingHqSnapshot = undefined;
+        }
+        if (pendingRdSnapshot) {
+          group.breach_rd_snapshot = pendingRdSnapshot;
+          pendingRdSnapshot = undefined;
+        }
+      }
       currentPhase.clicks.push(group);
 
       if (eotEvents.length > 0) {
@@ -471,13 +649,55 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
       turns.push(currentPhase);
     }
     currentPhase = { turn: turnNum, player, clicks: [] };
+    if (turnNum > 0) {
+      const snap = captureHandSnapshot();
+      currentPhase.hand_snapshot = snap;
+      if (player === "corp") {
+        augCorpSnap = { snap, maxCount: state.corpHandCount };
+      } else {
+        augRunnerSnap = { snap, maxCount: state.runnerHandCount };
+      }
+    }
     clickNumber = 0;
     undoneFlag = false;
     pendingEvents = [];
+    pendingHqSnapshot = undefined;
+    pendingRdSnapshot = undefined;
   }
 
   for (const item of history.slice(1)) {
     if (!Array.isArray(item) || item.length === 0) continue;
+    // Detect mulligan: clear that player's hand before scanning new cards
+    for (const patch of item) {
+      if (!patch || typeof patch !== "object" || Array.isArray(patch)) continue;
+      for (const text of extractLogTexts((patch as Record<string, unknown>)["log"])) {
+        if (/takes a mulligan/.test(text)) {
+          const side = /<anonymized-corp>/.test(text) ? "Corp" : "Runner";
+          for (const entry of cardRegistry.values()) {
+            if (entry.side === side && entry.zone[0] === "hand") entry.zone = ["deck"];
+          }
+        }
+      }
+    }
+    scanCards(item);
+    // Track deck-count and hand-count updates across all patches in this history item
+    for (const patch of item) {
+      if (!patch || typeof patch !== "object" || Array.isArray(patch)) continue;
+      const patchCorp = (patch as Record<string, unknown>)["corp"];
+      if (patchCorp && typeof patchCorp === "object" && !Array.isArray(patchCorp)) {
+        const corpPatch = patchCorp as Record<string, unknown>;
+        const dc = corpPatch["deck-count"];
+        if (typeof dc === "number") state.corpDeckCount = dc;
+        const hc = corpPatch["hand-count"];
+        if (typeof hc === "number") state.corpHandCount = hc;
+      }
+      const patchRunner = (patch as Record<string, unknown>)["runner"];
+      if (patchRunner && typeof patchRunner === "object" && !Array.isArray(patchRunner)) {
+        const hc = (patchRunner as Record<string, unknown>)["hand-count"];
+        if (typeof hc === "number") state.runnerHandCount = hc;
+      }
+    }
+
     const upd = item[0] as Record<string, unknown>;
     if (typeof upd !== "object" || upd === null) continue;
 
@@ -526,6 +746,14 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
       }
     }
 
+    for (const text of logTexts) {
+      if (/\bbreaches HQ\b/.test(text) && !pendingHqSnapshot) {
+        pendingHqSnapshot = captureZoneSnapshot("hand");
+      }
+      if (/\bbreaches R&D\b/.test(text) && !pendingRdSnapshot) {
+        pendingRdSnapshot = captureZoneSnapshot("deck");
+      }
+    }
     pendingEvents.push(...logTexts);
   }
 
@@ -779,6 +1007,8 @@ export function computeEconomy(
         if (cardTitle && cardDb?.isRunEvent(cardTitle)) runEntry.card = cardTitle;
         const { accessed } = extractRunAccesses(events);
         if (accessed.length > 0) runEntry.accessed = accessed;
+        if (click.breach_hq_snapshot) runEntry.hq_snapshot = click.breach_hq_snapshot;
+        if (click.breach_rd_snapshot) runEntry.rd_snapshot = click.breach_rd_snapshot;
         econ.runs!.push(runEntry);
       }
 

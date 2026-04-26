@@ -215,7 +215,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 34,
+          "agenda_cards": 0,
+          "agenda_points": 12
+        }
       },
       {
         "turn": 4,
@@ -246,7 +251,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 23,
+          "agenda_cards": 0,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 7,
@@ -259,7 +269,12 @@
             "name": "Offworld Office",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 20,
+          "agenda_cards": 0,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 7,
@@ -289,7 +304,12 @@
             "name": "Brân 1.0",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 7,
+          "agenda_cards": 3,
+          "agenda_points": 7
+        }
       },
       {
         "turn": 9,
@@ -302,7 +322,12 @@
             "name": "Seamless Launch",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 7,
+          "agenda_cards": 2,
+          "agenda_points": 5
+        }
       },
       {
         "turn": 9,
@@ -347,7 +372,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 15,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       }
     ],
     "setup_cards": {

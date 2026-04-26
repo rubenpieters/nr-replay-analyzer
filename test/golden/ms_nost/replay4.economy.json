@@ -247,7 +247,12 @@
             "name": "Measured Response",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 4,
+          "agenda_cards": 2,
+          "agenda_points": 5
+        }
       },
       {
         "turn": 7,
@@ -259,7 +264,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 35,
+          "agenda_cards": 0,
+          "agenda_points": 11
+        }
       },
       {
         "turn": 9,
@@ -287,7 +297,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 31,
+          "agenda_cards": 0,
+          "agenda_points": 11
+        }
       },
       {
         "turn": 11,
@@ -302,7 +317,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 29,
+          "agenda_cards": 0,
+          "agenda_points": 11
+        }
       },
       {
         "turn": 12,
@@ -330,7 +350,12 @@
             "name": "Spin Doctor",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 26,
+          "agenda_cards": 0,
+          "agenda_points": 9
+        }
       },
       {
         "turn": 13,
@@ -347,7 +372,12 @@
             "name": "Flagship",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 8,
+          "agenda_cards": 3,
+          "agenda_points": 7
+        }
       },
       {
         "turn": 14,
@@ -388,7 +418,12 @@
             "name": "Stavka",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 16,
@@ -404,7 +439,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 17,
+          "agenda_cards": 0,
+          "agenda_points": 5
+        }
       },
       {
         "turn": 16,

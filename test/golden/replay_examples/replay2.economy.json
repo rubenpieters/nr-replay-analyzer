@@ -187,7 +187,12 @@
             "name": "Unleash",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 7,
+          "agenda_cards": 3,
+          "agenda_points": 7
+        }
       },
       {
         "turn": 4,
@@ -206,7 +211,12 @@
             "name": "Anoetic Void",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 37,
+          "agenda_cards": 0,
+          "agenda_points": 11
+        }
       },
       {
         "turn": 5,
@@ -217,7 +227,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 35,
+          "agenda_cards": 0,
+          "agenda_points": 9
+        }
       },
       {
         "turn": 6,
@@ -229,7 +244,12 @@
             "name": "Mitra Aman",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 34,
+          "agenda_cards": 0,
+          "agenda_points": 9
+        }
       },
       {
         "turn": 7,
@@ -247,7 +267,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 29,
+          "agenda_cards": 0,
+          "agenda_points": 9
+        }
       },
       {
         "turn": 13,
@@ -273,7 +298,12 @@
             "name": "Spin Doctor",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 13,
+          "agenda_cards": 3,
+          "agenda_points": 7
+        }
       },
       {
         "turn": 16,
@@ -292,7 +322,12 @@
             "name": "Anoetic Void",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 12,
+          "agenda_cards": 2,
+          "agenda_points": 5
+        }
       },
       {
         "turn": 16,
@@ -304,7 +339,12 @@
             "name": "Boto",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 12,
+          "agenda_cards": 2,
+          "agenda_points": 5
+        }
       },
       {
         "turn": 17,
@@ -332,7 +372,12 @@
             "name": "See How They Run",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 12,
+          "agenda_cards": 2,
+          "agenda_points": 5
+        }
       }
     ],
     "setup_cards": {

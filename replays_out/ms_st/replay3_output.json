@@ -278,7 +278,12 @@
               "name": "Seamless Launch",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 3,
+            "agenda_points": 6
+          }
         },
         {
           "turn": 2,
@@ -290,7 +295,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 33,
+            "agenda_cards": 1,
+            "agenda_points": 10
+          }
         },
         {
           "turn": 3,
@@ -312,7 +322,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 22,
+            "agenda_cards": 1,
+            "agenda_points": 3
+          }
         },
         {
           "turn": 7,
@@ -329,7 +344,12 @@
               "name": "Tranquility Home Grid",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 1,
+            "agenda_points": 3
+          }
         },
         {
           "turn": 8,
@@ -344,7 +364,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 19,
+            "agenda_cards": 1,
+            "agenda_points": 3
+          }
         }
       ],
       "setup_cards": {
@@ -448,7 +473,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Flyswatter",
+            "type": ""
+          },
+          {
+            "title": "Offworld Office",
+            "type": ""
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": ""
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -517,6 +594,11 @@
             "credits_paid": 3,
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 3,
+            "agenda_points": 6
+          },
           "bucket": "run"
         },
         {
@@ -534,7 +616,56 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": ""
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -577,7 +708,56 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -627,6 +807,11 @@
             "credits_paid": 3,
             "credits_gained": 6
           },
+          "breach_rd_snapshot": {
+            "total": 33,
+            "agenda_cards": 1,
+            "agenda_points": 10
+          },
           "bucket": "run"
         },
         {
@@ -668,7 +853,52 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -709,7 +939,64 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Trickster Taka",
+            "type": "Resource"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -793,7 +1080,66 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Trickster Taka",
+            "type": "Resource"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -839,7 +1185,74 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Trickster Taka",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -919,7 +1332,60 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Trickster Taka",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -990,7 +1456,64 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1073,7 +1596,59 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1147,7 +1722,55 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1226,6 +1849,11 @@
               "Fencer Fueno": 1
             }
           },
+          "breach_rd_snapshot": {
+            "total": 22,
+            "agenda_cards": 1,
+            "agenda_points": 3
+          },
           "bucket": "run"
         },
         {
@@ -1244,7 +1872,50 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1311,7 +1982,50 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1393,6 +2107,11 @@
             },
             "credits_gained": 8
           },
+          "breach_hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 1,
+            "agenda_points": 3
+          },
           "bucket": "run"
         },
         {
@@ -1425,7 +2144,42 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1498,7 +2252,50 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1578,6 +2375,11 @@
             },
             "credits_gained": 6
           },
+          "breach_rd_snapshot": {
+            "total": 19,
+            "agenda_cards": 1,
+            "agenda_points": 3
+          },
           "bucket": "run"
         },
         {
@@ -1597,7 +2399,49 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1672,7 +2516,57 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

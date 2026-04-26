@@ -395,7 +395,58 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Bladderwort",
+            "type": "Asset"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -466,7 +517,41 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -524,7 +609,41 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -613,7 +732,45 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -671,7 +828,61 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Petty Cash",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Unity",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -760,7 +971,62 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Unity",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -821,7 +1087,58 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "The Red Room",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Unity",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -905,7 +1222,54 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Unity",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -961,7 +1325,50 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Bladderwort",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1050,7 +1457,47 @@
             "<anonymized-corp> pays 1 [Credits] to rez Bladderwort in Server 4."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1112,7 +1559,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1189,7 +1680,52 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1255,7 +1791,56 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1354,7 +1939,52 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          }
+        ],
+        "runner": [
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1417,7 +2047,40 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1520,7 +2183,40 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1585,7 +2281,60 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "WAKE Implant v2A-JRJ",
+            "type": "Hardware"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1673,7 +2422,59 @@
             "<anonymized-corp> pays 3 [Credits] to rez Reaper Function in Server 8."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Phật Gioan Baotixita",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "WAKE Implant v2A-JRJ",
+            "type": "Hardware"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1750,7 +2551,47 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Phật Gioan Baotixita",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          }
+        ]
+      }
     }
   ]
 }

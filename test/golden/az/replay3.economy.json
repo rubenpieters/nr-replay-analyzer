@@ -199,7 +199,12 @@
             "name": "Spin Doctor",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 5,
+          "agenda_cards": 1,
+          "agenda_points": 3
+        }
       },
       {
         "turn": 1,
@@ -223,7 +228,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 40,
+          "agenda_cards": 1,
+          "agenda_points": 15
+        }
       },
       {
         "turn": 3,
@@ -235,7 +245,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 38,
+          "agenda_cards": 1,
+          "agenda_points": 15
+        }
       },
       {
         "turn": 3,
@@ -306,7 +321,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 23,
+          "agenda_cards": 1,
+          "agenda_points": 5
+        }
       },
       {
         "turn": 12,
@@ -321,7 +341,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 19,
+          "agenda_cards": 1,
+          "agenda_points": 3
+        }
       },
       {
         "turn": 12,
@@ -340,7 +365,12 @@
             "name": "Seamless Launch",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 10,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 13,
@@ -360,7 +390,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 18,
+          "agenda_cards": 1,
+          "agenda_points": 3
+        }
       },
       {
         "turn": 14,
@@ -377,7 +412,12 @@
             "name": "Let Them Dream",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 16,
+          "agenda_cards": 1,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 14,
@@ -389,7 +429,12 @@
             "name": "Myōshu",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 9,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 14,
@@ -401,7 +446,12 @@
             "name": "Let Them Dream",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 9,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 15,
@@ -421,7 +471,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 13,
+          "agenda_cards": 1,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 15,
@@ -433,7 +488,12 @@
             "name": "Myōshu",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 7,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       }
     ],
     "setup_cards": {

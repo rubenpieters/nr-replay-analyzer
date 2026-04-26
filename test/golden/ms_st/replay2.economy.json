@@ -223,7 +223,12 @@
             "name": "Seamless Launch",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 6,
@@ -247,7 +252,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 31,
+          "agenda_cards": 1,
+          "agenda_points": 7
+        }
       },
       {
         "turn": 8,
@@ -283,7 +293,12 @@
             "name": "Tatu-Bola",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 9,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 10,
@@ -296,7 +311,12 @@
             "name": "Byte!",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 29,
+          "agenda_cards": 1,
+          "agenda_points": 7
+        }
       },
       {
         "turn": 13,
@@ -311,7 +331,12 @@
             "name": "See How They Run",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 21,
+          "agenda_cards": 1,
+          "agenda_points": 3
+        }
       }
     ],
     "setup_cards": {

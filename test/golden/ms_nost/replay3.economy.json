@@ -152,7 +152,12 @@
             "name": "Azef Protocol",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 43,
+          "agenda_cards": 0,
+          "agenda_points": 18
+        }
       },
       {
         "turn": 2,
@@ -178,7 +183,12 @@
             "name": "Tucana",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 38,
+          "agenda_cards": 0,
+          "agenda_points": 13
+        }
       },
       {
         "turn": 3,

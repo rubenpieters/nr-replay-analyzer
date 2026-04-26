@@ -271,7 +271,12 @@
               "name": "Unleash",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          }
         },
         {
           "turn": 4,
@@ -290,7 +295,12 @@
               "name": "Anoetic Void",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 37,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          }
         },
         {
           "turn": 5,
@@ -301,7 +311,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 35,
+            "agenda_cards": 0,
+            "agenda_points": 9
+          }
         },
         {
           "turn": 6,
@@ -313,7 +328,12 @@
               "name": "Mitra Aman",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 34,
+            "agenda_cards": 0,
+            "agenda_points": 9
+          }
         },
         {
           "turn": 7,
@@ -331,7 +351,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 29,
+            "agenda_cards": 0,
+            "agenda_points": 9
+          }
         },
         {
           "turn": 13,
@@ -357,7 +382,12 @@
               "name": "Spin Doctor",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 13,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          }
         },
         {
           "turn": 16,
@@ -376,7 +406,12 @@
               "name": "Anoetic Void",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 12,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          }
         },
         {
           "turn": 16,
@@ -388,7 +423,12 @@
               "name": "Boto",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 12,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          }
         },
         {
           "turn": 17,
@@ -416,7 +456,12 @@
               "name": "See How They Run",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 12,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          }
         }
       ],
       "setup_cards": {
@@ -541,7 +586,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
+          },
+          {
+            "title": "Gourmand",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -622,7 +714,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
+          },
+          {
+            "title": "Gourmand",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -685,7 +820,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "Gourmand",
+            "type": "Program"
+          },
+          {
+            "title": "Hannah \"Wheels\" Pilintra",
+            "type": "Resource"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -766,7 +952,46 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "Gourmand",
+            "type": "Program"
+          },
+          {
+            "title": "Hannah \"Wheels\" Pilintra",
+            "type": "Resource"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -836,7 +1061,51 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "Hannah \"Wheels\" Pilintra",
+            "type": "Resource"
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -895,6 +1164,11 @@
             "credits_gained": 6,
             "cards_drawn": 1
           },
+          "breach_hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          },
           "bucket": "run"
         },
         {
@@ -929,7 +1203,56 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "Hannah \"Wheels\" Pilintra",
+            "type": "Resource"
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -996,7 +1319,60 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1054,6 +1430,11 @@
             "type": "run",
             "server": "R&D"
           },
+          "breach_rd_snapshot": {
+            "total": 37,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          },
           "bucket": "run"
         },
         {
@@ -1073,7 +1454,56 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1143,7 +1573,56 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1197,6 +1676,11 @@
             "type": "run",
             "server": "R&D"
           },
+          "breach_rd_snapshot": {
+            "total": 35,
+            "agenda_cards": 0,
+            "agenda_points": 9
+          },
           "bucket": "run"
         },
         {
@@ -1215,7 +1699,47 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Buffer Drive",
+            "type": "Hardware"
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1283,7 +1807,48 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1326,6 +1891,11 @@
           "action": {
             "type": "run",
             "server": "R&D"
+          },
+          "breach_rd_snapshot": {
+            "total": 34,
+            "agenda_cards": 0,
+            "agenda_points": 9
           },
           "bucket": "run"
         },
@@ -1387,7 +1957,44 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1454,7 +2061,48 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1536,7 +2184,39 @@
             "<anonymized-corp> pays 0 [Credits] to rez Charlotte Caçador in Server 1."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1604,7 +2284,39 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1674,6 +2386,11 @@
             "type": "run",
             "server": "R&D"
           },
+          "breach_rd_snapshot": {
+            "total": 29,
+            "agenda_cards": 0,
+            "agenda_points": 9
+          },
           "bucket": "run"
         },
         {
@@ -1697,7 +2414,48 @@
             "<anonymized-corp> pays 3 [Credits] to rez La Costa Grid in Server 1."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Manuel Lattes de Moura",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1773,7 +2531,36 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1848,7 +2635,36 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1922,7 +2738,52 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
+          },
+          {
+            "title": "Solidarity Badge",
+            "type": "Hardware"
+          },
+          {
+            "title": "Rising Tide",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2000,7 +2861,56 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
+          },
+          {
+            "title": "Solidarity Badge",
+            "type": "Hardware"
+          },
+          {
+            "title": "Rising Tide",
+            "type": "Program"
+          },
+          {
+            "title": "Friend of a Friend",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2074,7 +2984,48 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
+          },
+          {
+            "title": "Solidarity Badge",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2150,7 +3101,48 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
+          },
+          {
+            "title": "Solidarity Badge",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2219,7 +3211,52 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
+          },
+          {
+            "title": "Friend of a Friend",
+            "type": "Resource"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2330,7 +3367,60 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
+          },
+          {
+            "title": "Friend of a Friend",
+            "type": "Resource"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2395,7 +3485,60 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2502,7 +3645,55 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Valentina Ferreira Carvalho",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2570,7 +3761,51 @@
             "<anonymized-runner> trashes 1 card (Steelskin Scarring) from the grip to use Audrey v2 to increase its strength from 0 to 3."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2668,7 +3903,55 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2733,7 +4016,55 @@
             "<anonymized>"
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2829,6 +4160,11 @@
             "type": "run",
             "server": "HQ"
           },
+          "breach_hq_snapshot": {
+            "total": 13,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          },
           "bucket": "run"
         },
         {
@@ -2855,7 +4191,54 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -2920,7 +4303,55 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -3008,6 +4439,11 @@
             "type": "run",
             "server": "HQ"
           },
+          "breach_hq_snapshot": {
+            "total": 12,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          },
           "bucket": "run"
         },
         {
@@ -3034,9 +4470,53 @@
           "effects": {
             "cards_drawn": 1
           },
+          "breach_hq_snapshot": {
+            "total": 12,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 17,
@@ -3103,7 +4583,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 17,
@@ -3212,9 +4735,57 @@
             "type": "run",
             "server": "HQ"
           },
+          "breach_hq_snapshot": {
+            "total": 12,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Strike Fund",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

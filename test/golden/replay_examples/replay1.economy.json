@@ -326,7 +326,12 @@
             "name": "Extract",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 2,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 8,
@@ -339,7 +344,12 @@
             "name": "Armed Asset Protection",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 2,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 9,
@@ -449,7 +459,12 @@
             "name": "Eminent Domain",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 8,
+          "agenda_cards": 3,
+          "agenda_points": 7
+        }
       }
     ],
     "setup_cards": {

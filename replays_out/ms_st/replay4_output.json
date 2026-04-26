@@ -395,7 +395,12 @@
               "name": "The Red Room",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 4,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 13,
@@ -461,7 +466,12 @@
               "name": "Whitespace",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 2,
+            "agenda_points": 4
+          }
         },
         {
           "turn": 15,
@@ -473,7 +483,12 @@
               "name": "Fujii Asset Retrieval",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 5,
+            "agenda_cards": 2,
+            "agenda_points": 1
+          }
         },
         {
           "turn": 15,
@@ -485,7 +500,12 @@
               "name": "Spin Doctor",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 4,
+            "agenda_cards": 2,
+            "agenda_points": 4
+          }
         },
         {
           "turn": 16,
@@ -503,7 +523,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 3,
+            "agenda_cards": 1,
+            "agenda_points": 0
+          }
         }
       ],
       "setup_cards": {
@@ -601,7 +626,57 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          },
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Phật Gioan Baotixita",
+            "type": ""
+          },
+          {
+            "title": "Bladderwort",
+            "type": "Asset"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -693,7 +768,45 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -746,7 +859,49 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Anemone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -835,7 +990,42 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -894,7 +1084,38 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -968,7 +1189,47 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1027,7 +1288,55 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "The Red Room",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1121,7 +1430,51 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1181,7 +1534,63 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1269,7 +1678,59 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1338,7 +1799,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Reaper Function",
+            "type": "Asset"
+          },
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1455,7 +1968,42 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1513,7 +2061,50 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1603,7 +2194,50 @@
             "<anonymized-corp> pays 1 [Credits] to rez Bladderwort in Server 4."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Hostile Architecture",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1674,7 +2308,46 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Hostile Architecture",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1771,7 +2444,42 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Hostile Architecture",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1829,7 +2537,34 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1922,7 +2657,34 @@
             "<anonymized-corp> pays 1 [Credits] to rez Cohort Guidance Program in Server 4."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Petty Cash",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1994,7 +2756,38 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Regenesis",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Petty Cash",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2074,7 +2867,33 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2132,7 +2951,53 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Retirement Plan",
+            "type": "Operation"
+          },
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          },
+          {
+            "title": "Petty Cash",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2221,7 +3086,53 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "The Red Room",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2288,7 +3199,53 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "The Red Room",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2339,6 +3296,11 @@
               "Overclock": 4
             }
           },
+          "breach_hq_snapshot": {
+            "total": 4,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -2386,7 +3348,53 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Cohort Guidance Program",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Hostile Architecture",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2449,7 +3457,45 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Hostile Architecture",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2557,7 +3603,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2624,7 +3708,53 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
+          },
+          {
+            "title": "Hostile Architecture",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2725,7 +3855,51 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Sericulture Expansion",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2803,7 +3977,47 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Sericulture Expansion",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Moon Pool",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2866,6 +4080,11 @@
               "Trickster Taka": 1
             }
           },
+          "breach_hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 2,
+            "agenda_points": 4
+          },
           "bucket": "run"
         },
         {
@@ -2885,6 +4104,11 @@
           "action": {
             "type": "run",
             "server": "R&D"
+          },
+          "breach_rd_snapshot": {
+            "total": 5,
+            "agenda_cards": 2,
+            "agenda_points": 1
           },
           "bucket": "run"
         },
@@ -2914,9 +4138,58 @@
               "Touchstone": 2
             }
           },
+          "breach_hq_snapshot": {
+            "total": 4,
+            "agenda_cards": 2,
+            "agenda_points": 4
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -2981,7 +4254,35 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          },
+          {
+            "title": "Hybrid Release",
+            "type": "Agenda",
+            "agenda_points": 1
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -3039,9 +4340,42 @@
               "Mantle": 1
             }
           },
+          "breach_rd_snapshot": {
+            "total": 3,
+            "agenda_cards": 1,
+            "agenda_points": 0
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Whitespace",
+            "type": "ICE"
+          },
+          {
+            "title": "Fujii Asset Retrieval",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

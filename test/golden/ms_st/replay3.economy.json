@@ -205,7 +205,12 @@
             "name": "Seamless Launch",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 5,
+          "agenda_cards": 3,
+          "agenda_points": 6
+        }
       },
       {
         "turn": 2,
@@ -217,7 +222,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 33,
+          "agenda_cards": 1,
+          "agenda_points": 10
+        }
       },
       {
         "turn": 3,
@@ -239,7 +249,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 22,
+          "agenda_cards": 1,
+          "agenda_points": 3
+        }
       },
       {
         "turn": 7,
@@ -256,7 +271,12 @@
             "name": "Tranquility Home Grid",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 1,
+          "agenda_points": 3
+        }
       },
       {
         "turn": 8,
@@ -271,7 +291,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 19,
+          "agenda_cards": 1,
+          "agenda_points": 3
+        }
       }
     ],
     "setup_cards": {

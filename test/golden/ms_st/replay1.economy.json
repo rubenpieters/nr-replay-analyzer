@@ -207,7 +207,12 @@
             "name": "Longevity Serum",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 43,
+          "agenda_cards": 0,
+          "agenda_points": 16
+        }
       },
       {
         "turn": 3,
@@ -227,7 +232,12 @@
             "name": "Orbital Superiority",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 5,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 5,
@@ -273,7 +283,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 25,
+          "agenda_cards": 0,
+          "agenda_points": 10
+        }
       },
       {
         "turn": 13,
@@ -297,7 +312,12 @@
             "name": "Send a Message",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 21,
+          "agenda_cards": 0,
+          "agenda_points": 8
+        }
       }
     ],
     "setup_cards": {

@@ -300,7 +300,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 34,
+            "agenda_cards": 0,
+            "agenda_points": 12
+          }
         },
         {
           "turn": 4,
@@ -331,7 +336,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 23,
+            "agenda_cards": 0,
+            "agenda_points": 2
+          }
         },
         {
           "turn": 7,
@@ -344,7 +354,12 @@
               "name": "Offworld Office",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 20,
+            "agenda_cards": 0,
+            "agenda_points": 2
+          }
         },
         {
           "turn": 7,
@@ -374,7 +389,12 @@
               "name": "Brân 1.0",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          }
         },
         {
           "turn": 9,
@@ -387,7 +407,12 @@
               "name": "Seamless Launch",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          }
         },
         {
           "turn": 9,
@@ -432,7 +457,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 15,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         }
       ],
       "setup_cards": {
@@ -551,7 +581,58 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Drafter",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": ""
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": ""
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -638,7 +719,50 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -701,7 +825,63 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -732,6 +912,11 @@
           "action": {
             "type": "run",
             "server": "R&D"
+          },
+          "breach_rd_snapshot": {
+            "total": 34,
+            "agenda_cards": 0,
+            "agenda_points": 12
           },
           "bucket": "run"
         },
@@ -780,7 +965,63 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -842,7 +1083,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -924,7 +1217,51 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -985,7 +1322,55 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1076,7 +1461,60 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1133,7 +1571,56 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Manegarm Skunkworks",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1216,7 +1703,52 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1273,7 +1805,65 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1332,6 +1922,11 @@
             },
             "credits_gained": 6
           },
+          "breach_rd_snapshot": {
+            "total": 23,
+            "agenda_cards": 0,
+            "agenda_points": 2
+          },
           "bucket": "run"
         },
         {
@@ -1371,7 +1966,60 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Bumi 1.0",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1456,7 +2104,64 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Bumi 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Red Level Clearance",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1527,6 +2232,11 @@
               "Info Bounty": 2
             }
           },
+          "breach_rd_snapshot": {
+            "total": 20,
+            "agenda_cards": 0,
+            "agenda_points": 2
+          },
           "bucket": "run"
         },
         {
@@ -1560,7 +2270,60 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1618,7 +2381,64 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1729,9 +2549,63 @@
             },
             "credits_gained": 8
           },
+          "breach_hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1790,7 +2664,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1836,6 +2762,11 @@
             "triggered_gains": {
               "Info Bounty": 2
             }
+          },
+          "breach_hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 2,
+            "agenda_points": 5
           },
           "bucket": "run"
         },
@@ -1908,7 +2839,55 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1966,7 +2945,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2034,6 +3057,11 @@
               "Cezve": 2
             }
           },
+          "breach_rd_snapshot": {
+            "total": 15,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -2054,7 +3082,47 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          }
+        ]
+      }
     }
   ]
 }

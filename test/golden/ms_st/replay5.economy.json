@@ -135,7 +135,12 @@
             "name": "Boto",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 4,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 2,
@@ -228,7 +233,12 @@
             "name": "Hedge Fund",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 10,
+          "agenda_cards": 3,
+          "agenda_points": 7
+        }
       },
       {
         "turn": 12,
@@ -241,7 +251,12 @@
             "name": "Spin Doctor",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 11,
+          "agenda_cards": 2,
+          "agenda_points": 5
+        }
       }
     ],
     "setup_cards": {

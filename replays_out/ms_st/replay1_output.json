@@ -284,7 +284,12 @@
               "name": "Longevity Serum",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 43,
+            "agenda_cards": 0,
+            "agenda_points": 16
+          }
         },
         {
           "turn": 3,
@@ -304,7 +309,12 @@
               "name": "Orbital Superiority",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          }
         },
         {
           "turn": 5,
@@ -350,7 +360,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 25,
+            "agenda_cards": 0,
+            "agenda_points": 10
+          }
         },
         {
           "turn": 13,
@@ -374,7 +389,12 @@
               "name": "Send a Message",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 21,
+            "agenda_cards": 0,
+            "agenda_points": 8
+          }
         }
       ],
       "setup_cards": {
@@ -493,7 +513,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -548,6 +619,11 @@
             "credits_paid": 1,
             "credits_gained": 4
           },
+          "breach_rd_snapshot": {
+            "total": 43,
+            "agenda_cards": 0,
+            "agenda_points": 16
+          },
           "bucket": "run"
         },
         {
@@ -596,7 +672,50 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -664,7 +783,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -753,7 +919,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          },
+          {
+            "title": "Byte!",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -823,7 +1036,46 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          },
+          {
+            "title": "Byte!",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -913,7 +1165,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          },
+          {
+            "title": "Byte!",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -988,7 +1283,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          },
+          {
+            "title": "Byte!",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1071,6 +1409,11 @@
             },
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          },
           "bucket": "run"
         },
         {
@@ -1088,7 +1431,50 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1156,7 +1542,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1244,7 +1672,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1314,7 +1780,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1403,7 +1907,45 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Bathynomus",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1467,7 +2009,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Bathynomus",
+            "type": "ICE"
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1551,7 +2140,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1620,7 +2247,57 @@
             "<anonymized-runner> pays 1 [Credits] from Mantle to use Penrose to increase its strength from 2 to 5."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Trickster Taka",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1707,7 +2384,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Trickster Taka",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1787,7 +2506,53 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1877,7 +2642,49 @@
             "<anonymized-corp> uses Spin Doctor to shuffle Hedge Fund and Seamless Launch into R&D."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1944,7 +2751,53 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2053,7 +2906,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2122,7 +3013,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2231,7 +3164,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2299,7 +3270,57 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2368,6 +3389,11 @@
             },
             "credits_gained": 8
           },
+          "breach_rd_snapshot": {
+            "total": 25,
+            "agenda_cards": 0,
+            "agenda_points": 10
+          },
           "bucket": "run"
         },
         {
@@ -2399,7 +3425,49 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2468,7 +3536,53 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2581,7 +3695,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2646,7 +3802,57 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Petty Cash",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2716,9 +3922,56 @@
               "Trickster Taka": 1
             }
           },
+          "breach_rd_snapshot": {
+            "total": 21,
+            "agenda_cards": 0,
+            "agenda_points": 8
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     }
   ]
 }

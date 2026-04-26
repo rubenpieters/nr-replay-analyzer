@@ -207,7 +207,12 @@
               "name": "Boto",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 4,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 2,
@@ -300,7 +305,12 @@
               "name": "Hedge Fund",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 10,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          }
         },
         {
           "turn": 12,
@@ -313,7 +323,12 @@
               "name": "Spin Doctor",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 11,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          }
         }
       ],
       "setup_cards": {
@@ -417,7 +432,57 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Lionsmane",
+            "type": ""
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lionsmane",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Shibboleth",
+            "type": "Program"
+          },
+          {
+            "title": "The Price",
+            "type": ""
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": ""
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -502,9 +567,56 @@
             "type": "run",
             "server": "HQ"
           },
+          "breach_hq_snapshot": {
+            "total": 4,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Shibboleth",
+            "type": "Program"
+          },
+          {
+            "title": "The Price",
+            "type": ""
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Open Market",
+            "type": ""
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -569,7 +681,42 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -647,7 +794,42 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -709,7 +891,46 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -795,7 +1016,38 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -858,7 +1110,46 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -949,7 +1240,38 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1017,7 +1339,46 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1108,7 +1469,46 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1170,7 +1570,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1268,7 +1711,46 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1337,7 +1819,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1425,7 +1954,50 @@
             "<anonymized-corp> pays 3 [Credits] to rez La Costa Grid in Server 1."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1492,7 +2064,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1600,7 +2215,50 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1666,7 +2324,34 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1753,7 +2438,39 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1825,7 +2542,51 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "DreamNet",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1924,6 +2685,11 @@
           "effects": {
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 10,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          },
           "bucket": "run"
         },
         {
@@ -1944,7 +2710,47 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "DreamNet",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2013,7 +2819,51 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "DreamNet",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2098,7 +2948,47 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "DreamNet",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2172,7 +3062,55 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "DreamNet",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2265,9 +3203,62 @@
             "credits_gained": 8,
             "cards_drawn": 1
           },
+          "breach_hq_snapshot": {
+            "total": 11,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "DreamNet",
+            "type": "Resource"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2337,7 +3328,59 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2357,7 +3400,54 @@
             "<anonymized-runner> stops looking at his deck."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

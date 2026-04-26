@@ -1,4 +1,4 @@
-import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon, SetupCardEntry, RunEntry, AccessEntry } from "./analyzer.js";
+import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon, SetupCardEntry, RunEntry, AccessEntry, ZoneSnapshot } from "./analyzer.js";
 
 const ACTION_COLORS: Record<string, string> = {
   run: "#d32f2f",
@@ -94,6 +94,10 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
 .run-failure { color: #c62828; font-weight: 600; }
 .run-stolen { color: #2e7d32; font-weight: 600; }
 .run-trashed { color: #e65100; font-weight: 600; }
+.hand-snapshot { background: #f0f4f8; border: 1px solid #c5d5e8; border-left: 3px solid #7aabcf; border-radius: 6px; padding: 6px 8px; width: 140px; flex-shrink: 0; align-self: flex-start; font-size: 0.75rem; }
+.hand-snapshot-label { font-size: 0.65rem; color: #7aabcf; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 4px; }
+.hand-snapshot-card { padding: 1px 0; color: #37474f; }
+.hand-snapshot-card.is-agenda { color: #2e7d32; font-weight: 600; }
 `;
 
 const CORP_FACTIONS = ["Haas-Bioroid", "Weyland Consortium", "Jinteki", "NBN"];
@@ -190,16 +194,40 @@ function renderClick(click: ClickGroup): string {
   );
 }
 
+function renderHandSnapshot(turn: Turn): string {
+  const snap = turn.hand_snapshot;
+  if (!snap) return "";
+  const cards = turn.player === "corp" ? snap.corp : snap.runner;
+  if (!cards.length) return "";
+  const cardLines = cards
+    .map((c) => {
+      const pts = c.agenda_points !== undefined ? ` (${c.agenda_points}pt)` : "";
+      const cls = c.agenda_points !== undefined ? " is-agenda" : "";
+      return `<div class="hand-snapshot-card${cls}">${he(c.title)}${pts}</div>`;
+    })
+    .join("");
+  return (
+    `<div class="hand-snapshot">` +
+    `<div class="hand-snapshot-label">Hand (${cards.length})</div>` +
+    `${cardLines}` +
+    `</div>`
+  );
+}
+
 function renderTurn(turn: Turn): string {
   let clicks = turn.clicks ?? [];
   if (!clicks.length || clicks[clicks.length - 1].click !== -1) {
     clicks = [...clicks, { click: -1, events: [] }];
   }
-  const clicksHtml = clicks.map(renderClick).join("");
+  const sotClick = clicks.find((c) => c.click === 0);
+  const otherClicks = clicks.filter((c) => c.click !== 0);
+  const sotHtml = sotClick ? renderClick(sotClick) : "";
+  const handHtml = renderHandSnapshot(turn);
+  const restHtml = otherClicks.map(renderClick).join("");
   return (
     `<div class="turn-row">` +
     `<div class="turn-label">T${turn.turn ?? "?"}</div>` +
-    `<div class="clicks">${clicksHtml}</div>` +
+    `<div class="clicks">${handHtml}${sotHtml}${restHtml}</div>` +
     `</div>`
   );
 }
@@ -211,11 +239,25 @@ function formatAccessEntry(a: AccessEntry): string {
   return name;
 }
 
+function formatZoneSnapshot(snap: ZoneSnapshot): string {
+  const agendaStr = snap.agenda_points > 0
+    ? `${snap.agenda_points} agenda pts in `
+    : "";
+  return `${agendaStr}${snap.total} cards`;
+}
+
 function formatAccessed(r: RunEntry): string {
   const accessed = r.accessed ?? [];
-  if (accessed.length === 0) return "—";
   const server = r.server;
-  if (server === "HQ" || server === "R&D") return String(accessed.length);
+  if (server === "HQ") {
+    const snap = r.hq_snapshot ? ` [${formatZoneSnapshot(r.hq_snapshot)}]` : "";
+    return accessed.length > 0 ? `${accessed.length} accessed${snap}` : snap ? snap.slice(2, -1) : "—";
+  }
+  if (server === "R&D") {
+    const snap = r.rd_snapshot ? ` [${formatZoneSnapshot(r.rd_snapshot)}]` : "";
+    return accessed.length > 0 ? `${accessed.length} accessed${snap}` : snap ? snap.slice(2, -1) : "—";
+  }
+  if (accessed.length === 0) return "—";
   return accessed.map(formatAccessEntry).join(", ");
 }
 

@@ -225,7 +225,12 @@
               "name": "Azef Protocol",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 43,
+            "agenda_cards": 0,
+            "agenda_points": 18
+          }
         },
         {
           "turn": 2,
@@ -251,7 +256,12 @@
               "name": "Tucana",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 38,
+            "agenda_cards": 0,
+            "agenda_points": 13
+          }
         },
         {
           "turn": 3,
@@ -406,7 +416,57 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Kessleroid",
+            "type": "ICE"
+          },
+          {
+            "title": "Valentão",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Anthill Excavation Contract",
+            "type": "Asset"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -492,6 +552,11 @@
             "credits_paid": 3,
             "credits_gained": 6
           },
+          "breach_rd_snapshot": {
+            "total": 43,
+            "agenda_cards": 0,
+            "agenda_points": 18
+          },
           "bucket": "run"
         },
         {
@@ -500,7 +565,45 @@
             "<anonymized-corp> pays 3 [Credits] to rez Anthill Excavation Contract in Server 1."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -560,7 +663,49 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "Anthill Excavation Contract",
+            "type": "Asset"
+          },
+          {
+            "title": "Flagship",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -641,7 +786,41 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "Anthill Excavation Contract",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -699,7 +878,50 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "Anthill Excavation Contract",
+            "type": "Asset"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -738,6 +960,11 @@
           "effects": {
             "credits_paid": 3,
             "credits_gained": 7
+          },
+          "breach_rd_snapshot": {
+            "total": 38,
+            "agenda_cards": 0,
+            "agenda_points": 13
           },
           "bucket": "run"
         },
@@ -800,7 +1027,50 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -863,7 +1133,50 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -932,7 +1245,46 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1003,7 +1355,54 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1084,7 +1483,54 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1148,7 +1594,58 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1228,7 +1725,45 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1294,7 +1829,49 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1398,7 +1975,54 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1453,7 +2077,62 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
+          },
+          {
+            "title": "Tithe",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

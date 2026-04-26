@@ -409,7 +409,12 @@
               "name": "Extract",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 2,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          }
         },
         {
           "turn": 8,
@@ -422,7 +427,12 @@
               "name": "Armed Asset Protection",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 2,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 9,
@@ -532,7 +542,12 @@
               "name": "Eminent Domain",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 8,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          }
         }
       ],
       "setup_cards": {
@@ -646,7 +661,57 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": ""
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -722,7 +787,50 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -783,7 +891,58 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mavirus",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -875,7 +1034,46 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -946,7 +1144,50 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -1027,7 +1268,50 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1096,7 +1380,54 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Hafrún",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1182,7 +1513,50 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1247,7 +1621,62 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Anthill Excavation Contract",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1376,7 +1805,58 @@
             "<anonymized-corp> pays 3 [Credits] to rez Anthill Excavation Contract in Server 2."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1445,7 +1925,59 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Above the Law",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1539,7 +2071,55 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Above the Law",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1612,7 +2192,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Above the Law",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1734,9 +2366,53 @@
             },
             "credits_gained": 8
           },
+          "breach_hq_snapshot": {
+            "total": 2,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1807,7 +2483,37 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1881,6 +2587,11 @@
             },
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 2,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -1914,7 +2625,37 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1981,7 +2722,37 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "Maskirovka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -2077,7 +2848,33 @@
             "<anonymized-corp> pays 3 [Credits] to rez Anthill Excavation Contract in Server 2."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2150,7 +2947,46 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "Maskirovka",
+            "type": "ICE"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2277,7 +3113,42 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2337,7 +3208,39 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2423,7 +3326,47 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2484,7 +3427,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2575,7 +3570,55 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2637,7 +3680,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2721,7 +3816,46 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2784,7 +3918,50 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2894,7 +4071,54 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2953,7 +4177,62 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -3036,7 +4315,54 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -3095,7 +4421,58 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -3224,7 +4601,54 @@
             "<anonymized>"
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 17,
@@ -3295,7 +4719,64 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Eminent Domain",
+            "type": "Agenda",
+            "agenda_points": 1
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 17,
@@ -3379,9 +4860,61 @@
             },
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 8,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "SDS Drone Deployment",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Armed Asset Protection",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

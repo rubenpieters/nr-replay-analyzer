@@ -318,7 +318,12 @@
             "name": "The Red Room",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 4,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 13,
@@ -384,7 +389,12 @@
             "name": "Whitespace",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 5,
+          "agenda_cards": 2,
+          "agenda_points": 4
+        }
       },
       {
         "turn": 15,
@@ -396,7 +406,12 @@
             "name": "Fujii Asset Retrieval",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 5,
+          "agenda_cards": 2,
+          "agenda_points": 1
+        }
       },
       {
         "turn": 15,
@@ -408,7 +423,12 @@
             "name": "Spin Doctor",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 4,
+          "agenda_cards": 2,
+          "agenda_points": 4
+        }
       },
       {
         "turn": 16,
@@ -426,7 +446,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 3,
+          "agenda_cards": 1,
+          "agenda_points": 0
+        }
       }
     ],
     "setup_cards": {

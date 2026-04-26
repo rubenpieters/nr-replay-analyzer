@@ -188,7 +188,12 @@
             "name": "Regolith Mining License",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 40,
+          "agenda_cards": 3,
+          "agenda_points": 18
+        }
       },
       {
         "turn": 3,
@@ -214,7 +219,12 @@
             "name": "Unleash",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 4,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 6,
@@ -227,7 +237,12 @@
             "name": "Unleash",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 4,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 8,
@@ -244,7 +259,12 @@
             "name": "Boto",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 2,
+          "agenda_points": 6
+        }
       },
       {
         "turn": 8,
@@ -263,7 +283,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 28,
+          "agenda_cards": 3,
+          "agenda_points": 8
+        }
       },
       {
         "turn": 9,
@@ -293,7 +318,12 @@
             "name": "Boto",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 7,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 13,

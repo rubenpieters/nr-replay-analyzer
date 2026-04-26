@@ -283,7 +283,12 @@
               "name": "Charlotte Caçador",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          }
         },
         {
           "turn": 5,
@@ -295,7 +300,12 @@
               "name": "Send a Message",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 39,
+            "agenda_cards": 2,
+            "agenda_points": 16
+          }
         },
         {
           "turn": 7,
@@ -307,7 +317,12 @@
               "name": "Vampyronassa",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          }
         },
         {
           "turn": 9,
@@ -319,7 +334,12 @@
               "name": "Send a Message",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 27,
+            "agenda_cards": 1,
+            "agenda_points": 9
+          }
         },
         {
           "turn": 10,
@@ -341,7 +361,12 @@
               "name": "Anoetic Void",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 17,
+            "agenda_cards": 1,
+            "agenda_points": 4
+          }
         },
         {
           "turn": 17,
@@ -357,7 +382,12 @@
               "name": "See How They Run",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 14,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          }
         }
       ],
       "setup_cards": {
@@ -472,7 +502,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": ""
+          },
+          {
+            "title": "Devil Charm",
+            "type": ""
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
+          },
+          {
+            "title": "Arruaceiras Crew",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -551,7 +632,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": ""
+          },
+          {
+            "title": "Devil Charm",
+            "type": ""
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
+          },
+          {
+            "title": "Arruaceiras Crew",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -620,7 +748,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": ""
+          },
+          {
+            "title": "Devil Charm",
+            "type": ""
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -705,7 +884,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": ""
+          },
+          {
+            "title": "Devil Charm",
+            "type": ""
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -773,7 +999,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": ""
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -841,6 +1118,11 @@
           "effects": {
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          },
           "bucket": "run"
         },
         {
@@ -867,7 +1149,54 @@
             "<anonymized>"
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": ""
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -938,7 +1267,58 @@
             "<anonymized>"
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Privileged Access",
+            "type": ""
+          },
+          {
+            "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Rising Tide",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1026,7 +1406,38 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1091,7 +1502,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Arruaceiras Crew",
+            "type": "Resource"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1149,6 +1603,11 @@
             "type": "run",
             "server": "R&D"
           },
+          "breach_rd_snapshot": {
+            "total": 39,
+            "agenda_cards": 2,
+            "agenda_points": 16
+          },
           "bucket": "run"
         },
         {
@@ -1174,7 +1633,50 @@
             "<anonymized-corp> pays 0 [Credits] to rez Charlotte Caçador in Server 1."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Arruaceiras Crew",
+            "type": "Resource"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1243,7 +1745,38 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1326,7 +1859,46 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1399,7 +1971,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Solidarity Badge",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1474,6 +2093,11 @@
           "effects": {
             "cards_drawn": 1
           },
+          "breach_hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          },
           "bucket": "run"
         },
         {
@@ -1498,7 +2122,58 @@
             "<anonymized-runner> uses Amanuensis to place 1 power counter on itself."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Solidarity Badge",
+            "type": "Hardware"
+          },
+          {
+            "title": "Gourmand",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1575,7 +2250,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1658,7 +2376,38 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1725,7 +2474,42 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1777,6 +2561,11 @@
             "type": "run",
             "server": "R&D"
           },
+          "breach_rd_snapshot": {
+            "total": 27,
+            "agenda_cards": 1,
+            "agenda_points": 9
+          },
           "bucket": "run"
         },
         {
@@ -1820,7 +2609,42 @@
             "<anonymized-corp> pays 3 [Credits] to rez La Costa Grid in Server 1."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1900,7 +2724,42 @@
             "<anonymized>"
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1986,7 +2845,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2056,7 +2953,57 @@
             "<anonymized>"
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2135,7 +3082,53 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2209,7 +3202,53 @@
             "<anonymized-runner> trashes 1 card (Strike Fund) from the grip to use Audrey v2 to increase its strength from 0 to 3."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2297,7 +3336,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2376,7 +3457,53 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2467,7 +3594,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2536,7 +3701,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2611,7 +3814,53 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2677,7 +3926,41 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2762,7 +4045,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -2833,7 +4154,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -2925,6 +4284,11 @@
             "type": "run",
             "server": "R&D"
           },
+          "breach_rd_snapshot": {
+            "total": 17,
+            "agenda_cards": 1,
+            "agenda_points": 4
+          },
           "bucket": "run"
         },
         {
@@ -2947,7 +4311,53 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 17,
@@ -3020,7 +4430,37 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 17,
@@ -3131,9 +4571,40 @@
             "type": "run",
             "server": "R&D"
           },
+          "breach_rd_snapshot": {
+            "total": 14,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

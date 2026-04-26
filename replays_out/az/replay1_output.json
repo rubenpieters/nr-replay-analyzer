@@ -333,7 +333,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 32,
+            "agenda_cards": 1,
+            "agenda_points": 14
+          }
         },
         {
           "turn": 10,
@@ -351,7 +356,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 27,
+            "agenda_cards": 1,
+            "agenda_points": 8
+          }
         },
         {
           "turn": 11,
@@ -376,7 +386,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 24,
+            "agenda_cards": 1,
+            "agenda_points": 8
+          }
         },
         {
           "turn": 12,
@@ -393,7 +408,12 @@
               "name": "La Costa Grid",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 13,
@@ -425,7 +445,12 @@
               "name": "La Costa Grid",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 14,
@@ -444,7 +469,12 @@
               "name": "Fujii Asset Retrieval",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 20,
+            "agenda_cards": 1,
+            "agenda_points": 8
+          }
         }
       ],
       "setup_cards": {
@@ -569,7 +599,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lionsmane",
+            "type": ""
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -651,7 +732,54 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -714,7 +842,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -805,7 +984,54 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -878,7 +1104,66 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Unity",
+            "type": "Program"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Revolver",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -965,7 +1250,62 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Unity",
+            "type": "Program"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Revolver",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1033,7 +1373,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Unity",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1122,7 +1509,50 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Unity",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1189,7 +1619,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1279,7 +1760,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1344,7 +1872,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1438,7 +2017,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1505,7 +2131,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1607,7 +2284,54 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1675,7 +2399,70 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "WAKE Implant v2A-JRJ",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1783,6 +2570,11 @@
             "credits_paid": 3,
             "credits_gained": 7
           },
+          "breach_rd_snapshot": {
+            "total": 32,
+            "agenda_cards": 1,
+            "agenda_points": 14
+          },
           "bucket": "run"
         },
         {
@@ -1805,7 +2597,70 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "WAKE Implant v2A-JRJ",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1878,7 +2733,50 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Attini",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Info Bounty",
+            "type": "Resource"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1974,7 +2872,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Info Bounty",
+            "type": "Resource"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2043,7 +2979,45 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2127,6 +3101,11 @@
               "Cezve": 2
             }
           },
+          "breach_rd_snapshot": {
+            "total": 27,
+            "agenda_cards": 1,
+            "agenda_points": 8
+          },
           "bucket": "run"
         },
         {
@@ -2144,7 +3123,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2214,7 +3231,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2317,7 +3376,49 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2386,7 +3487,53 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2448,6 +3595,11 @@
             },
             "credits_gained": 8
           },
+          "breach_rd_snapshot": {
+            "total": 24,
+            "agenda_cards": 1,
+            "agenda_points": 8
+          },
           "bucket": "run"
         },
         {
@@ -2493,6 +3645,11 @@
           "effects": {
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -2526,7 +3683,53 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2599,7 +3802,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Flyswatter",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2699,7 +3944,49 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lionsmane",
+            "type": ""
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2762,7 +4049,57 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lionsmane",
+            "type": ""
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": ""
+          }
+        ],
+        "runner": [
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2822,6 +4159,11 @@
               "Info Bounty": 2
             }
           },
+          "breach_hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -2863,9 +4205,60 @@
             "type": "run",
             "server": "R&D"
           },
+          "breach_rd_snapshot": {
+            "total": 20,
+            "agenda_cards": 1,
+            "agenda_points": 8
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Lionsmane",
+            "type": ""
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": ""
+          }
+        ],
+        "runner": [
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

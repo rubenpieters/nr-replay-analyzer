@@ -281,7 +281,12 @@
             "name": "Let Them Dream",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 5,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 8,
@@ -355,7 +360,12 @@
           {
             "outcome": "seen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 26,
+          "agenda_cards": 0,
+          "agenda_points": 13
+        }
       },
       {
         "turn": 13,
@@ -372,7 +382,12 @@
             "name": "Stavka",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 7,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 13,
@@ -385,7 +400,12 @@
             "name": "Sleipnir",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 7,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 14,
@@ -397,7 +417,12 @@
             "name": "Measured Response",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 14,
@@ -409,7 +434,12 @@
             "name": "Hedge Fund",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 14,
@@ -421,7 +451,12 @@
             "name": "Afshar",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 0,
+          "agenda_points": 0
+        }
       },
       {
         "turn": 15,
@@ -442,7 +477,12 @@
             "name": "Anthill Excavation Contract",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 22,
+          "agenda_cards": 0,
+          "agenda_points": 11
+        }
       },
       {
         "turn": 16,
@@ -479,7 +519,12 @@
             "name": "Azef Protocol",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 2,
+          "agenda_points": 4
+        }
       }
     ],
     "setup_cards": {

@@ -196,7 +196,12 @@
             "name": "Charlotte Caçador",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 5,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 5,
@@ -208,7 +213,12 @@
             "name": "Send a Message",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 39,
+          "agenda_cards": 2,
+          "agenda_points": 16
+        }
       },
       {
         "turn": 7,
@@ -220,7 +230,12 @@
             "name": "Vampyronassa",
             "outcome": "seen"
           }
-        ]
+        ],
+        "hq_snapshot": {
+          "total": 6,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       },
       {
         "turn": 9,
@@ -232,7 +247,12 @@
             "name": "Send a Message",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 27,
+          "agenda_cards": 1,
+          "agenda_points": 9
+        }
       },
       {
         "turn": 10,
@@ -254,7 +274,12 @@
             "name": "Anoetic Void",
             "outcome": "trashed"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 17,
+          "agenda_cards": 1,
+          "agenda_points": 4
+        }
       },
       {
         "turn": 17,
@@ -270,7 +295,12 @@
             "name": "See How They Run",
             "outcome": "stolen"
           }
-        ]
+        ],
+        "rd_snapshot": {
+          "total": 14,
+          "agenda_cards": 1,
+          "agenda_points": 2
+        }
       }
     ],
     "setup_cards": {

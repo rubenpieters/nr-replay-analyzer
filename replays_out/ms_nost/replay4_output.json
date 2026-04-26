@@ -329,7 +329,12 @@
               "name": "Measured Response",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 4,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          }
         },
         {
           "turn": 7,
@@ -341,7 +346,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 35,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          }
         },
         {
           "turn": 9,
@@ -369,7 +379,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 31,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          }
         },
         {
           "turn": 11,
@@ -384,7 +399,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 29,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          }
         },
         {
           "turn": 12,
@@ -412,7 +432,12 @@
               "name": "Spin Doctor",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 26,
+            "agenda_cards": 0,
+            "agenda_points": 9
+          }
         },
         {
           "turn": 13,
@@ -429,7 +454,12 @@
               "name": "Flagship",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 8,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          }
         },
         {
           "turn": 14,
@@ -470,7 +500,12 @@
               "name": "Stavka",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          }
         },
         {
           "turn": 16,
@@ -486,7 +521,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 17,
+            "agenda_cards": 0,
+            "agenda_points": 5
+          }
         },
         {
           "turn": 16,
@@ -607,7 +647,58 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Descent",
+            "type": "ICE"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          },
+          {
+            "title": "Valentão",
+            "type": "ICE"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -691,7 +782,46 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Valentão",
+            "type": "ICE"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -757,7 +887,59 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Valentão",
+            "type": "ICE"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -843,7 +1025,59 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Valentão",
+            "type": "ICE"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -909,7 +1143,51 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Valentão",
+            "type": "ICE"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -1001,7 +1279,52 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1060,7 +1383,48 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1152,7 +1516,43 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1223,7 +1623,43 @@
             "<anonymized>"
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1312,7 +1748,43 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1372,7 +1844,43 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1425,6 +1933,11 @@
             },
             "credits_gained": 8
           },
+          "breach_hq_snapshot": {
+            "total": 4,
+            "agenda_cards": 2,
+            "agenda_points": 5
+          },
           "bucket": "run"
         },
         {
@@ -1471,7 +1984,43 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1529,7 +2078,43 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1627,9 +2212,54 @@
             },
             "credits_gained": 4
           },
+          "breach_rd_snapshot": {
+            "total": 35,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1688,7 +2318,43 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1758,7 +2424,51 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1816,7 +2526,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1921,7 +2675,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -1979,7 +2777,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2065,6 +2907,11 @@
             },
             "credits_gained": 6
           },
+          "breach_rd_snapshot": {
+            "total": 31,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          },
           "bucket": "run"
         },
         {
@@ -2082,7 +2929,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2153,7 +3044,51 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2236,6 +3171,11 @@
           "effects": {
             "credits_paid": 1
           },
+          "breach_rd_snapshot": {
+            "total": 29,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          },
           "bucket": "run"
         },
         {
@@ -2254,7 +3194,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2317,7 +3301,47 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2408,7 +3432,43 @@
             "<anonymized-runner> uses Fencer Fueno to pay 1 [Credits]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2470,7 +3530,47 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2565,6 +3665,11 @@
               "Fencer Fueno": 3
             }
           },
+          "breach_rd_snapshot": {
+            "total": 26,
+            "agenda_cards": 0,
+            "agenda_points": 9
+          },
           "bucket": "run"
         },
         {
@@ -2603,6 +3708,11 @@
               "Fencer Fueno": 3
             }
           },
+          "breach_hq_snapshot": {
+            "total": 8,
+            "agenda_cards": 3,
+            "agenda_points": 7
+          },
           "bucket": "run"
         },
         {
@@ -2621,7 +3731,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2686,7 +3840,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Valentão",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2815,7 +4021,51 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2882,7 +4132,59 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Malapert Data Vault",
+            "type": "Upgrade"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2965,6 +4267,11 @@
             },
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          },
           "bucket": "run"
         },
         {
@@ -3018,7 +4325,50 @@
             "<anonymized-runner> uses Fencer Fueno to pay 1 [Credits]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Malapert Data Vault",
+            "type": "Upgrade"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -3076,7 +4426,50 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Malapert Data Vault",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -3136,6 +4529,11 @@
               "Fencer Fueno": 2
             },
             "credits_gained": 6
+          },
+          "breach_rd_snapshot": {
+            "total": 17,
+            "agenda_cards": 0,
+            "agenda_points": 5
           },
           "bucket": "run"
         },
@@ -3233,7 +4631,54 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Slash and Burn Agriculture",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Malapert Data Vault",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Mavirus",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

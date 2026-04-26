@@ -367,7 +367,12 @@
               "name": "Let Them Dream",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          }
         },
         {
           "turn": 8,
@@ -441,7 +446,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 26,
+            "agenda_cards": 0,
+            "agenda_points": 13
+          }
         },
         {
           "turn": 13,
@@ -458,7 +468,12 @@
               "name": "Stavka",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 13,
@@ -471,7 +486,12 @@
               "name": "Sleipnir",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 14,
@@ -483,7 +503,12 @@
               "name": "Measured Response",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 14,
@@ -495,7 +520,12 @@
               "name": "Hedge Fund",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 14,
@@ -507,7 +537,12 @@
               "name": "Afshar",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 15,
@@ -528,7 +563,12 @@
               "name": "Anthill Excavation Contract",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 22,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          }
         },
         {
           "turn": 16,
@@ -565,7 +605,12 @@
               "name": "Azef Protocol",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 2,
+            "agenda_points": 4
+          }
         }
       ],
       "setup_cards": {
@@ -673,7 +718,59 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anthill Excavation Contract",
+            "type": "Asset"
+          },
+          {
+            "title": "Maskirovka",
+            "type": "ICE"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Afshar",
+            "type": "ICE"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mystic Maemi",
+            "type": "Resource"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": ""
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -758,7 +855,51 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anthill Excavation Contract",
+            "type": "Asset"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mystic Maemi",
+            "type": "Resource"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": ""
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -814,7 +955,67 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Anthill Excavation Contract",
+            "type": "Asset"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          },
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mavirus",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -921,7 +1122,59 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mavirus",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -979,7 +1232,43 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mavirus",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -1087,7 +1376,39 @@
             "<anonymized-corp> trashes Mavirus to use Mavirus to purge virus counters."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1152,7 +1473,43 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1237,7 +1594,43 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1298,7 +1691,47 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Mavirus",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1389,7 +1822,43 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1450,7 +1919,43 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "The Basalt Spire",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1546,7 +2051,34 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1619,7 +2151,38 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1728,7 +2291,38 @@
             "<anonymized-corp> trashes Mavirus to use Mavirus to purge virus counters."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1789,7 +2383,46 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1918,6 +2551,11 @@
             },
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 5,
+            "agenda_cards": 1,
+            "agenda_points": 2
+          },
           "bucket": "run"
         },
         {
@@ -1962,7 +2600,42 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -2020,7 +2693,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Maskirovka",
+            "type": "ICE"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -2108,7 +2819,37 @@
           },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2164,7 +2905,49 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Tucana",
+            "type": "Upgrade"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2251,7 +3034,41 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2309,7 +3126,49 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2393,7 +3252,49 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2452,7 +3353,53 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2556,7 +3503,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2615,7 +3600,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2676,6 +3699,11 @@
               "Cezve": 1
             }
           },
+          "breach_rd_snapshot": {
+            "total": 26,
+            "agenda_cards": 0,
+            "agenda_points": 13
+          },
           "bucket": "run"
         },
         {
@@ -2703,6 +3731,11 @@
               "Touchstone": 1
             }
           },
+          "breach_hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -2725,6 +3758,11 @@
           "effects": {
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 7,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -2743,7 +3781,45 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2801,7 +3877,53 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Descent",
+            "type": "ICE"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
+          },
+          {
+            "title": "Afshar",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 14,
@@ -2844,6 +3966,11 @@
               "Fencer Fueno": 1
             }
           },
+          "breach_hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -2860,6 +3987,11 @@
           "action": {
             "type": "run",
             "server": "HQ"
+          },
+          "breach_hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 0,
+            "agenda_points": 0
           },
           "bucket": "run"
         },
@@ -2879,6 +4011,11 @@
             "type": "run",
             "server": "HQ"
           },
+          "breach_hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -2896,7 +4033,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Afshar",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -2967,7 +4142,49 @@
           },
           "bucket": "impactful"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Afshar",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 15,
@@ -3036,6 +4253,11 @@
             },
             "credits_gained": 8
           },
+          "breach_rd_snapshot": {
+            "total": 22,
+            "agenda_cards": 0,
+            "agenda_points": 11
+          },
           "bucket": "run"
         },
         {
@@ -3082,7 +4304,37 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -3152,7 +4404,53 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 16,
@@ -3262,7 +4560,41 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 17,
@@ -3319,7 +4651,45 @@
           },
           "bucket": "tempo"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 17,
@@ -3392,9 +4762,57 @@
             },
             "credits_gained": 4
           },
+          "breach_hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 2,
+            "agenda_points": 4
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }

@@ -297,7 +297,12 @@
               "name": "Seamless Launch",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 6,
@@ -321,7 +326,12 @@
             {
               "outcome": "seen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 31,
+            "agenda_cards": 1,
+            "agenda_points": 7
+          }
         },
         {
           "turn": 8,
@@ -357,7 +367,12 @@
               "name": "Tatu-Bola",
               "outcome": "seen"
             }
-          ]
+          ],
+          "hq_snapshot": {
+            "total": 9,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          }
         },
         {
           "turn": 10,
@@ -370,7 +385,12 @@
               "name": "Byte!",
               "outcome": "trashed"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 29,
+            "agenda_cards": 1,
+            "agenda_points": 7
+          }
         },
         {
           "turn": 13,
@@ -385,7 +405,12 @@
               "name": "See How They Run",
               "outcome": "stolen"
             }
-          ]
+          ],
+          "rd_snapshot": {
+            "total": 21,
+            "agenda_cards": 1,
+            "agenda_points": 3
+          }
         }
       ],
       "setup_cards": {
@@ -504,7 +529,58 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": ""
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 1,
@@ -592,7 +668,54 @@
             "cards_drawn": 4
           }
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": ""
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -658,7 +781,74 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": ""
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 2,
@@ -740,7 +930,66 @@
           },
           "bucket": "economy"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Fencer Fueno",
+            "type": ""
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": ""
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -808,7 +1057,54 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Longevity Serum",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 3,
@@ -897,7 +1193,41 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -963,7 +1293,41 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 4,
@@ -1068,7 +1432,41 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1139,7 +1537,51 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 5,
@@ -1227,7 +1669,46 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1296,7 +1777,51 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 6,
@@ -1368,6 +1893,11 @@
           "effects": {
             "credits_gained": 6
           },
+          "breach_hq_snapshot": {
+            "total": 6,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -1426,7 +1956,37 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1493,7 +2053,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": ""
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": ""
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 7,
@@ -1583,7 +2185,41 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1648,7 +2284,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 8,
@@ -1693,6 +2371,11 @@
           "effects": {
             "credits_paid": 3,
             "credits_gained": 6
+          },
+          "breach_rd_snapshot": {
+            "total": 31,
+            "agenda_cards": 1,
+            "agenda_points": 7
           },
           "bucket": "run"
         },
@@ -1779,7 +2462,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Mutual Favor",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1848,7 +2569,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 9,
@@ -1923,6 +2686,11 @@
             },
             "credits_gained": 8
           },
+          "breach_hq_snapshot": {
+            "total": 9,
+            "agenda_cards": 0,
+            "agenda_points": 0
+          },
           "bucket": "run"
         },
         {
@@ -1956,7 +2724,45 @@
           },
           "bucket": "basic"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Afterimage",
+            "type": "Program"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2025,7 +2831,53 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 10,
@@ -2093,6 +2945,11 @@
             },
             "credits_gained": 4
           },
+          "breach_rd_snapshot": {
+            "total": 29,
+            "agenda_cards": 1,
+            "agenda_points": 7
+          },
           "bucket": "run"
         },
         {
@@ -2125,7 +2982,49 @@
           },
           "bucket": "setup"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2189,7 +3088,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 11,
@@ -2272,7 +3213,41 @@
             "<anonymized-corp> pays 0 [Credits] to rez Charlotte Caçador in Server 1."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2346,7 +3321,41 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to secretly choose a server."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 12,
@@ -2433,7 +3442,49 @@
             "<anonymized-corp> uses Méliès U: Only the Brightest to gain 1 [Credit]."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2510,7 +3561,49 @@
             "<anonymized-runner> pays 1 [Credits] from Mantle to use Afterimage to increase its strength from 2 to 4."
           ]
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     },
     {
       "turn": 13,
@@ -2582,9 +3675,52 @@
               "Trickster Taka": 3
             }
           },
+          "breach_rd_snapshot": {
+            "total": 21,
+            "agenda_cards": 1,
+            "agenda_points": 3
+          },
           "bucket": "run"
         }
-      ]
+      ],
+      "hand_snapshot": {
+        "corp": [
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
+          }
+        ],
+        "runner": [
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
+          }
+        ]
+      }
     }
   ]
 }
