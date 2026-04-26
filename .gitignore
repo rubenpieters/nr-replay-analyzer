@@ -3,4 +3,5 @@
 node_modules/
 dist/
 replays_html/
-cards/
+cards/*
+!cards/cards-slim.json
