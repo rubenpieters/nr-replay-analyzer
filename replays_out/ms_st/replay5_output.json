@@ -201,7 +201,13 @@
           "turn": 1,
           "click": 4,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Boto",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 2,
@@ -215,7 +221,13 @@
           "click": 2,
           "server": "Archives",
           "successful": true,
-          "card": "Pinhole Threading"
+          "card": "Pinhole Threading",
+          "accessed": [
+            {
+              "name": "Humanoid Resources",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 4,
@@ -269,21 +281,39 @@
           "turn": 10,
           "click": 1,
           "server": "Archives",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Mavirus",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 10,
           "click": 3,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "Hedge Fund",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 12,
           "click": 4,
           "server": "HQ",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "name": "Spin Doctor",
+              "outcome": "seen"
+            }
+          ]
         }
       ],
       "setup_cards": {

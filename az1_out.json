@@ -314,66 +314,140 @@
           "click": 2,
           "server": "Archives",
           "successful": true,
-          "card": "Clean Getaway"
+          "card": "Clean Getaway",
+          "archives_facedown": true
         },
         {
           "turn": 8,
           "click": 3,
           "server": "R&D",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "name": "Fujii Asset Retrieval",
+              "outcome": "stolen"
+            },
+            {
+              "outcome": "seen"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 10,
           "click": 3,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Anoetic Void",
+              "outcome": "trashed"
+            },
+            {
+              "outcome": "seen"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 11,
           "click": 2,
           "server": "Archives",
-          "successful": true
+          "successful": true,
+          "archives_facedown": true
         },
         {
           "turn": 12,
           "click": 1,
           "server": "R&D",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "outcome": "seen"
+            },
+            {
+              "name": "Anoetic Void",
+              "outcome": "trashed"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 12,
           "click": 2,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "Boto",
+              "outcome": "seen"
+            },
+            {
+              "name": "La Costa Grid",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 13,
           "click": 1,
           "server": "Archives",
           "successful": true,
-          "card": "Pinhole Threading"
+          "card": "Pinhole Threading",
+          "accessed": [
+            {
+              "name": "La Costa Grid",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 13,
           "click": 2,
           "server": "Archives",
-          "successful": true
+          "successful": true,
+          "archives_facedown": true
         },
         {
           "turn": 14,
           "click": 1,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "La Costa Grid",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 14,
           "click": 2,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "outcome": "seen"
+            },
+            {
+              "name": "Lotus Haze",
+              "outcome": "stolen"
+            },
+            {
+              "name": "Fujii Asset Retrieval",
+              "outcome": "stolen"
+            }
+          ]
         }
       ],
       "setup_cards": {

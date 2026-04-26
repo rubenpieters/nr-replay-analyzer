@@ -1,4 +1,4 @@
-import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon, SetupCardEntry, RunEntry } from "./analyzer.js";
+import type { ParsedReplay, Turn, ClickGroup, Action, Effects, PlayerEcon, SetupCardEntry, RunEntry, AccessEntry } from "./analyzer.js";
 
 const ACTION_COLORS: Record<string, string> = {
   run: "#d32f2f",
@@ -92,6 +92,8 @@ h1 { font-size: 1.4rem; margin-bottom: 4px; }
 .runs-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .run-success { color: #2e7d32; font-weight: 600; }
 .run-failure { color: #c62828; font-weight: 600; }
+.run-stolen { color: #2e7d32; font-weight: 600; }
+.run-trashed { color: #e65100; font-weight: 600; }
 `;
 
 const CORP_FACTIONS = ["Haas-Bioroid", "Weyland Consortium", "Jinteki", "NBN"];
@@ -200,6 +202,21 @@ function renderTurn(turn: Turn): string {
     `<div class="clicks">${clicksHtml}</div>` +
     `</div>`
   );
+}
+
+function formatAccessEntry(a: AccessEntry): string {
+  const name = a.name ? he(a.name) : "?";
+  if (a.outcome === "stolen") return `${name} <span class="run-stolen">stolen</span>`;
+  if (a.outcome === "trashed") return `${name} <span class="run-trashed">trashed</span>`;
+  return name;
+}
+
+function formatAccessed(r: RunEntry): string {
+  const accessed = r.accessed ?? [];
+  if (accessed.length === 0) return "—";
+  const server = r.server;
+  if (server === "HQ" || server === "R&D") return String(accessed.length);
+  return accessed.map(formatAccessEntry).join(", ");
 }
 
 function renderEconomy(economy: PlayerEcon): string {
@@ -326,6 +343,7 @@ function renderEconomy(economy: PlayerEcon): string {
         ? `<span class="run-success">&#10003;</span>`
         : `<span class="run-failure">&#10007;</span>`;
       const card = r.card ? he(shortIdentity(r.card)) : "&#8212;";
+      const accessed = formatAccessed(r);
       return (
         `<tr>` +
         `<td class="num">T${r.turn}</td>` +
@@ -333,12 +351,13 @@ function renderEconomy(economy: PlayerEcon): string {
         `<td>${he(r.server)}</td>` +
         `<td>${outcome}</td>` +
         `<td>${card}</td>` +
+        `<td>${accessed}</td>` +
         `</tr>`
       );
     }).join("");
     runsHtml =
       `<table class="runs-table">` +
-      `<thead><tr><th>Turn</th><th>Click</th><th>Server</th><th>Result</th><th>Card</th></tr></thead>` +
+      `<thead><tr><th>Turn</th><th>Click</th><th>Server</th><th>Result</th><th>Card</th><th>Accessed</th></tr></thead>` +
       `<tbody>${runRows}</tbody>` +
       `</table>`;
   }

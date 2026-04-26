@@ -270,7 +270,13 @@
           "click": 2,
           "server": "HQ",
           "successful": true,
-          "card": "Pinhole Threading"
+          "card": "Pinhole Threading",
+          "accessed": [
+            {
+              "name": "Phật Gioan Baotixita",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 2,
@@ -284,7 +290,13 @@
           "click": 4,
           "server": "Server 2",
           "successful": true,
-          "card": "Clean Getaway"
+          "card": "Clean Getaway",
+          "accessed": [
+            {
+              "name": "Bladderwort",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 4,
@@ -304,7 +316,13 @@
           "turn": 6,
           "click": 4,
           "server": "Server 1",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Phật Gioan Baotixita",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 7,
@@ -323,13 +341,25 @@
           "turn": 8,
           "click": 2,
           "server": "Server 4",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Bladderwort",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 9,
           "click": 3,
           "server": "Server 5",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Phật Gioan Baotixita",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 10,
@@ -342,64 +372,138 @@
           "click": 3,
           "server": "Server 5",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "name": "Phật Gioan Baotixita",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 12,
           "click": 1,
           "server": "HQ",
           "successful": true,
-          "card": "Overclock"
+          "card": "Overclock",
+          "accessed": [
+            {
+              "name": "Semak-samun",
+              "outcome": "seen"
+            },
+            {
+              "name": "The Red Room",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 13,
           "click": 1,
           "server": "Server 6",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "name": "Regenesis",
+              "outcome": "stolen"
+            }
+          ]
         },
         {
           "turn": 13,
           "click": 2,
           "server": "Server 7",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Moon Pool",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 14,
           "click": 2,
           "server": "Server 5",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "name": "Hostile Architecture",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 15,
           "click": 1,
           "server": "Archives",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Sericulture Expansion",
+              "outcome": "stolen"
+            }
+          ]
         },
         {
           "turn": 15,
           "click": 2,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Semak-samun",
+              "outcome": "seen"
+            },
+            {
+              "name": "Whitespace",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 15,
           "click": 3,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Fujii Asset Retrieval",
+              "outcome": "stolen"
+            }
+          ]
         },
         {
           "turn": 15,
           "click": 4,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Spin Doctor",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 16,
           "click": 1,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "outcome": "seen"
+            },
+            {
+              "name": "Fujii Asset Retrieval",
+              "outcome": "stolen"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         }
       ],
       "setup_cards": {

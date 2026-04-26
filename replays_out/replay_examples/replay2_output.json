@@ -265,7 +265,13 @@
           "click": 2,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "Unleash",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 4,
@@ -278,19 +284,36 @@
           "turn": 4,
           "click": 3,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Anoetic Void",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 5,
           "click": 3,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 6,
           "click": 2,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Mitra Aman",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 7,
@@ -303,7 +326,12 @@
           "turn": 8,
           "click": 3,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 13,
@@ -323,7 +351,13 @@
           "turn": 15,
           "click": 4,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Spin Doctor",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 16,
@@ -336,25 +370,53 @@
           "turn": 16,
           "click": 3,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Anoetic Void",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 16,
           "click": 4,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Boto",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 17,
           "click": 2,
           "server": "Archives",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Orbital Superiority",
+              "outcome": "stolen"
+            }
+          ]
         },
         {
           "turn": 17,
           "click": 3,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "La Costa Grid",
+              "outcome": "seen"
+            },
+            {
+              "name": "See How They Run",
+              "outcome": "stolen"
+            }
+          ]
         }
       ],
       "setup_cards": {

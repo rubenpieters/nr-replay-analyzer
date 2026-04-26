@@ -217,27 +217,54 @@
         "click": 2,
         "server": "HQ",
         "successful": true,
-        "card": "Transfer of Wealth"
+        "card": "Transfer of Wealth",
+        "accessed": [
+          {
+            "name": "Seamless Launch",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 6,
         "click": 3,
         "server": "Server 1",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "See How They Run",
+            "outcome": "stolen"
+          }
+        ]
       },
       {
         "turn": 8,
         "click": 1,
         "server": "R&D",
         "successful": true,
-        "card": "Clean Getaway"
+        "card": "Clean Getaway",
+        "accessed": [
+          {
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 8,
         "click": 3,
         "server": "Server 1",
         "successful": true,
-        "card": "Overclock"
+        "card": "Overclock",
+        "accessed": [
+          {
+            "name": "Send a Message",
+            "outcome": "stolen"
+          },
+          {
+            "name": "La Costa Grid",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 9,
@@ -250,20 +277,41 @@
         "click": 2,
         "server": "HQ",
         "successful": true,
-        "card": "Bravado"
+        "card": "Bravado",
+        "accessed": [
+          {
+            "name": "Tatu-Bola",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 10,
         "click": 2,
         "server": "R&D",
         "successful": true,
-        "card": "Carpe Diem"
+        "card": "Carpe Diem",
+        "accessed": [
+          {
+            "name": "Byte!",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 13,
         "click": 1,
         "server": "R&D",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "outcome": "seen"
+          },
+          {
+            "name": "See How They Run",
+            "outcome": "stolen"
+          }
+        ]
       }
     ],
     "setup_cards": {

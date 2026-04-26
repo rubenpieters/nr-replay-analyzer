@@ -146,21 +146,39 @@
         "click": 4,
         "server": "R&D",
         "successful": true,
-        "card": "Clean Getaway"
+        "card": "Clean Getaway",
+        "accessed": [
+          {
+            "name": "Azef Protocol",
+            "outcome": "stolen"
+          }
+        ]
       },
       {
         "turn": 2,
         "click": 2,
         "server": "Archives",
         "successful": true,
-        "card": "Pinhole Threading"
+        "card": "Pinhole Threading",
+        "accessed": [
+          {
+            "name": "Anthill Excavation Contract",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 3,
         "click": 1,
         "server": "R&D",
         "successful": true,
-        "card": "Bravado"
+        "card": "Bravado",
+        "accessed": [
+          {
+            "name": "Tucana",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 3,
@@ -174,7 +192,13 @@
         "click": 4,
         "server": "Archives",
         "successful": true,
-        "card": "Pinhole Threading"
+        "card": "Pinhole Threading",
+        "accessed": [
+          {
+            "name": "Anthill Excavation Contract",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 5,
@@ -195,7 +219,21 @@
         "click": 3,
         "server": "Server 1",
         "successful": true,
-        "card": "Overclock"
+        "card": "Overclock",
+        "accessed": [
+          {
+            "name": "The Holo Man",
+            "outcome": "trashed"
+          },
+          {
+            "name": "The Basalt Spire",
+            "outcome": "stolen"
+          },
+          {
+            "name": "Tranquility Home Grid",
+            "outcome": "trashed"
+          }
+        ]
       }
     ],
     "setup_cards": {

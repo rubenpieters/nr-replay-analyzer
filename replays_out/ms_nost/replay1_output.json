@@ -258,35 +258,69 @@
           "click": 1,
           "server": "R&D",
           "successful": true,
-          "card": "Carpe Diem"
+          "card": "Carpe Diem",
+          "accessed": [
+            {
+              "name": "Regolith Mining License",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 3,
           "click": 1,
           "server": "Archives",
           "successful": true,
-          "card": "Pinhole Threading"
+          "card": "Pinhole Threading",
+          "accessed": [
+            {
+              "name": "Mitra Aman",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 5,
           "click": 4,
           "server": "HQ",
           "successful": true,
-          "card": "Overclock"
+          "card": "Overclock",
+          "accessed": [
+            {
+              "name": "Unleash",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 6,
           "click": 3,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "Unleash",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 8,
           "click": 2,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "Send a Message",
+              "outcome": "stolen"
+            },
+            {
+              "name": "Boto",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 8,
@@ -300,7 +334,12 @@
           "click": 3,
           "server": "R&D",
           "successful": true,
-          "card": "Clean Getaway"
+          "card": "Clean Getaway",
+          "accessed": [
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 9,
@@ -320,14 +359,30 @@
           "click": 3,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "Unleash",
+              "outcome": "seen"
+            },
+            {
+              "name": "Boto",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 13,
           "click": 2,
           "server": "Archives",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "name": "Let Them Dream",
+              "outcome": "stolen"
+            }
+          ]
         },
         {
           "turn": 13,
@@ -378,7 +433,25 @@
           "turn": 16,
           "click": 4,
           "server": "Server 1",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Let Them Dream",
+              "outcome": "stolen"
+            },
+            {
+              "name": "Anoetic Void",
+              "outcome": "trashed"
+            },
+            {
+              "name": "Anoetic Void",
+              "outcome": "seen"
+            },
+            {
+              "name": "La Costa Grid",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 17,

@@ -283,27 +283,49 @@
           "click": 1,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "Spin Doctor",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 1,
           "click": 3,
           "server": "Server 1",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Tranquility Home Grid",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 2,
           "click": 3,
           "server": "R&D",
           "successful": true,
-          "card": "Clean Getaway"
+          "card": "Clean Getaway",
+          "accessed": [
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 3,
           "click": 3,
           "server": "R&D",
           "successful": true,
-          "card": "Clean Getaway"
+          "card": "Clean Getaway",
+          "accessed": [
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 3,
@@ -322,14 +344,26 @@
           "turn": 4,
           "click": 2,
           "server": "Server 3",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Mitra Aman",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 6,
           "click": 3,
           "server": "Archives",
           "successful": true,
-          "card": "Pinhole Threading"
+          "card": "Pinhole Threading",
+          "accessed": [
+            {
+              "name": "Humanoid Resources",
+              "outcome": "trashed"
+            }
+          ]
         },
         {
           "turn": 7,
@@ -341,19 +375,43 @@
           "turn": 7,
           "click": 4,
           "server": "Server 4",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Méliès City Luxury Line",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 11,
           "click": 3,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Mercia B4LL4RD",
+              "outcome": "trashed"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 12,
           "click": 1,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Mercia B4LL4RD",
+              "outcome": "trashed"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 12,
@@ -366,7 +424,13 @@
           "click": 3,
           "server": "HQ",
           "successful": true,
-          "card": "Transfer of Wealth"
+          "card": "Transfer of Wealth",
+          "accessed": [
+            {
+              "name": "Seamless Launch",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 13,
@@ -378,26 +442,56 @@
           "turn": 13,
           "click": 3,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "outcome": "seen"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 14,
           "click": 2,
           "server": "R&D",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "name": "Let Them Dream",
+              "outcome": "stolen"
+            },
+            {
+              "name": "Let Them Dream",
+              "outcome": "stolen"
+            }
+          ]
         },
         {
           "turn": 14,
           "click": 3,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Myōshu",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 14,
           "click": 4,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Let Them Dream",
+              "outcome": "stolen"
+            }
+          ]
         },
         {
           "turn": 15,
@@ -409,13 +503,27 @@
           "turn": 15,
           "click": 2,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "outcome": "seen"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 15,
           "click": 3,
           "server": "HQ",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Myōshu",
+              "outcome": "seen"
+            }
+          ]
         }
       ],
       "setup_cards": {

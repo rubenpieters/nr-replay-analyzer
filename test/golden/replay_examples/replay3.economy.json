@@ -190,25 +190,49 @@
         "click": 3,
         "server": "HQ",
         "successful": true,
-        "card": "Transfer of Wealth"
+        "card": "Transfer of Wealth",
+        "accessed": [
+          {
+            "name": "Charlotte Caçador",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 5,
         "click": 3,
         "server": "R&D",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "Send a Message",
+            "outcome": "stolen"
+          }
+        ]
       },
       {
         "turn": 7,
         "click": 3,
         "server": "HQ",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "Vampyronassa",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 9,
         "click": 2,
         "server": "R&D",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "Send a Message",
+            "outcome": "stolen"
+          }
+        ]
       },
       {
         "turn": 10,
@@ -220,13 +244,33 @@
         "turn": 16,
         "click": 3,
         "server": "R&D",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "La Costa Grid",
+            "outcome": "trashed"
+          },
+          {
+            "name": "Anoetic Void",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 17,
         "click": 4,
         "server": "R&D",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "Charlotte Caçador",
+            "outcome": "trashed"
+          },
+          {
+            "name": "See How They Run",
+            "outcome": "stolen"
+          }
+        ]
       }
     ],
     "setup_cards": {

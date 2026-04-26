@@ -272,14 +272,25 @@
           "click": 3,
           "server": "HQ",
           "successful": true,
-          "card": "Clean Getaway"
+          "card": "Clean Getaway",
+          "accessed": [
+            {
+              "name": "Seamless Launch",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 2,
           "click": 2,
           "server": "R&D",
           "successful": true,
-          "card": "Clean Getaway"
+          "card": "Clean Getaway",
+          "accessed": [
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 3,
@@ -292,21 +303,48 @@
           "turn": 6,
           "click": 3,
           "server": "R&D",
-          "successful": true
+          "successful": true,
+          "accessed": [
+            {
+              "name": "Spin Doctor",
+              "outcome": "trashed"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 7,
           "click": 2,
           "server": "HQ",
           "successful": true,
-          "card": "Bravado"
+          "card": "Bravado",
+          "accessed": [
+            {
+              "name": "Seamless Launch",
+              "outcome": "seen"
+            },
+            {
+              "name": "Tranquility Home Grid",
+              "outcome": "seen"
+            }
+          ]
         },
         {
           "turn": 8,
           "click": 3,
           "server": "R&D",
           "successful": true,
-          "card": "Clean Getaway"
+          "card": "Clean Getaway",
+          "accessed": [
+            {
+              "outcome": "seen"
+            },
+            {
+              "outcome": "seen"
+            }
+          ]
         }
       ],
       "setup_cards": {

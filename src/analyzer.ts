@@ -45,12 +45,18 @@ export interface CardEconEntry {
   run?: true;
 }
 
+export interface AccessEntry {
+  name?: string;   // undefined = unseen card (R&D/HQ)
+  outcome: "stolen" | "trashed" | "seen";
+}
+
 export interface RunEntry {
   turn: number;
   click: number;
   server: string;
   successful: boolean;
   card?: string;
+  accessed?: AccessEntry[];
 }
 
 export interface PlayerEcon {
@@ -561,6 +567,53 @@ function extractRunInfo(
   return { server, successful };
 }
 
+const ACCESS_SERVER_RE = /(?:HQ|R&D|Archives|Server \d+|the root of HQ)/;
+const ACCESS_RE = new RegExp(`\\baccesses (.+?) from (${ACCESS_SERVER_RE.source})\\b`);
+const TRASH_ACCESS_RE = new RegExp(`\\bpays .+ to trash (.+?) from (${ACCESS_SERVER_RE.source})\\b`);
+
+function updateLastAccess(
+  accessed: AccessEntry[],
+  cardName: string,
+  outcome: "stolen" | "trashed"
+): void {
+  for (let j = accessed.length - 1; j >= 0; j--) {
+    if (accessed[j].outcome === "seen" && (accessed[j].name === undefined || accessed[j].name === cardName)) {
+      accessed[j] = { name: cardName, outcome };
+      return;
+    }
+  }
+}
+
+function extractRunAccesses(events: string[]): { accessed: AccessEntry[] } {
+  const accessed: AccessEntry[] = [];
+
+  for (const ev of events) {
+    if (/\baccesses everything else in Archives\b/.test(ev)) continue;
+    const accessMatch = ACCESS_RE.exec(ev);
+    if (accessMatch) {
+      const rawName = accessMatch[1];
+      accessed.push({ name: rawName === "an unseen card" ? undefined : rawName, outcome: "seen" });
+      continue;
+    }
+    const stealMatch = /\bsteals (.+?) and gains \d+ agenda points?/.exec(ev);
+    if (stealMatch) {
+      updateLastAccess(accessed, stealMatch[1], "stolen");
+      continue;
+    }
+    const costStealMatch = /\bto steal (.+?) from /.exec(ev);
+    if (costStealMatch) {
+      updateLastAccess(accessed, costStealMatch[1], "stolen");
+      continue;
+    }
+    const trashMatch = TRASH_ACCESS_RE.exec(ev);
+    if (trashMatch) {
+      updateLastAccess(accessed, trashMatch[1], "trashed");
+    }
+  }
+
+  return { accessed };
+}
+
 // -- Economy tracking --
 
 const BASIC_ECON_TYPES = new Set(["gain_credits", "draw"]);
@@ -724,6 +777,8 @@ export function computeEconomy(
         const runEntry: RunEntry = { turn: phase.turn, click: click.click, server, successful };
         const cardTitle = action.card as string | undefined;
         if (cardTitle && cardDb?.isRunEvent(cardTitle)) runEntry.card = cardTitle;
+        const { accessed } = extractRunAccesses(events);
+        if (accessed.length > 0) runEntry.accessed = accessed;
         econ.runs!.push(runEntry);
       }
 

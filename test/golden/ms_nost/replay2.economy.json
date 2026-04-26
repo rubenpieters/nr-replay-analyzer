@@ -210,21 +210,39 @@
         "click": 4,
         "server": "Archives",
         "successful": true,
-        "card": "Pinhole Threading"
+        "card": "Pinhole Threading",
+        "accessed": [
+          {
+            "name": "Anthill Excavation Contract",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 4,
         "click": 2,
         "server": "Archives",
         "successful": true,
-        "card": "Pinhole Threading"
+        "card": "Pinhole Threading",
+        "accessed": [
+          {
+            "name": "Regolith Mining License",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 5,
         "click": 2,
         "server": "Archives",
         "successful": true,
-        "card": "Clean Getaway"
+        "card": "Clean Getaway",
+        "accessed": [
+          {
+            "name": "Mavirus",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 6,
@@ -244,87 +262,187 @@
         "click": 1,
         "server": "Server 1",
         "successful": true,
-        "card": "Direct Access"
+        "card": "Direct Access",
+        "accessed": [
+          {
+            "name": "The Holo Man",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 8,
         "click": 4,
         "server": "HQ",
         "successful": true,
-        "card": "Transfer of Wealth"
+        "card": "Transfer of Wealth",
+        "accessed": [
+          {
+            "name": "Let Them Dream",
+            "outcome": "stolen"
+          }
+        ]
       },
       {
         "turn": 8,
         "click": 5,
         "server": "Server 1",
         "successful": true,
-        "card": "Reprise"
+        "card": "Reprise",
+        "accessed": [
+          {
+            "name": "Regolith Mining License",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 9,
         "click": 4,
         "server": "Archives",
         "successful": true,
-        "card": "Clean Getaway"
+        "card": "Clean Getaway",
+        "accessed": [
+          {
+            "name": "Mavirus",
+            "outcome": "seen"
+          },
+          {
+            "name": "Mavirus",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 10,
         "click": 2,
         "server": "Server 2",
         "successful": true,
-        "card": "Tread Lightly"
+        "card": "Tread Lightly",
+        "accessed": [
+          {
+            "name": "Tucana",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 12,
         "click": 3,
         "server": "Server 2",
         "successful": true,
-        "card": "Bravado"
+        "card": "Bravado",
+        "accessed": [
+          {
+            "name": "Malapert Data Vault",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 13,
         "click": 1,
         "server": "R&D",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "outcome": "seen"
+          },
+          {
+            "name": "Let Them Dream",
+            "outcome": "stolen"
+          },
+          {
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 13,
         "click": 2,
         "server": "HQ",
         "successful": true,
-        "card": "Reprise"
+        "card": "Reprise",
+        "accessed": [
+          {
+            "name": "Flagship",
+            "outcome": "trashed"
+          },
+          {
+            "name": "Stavka",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 13,
         "click": 3,
         "server": "HQ",
         "successful": true,
-        "card": "Transfer of Wealth"
+        "card": "Transfer of Wealth",
+        "accessed": [
+          {
+            "name": "Sleipnir",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 14,
         "click": 1,
         "server": "HQ",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "Measured Response",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 14,
         "click": 2,
         "server": "HQ",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "Hedge Fund",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 14,
         "click": 3,
         "server": "HQ",
-        "successful": true
+        "successful": true,
+        "accessed": [
+          {
+            "name": "Afshar",
+            "outcome": "seen"
+          }
+        ]
       },
       {
         "turn": 15,
         "click": 1,
         "server": "R&D",
         "successful": true,
-        "card": "Bravado"
+        "card": "Bravado",
+        "accessed": [
+          {
+            "name": "Spin Doctor",
+            "outcome": "trashed"
+          },
+          {
+            "name": "The Basalt Spire",
+            "outcome": "stolen"
+          },
+          {
+            "name": "Anthill Excavation Contract",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 16,
@@ -338,14 +456,30 @@
         "click": 3,
         "server": "Server 2",
         "successful": true,
-        "card": "Overclock"
+        "card": "Overclock",
+        "accessed": [
+          {
+            "name": "Anthill Excavation Contract",
+            "outcome": "trashed"
+          },
+          {
+            "name": "Tranquility Home Grid",
+            "outcome": "trashed"
+          }
+        ]
       },
       {
         "turn": 17,
         "click": 2,
         "server": "HQ",
         "successful": true,
-        "card": "Carpe Diem"
+        "card": "Carpe Diem",
+        "accessed": [
+          {
+            "name": "Azef Protocol",
+            "outcome": "stolen"
+          }
+        ]
       }
     ],
     "setup_cards": {
