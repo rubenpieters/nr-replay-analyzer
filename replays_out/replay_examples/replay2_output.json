@@ -215,11 +215,12 @@
         },
         "Valentina Ferreira Carvalho": {
           "uses": 1,
-          "clicks": 0,
+          "clicks": 1,
           "total_credits_gained": 4,
           "total_cost": 0,
           "total_net_credits": 4,
-          "total_cards_drawn": 0
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
         },
         "Ashen Epilogue": {
           "uses": 1,
@@ -232,7 +233,7 @@
         },
         "Gourmand": {
           "uses": 1,
-          "clicks": 4,
+          "clicks": 3,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,

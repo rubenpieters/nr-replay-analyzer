@@ -122,12 +122,11 @@
         },
         "Charlotte Caçador": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 0,
           "total_credits_gained": 3,
           "total_cost": 0,
           "total_net_credits": 3,
-          "total_cards_drawn": 0,
-          "credits_per_click": 3
+          "total_cards_drawn": 0
         },
         "Hedge Fund": {
           "uses": 1,
@@ -219,12 +218,11 @@
         },
         "Mitra Aman": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 0,
           "total_credits_gained": 0,
           "total_cost": 0,
           "total_net_credits": 0,
-          "total_cards_drawn": 1,
-          "credits_per_click": 0
+          "total_cards_drawn": 1
         },
         "Strike Fund": {
           "uses": 2,
@@ -255,12 +253,12 @@
         },
         "Amanuensis": {
           "uses": 1,
-          "clicks": 2,
+          "clicks": 1,
           "total_credits_gained": 0,
           "total_cost": 2,
           "total_net_credits": -2,
           "total_cards_drawn": 2,
-          "credits_per_click": -1
+          "credits_per_click": -2
         }
       },
       "setup_cards": {
@@ -295,8 +293,8 @@
       },
       "total_setup_cost": 26,
       "econ_click_ratio": 0.53,
-      "avg_net_credits_per_econ_click": 1.15,
-      "avg_cards_drawn_per_econ_click": 0.77
+      "avg_net_credits_per_econ_click": 1.2,
+      "avg_cards_drawn_per_econ_click": 0.8
     }
   },
   "turns": [

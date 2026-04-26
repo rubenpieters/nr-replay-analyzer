@@ -118,12 +118,11 @@
         },
         "Tranquility Home Grid": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 0,
           "total_credits_gained": 8,
           "total_cost": 0,
           "total_net_credits": 8,
-          "total_cards_drawn": 0,
-          "credits_per_click": 8
+          "total_cards_drawn": 0
         },
         "click for credit": {
           "uses": 2,
@@ -173,9 +172,9 @@
     },
     "runner": {
       "basic_clicks": 26,
-      "economy_clicks": 7,
+      "economy_clicks": 11,
       "run_clicks": 20,
-      "setup_clicks": 13,
+      "setup_clicks": 9,
       "cards": {
         "click to draw": {
           "uses": 23,
@@ -231,12 +230,48 @@
           "total_cards_drawn": 0,
           "credits_per_click": 1
         },
+        "Touchstone": {
+          "uses": 1,
+          "clicks": 1,
+          "total_credits_gained": 8,
+          "total_cost": 2,
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 6
+        },
+        "Cezve": {
+          "uses": 2,
+          "clicks": 2,
+          "total_credits_gained": 6,
+          "total_cost": 4,
+          "total_net_credits": 2,
+          "total_cards_drawn": 0,
+          "credits_per_click": 1
+        },
         "Transfer of Wealth": {
           "uses": 2,
           "clicks": 2,
           "total_credits_gained": 12,
           "total_cost": 0,
           "total_net_credits": 12,
+          "total_cards_drawn": 0,
+          "credits_per_click": 6
+        },
+        "Overclock": {
+          "uses": 1,
+          "clicks": 1,
+          "total_credits_gained": 5,
+          "total_cost": 1,
+          "total_net_credits": 4,
+          "total_cards_drawn": 0,
+          "credits_per_click": 4
+        },
+        "Trickster Taka": {
+          "uses": 1,
+          "clicks": 1,
+          "total_credits_gained": 7,
+          "total_cost": 1,
+          "total_net_credits": 6,
           "total_cards_drawn": 0,
           "credits_per_click": 6
         },
@@ -272,17 +307,9 @@
           "count": 2,
           "total_cost": 8
         },
-        "Touchstone": {
-          "count": 1,
-          "total_cost": 2
-        },
         "The Twinning": {
           "count": 1,
           "total_cost": 3
-        },
-        "Cezve": {
-          "count": 2,
-          "total_cost": 4
         },
         "Mutual Favor": {
           "count": 2,
@@ -296,19 +323,15 @@
           "count": 1,
           "total_cost": 2
         },
-        "Trickster Taka": {
-          "count": 1,
-          "total_cost": 1
-        },
         "Hermes": {
           "count": 1,
           "total_cost": 2
         }
       },
-      "total_setup_cost": 28,
-      "econ_click_ratio": 0.21,
-      "avg_net_credits_per_econ_click": 1.6,
-      "avg_cards_drawn_per_econ_click": 0.69
+      "total_setup_cost": 21,
+      "econ_click_ratio": 0.3,
+      "avg_net_credits_per_econ_click": 1.81,
+      "avg_cards_drawn_per_econ_click": 0.62
     }
   },
   "turns": [
@@ -744,7 +767,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "setup"
+          "bucket": "economy"
         },
         {
           "click": 4,
@@ -1048,7 +1071,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "setup"
+          "bucket": "economy"
         },
         {
           "click": 4,
@@ -1091,6 +1114,9 @@
           },
           "effects": {
             "credits_paid": 3,
+            "credits_from_resources": {
+              "Touchstone": 1
+            },
             "credits_gained": 6
           },
           "bucket": "run"
@@ -1223,7 +1249,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "setup"
+          "bucket": "economy"
         },
         {
           "click": 2,
@@ -1243,7 +1269,10 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Cezve": 1
+            }
           },
           "bucket": "run"
         },
@@ -1466,6 +1495,10 @@
           },
           "effects": {
             "credits_paid": 3,
+            "credits_from_resources": {
+              "Touchstone": 1,
+              "Cezve": 2
+            },
             "credits_gained": 8
           },
           "bucket": "run"
@@ -1609,6 +1642,10 @@
             "cost": 0
           },
           "effects": {
+            "credits_from_resources": {
+              "Touchstone": 1,
+              "Cezve": 2
+            },
             "credits_gained": 6
           },
           "bucket": "run"
@@ -1778,7 +1815,10 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Cezve": 1
+            }
           },
           "bucket": "run"
         },
@@ -1924,6 +1964,11 @@
             "type": "run",
             "server": "Server 2"
           },
+          "effects": {
+            "credits_from_resources": {
+              "Touchstone": 2
+            }
+          },
           "bucket": "run"
         },
         {
@@ -1961,7 +2006,10 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Overclock": 5
+            }
           },
           "bucket": "run"
         },
@@ -2292,7 +2340,7 @@
           "effects": {
             "credits_paid": 1
           },
-          "bucket": "setup"
+          "bucket": "economy"
         }
       ]
     },
@@ -2588,6 +2636,12 @@
           "action": {
             "type": "run",
             "server": "Server 2"
+          },
+          "effects": {
+            "credits_from_resources": {
+              "Touchstone": 1,
+              "Trickster Taka": 2
+            }
           },
           "bucket": "run"
         },
@@ -2885,6 +2939,11 @@
             "type": "run",
             "server": "Server 2"
           },
+          "effects": {
+            "credits_from_resources": {
+              "Trickster Taka": 3
+            }
+          },
           "bucket": "run"
         },
         {
@@ -2914,6 +2973,11 @@
           "action": {
             "type": "run",
             "server": "Server 2"
+          },
+          "effects": {
+            "credits_from_resources": {
+              "Touchstone": 1
+            }
           },
           "bucket": "run"
         },
@@ -3076,6 +3140,10 @@
             "cost": 0
           },
           "effects": {
+            "credits_from_resources": {
+              "Trickster Taka": 2,
+              "Touchstone": 1
+            },
             "credits_gained": 6
           },
           "bucket": "run"

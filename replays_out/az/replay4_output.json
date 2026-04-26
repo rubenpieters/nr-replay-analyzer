@@ -158,9 +158,9 @@
     },
     "runner": {
       "basic_clicks": 8,
-      "economy_clicks": 12,
+      "economy_clicks": 13,
       "run_clicks": 11,
-      "setup_clicks": 8,
+      "setup_clicks": 7,
       "cards": {
         "click to draw": {
           "uses": 5,
@@ -206,6 +206,15 @@
           "total_cards_drawn": 0,
           "credits_per_click": 4
         },
+        "Cezve": {
+          "uses": 1,
+          "clicks": 1,
+          "total_credits_gained": 8,
+          "total_cost": 2,
+          "total_net_credits": 6,
+          "total_cards_drawn": 0,
+          "credits_per_click": 6
+        },
         "Dr. Nuka Vrolyck": {
           "uses": 4,
           "clicks": 6,
@@ -226,10 +235,10 @@
         },
         "Info Bounty": {
           "uses": 1,
-          "clicks": 1,
+          "clicks": 2,
           "total_credits_gained": 6,
-          "total_cost": 4,
-          "total_net_credits": 2,
+          "total_cost": 2,
+          "total_net_credits": 4,
           "total_cards_drawn": 0,
           "credits_per_click": 2
         },
@@ -270,10 +279,6 @@
           "count": 1,
           "total_cost": 3
         },
-        "Cezve": {
-          "count": 1,
-          "total_cost": 2
-        },
         "Hermes": {
           "count": 1,
           "total_cost": 2
@@ -291,10 +296,10 @@
           "total_cost": 0
         }
       },
-      "total_setup_cost": 12,
-      "econ_click_ratio": 0.6,
-      "avg_net_credits_per_econ_click": 1.83,
-      "avg_cards_drawn_per_econ_click": 0.71
+      "total_setup_cost": 10,
+      "econ_click_ratio": 0.62,
+      "avg_net_credits_per_econ_click": 2,
+      "avg_cards_drawn_per_econ_click": 0.65
     }
   },
   "turns": [
@@ -862,7 +867,7 @@
           "effects": {
             "credits_paid": 2
           },
-          "bucket": "setup"
+          "bucket": "economy"
         },
         {
           "click": 3,
@@ -883,7 +888,10 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Cezve": 1
+            }
           },
           "bucket": "run"
         },
@@ -1154,6 +1162,9 @@
           },
           "effects": {
             "credits_paid": 3,
+            "credits_from_resources": {
+              "Cezve": 1
+            },
             "credits_gained": 6
           },
           "bucket": "run"
@@ -1343,6 +1354,9 @@
           },
           "effects": {
             "credits_paid": 3,
+            "credits_from_resources": {
+              "Cezve": 2
+            },
             "credits_gained": 6,
             "triggered_gains": {
               "Info Bounty": 2
@@ -1545,6 +1559,9 @@
           },
           "effects": {
             "credits_paid": 3,
+            "credits_from_resources": {
+              "Cezve": 1
+            },
             "credits_gained": 8
           },
           "bucket": "run"
@@ -1675,7 +1692,10 @@
             "cost": 1
           },
           "effects": {
-            "credits_paid": 1
+            "credits_paid": 1,
+            "credits_from_resources": {
+              "Cezve": 1
+            }
           },
           "bucket": "run"
         },
@@ -1844,7 +1864,10 @@
             "cost": 3
           },
           "effects": {
-            "credits_paid": 3
+            "credits_paid": 3,
+            "credits_from_resources": {
+              "Cezve": 2
+            }
           },
           "bucket": "run"
         },

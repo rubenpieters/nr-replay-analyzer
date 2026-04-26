@@ -295,8 +295,6 @@ function extractResourceCredits(events: string[], playerName: string | null = nu
   for (const ev of events) {
     const lineOwner = ev.split(/\s/)[0] ?? "";
     if (playerName !== null && lineOwner !== playerName) continue;
-    // Only count credits used to pay a card's install/play/rez cost, not e.g. ICE-breaking costs
-    if (!/\bto (?:install|play|rez)\b/.test(ev)) continue;
     for (const m of ev.matchAll(/(?:pays|and) (\d+) \[Credits?\] from ([^,\n]+?)(?=\s+and\s|\s+to\s)/g)) {
       const amount = parseInt(m[1], 10);
       const card = m[2].trim();
@@ -618,7 +616,10 @@ export function computeEconomy(
         const resPaid = Object.values(
           (click.effects?.credits_from_resources ?? {}) as Record<string, number>
         ).reduce((s, v) => s + v, 0);
-        cardCosts[player][card] = (cardCosts[player][card] ?? 0) + ((a.cost as number) ?? 0) + resPaid;
+        const rawCost = ((a.cost as number) ?? 0) + resPaid;
+        const printedCost = cardDb?.getPrintedCost(card);
+        const installCostEntry = printedCost !== null && printedCost !== undefined ? Math.min(rawCost, printedCost) : rawCost;
+        cardCosts[player][card] = (cardCosts[player][card] ?? 0) + installCostEntry;
         cardPlayCounts[player][card] = (cardPlayCounts[player][card] ?? 0) + 1;
       }
     }
@@ -686,9 +687,13 @@ export function computeEconomy(
         const resourceCreditsPaid = Object.values(
           (click.effects?.credits_from_resources ?? {}) as Record<string, number>
         ).reduce((s, v) => s + v, 0);
-        const effectiveCost = promotedFromUnknown
+        const rawEffectiveCost = promotedFromUnknown
           ? (cardCosts[player][cardKey] ?? 0)
           : cost + resourceCreditsPaid;
+        const printedCostForKey = cardDb?.getPrintedCost(cardKey);
+        const effectiveCost = printedCostForKey !== null && printedCostForKey !== undefined
+          ? Math.min(rawEffectiveCost, printedCostForKey)
+          : rawEffectiveCost;
         if (isNewEntry && !isTrigger && !promotedFromUnknown && action.type !== "play" && action.type !== "install") {
           const installCost = cardCosts[player][cardKey] ?? cardDb?.getPrintedCost(cardKey) ?? 0;
           entry.total_cost += installCost;
@@ -696,7 +701,7 @@ export function computeEconomy(
         }
         if (!isTrigger) {
           entry.uses += 1;
-          entry.clicks += 1;
+          if (!promotedFromUnknown) entry.clicks += 1;
           entry.total_cost += effectiveCost;
         }
         entry.total_credits_gained += creditsGained;
@@ -717,6 +722,7 @@ export function computeEconomy(
           const playCost = cardCosts[player][trigCard] ?? 0;
           const playCount = cardPlayCounts[player][trigCard] ?? 1;
           trigEntry.uses = playCount;
+          trigEntry.clicks = playCount;
           trigEntry.total_cost += playCost;
           trigEntry.total_net_credits -= playCost;
         }
@@ -739,6 +745,7 @@ export function computeEconomy(
           const playCost = cardCosts[player][resCard] ?? cardDb?.getPrintedCost(resCard) ?? 0;
           const playCount = cardPlayCounts[player][resCard] ?? 0;
           resEntry.uses = playCount;
+          if (resCard === action.card) resEntry.clicks = playCount;
           resEntry.total_cost += playCost;
           resEntry.total_net_credits -= playCost;
         }
