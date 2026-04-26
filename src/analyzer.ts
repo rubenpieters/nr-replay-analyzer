@@ -290,10 +290,12 @@ function extractCardsDrawn(events: string[], playerName: string | null = null): 
   for (const ev of events) {
     const lineOwner = ev.split(/\s/)[0] ?? "";
     if (playerName !== null && lineOwner !== playerName) continue;
-    for (const m of ev.matchAll(/draw(?:s)? (\d+) cards?/g)) {
+    // Strip quoted strings (subroutine descriptions) before matching
+    const stripped = ev.replace(/"[^"]*"/g, "");
+    for (const m of stripped.matchAll(/draw(?:s)? (\d+) cards?/g)) {
       total += parseInt(m[1], 10);
     }
-    for (const _m of ev.matchAll(/draw(?:s)? a card/g)) {
+    for (const _m of stripped.matchAll(/draw(?:s)? a card/g)) {
       total += 1;
     }
   }

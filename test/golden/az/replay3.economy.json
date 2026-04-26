@@ -168,15 +168,6 @@
         "total_cards_drawn": 0,
         "credits_per_click": 8
       },
-      "unknown": {
-        "uses": 1,
-        "clicks": 1,
-        "total_credits_gained": 0,
-        "total_cost": 0,
-        "total_net_credits": 0,
-        "total_cards_drawn": 1,
-        "credits_per_click": 0
-      },
       "Daily Casts": {
         "uses": 3,
         "clicks": 3,
@@ -373,7 +364,7 @@
     },
     "total_setup_cost": 16,
     "econ_click_ratio": 0.48,
-    "avg_net_credits_per_econ_click": 2.02,
+    "avg_net_credits_per_econ_click": 2.08,
     "avg_cards_drawn_per_econ_click": 0.72
   }
 }

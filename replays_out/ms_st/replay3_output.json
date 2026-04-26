@@ -211,7 +211,7 @@
           "total_credits_gained": 8,
           "total_cost": 3,
           "total_net_credits": 5,
-          "total_cards_drawn": 1,
+          "total_cards_drawn": 0,
           "run": true,
           "credits_per_click": 5
         },
@@ -338,7 +338,7 @@
       "total_setup_cost": 12,
       "econ_click_ratio": 0.42,
       "avg_net_credits_per_econ_click": 1.38,
-      "avg_cards_drawn_per_econ_click": 0.79
+      "avg_cards_drawn_per_econ_click": 0.75
     }
   },
   "turns": [
@@ -1353,8 +1353,7 @@
               "Trickster Taka": 2,
               "Touchstone": 2
             },
-            "credits_gained": 8,
-            "cards_drawn": 1
+            "credits_gained": 8
           },
           "bucket": "run"
         },
