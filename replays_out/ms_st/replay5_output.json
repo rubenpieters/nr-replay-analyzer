@@ -307,7 +307,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 10,
+            "total": 6,
             "agenda_cards": 3,
             "agenda_points": 7
           }
@@ -325,7 +325,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 11,
+            "total": 6,
             "agenda_cards": 2,
             "agenda_points": 5
           }
@@ -437,7 +437,7 @@
         "corp": [
           {
             "title": "Lionsmane",
-            "type": ""
+            "type": "ICE"
           },
           {
             "title": "Brân 1.0",
@@ -471,7 +471,7 @@
           },
           {
             "title": "The Price",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Pinhole Threading",
@@ -479,7 +479,7 @@
           },
           {
             "title": "Open Market",
-            "type": ""
+            "type": "Resource"
           }
         ]
       }
@@ -605,7 +605,7 @@
           },
           {
             "title": "The Price",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Pinhole Threading",
@@ -613,7 +613,7 @@
           },
           {
             "title": "Open Market",
-            "type": ""
+            "type": "Resource"
           }
         ]
       }
@@ -1490,8 +1490,8 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Brân 1.0",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -1591,12 +1591,13 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Brân 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Proprionegation",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
@@ -1728,12 +1729,13 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Brân 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
@@ -1836,12 +1838,13 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Brân 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           },
           {
             "title": "Hedge Fund",
@@ -1971,12 +1974,13 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Brân 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
@@ -2081,12 +2085,13 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Brân 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
@@ -2228,16 +2233,17 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Brân 1.0",
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
@@ -2337,8 +2343,9 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           },
           {
             "title": "Hedge Fund",
@@ -2347,8 +2354,8 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "DreamNet",
+            "type": "Resource"
           }
         ]
       }
@@ -2451,23 +2458,24 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "DreamNet",
+            "type": "Resource"
           }
         ]
       }
@@ -2555,17 +2563,18 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
           },
           {
             "title": "Hedge Fund",
@@ -2574,15 +2583,15 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "DreamNet",
             "type": "Resource"
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -2686,7 +2695,7 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 10,
+            "total": 6,
             "agenda_cards": 3,
             "agenda_points": 7
           },
@@ -2723,30 +2732,31 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Knowledge Seeker",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "DreamNet",
             "type": "Resource"
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -2832,17 +2842,18 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Lotus Haze",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Knowledge Seeker",
+            "type": "ICE"
           },
           {
             "title": "Hedge Fund",
@@ -2851,16 +2862,16 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "DreamNet",
             "type": "Resource"
           },
           {
             "title": "Sure Gamble",
             "type": "Event"
+          },
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
           }
         ]
       }
@@ -2961,24 +2972,20 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Knowledge Seeker",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "DreamNet",
             "type": "Resource"
@@ -2986,6 +2993,10 @@
           {
             "title": "Sure Gamble",
             "type": "Event"
+          },
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
           }
         ]
       }
@@ -3075,31 +3086,23 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Knowledge Seeker",
+            "type": "ICE"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "DreamNet",
             "type": "Resource"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
           },
           {
             "title": "Boomerang",
@@ -3107,6 +3110,14 @@
           },
           {
             "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -3204,7 +3215,7 @@
             "cards_drawn": 1
           },
           "breach_hq_snapshot": {
-            "total": 11,
+            "total": 6,
             "agenda_cards": 2,
             "agenda_points": 5
           },
@@ -3223,31 +3234,23 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "DreamNet",
             "type": "Resource"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
           },
           {
             "title": "Boomerang",
@@ -3255,6 +3258,14 @@
           },
           {
             "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -3341,17 +3352,17 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           },
           {
             "title": "Hedge Fund",
@@ -3359,14 +3370,6 @@
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Transfer of Wealth",
             "type": "Event"
@@ -3378,6 +3381,14 @@
           {
             "title": "Clean Getaway",
             "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
           }
         ]
       }
@@ -3413,27 +3424,19 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Spin Doctor",
+            "type": "Asset"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Tatu-Bola",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Transfer of Wealth",
             "type": "Event"
@@ -3445,6 +3448,14 @@
           {
             "title": "Clean Getaway",
             "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
           }
         ]
       }

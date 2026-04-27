@@ -1599,7 +1599,7 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -1721,7 +1721,7 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -1832,11 +1832,11 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Clean Getaway",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -1976,11 +1976,11 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Clean Getaway",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -2072,12 +2072,12 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "WAKE Implant v2A-JRJ",
+            "type": "Hardware"
           }
         ]
       }
@@ -2208,12 +2208,12 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "WAKE Implant v2A-JRJ",
+            "type": "Hardware"
           }
         ]
       }
@@ -2306,14 +2306,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "WAKE Implant v2A-JRJ",
             "type": "Hardware"
           },
@@ -2331,6 +2323,14 @@
           },
           {
             "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Info Bounty",
             "type": "Resource"
           }
         ]
@@ -2446,14 +2446,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "WAKE Implant v2A-JRJ",
             "type": "Hardware"
           },
@@ -2471,6 +2463,14 @@
           },
           {
             "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Info Bounty",
             "type": "Resource"
           }
         ]
@@ -2575,20 +2575,20 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
             "title": "The Class Act",
             "type": "Resource"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
           }
         ]
       }

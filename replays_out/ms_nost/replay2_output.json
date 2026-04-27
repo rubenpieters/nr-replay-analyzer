@@ -369,7 +369,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 5,
+            "total": 4,
             "agenda_cards": 1,
             "agenda_points": 2
           }
@@ -470,7 +470,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -488,7 +488,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -505,7 +505,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 6,
+            "total": 5,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -522,7 +522,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -539,7 +539,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -607,7 +607,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 2,
             "agenda_points": 4
           }
@@ -763,7 +763,7 @@
           },
           {
             "title": "Carpe Diem",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Reprise",
@@ -892,7 +892,7 @@
           },
           {
             "title": "Carpe Diem",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Reprise",
@@ -996,6 +996,10 @@
           },
           {
             "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -1158,6 +1162,10 @@
             "type": "Event"
           },
           {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
             "title": "Fencer Fueno",
             "type": "Resource"
           },
@@ -1265,6 +1273,14 @@
           },
           {
             "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
             "type": "Event"
           }
         ]
@@ -1406,6 +1422,14 @@
           {
             "title": "Reprise",
             "type": "Event"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
           }
         ]
       }
@@ -1505,7 +1529,15 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -1626,7 +1658,15 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -1723,7 +1763,15 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1836,12 +1884,12 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
+            "title": "Extract",
             "type": "Operation"
           },
           {
-            "title": "Extract",
-            "type": "Operation"
+            "title": "Stavka",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -1850,7 +1898,15 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1933,15 +1989,15 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Extract",
             "type": "Operation"
           },
           {
             "title": "Stavka",
+            "type": "ICE"
+          },
+          {
+            "title": "Sleipnir",
             "type": "ICE"
           }
         ],
@@ -1951,7 +2007,19 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
             "type": "Event"
           }
         ]
@@ -2060,12 +2128,12 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
+            "title": "Extract",
             "type": "Operation"
           },
           {
-            "title": "Extract",
-            "type": "Operation"
+            "title": "Stavka",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -2074,7 +2142,19 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
             "type": "Event"
           }
         ]
@@ -2160,16 +2240,16 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Extract",
             "type": "Operation"
           },
           {
             "title": "Stavka",
             "type": "ICE"
+          },
+          {
+            "title": "Measured Response",
+            "type": "Operation"
           }
         ],
         "runner": [
@@ -2178,7 +2258,19 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
             "type": "Event"
           }
         ]
@@ -2300,16 +2392,16 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
           {
             "title": "Measured Response",
             "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -2318,7 +2410,19 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
             "type": "Event"
           }
         ]
@@ -2392,10 +2496,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -2406,6 +2506,10 @@
           {
             "title": "Sleipnir",
             "type": "ICE"
+          },
+          {
+            "title": "Maskirovka",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -2414,7 +2518,15 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
             "type": "Event"
           },
           {
@@ -2552,7 +2664,7 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 5,
+            "total": 4,
             "agenda_cards": 1,
             "agenda_points": 2
           },
@@ -2609,16 +2721,16 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
           {
             "title": "Measured Response",
             "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -2627,7 +2739,15 @@
             "type": "Event"
           },
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Tread Lightly",
             "type": "Event"
           },
           {
@@ -2697,10 +2817,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -2719,15 +2835,19 @@
           {
             "title": "Event Horizon",
             "type": "ICE"
+          },
+          {
+            "title": "Tucana",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Tread Lightly",
             "type": "Event"
           }
         ]
@@ -2823,10 +2943,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -2837,15 +2953,19 @@
           {
             "title": "Sleipnir",
             "type": "ICE"
+          },
+          {
+            "title": "Tucana",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Tread Lightly",
             "type": "Event"
           }
         ]
@@ -2909,10 +3029,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -2927,15 +3043,19 @@
           {
             "title": "Tucana",
             "type": "Upgrade"
+          },
+          {
+            "title": "Sandstone",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Tread Lightly",
             "type": "Event"
           },
           {
@@ -3038,25 +3158,25 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
           {
             "title": "Measured Response",
             "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Tread Lightly",
             "type": "Event"
           },
           {
@@ -3130,10 +3250,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -3144,11 +3260,15 @@
           {
             "title": "Sleipnir",
             "type": "ICE"
+          },
+          {
+            "title": "Flagship",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -3164,7 +3284,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Reprise",
             "type": "Event"
           }
         ]
@@ -3256,10 +3376,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -3270,11 +3386,15 @@
           {
             "title": "Sleipnir",
             "type": "ICE"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -3290,7 +3410,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Reprise",
             "type": "Event"
           }
         ]
@@ -3357,10 +3477,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -3375,15 +3491,15 @@
           {
             "title": "Event Horizon",
             "type": "ICE"
+          },
+          {
+            "title": "Malapert Data Vault",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -3396,6 +3512,10 @@
           },
           {
             "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           }
         ]
@@ -3507,25 +3627,21 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
           {
             "title": "Measured Response",
             "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -3538,6 +3654,10 @@
           },
           {
             "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           }
         ]
@@ -3604,10 +3724,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -3618,11 +3734,15 @@
           {
             "title": "Sleipnir",
             "type": "ICE"
+          },
+          {
+            "title": "Descent",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -3634,7 +3754,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Reprise",
             "type": "Event"
           }
         ]
@@ -3732,7 +3852,7 @@
             }
           },
           "breach_hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -3759,7 +3879,7 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -3785,10 +3905,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -3799,11 +3915,15 @@
           {
             "title": "Sleipnir",
             "type": "ICE"
+          },
+          {
+            "title": "Descent",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -3815,7 +3935,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Reprise",
             "type": "Event"
           }
         ]
@@ -3881,10 +4001,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -3907,11 +4023,15 @@
           {
             "title": "Afshar",
             "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -3967,7 +4087,7 @@
             }
           },
           "breach_hq_snapshot": {
-            "total": 6,
+            "total": 5,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -3989,7 +4109,7 @@
             "server": "HQ"
           },
           "breach_hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -4012,7 +4132,7 @@
             "server": "HQ"
           },
           "breach_hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -4037,10 +4157,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
@@ -4055,11 +4171,15 @@
           {
             "title": "Afshar",
             "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -4146,16 +4266,8 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
-          },
-          {
-            "title": "Measured Response",
-            "type": "Operation"
           },
           {
             "title": "Sleipnir",
@@ -4164,11 +4276,19 @@
           {
             "title": "Afshar",
             "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
+          },
+          {
+            "title": "Extract",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -4180,7 +4300,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           }
         ]
@@ -4308,17 +4428,17 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Stavka",
+            "type": "ICE"
           },
           {
-            "title": "Stavka",
+            "title": "Sleipnir",
             "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -4330,7 +4450,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           }
         ]
@@ -4408,11 +4528,15 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Stavka",
+            "type": "ICE"
           },
           {
-            "title": "Stavka",
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Afshar",
             "type": "ICE"
           },
           {
@@ -4420,17 +4544,13 @@
             "type": "Operation"
           },
           {
-            "title": "Sleipnir",
-            "type": "ICE"
-          },
-          {
-            "title": "Hedge Fund",
+            "title": "Extract",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -4442,7 +4562,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Carpe Diem",
             "type": "Event"
           },
           {
@@ -4564,17 +4684,17 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Stavka",
+            "type": "ICE"
           },
           {
-            "title": "Stavka",
+            "title": "Afshar",
             "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -4586,7 +4706,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Carpe Diem",
             "type": "Event"
           },
           {
@@ -4655,24 +4775,21 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Afshar",
+            "type": "ICE"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
-            "type": "Event"
-          },
-          {
             "title": "Sure Gamble",
             "type": "Event"
           },
@@ -4681,11 +4798,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Carpe Diem",
             "type": "Event"
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           }
         ]
@@ -4763,7 +4884,7 @@
             "credits_gained": 4
           },
           "breach_hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 2,
             "agenda_points": 4
           },
@@ -4773,29 +4894,26 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Stavka",
             "type": "ICE"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
           },
           {
             "title": "Azef Protocol",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Mutual Favor",
-            "type": "Event"
-          },
-          {
             "title": "Sure Gamble",
             "type": "Event"
           },
@@ -4804,11 +4922,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Carpe Diem",
             "type": "Event"
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           }
         ]

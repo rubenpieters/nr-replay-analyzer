@@ -1063,16 +1063,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Carpe Diem",
             "type": "Event"
           },
           {
             "title": "Carpe Diem",
             "type": "Event"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
           }
         ]
       }
@@ -1196,16 +1196,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Carpe Diem",
             "type": "Event"
           },
           {
             "title": "Carpe Diem",
             "type": "Event"
+          },
+          {
+            "title": "Penrose",
+            "type": "Program"
           }
         ]
       }
@@ -1314,16 +1314,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Carpe Diem",
             "type": "Event"
           },
           {
             "title": "Penrose",
             "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -1462,16 +1462,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Carpe Diem",
             "type": "Event"
           },
           {
             "title": "Penrose",
             "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -1568,10 +1568,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Carpe Diem",
             "type": "Event"
           },
@@ -1582,6 +1578,10 @@
           {
             "title": "Daily Casts",
             "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
           }
         ]
       }
@@ -1694,10 +1694,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Carpe Diem",
             "type": "Event"
           },
@@ -1708,6 +1704,10 @@
           {
             "title": "Daily Casts",
             "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
           }
         ]
       }
@@ -1806,15 +1806,15 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Bravado",
             "type": "Event"
           },
           {
             "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -1933,15 +1933,15 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Bravado",
             "type": "Event"
           },
           {
             "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -2017,10 +2017,6 @@
             "type": "Asset"
           },
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Spin Doctor",
             "type": "Asset"
           },
@@ -2037,6 +2033,10 @@
             "type": "ICE"
           },
           {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
             "title": "Orbital Superiority",
             "type": "Agenda",
             "agenda_points": 2
@@ -2044,11 +2044,11 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Bravado",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -2148,10 +2148,6 @@
             "type": "Asset"
           },
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Spin Doctor",
             "type": "Asset"
           },
@@ -2162,15 +2158,19 @@
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Bravado",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -2255,10 +2255,6 @@
             "type": "Asset"
           },
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Spin Doctor",
             "type": "Asset"
           },
@@ -2271,17 +2267,21 @@
             "type": "Operation"
           },
           {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
             "title": "Hedge Fund",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Bravado",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -2392,25 +2392,25 @@
             "type": "Asset"
           },
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Mycoweb",
             "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Bravado",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -2514,10 +2514,6 @@
             "type": "Asset"
           },
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Mycoweb",
             "type": "ICE"
           },
@@ -2526,17 +2522,21 @@
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Unleash",
             "type": "Operation"
+          },
+          {
+            "title": "Phoneutria",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Bravado",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -2548,7 +2548,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -2650,29 +2650,29 @@
             "type": "Asset"
           },
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Mycoweb",
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Unleash",
             "type": "Operation"
           },
           {
             "title": "Phoneutria",
             "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Bravado",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -2759,15 +2759,11 @@
             "type": "Asset"
           },
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Mycoweb",
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Unleash",
             "type": "Operation"
           },
           {
@@ -2777,19 +2773,23 @@
           {
             "title": "Tatu-Bola",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           },
           {
@@ -2910,33 +2910,33 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Mycoweb",
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Unleash",
             "type": "Operation"
           },
           {
             "title": "Phoneutria",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           },
           {
@@ -3017,37 +3017,37 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Mycoweb",
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Phoneutria",
+            "title": "Tatu-Bola",
             "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           },
           {
@@ -3168,33 +3168,33 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Mycoweb",
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Phoneutria",
-            "type": "ICE"
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           },
           {
@@ -3274,7 +3274,23 @@
       "hand_snapshot": {
         "corp": [
           {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
             "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Petty Cash",
             "type": "Operation"
           },
           {
@@ -3282,41 +3298,25 @@
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Phoneutria",
+            "title": "Týr",
             "type": "ICE"
-          },
-          {
-            "title": "Seamless Launch",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Seamless Launch",
-            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -3433,37 +3433,37 @@
             "type": "Operation"
           },
           {
-            "title": "Mycoweb",
-            "type": "ICE"
-          },
-          {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
-          },
-          {
-            "title": "Phoneutria",
-            "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Týr",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -3544,37 +3544,37 @@
             "type": "Operation"
           },
           {
-            "title": "Mycoweb",
-            "type": "ICE"
-          },
-          {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
-          },
-          {
-            "title": "Phoneutria",
-            "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -3703,33 +3703,33 @@
             "type": "Operation"
           },
           {
-            "title": "Mycoweb",
-            "type": "ICE"
-          },
-          {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
-          },
-          {
-            "title": "Phoneutria",
-            "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -3810,41 +3810,41 @@
             "type": "Operation"
           },
           {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
             "title": "Mycoweb",
             "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Tatu-Bola",
+            "type": "ICE"
           },
           {
-            "title": "Seamless Launch",
-            "type": "Operation"
+            "title": "Týr",
+            "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Seamless Launch",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
+            "title": "La Costa Grid",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
@@ -3937,11 +3937,7 @@
             "type": "Operation"
           },
           {
-            "title": "Mycoweb",
-            "type": "ICE"
-          },
-          {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
           },
           {
@@ -3949,21 +3945,25 @@
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {

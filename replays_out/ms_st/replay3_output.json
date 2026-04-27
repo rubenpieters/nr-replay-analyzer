@@ -346,7 +346,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 6,
+            "total": 5,
             "agenda_cards": 1,
             "agenda_points": 3
           }
@@ -492,11 +492,12 @@
           },
           {
             "title": "Flyswatter",
-            "type": ""
+            "type": "ICE"
           },
           {
             "title": "Offworld Office",
-            "type": ""
+            "type": "Agenda",
+            "agenda_points": 2
           },
           {
             "title": "Humanoid Resources",
@@ -510,7 +511,7 @@
           },
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Hermes",
@@ -518,7 +519,7 @@
           },
           {
             "title": "Clean Getaway",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Touchstone",
@@ -650,7 +651,7 @@
           },
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Hermes",
@@ -658,7 +659,7 @@
           },
           {
             "title": "Clean Getaway",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Touchstone",
@@ -746,11 +747,15 @@
           },
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
           },
           {
             "title": "Curupira",
@@ -887,11 +892,15 @@
           },
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
           },
           {
             "title": "Curupira",
@@ -973,7 +982,11 @@
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
           },
           {
             "title": "Curupira",
@@ -1116,7 +1129,11 @@
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
           },
           {
             "title": "Curupira",
@@ -1233,7 +1250,7 @@
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Curupira",
@@ -1366,7 +1383,7 @@
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Curupira",
@@ -1494,7 +1511,7 @@
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Curupira",
@@ -1629,7 +1646,7 @@
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Curupira",
@@ -1752,21 +1769,21 @@
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Event Horizon",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Penrose",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Mutual Favor",
             "type": "Event"
           }
         ]
@@ -1889,29 +1906,29 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Event Horizon",
             "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Penrose",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Mutual Favor",
             "type": "Event"
           }
         ]
@@ -1999,10 +2016,6 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Event Horizon",
             "type": "ICE"
           },
@@ -2013,12 +2026,16 @@
           {
             "title": "Tatu-Bola",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Penrose",
@@ -2108,7 +2125,7 @@
             "credits_gained": 8
           },
           "breach_hq_snapshot": {
-            "total": 6,
+            "total": 5,
             "agenda_cards": 1,
             "agenda_points": 3
           },
@@ -2157,22 +2174,22 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Tatu-Bola",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Penrose",
@@ -2265,10 +2282,6 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2279,19 +2292,23 @@
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
             "type": "Event"
           },
           {
             "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
             "type": "Event"
           }
         ]
@@ -2407,10 +2424,6 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2425,19 +2438,23 @@
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Event Horizon",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
             "type": "Event"
           },
           {
             "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
             "type": "Event"
           }
         ]
@@ -2524,10 +2541,6 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2546,15 +2559,15 @@
           {
             "title": "Event Horizon",
             "type": "ICE"
+          },
+          {
+            "title": "Greasing the Palm",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
             "type": "Event"
           },
           {
@@ -2563,6 +2576,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]

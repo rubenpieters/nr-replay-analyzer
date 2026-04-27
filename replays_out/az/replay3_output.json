@@ -457,7 +457,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 10,
+            "total": 6,
             "agenda_cards": 1,
             "agenda_points": 2
           }
@@ -521,7 +521,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 9,
+            "total": 4,
             "agenda_cards": 1,
             "agenda_points": 2
           }
@@ -538,7 +538,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 9,
+            "total": 4,
             "agenda_cards": 1,
             "agenda_points": 2
           }
@@ -580,7 +580,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 7,
+            "total": 2,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -712,6 +712,10 @@
             "type": "Upgrade"
           },
           {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
             "title": "Méliès City Luxury Line",
             "type": "Agenda",
             "agenda_points": 3
@@ -723,10 +727,6 @@
           {
             "title": "Hedge Fund",
             "type": "Operation"
-          },
-          {
-            "title": "Sleipnir",
-            "type": "ICE"
           }
         ],
         "runner": [
@@ -850,13 +850,13 @@
             "type": "Upgrade"
           },
           {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
             "title": "Méliès City Luxury Line",
             "type": "Agenda",
             "agenda_points": 3
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
           },
           {
             "title": "Petty Cash",
@@ -961,12 +961,12 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
+            "title": "Petty Cash",
             "type": "Operation"
           },
           {
-            "title": "Petty Cash",
-            "type": "Operation"
+            "title": "Sleipnir",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -1082,8 +1082,8 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Spin Doctor",
+            "type": "Asset"
           }
         ],
         "runner": [
@@ -1181,11 +1181,11 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Spin Doctor",
+            "type": "Asset"
           },
           {
-            "title": "Petty Cash",
+            "title": "Seamless Launch",
             "type": "Operation"
           }
         ],
@@ -1199,8 +1199,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Revolver",
+            "type": "Program"
           }
         ]
       }
@@ -1322,7 +1322,7 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
           }
         ],
@@ -1336,8 +1336,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Revolver",
+            "type": "Program"
           }
         ]
       }
@@ -1415,27 +1415,23 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Bumi 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Caveat Emptor",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Revolver",
             "type": "Program"
@@ -1443,6 +1439,10 @@
           {
             "title": "Curupira",
             "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -1559,19 +1559,15 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
           },
           {
-            "title": "Petty Cash",
+            "title": "Seamless Launch",
             "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Revolver",
             "type": "Program"
@@ -1579,6 +1575,10 @@
           {
             "title": "Curupira",
             "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -1659,27 +1659,23 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "M.I.C.",
+            "type": "ICE"
           },
           {
             "title": "Petty Cash",
             "type": "Operation"
-          },
-          {
-            "title": "Seamless Launch",
-            "type": "Operation"
-          },
-          {
-            "title": "Seamless Launch",
-            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Revolver",
             "type": "Program"
@@ -1694,6 +1690,10 @@
           },
           {
             "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
             "type": "Event"
           }
         ]
@@ -1792,23 +1792,20 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
+            "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Revolver",
             "type": "Program"
@@ -1823,6 +1820,10 @@
           },
           {
             "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
             "type": "Event"
           }
         ]
@@ -1906,27 +1907,24 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Revolver",
             "type": "Program"
@@ -1942,6 +1940,10 @@
           {
             "title": "Pinhole Threading",
             "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           }
         ]
       }
@@ -2041,27 +2043,23 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Mercia B4LL4RD",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Revolver",
             "type": "Program"
@@ -2077,6 +2075,10 @@
           {
             "title": "Pinhole Threading",
             "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           }
         ]
       }
@@ -2149,14 +2151,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2165,15 +2159,19 @@
             "type": "Operation"
           },
           {
-            "title": "Petty Cash",
-            "type": "Operation"
+            "title": "Sleipnir",
+            "type": "ICE"
+          },
+          {
+            "title": "Mercia B4LL4RD",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Revolver",
             "type": "Program"
@@ -2187,7 +2185,11 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Mutual Favor",
             "type": "Event"
           }
         ]
@@ -2344,23 +2346,19 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
+            "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Revolver",
             "type": "Program"
@@ -2374,7 +2372,11 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Mutual Favor",
             "type": "Event"
           }
         ]
@@ -2464,33 +2466,33 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Caveat Emptor",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Mutual Favor",
             "type": "Event"
           }
         ]
@@ -2579,25 +2581,25 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
           },
           {
-            "title": "Petty Cash",
+            "title": "Caveat Emptor",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Mutual Favor",
             "type": "Event"
           }
         ]
@@ -2668,38 +2670,38 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Caveat Emptor",
+            "type": "Operation"
+          },
+          {
+            "title": "Caveat Emptor",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
           },
           {
             "title": "Curupira",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Mutual Favor",
             "type": "Event"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
           }
         ]
       }
@@ -2838,30 +2840,30 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
           },
           {
             "title": "Curupira",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Mutual Favor",
             "type": "Event"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
           }
         ]
       }
@@ -2933,30 +2935,18 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
           },
           {
-            "title": "Petty Cash",
-            "type": "Operation"
+            "title": "Brân 1.0",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
           },
           {
             "title": "Hermes",
@@ -2977,6 +2967,18 @@
           {
             "title": "Open Market",
             "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -3071,34 +3073,22 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Drafter",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
           },
           {
             "title": "Hermes",
@@ -3119,6 +3109,18 @@
           {
             "title": "Open Market",
             "type": "Resource"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -3166,42 +3168,43 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
-            "title": "Petty Cash",
-            "type": "Operation"
+            "title": "Brân 1.0",
+            "type": "ICE"
+          },
+          {
+            "title": "Drafter",
+            "type": "ICE"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Echelon",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -3318,46 +3321,47 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
             "type": "Operation"
           },
           {
             "title": "Drafter",
             "type": "ICE"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Echelon",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -3433,19 +3437,7 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
             "type": "Operation"
           },
           {
@@ -3456,24 +3448,36 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Myōshu",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Echelon",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
+          },
+          {
+            "title": "Paladin Poemu",
+            "type": "Resource"
           }
         ]
       }
@@ -3586,7 +3590,7 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 10,
+            "total": 6,
             "agenda_cards": 1,
             "agenda_points": 2
           },
@@ -3612,42 +3616,43 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
             "type": "Operation"
           },
           {
             "title": "Drafter",
             "type": "ICE"
+          },
+          {
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Myōshu",
+            "type": "Operation"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Echelon",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
+          },
+          {
+            "title": "Paladin Poemu",
+            "type": "Resource"
           }
         ]
       }
@@ -3739,19 +3744,7 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Seamless Launch",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
             "type": "Operation"
           },
           {
@@ -3765,20 +3758,33 @@
           {
             "title": "Myōshu",
             "type": "Operation"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Petty Cash",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Echelon",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
+          },
+          {
+            "title": "Paladin Poemu",
+            "type": "Resource"
           }
         ]
       }
@@ -3898,11 +3904,11 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Humanoid Resources",
+            "type": "Asset"
           },
           {
-            "title": "Petty Cash",
+            "title": "Myōshu",
             "type": "Operation"
           },
           {
@@ -3912,16 +3918,16 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
+          },
+          {
+            "title": "Paladin Poemu",
+            "type": "Resource"
           }
         ]
       }
@@ -3996,34 +4002,35 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Humanoid Resources",
             "type": "Asset"
           },
           {
             "title": "Myōshu",
             "type": "Operation"
+          },
+          {
+            "title": "Petty Cash",
+            "type": "Operation"
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Drafter",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Paladin Poemu",
+            "type": "Resource"
           }
         ]
       }
@@ -4130,7 +4137,7 @@
             "server": "HQ"
           },
           "breach_hq_snapshot": {
-            "total": 9,
+            "total": 4,
             "agenda_cards": 1,
             "agenda_points": 2
           },
@@ -4157,7 +4164,7 @@
             "server": "HQ"
           },
           "breach_hq_snapshot": {
-            "total": 9,
+            "total": 4,
             "agenda_cards": 1,
             "agenda_points": 2
           },
@@ -4167,26 +4174,26 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Myōshu",
             "type": "Operation"
           },
           {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
+            "title": "Drafter",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Paladin Poemu",
+            "type": "Resource"
           }
         ]
       }
@@ -4264,30 +4271,31 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
             "title": "Humanoid Resources",
             "type": "Asset"
+          },
+          {
+            "title": "Myōshu",
+            "type": "Operation"
+          },
+          {
+            "title": "Drafter",
+            "type": "ICE"
+          },
+          {
+            "title": "Architect Deployment Test",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Paladin Poemu",
+            "type": "Resource"
           }
         ]
       }
@@ -4403,7 +4411,7 @@
             "server": "HQ"
           },
           "breach_hq_snapshot": {
-            "total": 7,
+            "total": 2,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -4429,22 +4437,22 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Humanoid Resources",
+            "type": "Asset"
           },
           {
-            "title": "Petty Cash",
+            "title": "Myōshu",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Paladin Poemu",
+            "type": "Resource"
           }
         ]
       }
@@ -4543,30 +4551,30 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
+            "title": "Humanoid Resources",
+            "type": "Asset"
+          },
+          {
+            "title": "Myōshu",
             "type": "Operation"
           },
           {
-            "title": "Petty Cash",
-            "type": "Operation"
-          },
-          {
-            "title": "Petty Cash",
-            "type": "Operation"
+            "title": "Tranquility Home Grid",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Paladin Poemu",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
           }
         ]
       }

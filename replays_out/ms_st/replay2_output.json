@@ -299,7 +299,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -369,7 +369,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 9,
+            "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -538,7 +538,7 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           },
           {
             "title": "Mycoweb",
@@ -565,7 +565,7 @@
           },
           {
             "title": "Fencer Fueno",
-            "type": ""
+            "type": "Resource"
           },
           {
             "title": "Transfer of Wealth",
@@ -573,7 +573,7 @@
           },
           {
             "title": "Clean Getaway",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Sure Gamble",
@@ -677,7 +677,7 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           },
           {
             "title": "Mycoweb",
@@ -700,7 +700,7 @@
           },
           {
             "title": "Fencer Fueno",
-            "type": ""
+            "type": "Resource"
           },
           {
             "title": "Transfer of Wealth",
@@ -708,7 +708,7 @@
           },
           {
             "title": "Clean Getaway",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Sure Gamble",
@@ -790,7 +790,7 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           },
           {
             "title": "Mycoweb",
@@ -817,7 +817,7 @@
           },
           {
             "title": "Fencer Fueno",
-            "type": ""
+            "type": "Resource"
           },
           {
             "title": "Transfer of Wealth",
@@ -825,10 +825,10 @@
           },
           {
             "title": "Clean Getaway",
-            "type": ""
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -939,7 +939,7 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           },
           {
             "title": "Longevity Serum",
@@ -958,7 +958,7 @@
           },
           {
             "title": "Fencer Fueno",
-            "type": ""
+            "type": "Resource"
           },
           {
             "title": "Transfer of Wealth",
@@ -966,10 +966,10 @@
           },
           {
             "title": "Clean Getaway",
-            "type": ""
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1066,7 +1066,7 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           },
           {
             "title": "Longevity Serum",
@@ -1092,7 +1092,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1202,7 +1202,7 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           }
         ],
         "runner": [
@@ -1215,7 +1215,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1302,11 +1302,11 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Empiricist",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -1319,12 +1319,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
             "title": "Afterimage",
             "type": "Program"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
           }
         ]
       }
@@ -1441,11 +1445,11 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Empiricist",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -1458,12 +1462,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
             "title": "Afterimage",
             "type": "Program"
+          },
+          {
+            "title": "Overclock",
+            "type": "Event"
           }
         ]
       }
@@ -1546,10 +1554,6 @@
           },
           {
             "title": "Unleash",
-            "type": ""
-          },
-          {
-            "title": "Hedge Fund",
             "type": "Operation"
           },
           {
@@ -1565,11 +1569,20 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -1678,10 +1691,6 @@
           },
           {
             "title": "Unleash",
-            "type": ""
-          },
-          {
-            "title": "Hedge Fund",
             "type": "Operation"
           },
           {
@@ -1692,11 +1701,20 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -1786,10 +1804,6 @@
           },
           {
             "title": "Unleash",
-            "type": ""
-          },
-          {
-            "title": "Hedge Fund",
             "type": "Operation"
           },
           {
@@ -1805,11 +1819,19 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Hansei Review",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -1894,7 +1916,7 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -1965,16 +1987,20 @@
           },
           {
             "title": "Unleash",
-            "type": ""
+            "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Empiricist",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -2057,15 +2083,11 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
+            "title": "Tatu-Bola",
             "type": "ICE"
           },
           {
             "title": "Unleash",
-            "type": ""
-          },
-          {
-            "title": "Hedge Fund",
             "type": "Operation"
           },
           {
@@ -2073,17 +2095,21 @@
             "type": "ICE"
           },
           {
-            "title": "Tatu-Bola",
-            "type": ""
+            "title": "Seamless Launch",
+            "type": "Operation"
           },
           {
-            "title": "Seamless Launch",
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Hansei Review",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -2189,25 +2215,25 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
             "type": "Operation"
           },
           {
             "title": "Empiricist",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -2288,25 +2314,25 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
             "type": "Operation"
           },
           {
             "title": "Empiricist",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -2318,11 +2344,11 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Bravado",
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -2466,21 +2492,21 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Empiricist",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
@@ -2492,11 +2518,11 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
-            "title": "Bravado",
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -2573,15 +2599,7 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
             "type": "Operation"
           },
           {
@@ -2591,23 +2609,31 @@
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Afterimage",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
             "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           }
         ]
@@ -2687,7 +2713,7 @@
             "credits_gained": 8
           },
           "breach_hq_snapshot": {
-            "total": 9,
+            "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -2728,37 +2754,37 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
             "type": "Operation"
           },
           {
             "title": "Empiricist",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
+          },
+          {
+            "title": "Biawak",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Afterimage",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Bravado",
             "type": "Event"
           },
           {
             "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           }
         ]
@@ -2835,35 +2861,27 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Empiricist",
+            "title": "Tatu-Bola",
             "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Bravado",
             "type": "Event"
@@ -2873,7 +2891,15 @@
             "type": "Event"
           },
           {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -2986,31 +3012,23 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
             "type": "Operation"
           },
           {
-            "title": "Empiricist",
+            "title": "Tatu-Bola",
             "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Bravado",
             "type": "Event"
@@ -3020,7 +3038,15 @@
             "type": "Event"
           },
           {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -3092,41 +3118,41 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Empiricist",
+            "title": "Tatu-Bola",
             "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Overclock",
             "type": "Event"
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           }
         ]
@@ -3217,33 +3243,33 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
             "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Overclock",
             "type": "Event"
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Overclock",
             "type": "Event"
           }
         ]
@@ -3325,25 +3351,25 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
             "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -3351,8 +3377,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "The Twinning",
+            "type": "Resource"
           }
         ]
       }
@@ -3446,33 +3472,34 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Empiricist",
+            "title": "Tatu-Bola",
             "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "realloc()",
+            "type": "Operation"
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -3480,8 +3507,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "The Twinning",
+            "type": "Resource"
           }
         ]
       }
@@ -3565,33 +3592,34 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Empiricist",
+            "title": "Tatu-Bola",
             "type": "ICE"
           },
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "realloc()",
+            "type": "Operation"
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -3599,7 +3627,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Carpe Diem",
             "type": "Event"
           }
         ]
@@ -3686,29 +3714,30 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Biawak",
-            "type": "ICE"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Seamless Launch",
             "type": "Operation"
           },
           {
-            "title": "Empiricist",
-            "type": "ICE"
+            "title": "realloc()",
+            "type": "Operation"
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Overclock",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -3716,7 +3745,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Carpe Diem",
             "type": "Event"
           }
         ]

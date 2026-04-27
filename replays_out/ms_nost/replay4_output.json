@@ -331,9 +331,9 @@
             }
           ],
           "hq_snapshot": {
-            "total": 4,
-            "agenda_cards": 2,
-            "agenda_points": 5
+            "total": 3,
+            "agenda_cards": 1,
+            "agenda_points": 3
           }
         },
         {
@@ -456,9 +456,9 @@
             }
           ],
           "hq_snapshot": {
-            "total": 8,
-            "agenda_cards": 3,
-            "agenda_points": 7
+            "total": 7,
+            "agenda_cards": 2,
+            "agenda_points": 5
           }
         },
         {
@@ -502,9 +502,9 @@
             }
           ],
           "hq_snapshot": {
-            "total": 6,
-            "agenda_cards": 1,
-            "agenda_points": 2
+            "total": 5,
+            "agenda_cards": 0,
+            "agenda_points": 0
           }
         },
         {
@@ -911,10 +911,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Bravado",
             "type": "Event"
           },
@@ -936,6 +932,10 @@
           },
           {
             "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
             "type": "Event"
           }
         ]
@@ -1049,10 +1049,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Bravado",
             "type": "Event"
           },
@@ -1074,6 +1070,10 @@
           },
           {
             "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
             "type": "Event"
           }
         ]
@@ -1167,10 +1167,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Transfer of Wealth",
             "type": "Event"
           },
@@ -1184,6 +1180,10 @@
           },
           {
             "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
             "type": "Event"
           }
         ]
@@ -1304,10 +1304,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Transfer of Wealth",
             "type": "Event"
           },
@@ -1321,6 +1317,10 @@
           },
           {
             "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Direct Access",
             "type": "Event"
           }
         ]
@@ -1408,10 +1408,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Transfer of Wealth",
             "type": "Event"
           },
@@ -1421,6 +1417,10 @@
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           }
         ]
@@ -1536,10 +1536,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Transfer of Wealth",
             "type": "Event"
           },
@@ -1549,6 +1545,10 @@
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           }
         ]
@@ -1643,15 +1643,15 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Tread Lightly",
             "type": "Event"
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           },
           {
@@ -1761,22 +1761,21 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
+            "title": "Measured Response",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           },
           {
@@ -1857,22 +1856,21 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
+            "title": "Measured Response",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           },
           {
@@ -1934,9 +1932,9 @@
             "credits_gained": 8
           },
           "breach_hq_snapshot": {
-            "total": 4,
-            "agenda_cards": 2,
-            "agenda_points": 5
+            "total": 3,
+            "agenda_cards": 1,
+            "agenda_points": 3
           },
           "bucket": "run"
         },
@@ -1993,26 +1991,25 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
+            "title": "Measured Response",
+            "type": "Operation"
           },
           {
-            "title": "Measured Response",
+            "title": "Seamless Launch",
             "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
             "type": "Event"
           },
           {
@@ -2087,16 +2084,11 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
+            "title": "Seamless Launch",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
@@ -2107,6 +2099,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
             "type": "Event"
           },
           {
@@ -2228,20 +2224,15 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
@@ -2252,6 +2243,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
             "type": "Event"
           },
           {
@@ -2327,20 +2322,15 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Envelopment",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
@@ -2351,6 +2341,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
             "type": "Event"
           }
         ]
@@ -2433,11 +2427,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2448,13 +2437,13 @@
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
@@ -2465,6 +2454,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
             "type": "Event"
           }
         ]
@@ -2535,11 +2528,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2550,13 +2538,13 @@
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
@@ -2567,6 +2555,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
             "type": "Event"
           }
         ]
@@ -2684,11 +2676,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2699,13 +2686,13 @@
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Tread Lightly",
             "type": "Event"
@@ -2716,6 +2703,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
             "type": "Event"
           }
         ]
@@ -2786,11 +2777,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2801,15 +2787,19 @@
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Direct Access",
             "type": "Event"
           },
           {
-            "title": "Direct Access",
+            "title": "Reprise",
             "type": "Event"
           },
           {
@@ -2938,11 +2928,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -2953,15 +2938,19 @@
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Direct Access",
             "type": "Event"
           },
           {
-            "title": "Direct Access",
+            "title": "Reprise",
             "type": "Event"
           },
           {
@@ -3053,11 +3042,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -3068,20 +3052,28 @@
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Direct Access",
             "type": "Event"
           },
           {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           },
           {
             "title": "Sang Kancil",
@@ -3203,11 +3195,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -3218,20 +3205,28 @@
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Direct Access",
             "type": "Event"
           },
           {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           },
           {
             "title": "Sang Kancil",
@@ -3310,11 +3305,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -3325,16 +3315,28 @@
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Reprise",
             "type": "Event"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
           },
           {
             "title": "Cezve",
@@ -3441,27 +3443,34 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Reprise",
             "type": "Event"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
           },
           {
             "title": "Cezve",
@@ -3539,27 +3548,30 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
           {
             "title": "Sandstone",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Reprise",
             "type": "Event"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
           },
           {
             "title": "Cezve",
@@ -3709,9 +3721,9 @@
             }
           },
           "breach_hq_snapshot": {
-            "total": 8,
-            "agenda_cards": 3,
-            "agenda_points": 7
+            "total": 7,
+            "agenda_cards": 2,
+            "agenda_points": 5
           },
           "bucket": "run"
         },
@@ -3740,11 +3752,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -3755,16 +3762,25 @@
           {
             "title": "Extract",
             "type": "Operation"
+          },
+          {
+            "title": "Azef Protocol",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
+            "title": "Reprise",
             "type": "Event"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
           },
           {
             "title": "Cezve",
@@ -3849,11 +3865,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -3872,16 +3883,20 @@
           {
             "title": "Valentão",
             "type": "ICE"
+          },
+          {
+            "title": "Malapert Data Vault",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
           },
           {
             "title": "Overclock",
@@ -4030,11 +4045,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -4045,16 +4055,20 @@
           {
             "title": "Stavka",
             "type": "ICE"
+          },
+          {
+            "title": "Malapert Data Vault",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
           },
           {
             "title": "Overclock",
@@ -4141,11 +4155,6 @@
             "agenda_points": 3
           },
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -4164,13 +4173,13 @@
           {
             "title": "The Holo Man",
             "type": "Upgrade"
+          },
+          {
+            "title": "Logjam",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Hermes",
             "type": "Hardware"
@@ -4181,6 +4190,10 @@
           },
           {
             "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -4268,9 +4281,9 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 6,
-            "agenda_cards": 1,
-            "agenda_points": 2
+            "total": 5,
+            "agenda_cards": 0,
+            "agenda_points": 0
           },
           "bucket": "run"
         },
@@ -4329,11 +4342,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -4348,13 +4356,13 @@
           {
             "title": "The Holo Man",
             "type": "Upgrade"
+          },
+          {
+            "title": "Mavirus",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Hermes",
             "type": "Hardware"
@@ -4365,6 +4373,10 @@
           },
           {
             "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -4430,11 +4442,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -4445,13 +4452,13 @@
           {
             "title": "Malapert Data Vault",
             "type": "Upgrade"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Hermes",
             "type": "Hardware"
@@ -4466,6 +4473,10 @@
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -4635,11 +4646,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Slash and Burn Agriculture",
-            "type": "Agenda",
-            "agenda_points": 2
-          },
-          {
             "title": "Seamless Launch",
             "type": "Operation"
           },
@@ -4652,15 +4658,15 @@
             "type": "Upgrade"
           },
           {
-            "title": "Mavirus",
-            "type": "Upgrade"
+            "title": "Kessleroid",
+            "type": "ICE"
+          },
+          {
+            "title": "Winchester",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Hermes",
             "type": "Hardware"
@@ -4675,6 +4681,10 @@
           },
           {
             "title": "Direct Access",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]

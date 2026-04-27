@@ -391,7 +391,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 3,
             "agenda_points": 7
           }
@@ -409,7 +409,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 2,
             "agenda_points": 5
           }
@@ -590,7 +590,7 @@
           },
           {
             "title": "Hedge Fund",
-            "type": ""
+            "type": "Operation"
           },
           {
             "title": "Greasing the Palm",
@@ -598,7 +598,7 @@
           },
           {
             "title": "Manegarm Skunkworks",
-            "type": ""
+            "type": "Upgrade"
           },
           {
             "title": "Project Ingatan",
@@ -723,16 +723,17 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Greasing the Palm",
             "type": "Operation"
           },
           {
             "title": "Manegarm Skunkworks",
             "type": "Upgrade"
+          },
+          {
+            "title": "Project Ingatan",
+            "type": "Agenda",
+            "agenda_points": 2
           },
           {
             "title": "Project Ingatan",
@@ -829,10 +830,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Greasing the Palm",
             "type": "Operation"
           },
@@ -849,6 +846,10 @@
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
@@ -969,10 +970,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Greasing the Palm",
             "type": "Operation"
           },
@@ -989,6 +986,10 @@
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
@@ -1087,10 +1088,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Greasing the Palm",
             "type": "Operation"
           },
@@ -1111,6 +1108,10 @@
           {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
           }
         ],
         "runner": [
@@ -1221,10 +1222,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Manegarm Skunkworks",
             "type": "Upgrade"
           },
@@ -1237,6 +1234,10 @@
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
@@ -1326,10 +1327,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Manegarm Skunkworks",
             "type": "Upgrade"
           },
@@ -1346,6 +1343,11 @@
           {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Offworld Office",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
@@ -1465,10 +1467,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Manegarm Skunkworks",
             "type": "Upgrade"
           },
@@ -1490,6 +1488,10 @@
             "title": "Offworld Office",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
@@ -1575,10 +1577,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Manegarm Skunkworks",
             "type": "Upgrade"
           },
@@ -1604,6 +1602,11 @@
           {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
@@ -1616,8 +1619,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Open Market",
+            "type": "Resource"
           }
         ]
       }
@@ -1707,10 +1710,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -1732,6 +1731,11 @@
           {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Méliès City Luxury Line",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
@@ -1744,8 +1748,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Open Market",
+            "type": "Resource"
           }
         ]
       }
@@ -1809,10 +1813,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -1839,6 +1839,10 @@
             "title": "Méliès City Luxury Line",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Red Level Clearance",
+            "type": "Operation"
           }
         ],
         "runner": [
@@ -1851,16 +1855,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
             "title": "Clean Getaway",
             "type": "Event"
+          },
+          {
+            "title": "Info Bounty",
+            "type": "Resource"
           }
         ]
       }
@@ -1970,10 +1974,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -1995,6 +1995,10 @@
           {
             "title": "Bumi 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Red Level Clearance",
+            "type": "Operation"
           }
         ],
         "runner": [
@@ -2007,16 +2011,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
             "title": "Clean Getaway",
             "type": "Event"
+          },
+          {
+            "title": "Info Bounty",
+            "type": "Resource"
           }
         ]
       }
@@ -2108,10 +2112,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -2137,6 +2137,10 @@
           {
             "title": "Red Level Clearance",
             "type": "Operation"
+          },
+          {
+            "title": "Vertigo",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -2149,16 +2153,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Clean Getaway",
             "type": "Event"
           },
           {
             "title": "Echelon",
             "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -2274,10 +2278,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -2299,6 +2299,10 @@
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -2311,16 +2315,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Clean Getaway",
             "type": "Event"
           },
           {
             "title": "Echelon",
             "type": "Program"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -2385,10 +2389,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -2418,15 +2418,15 @@
           {
             "title": "Brân 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
             "title": "Transfer of Wealth",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
             "type": "Event"
           },
           {
@@ -2436,6 +2436,10 @@
           {
             "title": "Bravado",
             "type": "Event"
+          },
+          {
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
           }
         ]
       }
@@ -2550,7 +2554,7 @@
             "credits_gained": 8
           },
           "breach_hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 3,
             "agenda_points": 7
           },
@@ -2559,10 +2563,6 @@
       ],
       "hand_snapshot": {
         "corp": [
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
           {
             "title": "Project Ingatan",
             "type": "Agenda",
@@ -2585,15 +2585,15 @@
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Brân 1.0",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
             "title": "Transfer of Wealth",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
             "type": "Event"
           },
           {
@@ -2603,6 +2603,10 @@
           {
             "title": "Bravado",
             "type": "Event"
+          },
+          {
+            "title": "Dr. Nuka Vrolyck",
+            "type": "Resource"
           }
         ]
       }
@@ -2668,10 +2672,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -2696,6 +2696,10 @@
           {
             "title": "Brân 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
           }
         ],
         "runner": [
@@ -2704,15 +2708,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
           },
           {
             "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Sell Out",
             "type": "Event"
           }
         ]
@@ -2764,7 +2768,7 @@
             }
           },
           "breach_hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 2,
             "agenda_points": 5
           },
@@ -2843,10 +2847,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -2867,6 +2867,10 @@
           {
             "title": "Brân 1.0",
             "type": "ICE"
+          },
+          {
+            "title": "Seamless Launch",
+            "type": "Operation"
           }
         ],
         "runner": [
@@ -2875,15 +2879,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
           },
           {
             "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Sell Out",
             "type": "Event"
           }
         ]
@@ -2949,10 +2953,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -2977,16 +2977,20 @@
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
           }
         ]
       }
@@ -3086,10 +3090,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Project Ingatan",
             "type": "Agenda",
             "agenda_points": 2
@@ -3110,16 +3110,20 @@
           {
             "title": "Seamless Launch",
             "type": "Operation"
+          },
+          {
+            "title": "Sleipnir",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Echelon",
             "type": "Program"
+          },
+          {
+            "title": "Sell Out",
+            "type": "Event"
           }
         ]
       }

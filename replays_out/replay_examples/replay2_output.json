@@ -273,7 +273,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 3,
             "agenda_points": 7
           }
@@ -384,9 +384,9 @@
             }
           ],
           "hq_snapshot": {
-            "total": 13,
-            "agenda_cards": 3,
-            "agenda_points": 7
+            "total": 8,
+            "agenda_cards": 2,
+            "agenda_points": 4
           }
         },
         {
@@ -408,9 +408,9 @@
             }
           ],
           "hq_snapshot": {
-            "total": 12,
-            "agenda_cards": 2,
-            "agenda_points": 5
+            "total": 6,
+            "agenda_cards": 1,
+            "agenda_points": 2
           }
         },
         {
@@ -425,9 +425,9 @@
             }
           ],
           "hq_snapshot": {
-            "total": 12,
-            "agenda_cards": 2,
-            "agenda_points": 5
+            "total": 5,
+            "agenda_cards": 1,
+            "agenda_points": 2
           }
         },
         {
@@ -458,9 +458,9 @@
             }
           ],
           "hq_snapshot": {
-            "total": 12,
-            "agenda_cards": 2,
-            "agenda_points": 5
+            "total": 4,
+            "agenda_cards": 1,
+            "agenda_points": 2
           }
         }
       ],
@@ -617,8 +617,12 @@
         ],
         "runner": [
           {
+            "title": "Botulus",
+            "type": "Program"
+          },
+          {
             "title": "Strike Fund",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Buffer Drive",
@@ -727,22 +731,26 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Regolith Mining License",
             "type": "Asset"
           },
           {
             "title": "Tatu-Bola",
             "type": "ICE"
+          },
+          {
+            "title": "Mitra Aman",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
+            "title": "Botulus",
+            "type": "Program"
+          },
+          {
             "title": "Strike Fund",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "Buffer Drive",
@@ -833,10 +841,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Regolith Mining License",
             "type": "Asset"
           },
@@ -847,12 +851,17 @@
           {
             "title": "Mitra Aman",
             "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "Botulus",
+            "type": "Program"
           },
           {
             "title": "Buffer Drive",
@@ -961,18 +970,19 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Mitra Aman",
             "type": "Upgrade"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "Botulus",
+            "type": "Program"
           },
           {
             "title": "Buffer Drive",
@@ -1070,10 +1080,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
@@ -1081,13 +1087,14 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Buffer Drive",
             "type": "Hardware"
@@ -1102,6 +1109,10 @@
           },
           {
             "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -1165,7 +1176,7 @@
             "cards_drawn": 1
           },
           "breach_hq_snapshot": {
-            "total": 7,
+            "total": 6,
             "agenda_cards": 3,
             "agenda_points": 7
           },
@@ -1212,10 +1223,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
@@ -1228,13 +1235,13 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Buffer Drive",
             "type": "Hardware"
@@ -1249,6 +1256,10 @@
           },
           {
             "title": "Privileged Access",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -1328,10 +1339,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
@@ -1348,13 +1355,13 @@
           {
             "title": "Tatu-Bola",
             "type": "ICE"
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Buffer Drive",
             "type": "Hardware"
@@ -1369,6 +1376,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
             "type": "Event"
           }
         ]
@@ -1463,10 +1474,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
@@ -1479,13 +1486,13 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Buffer Drive",
             "type": "Hardware"
@@ -1500,6 +1507,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
             "type": "Event"
           }
         ]
@@ -1582,10 +1593,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
@@ -1602,13 +1609,14 @@
           {
             "title": "Hedge Fund",
             "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Buffer Drive",
             "type": "Hardware"
@@ -1619,6 +1627,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
             "type": "Event"
           }
         ]
@@ -1708,10 +1720,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
@@ -1719,13 +1727,14 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Buffer Drive",
             "type": "Hardware"
@@ -1736,6 +1745,10 @@
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
             "type": "Event"
           }
         ]
@@ -1816,10 +1829,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
@@ -1832,19 +1841,23 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Ashen Epilogue",
             "type": "Event"
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
             "type": "Event"
           }
         ]
@@ -1966,10 +1979,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -1978,19 +1987,23 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Ashen Epilogue",
             "type": "Event"
           },
           {
             "title": "Sure Gamble",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
             "type": "Event"
           }
         ]
@@ -2070,10 +2083,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -2084,15 +2093,15 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Ashen Epilogue",
             "type": "Event"
@@ -2100,6 +2109,10 @@
           {
             "title": "Sure Gamble",
             "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
           }
         ]
       }
@@ -2193,20 +2206,17 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Ashen Epilogue",
             "type": "Event"
@@ -2214,6 +2224,10 @@
           {
             "title": "Sure Gamble",
             "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
           }
         ]
       }
@@ -2293,20 +2307,17 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Ashen Epilogue",
             "type": "Event"
@@ -2314,6 +2325,10 @@
           {
             "title": "Sure Gamble",
             "type": "Event"
+          },
+          {
+            "title": "Manuel Lattes de Moura",
+            "type": "Resource"
           }
         ]
       }
@@ -2423,10 +2438,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -2435,13 +2446,13 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
           {
             "title": "Ashen Epilogue",
             "type": "Event"
@@ -2452,6 +2463,10 @@
           },
           {
             "title": "Manuel Lattes de Moura",
+            "type": "Resource"
+          },
+          {
+            "title": "Arruaceiras Crew",
             "type": "Resource"
           }
         ]
@@ -2540,10 +2555,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -2552,12 +2563,16 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Hedge Fund",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
           }
         ]
       }
@@ -2644,10 +2659,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -2656,12 +2667,17 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "Lago Paranoá Shelter",
+            "type": "Resource"
           }
         ]
       }
@@ -2747,10 +2763,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -2759,17 +2771,14 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Let Them Dream",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Lago Paranoá Shelter",
             "type": "Resource"
@@ -2780,6 +2789,14 @@
           },
           {
             "title": "Rising Tide",
+            "type": "Program"
+          },
+          {
+            "title": "Friend of a Friend",
+            "type": "Resource"
+          },
+          {
+            "title": "Gourmand",
             "type": "Program"
           }
         ]
@@ -2870,10 +2887,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -2882,17 +2895,13 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Lago Paranoá Shelter",
             "type": "Resource"
@@ -2908,6 +2917,14 @@
           {
             "title": "Friend of a Friend",
             "type": "Resource"
+          },
+          {
+            "title": "Gourmand",
+            "type": "Program"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
           }
         ]
       }
@@ -2993,10 +3010,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -3005,23 +3018,27 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Lago Paranoá Shelter",
             "type": "Resource"
           },
           {
             "title": "Solidarity Badge",
+            "type": "Hardware"
+          },
+          {
+            "title": "Friend of a Friend",
+            "type": "Resource"
+          },
+          {
+            "title": "Amanuensis",
             "type": "Hardware"
           }
         ]
@@ -3110,10 +3127,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -3122,23 +3135,27 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Lago Paranoá Shelter",
             "type": "Resource"
           },
           {
             "title": "Solidarity Badge",
+            "type": "Hardware"
+          },
+          {
+            "title": "Friend of a Friend",
+            "type": "Resource"
+          },
+          {
+            "title": "Amanuensis",
             "type": "Hardware"
           }
         ]
@@ -3220,10 +3237,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -3232,17 +3245,13 @@
             "title": "Send a Message",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Lago Paranoá Shelter",
             "type": "Resource"
@@ -3254,6 +3263,14 @@
           {
             "title": "Amanuensis",
             "type": "Hardware"
+          },
+          {
+            "title": "Audrey v2",
+            "type": "Program"
+          },
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
           }
         ]
       }
@@ -3376,10 +3393,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -3390,19 +3403,15 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Boto",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Lago Paranoá Shelter",
             "type": "Resource"
@@ -3418,6 +3427,14 @@
           {
             "title": "Audrey v2",
             "type": "Program"
+          },
+          {
+            "title": "Steelskin Scarring",
+            "type": "Event"
+          },
+          {
+            "title": "Amanuensis",
+            "type": "Hardware"
           }
         ]
       }
@@ -3494,10 +3511,6 @@
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -3508,23 +3521,19 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Spin Doctor",
+            "type": "Asset"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Boto",
+            "type": "ICE"
+          },
+          {
+            "title": "Hammer",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Lago Paranoá Shelter",
             "type": "Resource"
@@ -3536,6 +3545,14 @@
           {
             "title": "Audrey v2",
             "type": "Program"
+          },
+          {
+            "title": "Valentina Ferreira Carvalho",
+            "type": "Resource"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -3649,10 +3666,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -3663,19 +3676,15 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Hammer",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Lago Paranoá Shelter",
             "type": "Resource"
@@ -3690,6 +3699,14 @@
           },
           {
             "title": "Valentina Ferreira Carvalho",
+            "type": "Resource"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Lago Paranoá Shelter",
             "type": "Resource"
           }
         ]
@@ -3765,10 +3782,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -3779,23 +3792,19 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Spin Doctor",
+            "type": "Asset"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Hammer",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Amanuensis",
             "type": "Hardware"
@@ -3803,6 +3812,14 @@
           {
             "title": "Audrey v2",
             "type": "Program"
+          },
+          {
+            "title": "Ashen Epilogue",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -3907,10 +3924,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -3921,19 +3934,15 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Hammer",
+            "type": "ICE"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Amanuensis",
             "type": "Hardware"
@@ -3948,6 +3957,14 @@
           },
           {
             "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Strike Fund",
+            "type": "Event"
+          },
+          {
+            "title": "Steelskin Scarring",
             "type": "Event"
           }
         ]
@@ -4020,10 +4037,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
@@ -4034,34 +4047,38 @@
             "agenda_points": 3
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Hammer",
+            "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "Arruaceiras Crew",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Strike Fund",
             "type": "Event"
           },
           {
-            "title": "Audrey v2",
+            "title": "The Price",
+            "type": "Event"
+          },
+          {
+            "title": "Gourmand",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Strike Fund",
-            "type": "Event"
+            "title": "Friend of a Friend",
+            "type": "Resource"
           }
         ]
       }
@@ -4161,9 +4178,9 @@
             "server": "HQ"
           },
           "breach_hq_snapshot": {
-            "total": 13,
-            "agenda_cards": 3,
-            "agenda_points": 7
+            "total": 8,
+            "agenda_cards": 2,
+            "agenda_points": 4
           },
           "bucket": "run"
         },
@@ -4195,47 +4212,48 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Cloud Eater",
+            "title": "Vampyronassa",
             "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "Arruaceiras Crew",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Strike Fund",
             "type": "Event"
           },
           {
-            "title": "Audrey v2",
+            "title": "The Price",
+            "type": "Event"
+          },
+          {
+            "title": "Gourmand",
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Strike Fund",
-            "type": "Event"
+            "title": "Friend of a Friend",
+            "type": "Resource"
           }
         ]
       }
@@ -4307,48 +4325,48 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           },
           {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Cloud Eater",
-            "type": "ICE"
-          },
-          {
-            "title": "Send a Message",
-            "type": "Agenda",
-            "agenda_points": 3
-          },
-          {
-            "title": "Vampyronassa",
+            "title": "Boto",
             "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "The Price",
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Friend of a Friend",
+            "type": "Resource"
           }
         ]
       }
@@ -4440,9 +4458,9 @@
             "server": "HQ"
           },
           "breach_hq_snapshot": {
-            "total": 12,
-            "agenda_cards": 2,
-            "agenda_points": 5
+            "total": 6,
+            "agenda_cards": 1,
+            "agenda_points": 2
           },
           "bucket": "run"
         },
@@ -4471,9 +4489,9 @@
             "cards_drawn": 1
           },
           "breach_hq_snapshot": {
-            "total": 12,
-            "agenda_cards": 2,
-            "agenda_points": 5
+            "total": 5,
+            "agenda_cards": 1,
+            "agenda_points": 2
           },
           "bucket": "run"
         }
@@ -4481,39 +4499,39 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Regolith Mining License",
+            "type": "Asset"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Mycoweb",
+            "type": "ICE"
           },
           {
-            "title": "Cloud Eater",
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Boto",
             "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
+            "title": "The Price",
             "type": "Event"
           },
           {
-            "title": "Audrey v2",
-            "type": "Program"
+            "title": "Friend of a Friend",
+            "type": "Resource"
+          },
+          {
+            "title": "The Price",
+            "type": "Event"
           }
         ]
       }
@@ -4587,34 +4605,34 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Mycoweb",
+            "type": "ICE"
           },
           {
             "title": "Mitra Aman",
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "La Costa Grid",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "The Price",
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "The Price",
             "type": "Event"
           },
           {
@@ -4622,8 +4640,8 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Solidarity Badge",
+            "type": "Hardware"
           }
         ]
       }
@@ -4736,9 +4754,9 @@
             "server": "HQ"
           },
           "breach_hq_snapshot": {
-            "total": 12,
-            "agenda_cards": 2,
-            "agenda_points": 5
+            "total": 4,
+            "agenda_cards": 1,
+            "agenda_points": 2
           },
           "bucket": "run"
         }
@@ -4746,30 +4764,30 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Regolith Mining License",
+            "type": "Asset"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Mycoweb",
+            "type": "ICE"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Strike Fund",
-            "type": ""
+            "title": "The Price",
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "The Price",
             "type": "Event"
           },
           {
@@ -4777,11 +4795,11 @@
             "type": "Program"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Solidarity Badge",
+            "type": "Hardware"
           },
           {
-            "title": "Strike Fund",
+            "title": "Sure Gamble",
             "type": "Event"
           }
         ]

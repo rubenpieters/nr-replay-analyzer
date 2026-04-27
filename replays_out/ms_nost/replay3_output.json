@@ -703,6 +703,10 @@
           {
             "title": "Sang Kancil",
             "type": "Program"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
           }
         ]
       }
@@ -814,6 +818,10 @@
           {
             "title": "Overclock",
             "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
           },
           {
             "title": "Sang Kancil",
@@ -2102,12 +2110,12 @@
             "type": "Asset"
           },
           {
-            "title": "The Holo Man",
-            "type": "Upgrade"
-          },
-          {
             "title": "Logjam",
             "type": "ICE"
+          },
+          {
+            "title": "The Holo Man",
+            "type": "Upgrade"
           },
           {
             "title": "Tithe",

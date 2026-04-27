@@ -457,6 +457,71 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
   }
   const cardRegistry = new Map<string, CardRegistryEntry>();
 
+  // -- Hand state: positional diff accumulator per player --
+  interface HandStateEntry {
+    cid?: string;
+    title?: string;
+    type?: string;
+    side?: string;
+    zone?: string[];
+    agendapoints?: number;
+    playable?: boolean;
+  }
+  const corpHandState: HandStateEntry[] = [];
+  const runnerHandState: HandStateEntry[] = [];
+
+  function mergeIntoHandSlot(slot: HandStateEntry, e: Partial<HandStateEntry>): void {
+    if (e.cid !== undefined) slot.cid = e.cid;
+    if (e.title !== undefined) slot.title = e.title;
+    if (e.type !== undefined) slot.type = e.type;
+    if (e.side !== undefined) slot.side = e.side;
+    if (e.zone !== undefined) slot.zone = e.zone;
+    if (e.agendapoints !== undefined) slot.agendapoints = e.agendapoints;
+    if (e.playable !== undefined) slot.playable = e.playable;
+  }
+
+  // Diff token formats:
+  //   (integer N, object): merge object fields into handState[N], return N as touched
+  //   ("+", object):       append a new entry, return its index as touched
+  //   plain object at index i: flat initial-state format, place at handState[i]
+  //   bare integer / other: skip
+  // Returns the list of handState positions that were updated.
+  // logicalSize = handCount before this diff, so "+" inserts at the correct position
+  // instead of at handState.length (which accumulates stale slots from prior turns).
+  function applyHandDiff(handState: HandStateEntry[], diff: unknown[], logicalSize: number): number[] {
+    const touched: number[] = [];
+    let size = logicalSize;
+    let i = 0;
+    while (i < diff.length) {
+      const token = diff[i];
+      const next = diff[i + 1];
+      if (token === "+") {
+        if (next && typeof next === "object" && !Array.isArray(next)) {
+          const pos = size;
+          if (!handState[pos]) handState[pos] = {};
+          mergeIntoHandSlot(handState[pos], next as Partial<HandStateEntry>);
+          size++;
+          touched.push(pos);
+        }
+        i += 2;
+      } else if (typeof token === "number" && next && typeof next === "object" && !Array.isArray(next)) {
+        if (!handState[token]) handState[token] = {};
+        mergeIntoHandSlot(handState[token], next as Partial<HandStateEntry>);
+        touched.push(token);
+        i += 2;
+      } else if (token && typeof token === "object" && !Array.isArray(token)) {
+        // Flat format: full card object at its position (used in initial game state)
+        if (!handState[i]) handState[i] = {};
+        mergeIntoHandSlot(handState[i], token as Partial<HandStateEntry>);
+        touched.push(i);
+        i += 1;
+      } else {
+        i += 1;
+      }
+    }
+    return touched;
+  }
+
   function scanCardObject(o: Record<string, unknown>, inferSide?: string, inferZone?: string[]): void {
     const cid = o["cid"] as string;
     const existing = cardRegistry.get(cid);
@@ -470,11 +535,11 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
       };
       cardRegistry.set(cid, newEntry);
       // Retroactively add newly-revealed hand cards to the most recent turn snapshot,
-      // but only when we're in the opponent's phase — cards first seen during your own
+      // but only when we're in the opponent's phase. Cards first seen during your own
       // phase could be mid-turn draws, not start-of-turn hand members.
       if (newEntry.zone[0] === "hand" && newEntry.title && currentPhase.player !== undefined) {
         const cardSnap: CardSnapshot = { title: newEntry.title, type: newEntry.type };
-        if (newEntry.agendaPoints !== undefined) cardSnap.agenda_points = newEntry.agendaPoints;
+        if (newEntry.type === "Agenda" && newEntry.agendaPoints !== undefined) cardSnap.agenda_points = newEntry.agendaPoints;
         if (newEntry.side === "Corp" && currentPhase.player !== "corp" &&
             augCorpSnap && augCorpSnap.snap.corp.length < augCorpSnap.maxCount) {
           augCorpSnap.snap.corp.push(cardSnap);
@@ -497,8 +562,21 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
   function scanPlayerState(ps: Record<string, unknown>, side: string): void {
     for (const [key, val] of Object.entries(ps)) {
       if (!val || typeof val !== "object") continue;
+      if (key === "hand" && Array.isArray(val)) {
+        const handState = side === "Corp" ? corpHandState : runnerHandState;
+        const logicalSize = side === "Corp" ? state.corpHandCount : state.runnerHandCount;
+        const touched = applyHandDiff(handState, val, logicalSize);
+        // Scan only the touched positions using the fully merged state.
+        // Strip zone so existing registry entries don't get their zone overwritten.
+        for (const pos of touched) {
+          const merged = handState[pos];
+          if (!merged?.cid) continue;
+          const { zone: _zone, ...withoutZone } = merged;
+          scanCardObject(withoutZone as Record<string, unknown>, side, ["hand"]);
+        }
+        continue;
+      }
       const inferZone: string[] | undefined =
-        key === "hand" ? ["hand"] :
         key === "deck" ? ["deck"] :
         key === "discard" ? ["discard"] : undefined;
       scanCards(val, side, inferZone);
@@ -534,18 +612,23 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
   function captureHandSnapshot(): HandSnapshot {
     const corp: CardSnapshot[] = [];
     const runner: CardSnapshot[] = [];
-    for (const entry of cardRegistry.values()) {
-      if (entry.zone[0] !== "hand" || !entry.title) continue;
+    for (const slot of corpHandState.slice(0, state.corpHandCount)) {
+      if (!slot.cid) continue;
+      const entry = cardRegistry.get(slot.cid);
+      if (!entry?.title) continue;
       const snap: CardSnapshot = { title: entry.title, type: entry.type };
-      if (entry.agendaPoints !== undefined) snap.agenda_points = entry.agendaPoints;
-      if (entry.side === "Corp") corp.push(snap);
-      else if (entry.side === "Runner") runner.push(snap);
+      if (entry.type === "Agenda" && entry.agendaPoints !== undefined) snap.agenda_points = entry.agendaPoints;
+      corp.push(snap);
     }
-    // Clamp to tracked hand size to avoid accumulation from silent discards
-    return {
-      corp: corp.slice(0, state.corpHandCount),
-      runner: runner.slice(0, state.runnerHandCount),
-    };
+    for (const slot of runnerHandState.slice(0, state.runnerHandCount)) {
+      if (!slot.cid) continue;
+      const entry = cardRegistry.get(slot.cid);
+      if (!entry?.title) continue;
+      const snap: CardSnapshot = { title: entry.title, type: entry.type };
+      if (entry.type === "Agenda" && entry.agendaPoints !== undefined) snap.agenda_points = entry.agendaPoints;
+      runner.push(snap);
+    }
+    return { corp, runner };
   }
 
   function agendaPointsNotInDeck(): number {
@@ -559,6 +642,21 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
 
   function captureZoneSnapshot(zone: string): ZoneSnapshot {
     let total = 0, agenda_cards = 0, agenda_points = 0;
+    // For the hand zone use handState directly, registry zones for hand cards can be
+    // stale (cards that left the hand aren't always explicitly cleared in the registry).
+    if (zone === "hand") {
+      for (const slot of corpHandState.slice(0, state.corpHandCount)) {
+        if (!slot.cid) continue;
+        const entry = cardRegistry.get(slot.cid);
+        if (!entry?.title) continue;
+        total++;
+        if (entry.type === "Agenda") {
+          agenda_cards++;
+          agenda_points += entry.agendaPoints ?? 0;
+        }
+      }
+      return { total, agenda_cards, agenda_points };
+    }
     for (const entry of cardRegistry.values()) {
       if (entry.side !== "Corp" || entry.zone[0] !== zone || !entry.title) continue;
       total++;

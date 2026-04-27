@@ -297,7 +297,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 4,
+            "total": 2,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -315,7 +315,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 4,
+            "total": 2,
             "agenda_cards": 0,
             "agenda_points": 0
           }
@@ -337,7 +337,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 2,
             "agenda_points": 6
           }
@@ -396,7 +396,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 7,
+            "total": 5,
             "agenda_cards": 1,
             "agenda_points": 2
           }
@@ -644,7 +644,7 @@
           },
           {
             "title": "Charlotte Caçador",
-            "type": ""
+            "type": "Asset"
           },
           {
             "title": "Unleash",
@@ -658,7 +658,7 @@
           },
           {
             "title": "Sure Gamble",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "The Twinning",
@@ -666,7 +666,11 @@
           },
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
           }
         ]
       }
@@ -760,15 +764,15 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
           {
             "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Hedge Fund",
             "type": "Operation"
           }
         ],
@@ -779,7 +783,7 @@
           },
           {
             "title": "Sure Gamble",
-            "type": ""
+            "type": "Event"
           },
           {
             "title": "The Twinning",
@@ -787,7 +791,11 @@
           },
           {
             "title": "Overclock",
-            "type": ""
+            "type": "Event"
+          },
+          {
+            "title": "Sang Kancil",
+            "type": "Program"
           }
         ]
       }
@@ -868,10 +876,6 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
@@ -882,16 +886,16 @@
           {
             "title": "Hedge Fund",
             "type": "Operation"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
             "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": ""
           },
           {
             "title": "The Twinning",
@@ -904,6 +908,10 @@
           {
             "title": "Sang Kancil",
             "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -1008,26 +1016,22 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
           {
             "title": "Unleash",
             "type": "Operation"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
           {
             "title": "Overclock",
             "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": ""
           },
           {
             "title": "The Twinning",
@@ -1040,6 +1044,10 @@
           {
             "title": "Sang Kancil",
             "type": "Program"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -1119,10 +1127,6 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
@@ -1131,8 +1135,13 @@
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
@@ -1141,15 +1150,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "The Twinning",
             "type": "Resource"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1245,16 +1254,17 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
           {
             "title": "Unleash",
             "type": "Operation"
+          },
+          {
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
@@ -1263,15 +1273,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "The Twinning",
             "type": "Resource"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1355,10 +1365,6 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
@@ -1367,8 +1373,13 @@
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Orbital Superiority",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
@@ -1377,15 +1388,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "The Twinning",
             "type": "Resource"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1478,16 +1489,16 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
           {
             "title": "Unleash",
             "type": "Operation"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
@@ -1496,15 +1507,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "The Twinning",
             "type": "Resource"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1585,10 +1596,6 @@
             "type": "Upgrade"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
@@ -1597,8 +1604,12 @@
             "type": "Operation"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Charlotte Caçador",
+            "type": "Asset"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
           }
         ],
         "runner": [
@@ -1607,15 +1618,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "The Twinning",
             "type": "Resource"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1722,7 +1733,7 @@
             }
           },
           "breach_hq_snapshot": {
-            "total": 4,
+            "total": 2,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -1732,16 +1743,16 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
           {
             "title": "Unleash",
             "type": "Operation"
+          },
+          {
+            "title": "Charlotte Caçador",
+            "type": "Asset"
           }
         ],
         "runner": [
@@ -1750,15 +1761,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "The Twinning",
             "type": "Resource"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
@@ -1836,29 +1847,29 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
           {
             "title": "Unleash",
             "type": "Operation"
+          },
+          {
+            "title": "Spin Doctor",
+            "type": "Asset"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "The Twinning",
             "type": "Resource"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -1932,7 +1943,7 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 4,
+            "total": 2,
             "agenda_cards": 0,
             "agenda_points": 0
           },
@@ -1958,25 +1969,25 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "The Twinning",
             "type": "Resource"
           },
           {
             "title": "Overclock",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -2057,23 +2068,19 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
           {
             "title": "Unleash",
             "type": "Operation"
+          },
+          {
+            "title": "Hammer",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "The Twinning",
             "type": "Resource"
@@ -2085,6 +2092,10 @@
           {
             "title": "Fencer Fueno",
             "type": "Resource"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -2170,19 +2181,15 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
+          },
+          {
+            "title": "Hammer",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "The Twinning",
             "type": "Resource"
@@ -2194,6 +2201,10 @@
           {
             "title": "Fencer Fueno",
             "type": "Resource"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -2266,23 +2277,20 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Charlotte Caçador",
             "type": "Asset"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Hammer",
+            "type": "ICE"
+          },
+          {
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "Overclock",
             "type": "Event"
@@ -2290,6 +2298,10 @@
           {
             "title": "Bravado",
             "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           },
           {
             "title": "Reprise",
@@ -2368,7 +2380,7 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 6,
+            "total": 4,
             "agenda_cards": 2,
             "agenda_points": 6
           },
@@ -2422,19 +2434,16 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Hammer",
+            "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Send a Message",
+            "type": "Agenda",
+            "agenda_points": 3
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "Overclock",
             "type": "Event"
@@ -2442,6 +2451,10 @@
           {
             "title": "Bravado",
             "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           },
           {
             "title": "Reprise",
@@ -2528,22 +2541,22 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Boto",
+            "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Boto",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "Bravado",
             "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           },
           {
             "title": "Reprise",
@@ -2646,30 +2659,31 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Boto",
             "type": "ICE"
           },
           {
             "title": "Boto",
             "type": "ICE"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "Bravado",
             "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           },
           {
             "title": "Reprise",
@@ -2752,30 +2766,31 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Boto",
             "type": "ICE"
           },
           {
             "title": "Boto",
             "type": "ICE"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "Bravado",
             "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           },
           {
             "title": "Reprise",
@@ -2885,30 +2900,31 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Boto",
             "type": "ICE"
           },
           {
             "title": "Cloud Eater",
             "type": "ICE"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
             "title": "Bravado",
             "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           },
           {
             "title": "Reprise",
@@ -2995,27 +3011,24 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Boto",
             "type": "ICE"
           },
           {
             "title": "Cloud Eater",
             "type": "ICE"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "Bravado",
             "type": "Event"
@@ -3029,7 +3042,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Direct Access",
             "type": "Event"
           },
           {
@@ -3042,6 +3055,10 @@
           },
           {
             "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -3134,7 +3151,7 @@
             "credits_gained": 6
           },
           "breach_hq_snapshot": {
-            "total": 7,
+            "total": 5,
             "agenda_cards": 1,
             "agenda_points": 2
           },
@@ -3167,14 +3184,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Boto",
             "type": "ICE"
           },
@@ -3182,13 +3191,17 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Týr",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "Bravado",
             "type": "Event"
@@ -3202,7 +3215,7 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Direct Access",
             "type": "Event"
           },
           {
@@ -3215,6 +3228,10 @@
           },
           {
             "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -3295,18 +3312,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Unleash",
-            "type": "Operation"
-          },
-          {
             "title": "Boto",
             "type": "ICE"
           },
@@ -3314,13 +3319,21 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
+          },
+          {
+            "title": "Týr",
+            "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "Bravado",
             "type": "Event"
@@ -3330,11 +3343,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -3426,27 +3443,23 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Boto",
+            "type": "ICE"
           },
           {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Boto",
+            "title": "Týr",
             "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "Bravado",
             "type": "Event"
@@ -3456,11 +3469,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -3538,27 +3555,23 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Boto",
+            "type": "ICE"
           },
           {
             "title": "Unleash",
             "type": "Operation"
           },
           {
-            "title": "Boto",
+            "title": "Týr",
             "type": "ICE"
+          },
+          {
+            "title": "Unleash",
+            "type": "Operation"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "Bravado",
             "type": "Event"
@@ -3568,20 +3581,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Pinhole Threading",
             "type": "Event"
-          },
-          {
-            "title": "The Class Act",
-            "type": "Resource"
           },
           {
             "title": "Clean Getaway",
@@ -3590,6 +3591,22 @@
           {
             "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
           }
         ]
       }
@@ -3696,11 +3713,11 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "Boto",
+            "type": "ICE"
           },
           {
-            "title": "Hedge Fund",
+            "title": "Unleash",
             "type": "Operation"
           },
           {
@@ -3708,15 +3725,11 @@
             "type": "Operation"
           },
           {
-            "title": "Boto",
+            "title": "Tatu-Bola",
             "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
           {
             "title": "Bravado",
             "type": "Event"
@@ -3726,20 +3739,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Pinhole Threading",
             "type": "Event"
-          },
-          {
-            "title": "The Class Act",
-            "type": "Resource"
           },
           {
             "title": "Clean Getaway",
@@ -3748,6 +3749,22 @@
           {
             "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Echelon",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
           }
         ]
       }
@@ -3818,38 +3835,39 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
+          },
+          {
+            "title": "See How They Run",
+            "type": "Agenda",
+            "agenda_points": 2
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "The Class Act",
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
           }
         ]
       }
@@ -3945,14 +3963,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
@@ -3960,28 +3970,36 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "The Class Act",
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
           }
         ]
       }
@@ -4064,14 +4082,6 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Unleash",
             "type": "Operation"
           },
@@ -4079,28 +4089,36 @@
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
           }
         ],
         "runner": [
-          {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
           {
             "title": "Pinhole Threading",
             "type": "Event"
           },
           {
-            "title": "The Class Act",
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Curupira",
+            "type": "Program"
           }
         ]
       }
@@ -4221,38 +4239,38 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "The Twinning",
+            "type": "Resource"
+          },
+          {
+            "title": "Clean Getaway",
             "type": "Event"
           }
         ]
@@ -4325,27 +4343,27 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
+            "title": "Clean Getaway",
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "The Twinning",
+            "type": "Resource"
           }
         ]
       }
@@ -4455,31 +4473,31 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
+            "title": "La Costa Grid",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Empiricist",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
+            "title": "Clean Getaway",
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "The Twinning",
+            "type": "Resource"
           }
         ]
       }
@@ -4550,27 +4568,27 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
+            "title": "Clean Getaway",
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "The Twinning",
+            "type": "Resource"
           }
         ]
       }
@@ -4670,27 +4688,27 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
+          },
+          {
+            "title": "Anoetic Void",
+            "type": "Upgrade"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
+            "title": "Clean Getaway",
+            "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "The Twinning",
+            "type": "Resource"
           }
         ]
       }
@@ -4764,43 +4782,43 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Tatu-Bola",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "The Class Act",
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
           }
         ]
       }
@@ -4889,43 +4907,43 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "The Class Act",
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Hermes",
+            "type": "Hardware"
           }
         ]
       }
@@ -4997,43 +5015,43 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "The Class Act",
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -5134,43 +5152,43 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "The Class Act",
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
           }
         ]
       }
@@ -5248,43 +5266,43 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "See How They Run",
             "type": "Agenda",
             "agenda_points": 2
           },
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Anoetic Void",
             "type": "Upgrade"
+          },
+          {
+            "title": "Cloud Eater",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "The Class Act",
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
           }
         ]
       }
@@ -5344,42 +5362,42 @@
       "hand_snapshot": {
         "corp": [
           {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
-            "title": "Hedge Fund",
-            "type": "Operation"
-          },
-          {
             "title": "Anoetic Void",
             "type": "Upgrade"
           },
           {
             "title": "Cloud Eater",
             "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
+          },
+          {
+            "title": "Vampyronassa",
+            "type": "ICE"
+          },
+          {
+            "title": "Regolith Mining License",
+            "type": "Asset"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": ""
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "The Class Act",
+            "title": "The Twinning",
             "type": "Resource"
+          },
+          {
+            "title": "Tread Lightly",
+            "type": "Event"
+          },
+          {
+            "title": "Reprise",
+            "type": "Event"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
           }
         ]
       }

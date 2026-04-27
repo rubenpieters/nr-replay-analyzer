@@ -502,7 +502,7 @@
             }
           ],
           "hq_snapshot": {
-            "total": 4,
+            "total": 5,
             "agenda_cards": 2,
             "agenda_points": 4
           }
@@ -643,7 +643,7 @@
           },
           {
             "title": "Phật Gioan Baotixita",
-            "type": ""
+            "type": "Asset"
           },
           {
             "title": "Bladderwort",
@@ -889,15 +889,15 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Transfer of Wealth",
             "type": "Event"
           },
           {
             "title": "Touchstone",
+            "type": "Hardware"
+          },
+          {
+            "title": "Hermes",
             "type": "Hardware"
           }
         ]
@@ -1017,11 +1017,11 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Touchstone",
+            "type": "Hardware"
           },
           {
-            "title": "Touchstone",
+            "title": "Hermes",
             "type": "Hardware"
           }
         ]
@@ -1111,8 +1111,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Hermes",
+            "type": "Hardware"
           }
         ]
       }
@@ -1225,8 +1225,8 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Hermes",
+            "type": "Hardware"
           }
         ]
       }
@@ -1324,16 +1324,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
           }
         ]
       }
@@ -1462,16 +1462,16 @@
             "type": "Event"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "The Class Act",
+            "type": "Resource"
+          },
+          {
+            "title": "Open Market",
+            "type": "Resource"
           }
         ]
       }
@@ -1566,20 +1566,8 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
-          },
-          {
-            "title": "The Class Act",
-            "type": "Resource"
           },
           {
             "title": "Open Market",
@@ -1588,6 +1576,18 @@
           {
             "title": "Curupira",
             "type": "Program"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
           }
         ]
       }
@@ -1706,20 +1706,8 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
-          },
-          {
-            "title": "The Class Act",
-            "type": "Resource"
           },
           {
             "title": "Open Market",
@@ -1728,6 +1716,18 @@
           {
             "title": "Curupira",
             "type": "Program"
+          },
+          {
+            "title": "Cezve",
+            "type": "Program"
+          },
+          {
+            "title": "Clean Getaway",
+            "type": "Event"
+          },
+          {
+            "title": "Sure Gamble",
+            "type": "Event"
           }
         ]
       }
@@ -1831,14 +1831,6 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
@@ -1849,6 +1841,14 @@
           {
             "title": "Sure Gamble",
             "type": "Event"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
+          },
+          {
+            "title": "Boomerang",
+            "type": "Hardware"
           }
         ]
       }
@@ -1995,8 +1995,8 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Open Market",
+            "type": "Resource"
           },
           {
             "title": "Sure Gamble",
@@ -2088,19 +2088,19 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
             "type": "Event"
           }
         ]
@@ -2221,19 +2221,19 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
+          },
+          {
+            "title": "Carpe Diem",
             "type": "Event"
           }
         ]
@@ -2335,16 +2335,16 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
+          },
+          {
+            "title": "Carpe Diem",
+            "type": "Event"
+          },
+          {
+            "title": "Pinhole Threading",
+            "type": "Event"
           }
         ]
       }
@@ -2471,11 +2471,11 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Open Market",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Pinhole Threading",
             "type": "Event"
           }
         ]
@@ -2560,8 +2560,8 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Open Market",
+            "type": "Resource"
           }
         ]
       }
@@ -2680,8 +2680,8 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Open Market",
+            "type": "Resource"
           }
         ]
       }
@@ -2779,12 +2779,12 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Open Market",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Hermes",
+            "type": "Hardware"
           }
         ]
       }
@@ -2885,12 +2885,12 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Open Market",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Hermes",
+            "type": "Hardware"
           }
         ]
       }
@@ -2977,24 +2977,24 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
           }
         ]
       }
@@ -3112,24 +3112,24 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Bravado",
+            "type": "Event"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
           }
         ]
       }
@@ -3225,24 +3225,24 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Debbie \"Downtown\" Moreira",
+            "type": "Resource"
           }
         ]
       }
@@ -3374,24 +3374,24 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Open Market",
             "type": "Resource"
           },
           {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Debbie \"Downtown\" Moreira",
+            "type": "Resource"
           }
         ]
       }
@@ -3479,19 +3479,19 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Touchstone",
             "type": "Hardware"
           }
         ]
@@ -3625,19 +3625,19 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
+            "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Touchstone",
             "type": "Hardware"
           }
         ]
@@ -3734,24 +3734,24 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
           },
           {
             "title": "Daily Casts",
             "type": "Resource"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -3879,24 +3879,24 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
           },
           {
             "title": "Daily Casts",
             "type": "Resource"
+          },
+          {
+            "title": "Mantle",
+            "type": "Program"
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -4001,20 +4001,20 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -4139,7 +4139,7 @@
             }
           },
           "breach_hq_snapshot": {
-            "total": 4,
+            "total": 5,
             "agenda_cards": 2,
             "agenda_points": 4
           },
@@ -4173,20 +4173,20 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
-            "title": "Sure Gamble",
-            "type": "Event"
-          },
-          {
             "title": "Hermes",
             "type": "Hardware"
+          },
+          {
+            "title": "Daily Casts",
+            "type": "Resource"
+          },
+          {
+            "title": "Touchstone",
+            "type": "Hardware"
+          },
+          {
+            "title": "Transfer of Wealth",
+            "type": "Event"
           }
         ]
       }
@@ -4270,15 +4270,19 @@
             "title": "Fujii Asset Retrieval",
             "type": "Agenda",
             "agenda_points": 3
+          },
+          {
+            "title": "Semak-samun",
+            "type": "ICE"
           }
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Daily Casts",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
@@ -4360,6 +4364,10 @@
             "agenda_points": 3
           },
           {
+            "title": "Semak-samun",
+            "type": "ICE"
+          },
+          {
             "title": "Longevity Serum",
             "type": "Agenda",
             "agenda_points": 2
@@ -4367,11 +4375,11 @@
         ],
         "runner": [
           {
-            "title": "Sure Gamble",
-            "type": "Event"
+            "title": "Daily Casts",
+            "type": "Resource"
           },
           {
-            "title": "Sure Gamble",
+            "title": "Transfer of Wealth",
             "type": "Event"
           }
         ]
