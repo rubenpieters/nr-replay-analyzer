@@ -1,4 +1,5 @@
 import { type RawReplay, type RawLogItem, forEachLogEntry } from "./rawReplay.js";
+import { type CardDb } from "./cardDb.js";
 
 // -- Types --
 
@@ -967,7 +968,7 @@ function classifyRunnerClick(
   events: string[],
   creditsGained: number,
   cardsDrawn: number,
-  cardDb?: import("./cardDb.js").CardDb
+  cardDb?: CardDb
 ): ClickBucket | null {
   if (!action) return null;
   const atype = action.type;
@@ -1034,7 +1035,7 @@ export function computeEconomy(
   turns: Turn[],
   corpName: string | null = null,
   runnerName: string | null = null,
-  cardDb?: import("./cardDb.js").CardDb
+  cardDb?: CardDb
 ): Economy {
   const result: Economy = { corp: emptyEcon("corp"), runner: emptyEcon("runner") };
   const playerNames: Record<string, string | null> = { corp: corpName, runner: runnerName };
@@ -1425,7 +1426,7 @@ export function computeActionSummary(turns: Turn[]): ActionSummary {
 function annotateAzCredits(
   turns: Turn[],
   runnerIdentity: string,
-  cardDb?: import("./cardDb.js").CardDb
+  cardDb?: CardDb
 ): void {
   if (!runnerIdentity.includes("Az McCaffrey")) return;
   for (const turn of turns) {
@@ -1452,22 +1453,21 @@ function annotateAzCredits(
 
 export function parseReplayFromString(
   jsonText: string,
-  cardDb?: import("./cardDb.js").CardDb
+  cardDb?: CardDb
 ): ParsedReplay {
   const data = JSON.parse(jsonText) as RawReplay;
 
   const metadata = data.metadata;
   const history = data.history;
-  const initial = history[0] as Record<string, unknown>;
-
-  const corp = initial["corp"] as Record<string, unknown>;
-  const runner = initial["runner"] as Record<string, unknown>;
+  const initial = history[0];
+  const corp = initial.corp!;
+  const runner = initial.runner!;
 
   const summary: Summary = {
-    corp_player: ((corp["user"] as Record<string, unknown>)["username"]) as string,
-    corp_identity: ((corp["identity"] as Record<string, unknown>)["title"]) as string,
-    runner_player: ((runner["user"] as Record<string, unknown>)["username"]) as string,
-    runner_identity: ((runner["identity"] as Record<string, unknown>)["title"]) as string,
+    corp_player: corp.user.username,
+    corp_identity: corp.identity.title,
+    runner_player: runner.user.username,
+    runner_identity: runner.identity.title,
     turns: metadata["turn"] as number,
     winner: metadata["winner"] as string,
     win_reason: metadata["reason"] as string,

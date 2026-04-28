@@ -18,13 +18,20 @@ export type RawLogEntry = {
 // Items in a patch log array: either the "+" prefix indicator or a log entry.
 export type RawLogItem = "+" | RawLogEntry;
 
+// Player identity and account info at the start of the game, nested under corp/runner in history[0].
+export type RawPlayerState = {
+  user: { username: string };
+  identity: { title: string };
+  [k: string]: unknown;
+};
+
 // The initial game state object at history[0]; its log uses the direct-object format.
 export type RawHistoryInitial = {
   log?: RawLogEntry[];
   turn?: number;
   "active-player"?: string;
-  corp?: Record<string, unknown>;
-  runner?: Record<string, unknown>;
+  corp?: RawPlayerState;
+  runner?: RawPlayerState;
   [k: string]: unknown;
 };
 
