@@ -2301,7 +2301,7 @@
             "<anonymized>",
             "<anonymized>",
             "<anonymized>",
-            "aksu has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized>",
             "<anonymized>",
             "<anonymized>",
@@ -2748,7 +2748,7 @@
           "events": [
             "<anonymized-runner> spends [Click], pays 1 [Credits], and trashes 1 installed resource (Open Market) to play Sell Out.",
             "<anonymized-runner> uses Sell Out to gain 4 [Credits] and draw 2 cards.",
-            "OF15-15 has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized-runner> uses The Class Act to add the second card on the top of the stack to the bottom."
           ],
           "action": {
@@ -2768,7 +2768,7 @@
           "events": [
             "<anonymized-runner> trashes Dr. Nuka Vrolyck.",
             "<anonymized-runner> spends [Click] and spends 1 hosted power counter from on Dr. Nuka Vrolyck to use Dr. Nuka Vrolyck to draw 3 cards.",
-            "kror has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "ability",
@@ -3496,7 +3496,7 @@
             "<anonymized-runner> identifies his mark to be R&D.",
             "<anonymized-runner> uses Open Market to gain 1 [Credits].",
             "<anonymized-runner> uses Open Market to gain 1 [Credits].",
-            "OF15-15 has left the game."
+            "<anonymized> has left the game."
           ],
           "effects": {
             "triggered_gains": {
@@ -4514,8 +4514,8 @@
             "<anonymized>",
             "<anonymized>",
             "<anonymized>",
-            "thrantar has left the game.",
-            "KomodoCommodore has left the game.",
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized>",
             "<anonymized>",
             "<anonymized>",
@@ -4534,7 +4534,7 @@
             "<anonymized>",
             "<anonymized>",
             "<anonymized>",
-            "<anonymized-corp> has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "advance",

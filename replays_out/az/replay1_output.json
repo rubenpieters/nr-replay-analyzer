@@ -4201,10 +4201,10 @@
             "<anonymized>",
             "<anonymized>",
             "<anonymized-corp> looks at their deck.",
-            "Ams has left the game.",
-            "KomodoCommodore has left the game.",
-            "thrantar has left the game.",
-            "<anonymized-corp> has left the game."
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "run",

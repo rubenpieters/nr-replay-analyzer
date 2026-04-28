@@ -2073,7 +2073,7 @@
             "<anonymized-corp> wins the game.",
             "<anonymized>",
             "<anonymized>",
-            "<anonymized-runner> has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "play",

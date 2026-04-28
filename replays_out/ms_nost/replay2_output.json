@@ -4868,7 +4868,7 @@
             "<anonymized>",
             "<anonymized-corp> looks at their deck.",
             "<anonymized-corp> stops looking at their deck.",
-            "Mr F has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "play",

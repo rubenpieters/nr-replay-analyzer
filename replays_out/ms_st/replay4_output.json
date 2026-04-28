@@ -4333,7 +4333,7 @@
             "<anonymized-runner> stops looking at his deck.",
             "<anonymized-runner> looks at his deck.",
             "<anonymized-runner> stops looking at his deck.",
-            "<anonymized-corp> has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "run",

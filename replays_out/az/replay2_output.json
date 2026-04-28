@@ -2536,9 +2536,9 @@
             "<anonymized-runner> is flatlined.",
             "<anonymized-corp> wins the game.",
             "<anonymized>",
-            "<anonymized-runner> has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized>",
-            "zyqx has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "advance",

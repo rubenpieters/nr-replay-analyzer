@@ -4474,8 +4474,8 @@
             "<anonymized-runner> approaches HQ.",
             "<anonymized-runner> breaches HQ.",
             "<anonymized-runner> accesses Boto from HQ.",
-            "AugustusCaesar has left the game.",
-            "Baa Ram Wu has left the game.",
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized-runner> trashes Gourmand to use Gourmand to trash Boto.",
             "<anonymized-runner> uses Audrey v2 to place 1 virus counter on itself.",
             "<anonymized-runner> uses Gourmand to draw 1 card.",
@@ -4727,7 +4727,7 @@
             "<anonymized>",
             "<anonymized>",
             "<anonymized-corp> looks at his deck.",
-            "Icecreamcollege has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized>",
             "<anonymized>",
             "<anonymized>",
@@ -4747,7 +4747,7 @@
             "<anonymized>",
             "<anonymized-corp> stops looking at his deck.",
             "<anonymized>",
-            "<anonymized-corp> has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "run",

@@ -1206,7 +1206,7 @@
           "click": 2,
           "events": [
             "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "sebastiank has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "draw",
@@ -5335,14 +5335,14 @@
             "<anonymized-runner> encounters Tatu-Bola protecting Server 1 at position 1.",
             "<anonymized-runner> concedes.",
             "<anonymized-corp> wins the game.",
-            "sebastiank has left the game.",
-            "AmarumAcies has left the game.",
-            "bfg has left the game.",
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized-corp> looks at his deck.",
             "<anonymized-corp> stops looking at his deck.",
             "<anonymized-corp> looks at his deck.",
             "[!]<anonymized-runner> uses a command: /save-replay",
-            "<anonymized-runner> has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized-corp> stops looking at his deck."
           ],
           "action": {

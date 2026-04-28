@@ -1824,8 +1824,8 @@
           "click": 3,
           "events": [
             "<anonymized-runner> spends [Click] and pays 2 [Credits] to install Arruaceiras Crew.",
-            "wowarlok has left the game.",
-            "sebastiank has left the game."
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "install",
@@ -4567,7 +4567,7 @@
             "<anonymized>",
             "<anonymized>",
             "<anonymized>",
-            "<anonymized-corp> has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "run",

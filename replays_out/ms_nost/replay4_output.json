@@ -2618,7 +2618,7 @@
             "<anonymized-runner> spends [Click] and pays 1 [Credits] to play Tread Lightly.",
             "<anonymized-runner> uses Tread Lightly to make a run on Server 1.",
             "<anonymized-runner> approaches ice protecting Server 1 at position 1.",
-            "J0N4LD has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized-corp> pays 9 [Credits] to rez Logjam protecting Server 1 at position 1.",
             "<anonymized-corp> uses Logjam to place 5 advancement counters on itself.",
             "<anonymized-runner> encounters Logjam protecting Server 1 at position 1.",
@@ -4622,12 +4622,12 @@
             "<anonymized-runner> wins the game.",
             "<anonymized>",
             "<anonymized>",
-            "Gathzen has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized-corp> looks at their deck.",
             "<anonymized-runner> looks at his deck.",
             "<anonymized-corp> stops looking at their deck.",
             "<anonymized-runner> stops looking at his deck.",
-            "<anonymized-corp> has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "play",

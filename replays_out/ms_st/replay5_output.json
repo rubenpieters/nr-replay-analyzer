@@ -746,7 +746,7 @@
           "click": 2,
           "events": [
             "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "HaverOfFun has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "draw",
@@ -952,7 +952,7 @@
           "click": 1,
           "events": [
             "<anonymized-runner> spends [Click] to use Runner Basic Action Card to draw 1 card.",
-            "xiaat has left the game."
+            "<anonymized> has left the game."
           ],
           "action": {
             "type": "draw",
@@ -3406,8 +3406,8 @@
             "<anonymized-corp> wins the game.",
             "<anonymized-runner> stops looking at his deck.",
             "<anonymized-runner> looks at his deck.",
-            "<anonymized-corp> has left the game.",
-            "wowarlok has left the game.",
+            "<anonymized> has left the game.",
+            "<anonymized> has left the game.",
             "<anonymized-runner> stops looking at his deck."
           ]
         }
