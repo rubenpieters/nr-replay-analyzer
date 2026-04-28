@@ -2,13 +2,26 @@ import { type RawReplay, type RawLogItem, forEachLogEntry } from "./rawReplay.js
 
 // -- Types --
 
+// A parsed game action performed during a click (install, play, ability, etc.).
 export interface Action {
   type: string;
   card?: string | null;
   cost?: number;
-  [key: string]: unknown;
+  // TODO: split this up into different types
+  // and only allow the relevant fields for those actions
+  location?: string;       // install_ice / install / advance: target server or zone
+  host_ice?: string;       // install: ice the card is hosted on
+  server?: string;         // run: server targeted
+  effect?: string;         // ability: description of what the ability does
+  trash?: string;          // ability: card trashed to pay for the ability
+  target?: string;         // advance: card being advanced
+  tags_removed?: number;   // play: tags spent as part of the cost
+  count?: number;          // draw / remove_tag: number of cards or tags
+  amount?: number;         // gain_credits: credits gained
+  raw?: string;            // unknown: the raw log line that could not be parsed
 }
 
+// Credit and card-draw side-effects that occurred during a click.
 export interface Effects {
   credits_paid?: number;
   credits_from_resources?: Record<string, number>;
@@ -17,33 +30,41 @@ export interface Effects {
   cards_drawn?: number;
 }
 
+// Click classification used for economy bucketing.
+export type ClickBucket = "basic" | "economy" | "run" | "setup" | "impactful" | "tempo";
+
+// All events, action, and effects that happened within a single player click.
 export interface ClickGroup {
   click: number;
   events: string[];
   action?: Action;
   effects?: Effects;
-  bucket?: string;
+  bucket?: ClickBucket;
   breach_hq_snapshot?: ZoneSnapshot;
   breach_rd_snapshot?: ZoneSnapshot;
 }
 
+// Card counts and agenda state for a server zone at the moment of a breach.
 export interface ZoneSnapshot {
   total: number;
   agenda_cards: number;
   agenda_points: number;
 }
 
+// Identity and agenda points of a single card, captured at end-of-turn.
 export interface CardSnapshot {
   title: string;
   type: string;
   agenda_points?: number;
 }
 
+// Both players' hands captured at the end of a turn.
 export interface HandSnapshot {
   corp: CardSnapshot[];
   runner: CardSnapshot[];
 }
 
+// One full turn (or between-turn phase) with its ordered list of click groups.
 export interface Turn {
   turn: number;
   player?: string;
@@ -51,11 +72,13 @@ export interface Turn {
   hand_snapshot?: HandSnapshot;
 }
 
+// Install count and total credit cost for a card played during setup.
 export interface SetupCardEntry {
   count: number;
   total_cost: number;
 }
 
+// Aggregated economy stats for a single card across the whole game.
 export interface CardEconEntry {
   uses: number;
   clicks: number;
@@ -67,11 +90,13 @@ export interface CardEconEntry {
   run?: true;
 }
 
+// The result of accessing a single card during a run.
 export interface AccessEntry {
   name?: string;   // undefined = unseen card (R&D/HQ)
   outcome: "stolen" | "trashed" | "seen";
 }
 
+// A single run attempt with its outcome and any cards accessed.
 export interface RunEntry {
   turn: number;
   click: number;
@@ -83,6 +108,7 @@ export interface RunEntry {
   rd_snapshot?: ZoneSnapshot;
 }
 
+// Economy statistics for one player across the whole game.
 export interface PlayerEcon {
   basic_clicks: number;
   economy_clicks?: number;
@@ -99,14 +125,15 @@ export interface PlayerEcon {
   total_setup_cost?: number;
   cards: Record<string, CardEconEntry>;
   runs?: RunEntry[];
-  [key: string]: unknown;
 }
 
+// Economy statistics for both players.
 export interface Economy {
   corp: PlayerEcon;
   runner: PlayerEcon;
 }
 
+// High-level metadata about the game outcome.
 export interface Summary {
   corp_player: string;
   corp_identity: string;
@@ -119,21 +146,22 @@ export interface Summary {
   runner_agenda_points: number;
 }
 
+// Action count broken down by card, for actions where the card identity matters.
+export type PerCardBucket = { total: number; by_card: Record<string, number> };
+
+// Per-action-type totals for one player: either a simple count or a per-card breakdown.
+export type ActionTotals = Record<string, number | PerCardBucket>;
+
+// Action totals for both players, keyed by "corp" and "runner".
+export type ActionSummary = { corp: ActionTotals; runner: ActionTotals };
+
+// The fully parsed and analysed form of a replay.
 export interface ParsedReplay {
   summary: Summary;
-  action_summary: Record<string, unknown>;
+  action_summary: ActionSummary;
   economy: Economy;
   turns: Turn[];
 }
-
-// -- Helper --
-
-function setdefault<T>(obj: Record<string, T>, key: string, def: T): T {
-  if (!(key in obj)) obj[key] = def;
-  return obj[key];
-}
-
-
 
 // -- Log extraction --
 
@@ -923,7 +951,7 @@ function extractRunAccesses(events: string[]): { accessed: AccessEntry[] } {
 const BASIC_ECON_TYPES = new Set(["gain_credits", "draw"]);
 const TEMPO_TYPES = new Set(["install", "install_ice", "run", "advance", "trash", "remove_tag"]);
 
-function classifyClick(action: Action | null): string | null {
+function classifyClick(action: Action | null): ClickBucket | null {
   if (!action) return null;
   const atype = action.type;
   if (BASIC_ECON_TYPES.has(atype)) return "basic";
@@ -940,7 +968,7 @@ function classifyRunnerClick(
   creditsGained: number,
   cardsDrawn: number,
   cardDb?: import("./cardDb.js").CardDb
-): string | null {
+): ClickBucket | null {
   if (!action) return null;
   const atype = action.type;
   if (BASIC_ECON_TYPES.has(atype)) return "basic";
@@ -959,6 +987,15 @@ function classifyRunnerClick(
   if (events.some((e) => RUN_TRIGGER_RE.test(e))) return "run";
   if (creditsGained > 0 || cardsDrawn > 0) return "economy";
   return "setup";
+}
+
+function addBucketClick(econ: PlayerEcon, bucket: ClickBucket): void {
+  if (bucket === "basic")         econ.basic_clicks += 1;
+  else if (bucket === "economy")  econ.economy_clicks  = (econ.economy_clicks  ?? 0) + 1;
+  else if (bucket === "run")      econ.run_clicks      = (econ.run_clicks      ?? 0) + 1;
+  else if (bucket === "setup")    econ.setup_clicks    = (econ.setup_clicks    ?? 0) + 1;
+  else if (bucket === "impactful") econ.impactful_clicks = (econ.impactful_clicks ?? 0) + 1;
+  else if (bucket === "tempo")    econ.tempo_clicks    = (econ.tempo_clicks    ?? 0) + 1;
 }
 
 function emptyEcon(player: "corp" | "runner"): PlayerEcon {
@@ -1062,7 +1099,7 @@ export function computeEconomy(
       creditsGained -= secondaryCredits;
       isEcon = creditsGained > 0 || (cardsDrawn > 0 && action.type !== "install");
 
-      let bucket: string | null;
+      let bucket: ClickBucket | null;
       if (player === "runner") {
         bucket = classifyRunnerClick(action, events, creditsGained, cardsDrawn, cardDb);
       } else {
@@ -1090,8 +1127,7 @@ export function computeEconomy(
 
       if (isEcon) {
         if (!isTrigger) {
-          (econ as Record<string, unknown>)[bucket + "_clicks"] =
-            ((econ as Record<string, unknown>)[bucket + "_clicks"] as number) + 1;
+          addBucketClick(econ, bucket);
         }
         const isNewEntry = !(cardKey in econ.cards);
         if (!(cardKey in econ.cards)) econ.cards[cardKey] = newCardEconEntry();
@@ -1124,8 +1160,7 @@ export function computeEconomy(
         entry.total_net_credits += creditsGained - (isTrigger ? 0 : effectiveCost);
         entry.total_cards_drawn += cardsDrawn;
       } else {
-        (econ as Record<string, unknown>)[bucket + "_clicks"] =
-          ((econ as Record<string, unknown>)[bucket + "_clicks"] as number) + 1;
+        addBucketClick(econ, bucket);
       }
 
       // Attribute secondary triggered gains to their own econ entries
@@ -1349,13 +1384,13 @@ export function computeEconomy(
 
 const PER_CARD_ACTIONS = new Set(["install", "install_ice", "play", "ability"]);
 
-export function computeActionSummary(turns: Turn[]): Record<string, unknown> {
-  const totals: Record<string, Record<string, unknown>> = { corp: {}, runner: {} };
+export function computeActionSummary(turns: Turn[]): ActionSummary {
+  const totals: ActionSummary = { corp: {}, runner: {} };
 
   for (const phase of turns) {
     if (!("player" in phase)) continue;
     const player = phase.player as string;
-    const playerTotals = totals[player];
+    const playerTotals = totals[player as "corp" | "runner"];
 
     for (const click of phase.clicks) {
       const action = click.action;
@@ -1367,7 +1402,7 @@ export function computeActionSummary(turns: Turn[]): Record<string, unknown> {
         if (!(atype in playerTotals)) {
           playerTotals[atype] = { total: 0, by_card: {} };
         }
-        const bucket = playerTotals[atype] as { total: number; by_card: Record<string, number> };
+        const bucket = playerTotals[atype] as PerCardBucket;
         bucket.total += 1;
         let cardKey: string;
         if (atype === "install_ice") {
