@@ -1,53 +1,37 @@
 import type { ParsedReplay } from "./analyzer.js";
+import { type RawReplay, type RawLogEntry, forEachLogEntry } from "./rawReplay.js";
 
 const ANON_CORP = "<anonymized-corp>";
 const ANON_RUNNER = "<anonymized-runner>";
 const ANON_GENERIC = "<anonymized>";
 
-function anonymizeLogArray(log: unknown[]): void {
-  for (let i = 0; i < log.length; i++) {
-    let logEntry: Record<string, unknown> | null = null;
-    if (log[i] === "+" && i + 1 < log.length) {
-      const next = log[i + 1];
-      if (next && typeof next === "object" && !Array.isArray(next))
-        logEntry = next as Record<string, unknown>;
-    } else if (log[i] && typeof log[i] === "object" && !Array.isArray(log[i])) {
-      logEntry = log[i] as Record<string, unknown>;
-    }
-    if (!logEntry) continue;
-    const user = logEntry["user"];
-    if (user && typeof user === "object" && !Array.isArray(user)) {
-      logEntry["text"] = ANON_GENERIC;
-    } else if (user === "__system__") {
-      const text = logEntry["text"];
-      if (typeof text === "string") {
-        // Replace the leading name in spectator join/leave/create messages.
-        logEntry["text"] = text.replace(
-          /^.+? ((?:has )?(?:joined|left|created) the game.*)$/,
-          `${ANON_GENERIC} $1`,
-        );
-      }
+// Redacts the text of a single log entry in place.
+function anonymizeLogEntry(entry: RawLogEntry): void {
+  const { user } = entry;
+  if (typeof user === "object") {
+    entry.text = ANON_GENERIC;
+  } else if (user === "__system__") {
+    // Replace the leading name in spectator join/leave/create messages.
+    entry.text = entry.text.replace(
+      /^.+? ((?:has )?(?:joined|left|created) the game.*)$/,
+      `${ANON_GENERIC} $1`,
+    );
+  }
+}
+
+// Redacts all log entries across every history item.
+function anonymizeChatInHistory(history: RawReplay["history"]): void {
+  const [initial, ...patches] = history;
+  forEachLogEntry(initial.log, anonymizeLogEntry);
+  for (const patchArray of patches) {
+    for (const patch of patchArray) {
+      forEachLogEntry(patch.log, anonymizeLogEntry);
     }
   }
 }
 
-function anonymizeChatInHistory(history: unknown[]): void {
-  for (const item of history) {
-    if (Array.isArray(item)) {
-      // Array item: elements are objects each with a "log" key ("+"-prefix format)
-      for (const entry of item) {
-        if (!entry || typeof entry !== "object" || Array.isArray(entry)) continue;
-        const log = (entry as Record<string, unknown>)["log"];
-        if (Array.isArray(log)) anonymizeLogArray(log);
-      }
-    } else if (item && typeof item === "object") {
-      // Object item: has a "log" key directly (direct-object format)
-      const log = (item as Record<string, unknown>)["log"];
-      if (Array.isArray(log)) anonymizeLogArray(log);
-    }
-  }
-}
-
+// Recursively replaces every emailhash value in the JSON tree with the generic placeholder.
+// It traverses the entire replay as raw JSON structure, so it uses unknown as input type.
 function anonymizeEmailhashes(node: unknown): void {
   if (!node || typeof node !== "object") return;
   if (Array.isArray(node)) {
@@ -64,18 +48,18 @@ function anonymizeEmailhashes(node: unknown): void {
   }
 }
 
+// Anonymizes a raw replay JSON string: redacts emailhashes, chat text, spectator names, and player names.
 export function anonymizeRawJson(text: string, corpName: string, runnerName: string): string {
-  const data = JSON.parse(text) as { history?: unknown[] };
+  const data = JSON.parse(text) as RawReplay;
   anonymizeEmailhashes(data);
-  if (Array.isArray(data.history)) {
-    anonymizeChatInHistory(data.history);
-  }
+  anonymizeChatInHistory(data.history);
   let result = JSON.stringify(data);
   if (corpName) result = result.split(corpName).join(ANON_CORP);
   if (runnerName) result = result.split(runnerName).join(ANON_RUNNER);
   return result;
 }
 
+// Anonymizes a parsed replay by replacing player names and spectator names throughout.
 export function anonymizeParsed(data: ParsedReplay): ParsedReplay {
   const corpName = data.summary.corp_player;
   const runnerName = data.summary.runner_player;

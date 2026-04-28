@@ -1,3 +1,5 @@
+import { type RawReplay, type RawLogItem, forEachLogEntry } from "./rawReplay.js";
+
 // -- Types --
 
 export interface Action {
@@ -135,24 +137,11 @@ function setdefault<T>(obj: Record<string, T>, key: string, def: T): T {
 
 // -- Log extraction --
 
-function extractLogTexts(logRaw: unknown): string[] {
-  if (!Array.isArray(logRaw)) return [];
+function extractLogTexts(log: RawLogItem[] | undefined): string[] {
   const texts: string[] = [];
-  let i = 0;
-  while (i < logRaw.length) {
-    if (logRaw[i] === "+" && i + 1 < logRaw.length) {
-      const entry = logRaw[i + 1];
-      if (entry && typeof entry === "object" && !Array.isArray(entry)) {
-        const text = (entry as Record<string, unknown>)["text"];
-        if (text && text !== "[hr]") {
-          texts.push(text as string);
-        }
-      }
-      i += 2;
-    } else {
-      i += 1;
-    }
-  }
+  forEachLogEntry(log, (entry) => {
+    if (entry.text && entry.text !== "[hr]") texts.push(entry.text);
+  });
   return texts;
 }
 
@@ -427,15 +416,15 @@ function computeEotEffects(events: string[], playerName: string | null): Effects
 
 // -- Turn / click parser --
 
-export function parseTurns(history: unknown[], corpName: string, runnerName: string): Turn[] {
-  const initial = history[0] as Record<string, unknown>;
-  const corpInitial = initial["corp"] as Record<string, unknown> | undefined;
+export function parseTurns(history: RawReplay["history"], corpName: string, runnerName: string): Turn[] {
+  const [initial, ...historyRest] = history;
+  const corpInitial = initial.corp;
   const initialDeckSize = (corpInitial?.["deck-count"] as number) ?? 0;
   const totalCorpAgendaPoints = 18 + 2 * Math.floor((initialDeckSize - 40) / 5);
-  const runnerInitial = initial["runner"] as Record<string, unknown> | undefined;
+  const runnerInitial = initial.runner;
   const state = {
-    turn: (initial["turn"] as number) ?? 0,
-    activePlayer: (initial["active-player"] as string) ?? "corp",
+    turn: initial.turn ?? 0,
+    activePlayer: initial["active-player"] ?? "corp",
     corpClick: (corpInitial?.["click"] as number) ?? 0,
     runnerClick: (runnerInitial?.["click"] as number) ?? 0,
     corpDeckCount: (corpInitial?.["deck-count"] as number) ?? 0,
@@ -763,12 +752,11 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
     pendingRdSnapshot = undefined;
   }
 
-  for (const item of history.slice(1)) {
-    if (!Array.isArray(item) || item.length === 0) continue;
+  for (const item of historyRest) {
+    if (item.length === 0) continue;
     // Detect mulligan: clear that player's hand before scanning new cards
     for (const patch of item) {
-      if (!patch || typeof patch !== "object" || Array.isArray(patch)) continue;
-      for (const text of extractLogTexts((patch as Record<string, unknown>)["log"])) {
+      for (const text of extractLogTexts(patch.log)) {
         if (/takes a mulligan/.test(text)) {
           const side = /<anonymized-corp>/.test(text) ? "Corp" : "Runner";
           for (const entry of cardRegistry.values()) {
@@ -780,37 +768,27 @@ export function parseTurns(history: unknown[], corpName: string, runnerName: str
     scanCards(item);
     // Track deck-count and hand-count updates across all patches in this history item
     for (const patch of item) {
-      if (!patch || typeof patch !== "object" || Array.isArray(patch)) continue;
-      const patchCorp = (patch as Record<string, unknown>)["corp"];
-      if (patchCorp && typeof patchCorp === "object" && !Array.isArray(patchCorp)) {
-        const corpPatch = patchCorp as Record<string, unknown>;
-        const dc = corpPatch["deck-count"];
+      const patchCorp = patch.corp;
+      if (patchCorp) {
+        const dc = patchCorp["deck-count"];
         if (typeof dc === "number") state.corpDeckCount = dc;
-        const hc = corpPatch["hand-count"];
+        const hc = patchCorp["hand-count"];
         if (typeof hc === "number") state.corpHandCount = hc;
       }
-      const patchRunner = (patch as Record<string, unknown>)["runner"];
-      if (patchRunner && typeof patchRunner === "object" && !Array.isArray(patchRunner)) {
-        const hc = (patchRunner as Record<string, unknown>)["hand-count"];
+      const patchRunner = patch.runner;
+      if (patchRunner) {
+        const hc = patchRunner["hand-count"];
         if (typeof hc === "number") state.runnerHandCount = hc;
       }
     }
 
-    const upd = item[0] as Record<string, unknown>;
-    if (typeof upd !== "object" || upd === null) continue;
+    const upd = item[0];
+    if (!upd) continue;
 
-    const newTurn = upd["turn"] as number | undefined;
-    const newActive = upd["active-player"] as string | undefined;
-    const corpObj = upd["corp"];
-    const runnerObj = upd["runner"];
-    const newCorpClick =
-      corpObj && typeof corpObj === "object" && !Array.isArray(corpObj)
-        ? ((corpObj as Record<string, unknown>)["click"] as number | undefined)
-        : undefined;
-    const newRunnerClick =
-      runnerObj && typeof runnerObj === "object" && !Array.isArray(runnerObj)
-        ? ((runnerObj as Record<string, unknown>)["click"] as number | undefined)
-        : undefined;
+    const newTurn = upd.turn;
+    const newActive = upd["active-player"];
+    const newCorpClick = upd.corp?.["click"] as number | undefined;
+    const newRunnerClick = upd.runner?.["click"] as number | undefined;
 
     const phaseChanged =
       (newActive !== undefined && newActive !== state.activePlayer) ||
@@ -1441,10 +1419,7 @@ export function parseReplayFromString(
   jsonText: string,
   cardDb?: import("./cardDb.js").CardDb
 ): ParsedReplay {
-  const data = JSON.parse(jsonText) as {
-    metadata: Record<string, unknown>;
-    history: unknown[];
-  };
+  const data = JSON.parse(jsonText) as RawReplay;
 
   const metadata = data.metadata;
   const history = data.history;
