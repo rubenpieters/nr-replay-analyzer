@@ -23,16 +23,10 @@ This compiles TypeScript from `src/` to `dist/`.
 
 ## CLI Usage
 
-Analyze a replay and print a summary to stdout:
-
-```bash
-node dist/main.js replays/az/replay1.json
-```
-
 Analyze a replay and write JSON + HTML output files:
 
 ```bash
-node dist/main.js replays/az/replay1.json output/replay1_output.json
+npx tsx src/main.ts replays/az/replay1.json output/replay1_output
 # Writes output/replay1_output.json and output/replay1_output.html
 ```
 

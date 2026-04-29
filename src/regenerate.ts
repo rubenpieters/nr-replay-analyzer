@@ -4,10 +4,11 @@ import { parseReplayFromString } from "./analyzer.js";
 import { generateHtml } from "./htmlOutput.js";
 import { anonymizeRawJson, anonymizeParsed } from "./anonymize.js";
 import { CardDb } from "./cardDb.js";
+import path from "path";
 
 const JOBS = ["replay_examples", "ms_st", "ms_nost", "az"];
 
-const root = new URL("..", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
+const root = path.resolve(import.meta.dirname, '..');
 const cardDb = new CardDb(JSON.parse(readFileSync(join(root, "cards", "cards.json"), "utf-8")));
 const errors: string[] = [];
 
