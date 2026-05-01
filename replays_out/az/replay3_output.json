@@ -322,7 +322,7 @@
           "rd_snapshot": {
             "total": 40,
             "agenda_cards": 1,
-            "agenda_points": 15
+            "agenda_points": 17
           }
         },
         {
@@ -339,7 +339,7 @@
           "rd_snapshot": {
             "total": 38,
             "agenda_cards": 1,
-            "agenda_points": 15
+            "agenda_points": 17
           }
         },
         {
@@ -415,7 +415,7 @@
           "rd_snapshot": {
             "total": 23,
             "agenda_cards": 1,
-            "agenda_points": 5
+            "agenda_points": 7
           }
         },
         {
@@ -435,7 +435,7 @@
           "rd_snapshot": {
             "total": 19,
             "agenda_cards": 1,
-            "agenda_points": 3
+            "agenda_points": 5
           }
         },
         {
@@ -484,7 +484,7 @@
           "rd_snapshot": {
             "total": 18,
             "agenda_cards": 1,
-            "agenda_points": 3
+            "agenda_points": 5
           }
         },
         {
@@ -751,6 +751,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -885,6 +905,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -983,6 +1023,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1045,7 +1105,7 @@
           "breach_rd_snapshot": {
             "total": 40,
             "agenda_cards": 1,
-            "agenda_points": 15
+            "agenda_points": 17
           },
           "bucket": "run"
         },
@@ -1100,6 +1160,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1203,6 +1283,26 @@
             "type": "Program"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1271,7 +1371,7 @@
           "breach_rd_snapshot": {
             "total": 38,
             "agenda_cards": 1,
-            "agenda_points": 15
+            "agenda_points": 17
           },
           "bucket": "run"
         },
@@ -1340,6 +1440,26 @@
             "type": "Program"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1445,6 +1565,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1581,6 +1721,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1697,6 +1857,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 17
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1827,6 +2007,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 5
+        },
+        "corp_deck": {
+          "agenda_points": 15
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1946,6 +2146,26 @@
             "type": "Program"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 5
+        },
+        "corp_deck": {
+          "agenda_points": 15
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2081,6 +2301,26 @@
             "type": "Program"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2193,6 +2433,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2380,6 +2640,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 3
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2496,6 +2776,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 3
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2603,6 +2903,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2704,6 +3024,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2866,6 +3206,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2981,6 +3341,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -3123,6 +3503,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 13
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -3207,6 +3607,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 10
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -3297,7 +3717,7 @@
           "breach_rd_snapshot": {
             "total": 23,
             "agenda_cards": 1,
-            "agenda_points": 5
+            "agenda_points": 7
           },
           "bucket": "run"
         },
@@ -3364,6 +3784,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 7
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 3
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -3480,6 +3920,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 7
+        },
+        "corp_discard": {
+          "agenda_points": 4
+        },
+        "corp_board": {
+          "agenda_points": 3
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -3538,7 +3998,7 @@
           "breach_rd_snapshot": {
             "total": 19,
             "agenda_cards": 1,
-            "agenda_points": 3
+            "agenda_points": 5
           },
           "bucket": "run"
         },
@@ -3655,6 +4115,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 2
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 7
+        },
+        "corp_board": {
+          "agenda_points": 3
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -3787,6 +4267,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 2
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 7
+        },
+        "corp_board": {
+          "agenda_points": 3
+        },
+        "corp_scored": {
+          "agenda_points": 3
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -3882,7 +4382,7 @@
           "breach_rd_snapshot": {
             "total": 18,
             "agenda_cards": 1,
-            "agenda_points": 3
+            "agenda_points": 5
           },
           "bucket": "run"
         },
@@ -3930,6 +4430,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 7
+        },
+        "corp_board": {
+          "agenda_points": 2
+        },
+        "corp_scored": {
+          "agenda_points": 6
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -4033,6 +4553,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 2
+        },
+        "corp_deck": {
+          "agenda_points": 0
+        },
+        "corp_discard": {
+          "agenda_points": 7
+        },
+        "corp_board": {
+          "agenda_points": 2
+        },
+        "corp_scored": {
+          "agenda_points": 6
+        },
+        "runner_scored": {
+          "agenda_points": 3
+        }
       }
     },
     {
@@ -4196,6 +4736,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 0
+        },
+        "corp_discard": {
+          "agenda_points": 7
+        },
+        "corp_board": {
+          "agenda_points": 4
+        },
+        "corp_scored": {
+          "agenda_points": 6
+        },
+        "runner_scored": {
+          "agenda_points": 3
+        }
       }
     },
     {
@@ -4298,6 +4858,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 2
+        },
+        "corp_deck": {
+          "agenda_points": 0
+        },
+        "corp_discard": {
+          "agenda_points": 5
+        },
+        "corp_board": {
+          "agenda_points": 4
+        },
+        "corp_scored": {
+          "agenda_points": 6
+        },
+        "runner_scored": {
+          "agenda_points": 9
+        }
       }
     },
     {
@@ -4455,6 +5035,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 0
+        },
+        "corp_discard": {
+          "agenda_points": 5
+        },
+        "corp_board": {
+          "agenda_points": 6
+        },
+        "corp_scored": {
+          "agenda_points": 6
+        },
+        "runner_scored": {
+          "agenda_points": 9
+        }
       }
     },
     {
@@ -4577,6 +5177,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 0
+        },
+        "corp_discard": {
+          "agenda_points": 5
+        },
+        "corp_board": {
+          "agenda_points": 6
+        },
+        "corp_scored": {
+          "agenda_points": 6
+        },
+        "runner_scored": {
+          "agenda_points": 9
+        }
       }
     }
   ]

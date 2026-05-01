@@ -65,12 +65,28 @@ export interface HandSnapshot {
   runner: CardSnapshot[];
 }
 
+// Agenda points for a single zone, captured at the start of a turn.
+export interface AgendaZoneInfo {
+  agenda_points: number;
+}
+
+// Agenda distribution across all zones, captured at the start of each turn.
+export interface AgendaTurnSnapshot {
+  corp_hand: AgendaZoneInfo;
+  corp_deck: AgendaZoneInfo;
+  corp_discard: AgendaZoneInfo;
+  corp_board: AgendaZoneInfo;
+  corp_scored: AgendaZoneInfo;
+  runner_scored: AgendaZoneInfo;
+}
+
 // One full turn (or between-turn phase) with its ordered list of click groups.
 export interface Turn {
   turn: number;
   player?: string;
   clicks: ClickGroup[];
   hand_snapshot?: HandSnapshot;
+  agenda_snapshot?: AgendaTurnSnapshot;
 }
 
 // Install count and total credit cost for a card played during setup.
@@ -449,7 +465,8 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
   const [initial, ...historyRest] = history;
   const corpInitial = initial.corp;
   const initialDeckSize = (corpInitial?.["deck-count"] as number) ?? 0;
-  const totalCorpAgendaPoints = 18 + 2 * Math.floor((initialDeckSize - 40) / 5);
+  const initialHandSize = (corpInitial?.["hand-count"] as number) ?? 0;
+  const totalCorpAgendaPoints = 18 + 2 * Math.floor((initialDeckSize + initialHandSize - 40) / 5);
   const runnerInitial = initial.runner;
   const state = {
     turn: initial.turn ?? 0,
@@ -474,6 +491,7 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
     zone: string[];
   }
   const cardRegistry = new Map<string, CardRegistryEntry>();
+  const runnerScoredCids = new Set<string>();
 
   // -- Hand state: positional diff accumulator per player --
   interface HandStateEntry {
@@ -594,6 +612,14 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
         }
         continue;
       }
+      if (key === "scored" && side === "Runner" && Array.isArray(val)) {
+        for (const item of val) {
+          if (item && typeof item === "object" && !Array.isArray(item)) {
+            const cid = (item as Record<string, unknown>)["cid"];
+            if (typeof cid === "string") runnerScoredCids.add(cid);
+          }
+        }
+      }
       const inferZone: string[] | undefined =
         key === "deck" ? ["deck"] :
         key === "discard" ? ["discard"] : undefined;
@@ -692,6 +718,39 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
     return { total, agenda_cards, agenda_points };
   }
 
+  function captureAgendaTurnSnapshot(): AgendaTurnSnapshot {
+    const hand = captureZoneSnapshot("hand");
+    const deck = captureZoneSnapshot("deck");
+    const discard = captureZoneSnapshot("discard");
+
+    let board_agenda_points = 0;
+    let corp_scored_points = 0;
+    let runner_scored_points = 0;
+
+    for (const [cid, entry] of cardRegistry) {
+      if (entry.side !== "Corp" || entry.type !== "Agenda" || !entry.title) continue;
+      const zone0 = entry.zone[0];
+      if (zone0 === "servers") {
+        board_agenda_points += entry.agendaPoints ?? 0;
+      } else if (zone0 === "scored") {
+        if (runnerScoredCids.has(cid)) {
+          runner_scored_points += entry.agendaPoints ?? 0;
+        } else {
+          corp_scored_points += entry.agendaPoints ?? 0;
+        }
+      }
+    }
+
+    return {
+      corp_hand: { agenda_points: hand.agenda_points },
+      corp_deck: { agenda_points: deck.agenda_points },
+      corp_discard: { agenda_points: discard.agenda_points },
+      corp_board: { agenda_points: board_agenda_points },
+      corp_scored: { agenda_points: corp_scored_points },
+      runner_scored: { agenda_points: runner_scored_points },
+    };
+  }
+
   const turns: Turn[] = [];
   let currentPhase: Turn = { turn: state.turn, clicks: [] };
   if (state.turn !== 0) {
@@ -768,6 +827,7 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
     if (turnNum > 0) {
       const snap = captureHandSnapshot();
       currentPhase.hand_snapshot = snap;
+      currentPhase.agenda_snapshot = captureAgendaTurnSnapshot();
       if (player === "corp") {
         augCorpSnap = { snap, maxCount: state.corpHandCount };
       } else {

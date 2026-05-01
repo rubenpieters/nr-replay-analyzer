@@ -299,7 +299,7 @@
           "rd_snapshot": {
             "total": 33,
             "agenda_cards": 1,
-            "agenda_points": 10
+            "agenda_points": 12
           }
         },
         {
@@ -326,7 +326,7 @@
           "rd_snapshot": {
             "total": 22,
             "agenda_cards": 1,
-            "agenda_points": 3
+            "agenda_points": 5
           }
         },
         {
@@ -368,7 +368,7 @@
           "rd_snapshot": {
             "total": 19,
             "agenda_cards": 1,
-            "agenda_points": 3
+            "agenda_points": 5
           }
         }
       ],
@@ -526,6 +526,26 @@
             "type": "Hardware"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 6
+        },
+        "corp_deck": {
+          "agenda_points": 12
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -666,6 +686,26 @@
             "type": "Hardware"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 6
+        },
+        "corp_deck": {
+          "agenda_points": 12
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -762,6 +802,26 @@
             "type": "Program"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 6
+        },
+        "corp_deck": {
+          "agenda_points": 12
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -815,7 +875,7 @@
           "breach_rd_snapshot": {
             "total": 33,
             "agenda_cards": 1,
-            "agenda_points": 10
+            "agenda_points": 12
           },
           "bucket": "run"
         },
@@ -907,6 +967,26 @@
             "type": "Program"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 6
+        },
+        "corp_deck": {
+          "agenda_points": 12
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1009,6 +1089,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 6
+        },
+        "corp_deck": {
+          "agenda_points": 12
+        },
+        "corp_discard": {
+          "agenda_points": 0
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1156,6 +1256,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 11
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 2
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1269,6 +1389,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 11
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 2
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1402,6 +1542,26 @@
             "type": "Resource"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 7
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1530,6 +1690,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 7
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 0
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1665,6 +1845,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 5
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 2
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1787,6 +1987,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 5
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 2
+        },
+        "corp_scored": {
+          "agenda_points": 0
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -1869,7 +2089,7 @@
           "breach_rd_snapshot": {
             "total": 22,
             "agenda_cards": 1,
-            "agenda_points": 3
+            "agenda_points": 5
           },
           "bucket": "run"
         },
@@ -1932,6 +2152,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 2
+        },
+        "corp_scored": {
+          "agenda_points": 2
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2042,6 +2282,26 @@
             "type": "Program"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 2
+        },
+        "corp_scored": {
+          "agenda_points": 2
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2196,6 +2456,26 @@
             "type": "Program"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 2
+        },
+        "corp_scored": {
+          "agenda_points": 2
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2312,6 +2592,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 3
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 2
+        },
+        "corp_scored": {
+          "agenda_points": 2
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2395,7 +2695,7 @@
           "breach_rd_snapshot": {
             "total": 19,
             "agenda_cards": 1,
-            "agenda_points": 3
+            "agenda_points": 5
           },
           "bucket": "run"
         },
@@ -2458,6 +2758,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 3
+        },
+        "corp_scored": {
+          "agenda_points": 4
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     },
     {
@@ -2583,6 +2903,26 @@
             "type": "Event"
           }
         ]
+      },
+      "agenda_snapshot": {
+        "corp_hand": {
+          "agenda_points": 0
+        },
+        "corp_deck": {
+          "agenda_points": 5
+        },
+        "corp_discard": {
+          "agenda_points": 6
+        },
+        "corp_board": {
+          "agenda_points": 3
+        },
+        "corp_scored": {
+          "agenda_points": 4
+        },
+        "runner_scored": {
+          "agenda_points": 0
+        }
       }
     }
   ]
