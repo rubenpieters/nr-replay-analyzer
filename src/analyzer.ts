@@ -505,6 +505,12 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
   }
   const corpHandState: HandStateEntry[] = [];
   const runnerHandState: HandStateEntry[] = [];
+  const corpDiscardState: HandStateEntry[] = [];
+  let corpDiscardCount = 0;
+  // Set when the corp discard array shrank in the current history item.
+  // Checked after deck-count tracking to detect Spin Doctor shuffle-backs.
+  // Wrapped in an object so TypeScript doesn't narrow it away through closure calls.
+  const pendingDiscardShrinkRef: { value: { prevCids: Set<string>; newCount: number; prevDiscardCount: number } | undefined } = { value: undefined };
 
   function mergeIntoHandSlot(slot: HandStateEntry, e: Partial<HandStateEntry>): void {
     if (e.cid !== undefined) slot.cid = e.cid;
@@ -610,6 +616,36 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
           const { zone: _zone, ...withoutZone } = merged;
           scanCardObject(withoutZone as Record<string, unknown>, side, ["hand"]);
         }
+        continue;
+      }
+      if (key === "discard" && side === "Corp" && Array.isArray(val)) {
+        // Derive the new discard count from the diff:
+        //  - [N] (length 1, bare integer): N is the new length (e.g. Spin Doctor truncation)
+        //  - [N, obj, ...]: N is a position index for a patch, not a length; count "+" appends
+        //  - ["+", obj, ...]: count "+" appends
+        //  - [obj, ...] (flat initial format): each element is a card → newCount = val.length
+        let newCount: number;
+        if (val.length === 1 && typeof val[0] === "number") {
+          newCount = val[0];
+        } else if (typeof val[0] === "object" && val[0] !== null && !Array.isArray(val[0])) {
+          newCount = corpDiscardCount + val.length;
+        } else {
+          newCount = corpDiscardCount;
+          for (const token of val) { if (token === "+") newCount++; }
+        }
+        if (newCount < corpDiscardCount) {
+          // Discard shrank — record which cids were present so the main loop can
+          // decide if this is a Spin Doctor shuffle-back (deck-count also grew).
+          const prevCids = new Set(
+            corpDiscardState.slice(0, corpDiscardCount)
+              .map(s => s.cid)
+              .filter((c): c is string => !!c)
+          );
+          pendingDiscardShrinkRef.value = { prevCids, newCount, prevDiscardCount: corpDiscardCount };
+        }
+        applyHandDiff(corpDiscardState, val, corpDiscardCount);
+        corpDiscardCount = newCount;
+        scanCards(val, side, ["discard"]);
         continue;
       }
       if (key === "scored" && side === "Runner" && Array.isArray(val)) {
@@ -854,6 +890,8 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
         }
       }
     }
+    pendingDiscardShrinkRef.value = undefined;
+    const prevDeckCountForItem = state.corpDeckCount;
     scanCards(item);
     // Track deck-count and hand-count updates across all patches in this history item
     for (const patch of item) {
@@ -868,6 +906,27 @@ export function parseTurns(history: RawReplay["history"], corpName: string, runn
       if (patchRunner) {
         const hc = patchRunner["hand-count"];
         if (typeof hc === "number") state.runnerHandCount = hc;
+      }
+    }
+    // If the discard shrank and the deck grew by the same amount in this event,
+    // it's a Spin Doctor shuffle-back: update disappeared cids' zones to "deck".
+    const shrink = pendingDiscardShrinkRef.value as { prevCids: Set<string>; newCount: number; prevDiscardCount: number } | undefined;
+    pendingDiscardShrinkRef.value = undefined;
+    if (shrink) {
+      const deckIncrease = state.corpDeckCount - prevDeckCountForItem;
+      const discardDecrease = shrink.prevDiscardCount - shrink.newCount;
+      if (deckIncrease > 0 && discardDecrease > 0) {
+        const remainingCids = new Set(
+          corpDiscardState.slice(0, shrink.newCount)
+            .map(s => s.cid)
+            .filter((c): c is string => !!c)
+        );
+        for (const cid of shrink.prevCids) {
+          if (!remainingCids.has(cid)) {
+            const entry = cardRegistry.get(cid);
+            if (entry && entry.zone[0] === "discard") entry.zone = ["deck"];
+          }
+        }
       }
     }
 

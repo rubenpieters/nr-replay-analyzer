@@ -339,8 +339,8 @@
           ],
           "rd_snapshot": {
             "total": 23,
-            "agenda_cards": 0,
-            "agenda_points": 4
+            "agenda_cards": 2,
+            "agenda_points": 9
           }
         },
         {
@@ -357,8 +357,8 @@
           ],
           "rd_snapshot": {
             "total": 20,
-            "agenda_cards": 0,
-            "agenda_points": 4
+            "agenda_cards": 2,
+            "agenda_points": 9
           }
         },
         {
@@ -460,8 +460,8 @@
           ],
           "rd_snapshot": {
             "total": 15,
-            "agenda_cards": 0,
-            "agenda_points": 2
+            "agenda_cards": 2,
+            "agenda_points": 7
           }
         }
       ],
@@ -1789,10 +1789,10 @@
           "agenda_points": 9
         },
         "corp_deck": {
-          "agenda_points": 4
+          "agenda_points": 9
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -1938,10 +1938,10 @@
           "agenda_points": 9
         },
         "corp_deck": {
-          "agenda_points": 4
+          "agenda_points": 9
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -2073,10 +2073,10 @@
           "agenda_points": 9
         },
         "corp_deck": {
-          "agenda_points": 4
+          "agenda_points": 9
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -2148,8 +2148,8 @@
           },
           "breach_rd_snapshot": {
             "total": 23,
-            "agenda_cards": 0,
-            "agenda_points": 4
+            "agenda_cards": 2,
+            "agenda_points": 9
           },
           "bucket": "run"
         },
@@ -2249,10 +2249,10 @@
           "agenda_points": 7
         },
         "corp_deck": {
-          "agenda_points": 4
+          "agenda_points": 9
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 2
@@ -2411,10 +2411,10 @@
           "agenda_points": 7
         },
         "corp_deck": {
-          "agenda_points": 4
+          "agenda_points": 9
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 2
@@ -2498,8 +2498,8 @@
           },
           "breach_rd_snapshot": {
             "total": 20,
-            "agenda_cards": 0,
-            "agenda_points": 4
+            "agenda_cards": 2,
+            "agenda_points": 9
           },
           "bucket": "run"
         },
@@ -2593,10 +2593,10 @@
           "agenda_points": 7
         },
         "corp_deck": {
-          "agenda_points": 4
+          "agenda_points": 9
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -2728,10 +2728,10 @@
           "agenda_points": 7
         },
         "corp_deck": {
-          "agenda_points": 2
+          "agenda_points": 7
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -2915,10 +2915,10 @@
           "agenda_points": 7
         },
         "corp_deck": {
-          "agenda_points": 2
+          "agenda_points": 7
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -3046,10 +3046,10 @@
           "agenda_points": 5
         },
         "corp_deck": {
-          "agenda_points": 2
+          "agenda_points": 7
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -3237,10 +3237,10 @@
           "agenda_points": 5
         },
         "corp_deck": {
-          "agenda_points": 2
+          "agenda_points": 7
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -3359,10 +3359,10 @@
           "agenda_points": 5
         },
         "corp_deck": {
-          "agenda_points": 2
+          "agenda_points": 7
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
@@ -3443,8 +3443,8 @@
           },
           "breach_rd_snapshot": {
             "total": 15,
-            "agenda_cards": 0,
-            "agenda_points": 2
+            "agenda_cards": 2,
+            "agenda_points": 7
           },
           "bucket": "run"
         },
@@ -3512,10 +3512,10 @@
           "agenda_points": 5
         },
         "corp_deck": {
-          "agenda_points": 2
+          "agenda_points": 7
         },
         "corp_discard": {
-          "agenda_points": 5
+          "agenda_points": 0
         },
         "corp_board": {
           "agenda_points": 0
