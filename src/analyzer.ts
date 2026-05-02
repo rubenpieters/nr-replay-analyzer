@@ -123,6 +123,7 @@ export interface RunEntry {
   accessed?: AccessEntry[];
   hq_snapshot?: ZoneSnapshot;
   rd_snapshot?: ZoneSnapshot;
+  weighted_points?: number;
 }
 
 // Economy statistics for one player across the whole game.
@@ -142,6 +143,7 @@ export interface PlayerEcon {
   total_setup_cost?: number;
   cards: Record<string, CardEconEntry>;
   runs?: RunEntry[];
+  total_weighted_points?: number;
 }
 
 // Economy statistics for both players.
@@ -1242,6 +1244,11 @@ export function computeEconomy(
         if (accessed.length > 0) runEntry.accessed = accessed;
         if (click.breach_hq_snapshot) runEntry.hq_snapshot = click.breach_hq_snapshot;
         if (click.breach_rd_snapshot) runEntry.rd_snapshot = click.breach_rd_snapshot;
+        const snap = runEntry.rd_snapshot ?? runEntry.hq_snapshot;
+        const nrAccesses = accessed.length;
+        if (snap && nrAccesses > 0 && snap.total > 0) {
+          runEntry.weighted_points = parseFloat((nrAccesses * (snap.agenda_points / snap.total)).toFixed(3));
+        }
         econ.runs!.push(runEntry);
       }
 
@@ -1482,6 +1489,8 @@ export function computeEconomy(
     totalClicksSpent > 0 ? parseFloat((totalNetCredits / totalClicksSpent).toFixed(2)) : 0.0;
   runnerEcon.avg_cards_drawn_per_econ_click =
     totalClicksSpent > 0 ? parseFloat((totalCardsDrawn / totalClicksSpent).toFixed(2)) : 0.0;
+  const totalWeightedPoints = (runnerEcon.runs ?? []).reduce((s, r) => s + (r.weighted_points ?? 0), 0);
+  runnerEcon.total_weighted_points = parseFloat(totalWeightedPoints.toFixed(3));
 
   // Compute derived stats for corp
   const corpEcon = result.corp;

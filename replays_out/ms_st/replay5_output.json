@@ -212,7 +212,8 @@
             "total": 4,
             "agenda_cards": 0,
             "agenda_points": 0
-          }
+          },
+          "weighted_points": 0
         },
         {
           "turn": 2,
@@ -310,7 +311,8 @@
             "total": 6,
             "agenda_cards": 3,
             "agenda_points": 7
-          }
+          },
+          "weighted_points": 1.167
         },
         {
           "turn": 12,
@@ -328,7 +330,8 @@
             "total": 6,
             "agenda_cards": 2,
             "agenda_points": 5
-          }
+          },
+          "weighted_points": 0.833
         }
       ],
       "setup_cards": {
@@ -356,7 +359,8 @@
       "total_setup_cost": 11,
       "econ_click_ratio": 0.26,
       "avg_net_credits_per_econ_click": 1.29,
-      "avg_cards_drawn_per_econ_click": 0.9
+      "avg_cards_drawn_per_econ_click": 0.9,
+      "total_weighted_points": 2
     }
   },
   "turns": [

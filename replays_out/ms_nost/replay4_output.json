@@ -334,7 +334,8 @@
             "total": 3,
             "agenda_cards": 1,
             "agenda_points": 3
-          }
+          },
+          "weighted_points": 1
         },
         {
           "turn": 7,
@@ -351,7 +352,8 @@
             "total": 35,
             "agenda_cards": 0,
             "agenda_points": 13
-          }
+          },
+          "weighted_points": 0.371
         },
         {
           "turn": 9,
@@ -384,7 +386,8 @@
             "total": 31,
             "agenda_cards": 0,
             "agenda_points": 13
-          }
+          },
+          "weighted_points": 0.839
         },
         {
           "turn": 11,
@@ -404,7 +407,8 @@
             "total": 29,
             "agenda_cards": 0,
             "agenda_points": 13
-          }
+          },
+          "weighted_points": 0.897
         },
         {
           "turn": 12,
@@ -437,7 +441,8 @@
             "total": 26,
             "agenda_cards": 0,
             "agenda_points": 11
-          }
+          },
+          "weighted_points": 1.269
         },
         {
           "turn": 13,
@@ -459,7 +464,8 @@
             "total": 7,
             "agenda_cards": 2,
             "agenda_points": 5
-          }
+          },
+          "weighted_points": 1.429
         },
         {
           "turn": 14,
@@ -505,7 +511,8 @@
             "total": 5,
             "agenda_cards": 0,
             "agenda_points": 0
-          }
+          },
+          "weighted_points": 0
         },
         {
           "turn": 16,
@@ -526,7 +533,8 @@
             "total": 17,
             "agenda_cards": 0,
             "agenda_points": 7
-          }
+          },
+          "weighted_points": 0.824
         },
         {
           "turn": 16,
@@ -578,7 +586,8 @@
       "total_setup_cost": 12,
       "econ_click_ratio": 0.25,
       "avg_net_credits_per_econ_click": 1.94,
-      "avg_cards_drawn_per_econ_click": 0.69
+      "avg_cards_drawn_per_econ_click": 0.69,
+      "total_weighted_points": 6.629
     }
   },
   "turns": [

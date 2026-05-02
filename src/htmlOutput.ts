@@ -386,6 +386,7 @@ function renderEconomy(economy: PlayerEcon): string {
         : `<span class="run-failure">&#10007;</span>`;
       const card = r.card ? he(shortIdentity(r.card)) : "&#8212;";
       const accessed = formatAccessed(r);
+      const wp = r.weighted_points !== undefined ? r.weighted_points.toFixed(3) : "&#8212;";
       return (
         `<tr>` +
         `<td class="num">T${r.turn}</td>` +
@@ -394,13 +395,16 @@ function renderEconomy(economy: PlayerEcon): string {
         `<td>${outcome}</td>` +
         `<td>${card}</td>` +
         `<td>${accessed}</td>` +
+        `<td class="num">${wp}</td>` +
         `</tr>`
       );
     }).join("");
+    const totalWp = (economy.total_weighted_points as number | undefined) ?? 0;
     runsHtml =
       `<table class="runs-table">` +
-      `<thead><tr><th>Turn</th><th>Click</th><th>Server</th><th>Result</th><th>Card</th><th>Accessed</th></tr></thead>` +
+      `<thead><tr><th>Turn</th><th>Click</th><th>Server</th><th>Result</th><th>Card</th><th>Accessed</th><th>Wtd Pts</th></tr></thead>` +
       `<tbody>${runRows}</tbody>` +
+      `<tfoot><tr><td colspan="6" style="text-align:right;color:#757575;font-size:0.75rem;">Total weighted points</td><td class="num" style="font-weight:600;">${totalWp.toFixed(3)}</td></tr></tfoot>` +
       `</table>`;
   }
 

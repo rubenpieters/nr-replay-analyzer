@@ -276,7 +276,8 @@
             "total": 6,
             "agenda_cards": 3,
             "agenda_points": 7
-          }
+          },
+          "weighted_points": 1.167
         },
         {
           "turn": 4,
@@ -300,7 +301,8 @@
             "total": 37,
             "agenda_cards": 0,
             "agenda_points": 13
-          }
+          },
+          "weighted_points": 0.351
         },
         {
           "turn": 5,
@@ -316,7 +318,8 @@
             "total": 35,
             "agenda_cards": 0,
             "agenda_points": 11
-          }
+          },
+          "weighted_points": 0.314
         },
         {
           "turn": 6,
@@ -333,7 +336,8 @@
             "total": 34,
             "agenda_cards": 0,
             "agenda_points": 11
-          }
+          },
+          "weighted_points": 0.324
         },
         {
           "turn": 7,
@@ -356,7 +360,8 @@
             "total": 29,
             "agenda_cards": 0,
             "agenda_points": 11
-          }
+          },
+          "weighted_points": 0.379
         },
         {
           "turn": 13,
@@ -387,7 +392,8 @@
             "total": 8,
             "agenda_cards": 2,
             "agenda_points": 4
-          }
+          },
+          "weighted_points": 0.5
         },
         {
           "turn": 16,
@@ -411,7 +417,8 @@
             "total": 6,
             "agenda_cards": 1,
             "agenda_points": 2
-          }
+          },
+          "weighted_points": 0.333
         },
         {
           "turn": 16,
@@ -428,7 +435,8 @@
             "total": 5,
             "agenda_cards": 1,
             "agenda_points": 2
-          }
+          },
+          "weighted_points": 0.4
         },
         {
           "turn": 17,
@@ -461,7 +469,8 @@
             "total": 4,
             "agenda_cards": 1,
             "agenda_points": 2
-          }
+          },
+          "weighted_points": 1
         }
       ],
       "setup_cards": {
@@ -501,7 +510,8 @@
       "total_setup_cost": 20,
       "econ_click_ratio": 0.43,
       "avg_net_credits_per_econ_click": 1.18,
-      "avg_cards_drawn_per_econ_click": 1.09
+      "avg_cards_drawn_per_econ_click": 1.09,
+      "total_weighted_points": 4.768
     }
   },
   "turns": [
